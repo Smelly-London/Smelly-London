@@ -178,6 +178,15 @@ def read_report(report_id, data_path, smell_words):
     return ReportData(report_id, district, year, tuple(hits))
 
 
+def report(reports):
+    """
+    Display the output. Some day, as a map, but for now as a text report
+    :param reports: tuple(district, year) : ReportData
+    :return: None
+    """
+    print(reports.keys())
+
+
 def run():
     smell_words = get_smell_words(SMELL_WORD_FILENAME)
 
@@ -194,7 +203,8 @@ def run():
 
         reports[(report.district, report.year,)] = report
 
-    print(reports.keys())
+    report(reports)
+    return(report) ### Useful if running it at the command line so you can get the data structure and play with it
 
 if __name__ == "__main__":
     run()
