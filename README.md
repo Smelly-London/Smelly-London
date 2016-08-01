@@ -9,4 +9,4 @@ http://wellcomelibrary.org/moh/
 # Project status
 We're just starting. 
 
-Contributors: D. Leem, M. Grazebrook, Jen Thomas
+Contributors: D. Leem, M. Grazebrook, J. Thomas
