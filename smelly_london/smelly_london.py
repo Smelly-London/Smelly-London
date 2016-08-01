@@ -15,6 +15,8 @@ import glob
 import os.path
 import collections
 import re
+import nltk
+
 
 DATA_PATH = r"../sample_data"
 SMELL_WORD_FILENAME = "smell_words.txt"
@@ -80,6 +82,18 @@ def get_district(line):
     if not m:
         return None
     return m.group(1).capitalize()
+
+
+
+def parse_page_pos(smell_words, last_page, this_page, next_page):
+    """
+
+    :param smell_words:
+    :param last_page:
+    :param this_page:
+    :param next_page:
+    :return:
+    """
 
 
 def parse_page(smell_words, last_page, this_page, next_page):
@@ -178,12 +192,18 @@ def read_report(report_id, data_path, smell_words):
     return ReportData(report_id, district, year, tuple(hits))
 
 
-def report(reports):
+def make_report(reports):
     """
     Display the output. Some day, as a map, but for now as a text report
     :param reports: tuple(district, year) : ReportData
     :return: None
     """
+    for key,report in reports.items():
+        district, year = key
+        smells = []
+        for hit in report.hits:
+            smells.append (hit.term)
+        print (district,":", year,":", smells)
     print(reports.keys())
 
 
@@ -203,8 +223,10 @@ def run():
 
         reports[(report.district, report.year,)] = report
 
-    report(reports)
+    make_report(reports)
+
     return(report) ### Useful if running it at the command line so you can get the data structure and play with it
+
 
 if __name__ == "__main__":
     run()
