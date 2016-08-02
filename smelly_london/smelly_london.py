@@ -14,22 +14,19 @@ Top level script for the smelly_london project
 import glob
 import os.path
 import collections
+from smelly_london.search_terms import SearchTerms
 import re
 import nltk
 
 
-DATA_PATH = r"../sample_data"
-SMELL_WORD_FILENAME = "smell_words.txt"
-
-
-def get_report_ids(path):
+def get_report_ids(data_path):
     """
     Assuming pages have names like "b18220162_0_23.txt", "b18220162" would be the report ID
 
-    :param path: Directory which is searched for *.txt
+    :param data_path: Directory which is searched for *.txt
     :return: List of report IDs.
     """
-    pattern = os.path.join(DATA_PATH, '*_*_*.txt')
+    pattern = os.path.join(data_path, '*_*_*.txt')
     pages = glob.glob(pattern)
     return { os.path.basename(page).split('_')[0] for page in pages }
 
@@ -207,15 +204,15 @@ def make_report(reports):
     print(reports.keys())
 
 
-def run():
-    smell_words = get_smell_words(SMELL_WORD_FILENAME)
+def run(data_path, smell_word_filename):
+    smell_words = get_smell_words(smell_word_filename)
 
     ## The right sort of collection depends on how we use it.
     # Possible future form: Pandas data table with indexes by borough, year, keyword etc
     reports = {} # tuple(district, year) : ReportData
 
-    for report_id in  get_report_ids(DATA_PATH):
-        report = read_report(report_id, DATA_PATH, smell_words)
+    for report_id in  get_report_ids(data_path):
+        report = read_report(report_id, data_path, smell_words)
 
         # I'm assuming reports are unique to a borough and year.
         # If not, I want to know as it could lead to double-counting
@@ -225,9 +222,12 @@ def run():
 
     make_report(reports)
 
-    return(report) ### Useful if running it at the command line so you can get the data structure and play with it
+    return(reports) ### Useful if running it at the command line so you can get the data structure and play with it
 
 
 if __name__ == "__main__":
-    run()
+    DATA_PATH = r"../sample_data"
+    SMELL_WORD_FILENAME = r"smell_words.txt"
+
+    reports = run(DATA_PATH, SMELL_WORD_FILENAME)
 
