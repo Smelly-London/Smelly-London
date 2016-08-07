@@ -14,7 +14,7 @@ Top level script for the smelly_london project
 import glob
 import os.path
 import collections
-from smelly_london.search_terms import SearchTerms
+from search_terms import SearchTerms
 import re
 import nltk
 
@@ -33,7 +33,10 @@ def get_report_ids(data_path):
 
 def get_smell_words(file_name):
     with open(file_name) as f:
-        return { line.strip() for line in f }
+        search_terms = SearchTerms(file_name)
+        return { term[0] for term in search_terms.terms }
+
+        # return { line.strip() for line in f }
 
 ### I've used a named tuple to make it explicit that the hit context is invariant.
 ### In principle, named tuples should also be slightly more memory efficient - and we have a lot of data!
@@ -220,14 +223,25 @@ def run(data_path, smell_word_filename):
 
         reports[(report.district, report.year,)] = report
 
-    make_report(reports)
-
     return(reports) ### Useful if running it at the command line so you can get the data structure and play with it
+
+
+def hits_in_context_report(reports):
+    for _, report in reports.items():
+        print( "\n\n{}, {}".format(report.district, report.year))
+        for hit in report.hits:
+            pos = hit.context.find(hit.term)
+            context_region = 30
+            start = max(pos-context_region, 0)
+            finish = min(pos+context_region, len(hit.context))
+            print("{} {} p.{:3} {:20} {}".format(report.report_id, report.year, hit.page, hit.term, hit.context[start:finish]))
 
 
 if __name__ == "__main__":
     DATA_PATH = r"../sample_data"
-    SMELL_WORD_FILENAME = r"smell_words.txt"
+    # SMELL_WORD_FILENAME = r"smell_words.txt"
+    SMELL_WORD_FILENAME = r'C:\Users\Michael\Dropbox\MOH 2016 Project\smell_ENG_vs2.txt'
 
     reports = run(DATA_PATH, SMELL_WORD_FILENAME)
-
+    make_report(reports)
+    hits_in_context_report(reports)
