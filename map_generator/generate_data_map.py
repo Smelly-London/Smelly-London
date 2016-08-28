@@ -24,7 +24,7 @@ class LocationFinder:
         print("Read {} different locations".format(len(self._locations)))
 
     def lookup(self, name):
-        return self._locations[name]
+        return self._locations.get(name, (None, None))
 
 
 def create_carto_file():
@@ -40,11 +40,17 @@ def create_carto_file():
 
     map_writer.writerow(["longitude", "latitude", "year", "location_name", "number_of_smells"])
 
+    missing_locations = []
     for borough_name, borough_information in smell_hits.res.items():
         for year, number_of_smells in borough_information.items():
             (latitude, longitude) = location_finder.lookup(borough_name)
-            map_writer.writerow([latitude, longitude, year, borough_name, number_of_smells])
+            if latitude is not None and longitude is not None:
+                map_writer.writerow([latitude, longitude, year, borough_name, number_of_smells])
+            else:
+                if borough_name not in missing_locations:
+                    missing_locations.append(borough_name)
 
+    print("Missing locations:", missing_locations)
 
 if __name__ == "__main__":
     create_carto_file()
