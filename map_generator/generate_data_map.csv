@@ -4,9 +4,16 @@ import smell_hits
 import pprint
 import csv
 import sys
+import os
 
 def latitude_longitude_from_location_name(location_name):
-    locationsfile = open("borough_feature_data.csv", "r", newline="")
+    """ From the file borough_feature_data assumes that the third column is the location name
+        and returns the (latitude, longitude) from the columns (first, second).
+    """
+
+    cwd = os.path.dirname(__file__)
+    borough_data_path = os.path.join(cwd, "..", "generate_boroughs", "all_borough_data.csv")
+    locationsfile = open(borough_data_path, "r", newline="")
 
     locationsreader = csv.reader(locationsfile)
 
@@ -14,9 +21,10 @@ def latitude_longitude_from_location_name(location_name):
         if location_name == line[3]:
             return(line[0], line[1])
 
-    return (0, 0)
+    raise LookupError(location_name + " not found")
 
-def main():
+def create_carto_file():
+    """ Creates a .csv file to be uploaded into http://carto.com with the smells. """
     csvfile=open("carto.csv", "w", newline="")
 
     mapwriter = csv.writer(csvfile, delimiter=",", quoting=csv.QUOTE_ALL)
@@ -28,7 +36,5 @@ def main():
             (latitude, longitude) = latitude_longitude_from_location_name(borough_name)
             mapwriter.writerow([latitude, longitude, year, borough_name, number_of_smells])
 
-    sys.exit(0)
-
 if __name__ == "__main__":
-    main()
+    create_carto_file()
