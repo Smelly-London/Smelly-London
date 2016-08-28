@@ -6,26 +6,35 @@ import csv
 import sys
 import os
 
-def latitude_longitude_from_location_name(location_name):
-    """ From the file borough_feature_data assumes that the third column is the location name
-        and returns the (latitude, longitude) from the columns (first, second).
-    """
+class LocationFinder:
+    def __init__(self):
+        self._locations = {}
+        self._read_locations()
 
-    cwd = os.path.dirname(__file__)
-    borough_data_path = os.path.join(cwd, "..", "generate_boroughs", "all_borough_data.csv")
-    locationsfile = open(borough_data_path, "r", newline="")
+    def _read_locations(self):
+        cwd = os.path.dirname(__file__)
+        borough_data_path = os.path.join(cwd, "..", "generate_boroughs", "all_borough_data.csv")
+        print("Reading {} locations file".format(borough_data_path))
+        locationsfile = open(borough_data_path, "r", newline="")
 
-    locationsreader = csv.reader(locationsfile)
+        locationsreader = csv.reader(locationsfile)
 
-    for line in locationsreader:
-        if location_name == line[3]:
-            return(line[0], line[1])
+        for line in locationsreader:
+            self._locations[line[3]] = (line[0], line[1])
 
-    raise LookupError(location_name + " not found")
+        print("Read {} different locations".format(len(self._locations)))
+
+    def lookup(self, name):
+        return self._locations[name]
 
 def create_carto_file():
     """ Creates a .csv file to be uploaded into http://carto.com with the smells. """
-    csvfile=open("carto.csv", "w", newline="")
+
+    locationFinder = LocationFinder()
+
+    filename = "carto.csv"
+    csvfile=open(filename, "w", newline="")
+    print("Output file: {}".format(filename))
 
     mapwriter = csv.writer(csvfile, delimiter=",", quoting=csv.QUOTE_ALL)
 
@@ -33,7 +42,7 @@ def create_carto_file():
 
     for borough_name, borough_information in smell_hits.res.items():
         for year, number_of_smells in borough_information.items():
-            (latitude, longitude) = latitude_longitude_from_location_name(borough_name)
+            (latitude, longitude) = locationFinder.lookup(borough_name)
             mapwriter.writerow([latitude, longitude, year, borough_name, number_of_smells])
 
 if __name__ == "__main__":
