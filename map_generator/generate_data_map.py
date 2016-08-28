@@ -12,7 +12,7 @@ class LocationFinder:
 
     def _read_locations(self):
         cwd = os.path.dirname(__file__)
-        borough_data_path = os.path.join(cwd, "..", "generate_boroughs", "all_borough_data.csv")
+        borough_data_path = os.path.join(cwd, "..", "generate_boroughs", "location_data_all.csv")
         print("Reading {} locations file".format(borough_data_path))
         locations_file = open(borough_data_path, "r", newline="")
 
@@ -20,7 +20,6 @@ class LocationFinder:
 
         for line in locations_reader:
             self._locations[line[3]] = (line[0], line[1])
-            print("test locations_reader")
 
         print("Read {} different locations".format(len(self._locations)))
 
