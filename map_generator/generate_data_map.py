@@ -38,14 +38,15 @@ def create_carto_file():
 
     map_writer = csv.writer(csv_file, delimiter=",", quoting=csv.QUOTE_ALL)
 
-    map_writer.writerow(["longitude", "latitude", "year", "location_name", "number_of_smells"])
+    map_writer.writerow(["longitude", "latitude", "date", "location_name", "number_of_smells"])
 
     missing_locations = []
     for borough_name, borough_information in smell_hits.res.items():
         for year, number_of_smells in borough_information.items():
             (latitude, longitude) = location_finder.lookup(borough_name)
             if latitude is not None and longitude is not None:
-                map_writer.writerow([latitude, longitude, year, borough_name, number_of_smells])
+                date = "{}/01/01".format(year)
+                map_writer.writerow([latitude, longitude, date, borough_name, number_of_smells])
             else:
                 if borough_name not in missing_locations:
                     missing_locations.append(borough_name)
