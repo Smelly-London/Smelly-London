@@ -23,11 +23,11 @@ import json # to deal with the output format
 import pprint # makes the output of json more easily readable
 import csv
 import requests # module to use APIs
-import sys
 import os
 
+
 def read_csv(csv_file):
-    '''read csv file into a list, skipping the header line'''
+    """read csv file into a list, skipping the header line"""
 
     data = [] 
     first_line = True
@@ -40,7 +40,7 @@ def read_csv(csv_file):
                 continue
 
             data.append(row)
-			
+
     return data
 
 # read the data from the csv into a variable.
@@ -50,41 +50,42 @@ london_location_path = os.path.join(cwd, "london_borough_year_list_moh.csv")
 print(london_location_path)
 csv_data = read_csv(london_location_path)
 
+
 def get_location_names(csv_data):
-    '''get a list of location names from the csv data and output as a list'''
-	
+    """get a list of location names from the csv data and output as a list"""
+
     location_names = []
-	
+
     for item in csv_data:
         location_names.append(item[2])
 
     return location_names
-	
+
 # create a list of the locations
 location_names = get_location_names(csv_data)
 
 def remove_duplicates(duplist):
-    '''remove all duplicates from a list, so that only one of each item remains and output a list'''
-	
+    """remove all duplicates from a list, so that only one of each item remains and output a list"""
+
     nondup_list = list(set(duplist))
-	
+
     return nondup_list
-	
+
 # read list of non duplicate location names into a list.
 unique_location_names = remove_duplicates(location_names)
 
 def remove_white_space(list):
-    '''remove leading or trailing white space from the outer sides of a list and output the list'''
-	
+    """remove leading or trailing white space from the outer sides of a list and output the list"""
+
     nospace_list = []
 
     for item in list:
         stripped = item.strip()	
-	    
+
         nospace_list.append(stripped)
-		
+
     return nospace_list
-	
+
 # read list without leading or trailing white space into a variable.
 location_list = remove_white_space(unique_location_names)
 
@@ -92,17 +93,14 @@ print("location list: ", location_list)
 print("Number of locations: ", len(location_list))
 
 def get_location_data(location_list):
-    '''iterate through the list of locations and extract data from the API for each one. output the data in json format.'''
+    """iterate through the list of locations and extract data from the API for each one. output the data in json format."""
 
     location_data_json = {}
     address = 'http://unlock.edina.ac.uk/ws/search?name=' # address of API
     country_code = 'GB'
-#    year_start = '1950' # get data from this year onwards
-#    year_end = '2016' # get data until this year
 
     for location in location_list:
         url = address+location+"&countrycode="+country_code+"&format=json"
-        # url = address+location+"&countrycode="+country_code+"&startYear="+year_start+"&endYear="+year_end+"&format=json" # data from a certain time period can be downloaded (there were no relevant historic data for this list of locations)
         print("Trying URL ",location_list.index(location)," of ",len(location_list),":", url)
 
         data = requests.get(url)
@@ -117,7 +115,7 @@ def get_location_data(location_list):
 location_data = get_location_data(location_list)
 
 def get_list_of_values_from_dict(location_data_dictionary, key):
-    '''get a list of values for a certain key from a dictionary and output into a list.'''
+    """get a list of values for a certain key from a dictionary and output into a list."""
     list_of_key_values = []
 
     for location_name, location_data in location_data_dictionary.items():
@@ -142,7 +140,7 @@ for location in location_list:
 print('VALIDATION DICT BEFORE: ', validation_dictionary)
 
 def get_london_location_data(location_data_dictionary, validation_dictionary):
-    '''get position data from dictionary according to conditions. Output a list of dictionaries.'''
+    """get position data from dictionary according to conditions. Output a list of dictionaries."""
     
     location_feature_data = [] # create a list of dictionaries containing position data for each location
     
@@ -172,11 +170,10 @@ def get_london_location_data(location_data_dictionary, validation_dictionary):
 location_feature_data = get_london_location_data(location_data, validation_dictionary)
 print('LOCATIONS WITH NUMBER OF DATA HITS')
 pprint.pprint(validation_dictionary)
-#print('############################################')
-#pprint.pprint(location_feature_data)
+
 
 def write_dict_to_csv(list_of_dictionaries, output_file):
-    ''' write a list of dictionaries to a csv file.'''
+    """write a list of dictionaries to a csv file."""
 
     fieldnames = ['centroid_lon', 'centroid_lat', 'feature_type', 'name', 'source']
 
@@ -191,7 +188,7 @@ output_location_data_path = os.path.join(cwd, "location_data_generated.csv")
 write_dict_to_csv(location_feature_data, output_location_data_path)
 
 def output_dict_elements_with_value(dictionary, value):
-    ''' output elements from a dictionary that have a certain value. Output in a list.'''
+    """output elements from a dictionary that have a certain value. Output in a list"""
     locations_with_no_data= []
     for location_name in dictionary:
         count = dictionary[location_name]
@@ -205,8 +202,3 @@ list_of_locations_with_no_data = output_dict_elements_with_value(validation_dict
 
 print("LOCATIONS WITH NO DATA FROM API")
 pprint.pprint(list_of_locations_with_no_data)
-
-
-
-
-
