@@ -29,7 +29,7 @@ import os
 def read_csv(csv_file):
     """read csv file into a list, skipping the header line"""
 
-    data = [] 
+    data = []
     first_line = True
 
     with open(csv_file, 'r') as f:
@@ -43,13 +43,6 @@ def read_csv(csv_file):
 
     return data
 
-# read the data from the csv into a variable.
-cwd = os.path.dirname(__file__)
-print("CWD ", cwd)
-london_location_path = os.path.join(cwd, "london_borough_year_list_moh.csv") 
-print(london_location_path)
-csv_data = read_csv(london_location_path)
-
 
 def get_location_names(csv_data):
     """get a list of location names from the csv data and output as a list"""
@@ -61,8 +54,6 @@ def get_location_names(csv_data):
 
     return location_names
 
-# create a list of the locations
-location_names = get_location_names(csv_data)
 
 def remove_duplicates(duplist):
     """remove all duplicates from a list, so that only one of each item remains and output a list"""
@@ -71,8 +62,6 @@ def remove_duplicates(duplist):
 
     return nondup_list
 
-# read list of non duplicate location names into a list.
-unique_location_names = remove_duplicates(location_names)
 
 def remove_white_space(list):
     """remove leading or trailing white space from the outer sides of a list and output the list"""
@@ -80,17 +69,12 @@ def remove_white_space(list):
     nospace_list = []
 
     for item in list:
-        stripped = item.strip()	
+        stripped = item.strip()
 
         nospace_list.append(stripped)
 
     return nospace_list
 
-# read list without leading or trailing white space into a variable.
-location_list = remove_white_space(unique_location_names)
-
-print("location list: ", location_list)
-print("Number of locations: ", len(location_list))
 
 def get_location_data(location_list):
     """iterate through the list of locations and extract data from the API for each one. output the data in json format."""
@@ -98,6 +82,8 @@ def get_location_data(location_list):
     location_data_json = {}
     address = 'http://unlock.edina.ac.uk/ws/search?name=' # address of API
     country_code = 'GB'
+    dups = set([x for x in location_list if location_list.count(x) > 1])
+    print(dups)
 
     for location in location_list:
         url = address+location+"&countrycode="+country_code+"&format=json"
@@ -112,7 +98,6 @@ def get_location_data(location_list):
 
     return location_data_json
 
-location_data = get_location_data(location_list)
 
 def get_list_of_values_from_dict(location_data_dictionary, key):
     """get a list of values for a certain key from a dictionary and output into a list."""
@@ -127,33 +112,20 @@ def get_list_of_values_from_dict(location_data_dictionary, key):
 
     return list_of_key_values
 
-key = 'featuretype' # used here to find relevant data (includes things such as London Borough, Towns etc)
 
-key_values = get_list_of_values_from_dict(location_data, key)
-print('KEY VALUES: ', key_values)
-
-# create a dictionary which will contain the list of locations and how many data hits there are from the API which meet the criteria in the function get_london_location_data.
-validation_dictionary={}
-
-for location in location_list:
-    validation_dictionary[location]=0
-print('VALIDATION DICT BEFORE: ', validation_dictionary)
-
-def get_london_location_data(location_data_dictionary, validation_dictionary):
+def get_london_location_data(location_data_dictionary):
     """get position data from dictionary according to conditions. Output a list of dictionaries."""
-    
+
     location_feature_data = [] # create a list of dictionaries containing position data for each location
-    
+
     for location_name, location_data in location_data_dictionary.items():
-       
+
         for feature in location_data['features']:
             if ('properties' in feature and 'adminlevel2' in feature['properties'] and 'featuretype' in feature['properties'] \
                  and feature['properties']['adminlevel2'] == 'Greater London' and (feature['properties']['featuretype'] == 'Populated Place' or \
                  feature['properties']['featuretype'] == 'Section of Populated Place')) or \
                ('properties' in feature and 'featuretype' in feature['properties'] and feature['properties']['featuretype'] == 'London Borough') or \
                ('properties' in feature and 'featuretype' in feature['properties'] and feature['properties']['featuretype'] == 'London Borough (Royal)'): # select various critieria that are used to get data
-
-                validation_dictionary[location_name]+=1 # add to the counter everytime the conditions are met and data are found
 
                 location_feature_data_dict = {} # create a dictionary for each location
                 location_feature_data_dict["name"] = location_name
@@ -167,10 +139,6 @@ def get_london_location_data(location_data_dictionary, validation_dictionary):
 
     return location_feature_data
 
-location_feature_data = get_london_location_data(location_data, validation_dictionary)
-print('LOCATIONS WITH NUMBER OF DATA HITS')
-pprint.pprint(validation_dictionary)
-
 
 def write_dict_to_csv(list_of_dictionaries, output_file):
     """write a list of dictionaries to a csv file."""
@@ -180,12 +148,8 @@ def write_dict_to_csv(list_of_dictionaries, output_file):
     with open(output_file, 'w', newline = '') as f:
         w = csv.DictWriter(f, fieldnames, quoting = csv.QUOTE_ALL)
         w.writeheader()
-        w.writerows(list_of_dictionaries)   
+        w.writerows(list_of_dictionaries)
 
-cwd = os.path.dirname(__file__)
-output_location_data_path = os.path.join(cwd, "location_data_generated.csv") 
-
-write_dict_to_csv(location_feature_data, output_location_data_path)
 
 def output_dict_elements_with_value(dictionary, value):
     """output elements from a dictionary that have a certain value. Output in a list"""
@@ -198,7 +162,61 @@ def output_dict_elements_with_value(dictionary, value):
 
     return locations_with_no_data
 
-list_of_locations_with_no_data = output_dict_elements_with_value(validation_dictionary, 0) # value here 0 to get the locations that have no data from the API
 
-print("LOCATIONS WITH NO DATA FROM API")
-pprint.pprint(list_of_locations_with_no_data)
+def get_missing_locations(found_locations, all_locations):
+    missing_locations = []
+
+    for wanted_location in all_locations:
+        found = False
+        for found_location in found_locations:
+            if found_location['name'] == wanted_location:
+                found = True
+                break
+
+        if not found:
+            missing_locations.append(wanted_location)
+
+    return missing_locations
+
+
+def main():
+    # read the data from the csv into a variable.
+    cwd = os.path.dirname(__file__)
+    print("CWD ", cwd)
+    london_location_path = os.path.join(cwd, "london_borough_year_list_moh.csv")
+    print(london_location_path)
+    csv_data = read_csv(london_location_path)
+
+    # create a list of the locations
+    location_names = get_location_names(csv_data)
+
+    # read list without leading or trailing white space into a variable.
+    location_names = remove_white_space(location_names)
+
+    # read list of non duplicate location names into a list.
+    location_list = remove_duplicates(location_names)
+
+    print("location list: ", location_list)
+    print("Number of locations: ", len(location_list))
+
+    location_data = get_location_data(location_list)
+
+    key = 'featuretype' # used here to find relevant data (includes things such as London Borough, Towns etc)
+
+    key_values = get_list_of_values_from_dict(location_data, key)
+    print('KEY VALUES: ', key_values)
+
+    location_feature_data = get_london_location_data(location_data)
+
+    cwd = os.path.dirname(__file__)
+    output_location_data_path = os.path.join(cwd, "location_data_generated.csv")
+    write_dict_to_csv(location_feature_data, output_location_data_path)
+
+    list_of_locations_with_no_data = get_missing_locations(location_feature_data, location_list)
+
+    print("LOCATIONS WITH NO DATA FROM API")
+    pprint.pprint(list_of_locations_with_no_data)
+
+
+if __name__ == "__main__":
+    main()
