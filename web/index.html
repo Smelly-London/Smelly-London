@@ -19,7 +19,7 @@
     <div id="map"></div>
 
     <!-- include cartodb.js library -->
-    <script src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
+    <script src="http://libs.cartocdn.com/cartodb.js/v3/3.15.10/cartodb.js"></script>
 
     <script>
       function main() {
@@ -27,11 +27,11 @@
             shareable: true,
             title: true,
             description: true,
-            search: true,
+            search: false,
             tiles_loader: true,
-            center_lat: 0,
+            center_lat: 51,
             center_lon: 0,
-            zoom: 2,
+            zoom: 10,
 	    time_slider: true
         })
         .done(function(vis, layers) {
@@ -45,22 +45,10 @@
           // you can get the native map to work with it
           var map = vis.getNativeMap();
 
-          // now, perform any operations you need
-          map.setZoom(3);
-          map.panTo([50.5, 30.5]);
-
 	  vis.timeSlider.formatter(function(d) {
 	  	return "Year: " + d.getFullYear();
 	  });
 	
-/*
-	  var slider = vis.getOverlay('time_slider');
-	  slider.formatter(function(d) {
-	  	alert('test');
-		return "TEST";
-
-	  });
-*/
         })
         .error(function(err) {
           console.log(err);
