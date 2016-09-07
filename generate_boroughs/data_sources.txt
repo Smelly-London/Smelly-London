@@ -1,7 +1,10 @@
+This document contains the details of data soures used within the smelly london project, specifically for generating geographic location data of each place within the project. 
+
 Sources of position data for London locations
 
 API (used in get_london_location_data.py)
 https://web.archive.org/web/20160402224319/http://edina.ac.uk/unlock/places/deep.html
+Wikipedia (see data for specific pages)
 
 Downloaded (for possible future use)
 
