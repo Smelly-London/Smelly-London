@@ -1,10 +1,16 @@
-This folder contains data and code to get the geographical positions of a set of locations. 
+This folder contains data and code to get the geographical positions of a set of locations. Presently, this is fairly specific, but as the code is developed, it will become generic so it can be applied to any location. See "specifics" for more current information.
+
+***Specifics***
+
+From the list of the places in London (london_borough_year_list_moh.csv), the geographic cordinates (points at the moment of present-day equivalents) are extracted using an API (see data_sources.txt). If the places do not exist in the API, they were taken manually from Wikipedia (see location_data_all.csv for the source of each one).
+
+These place names and their geographical locations can then be used with the generate_maps code to produce a map of data from these locations. 
+
+******
 
 code:
 
 get_london_location_data.py	Python code to extract a set of geographical positions from an API.
-
-
 
 
 data:
