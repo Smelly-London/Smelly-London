@@ -1,0 +1,32 @@
+This document contains the details of data soures used within the smelly london project, specifically for generating geographic location data of each place within the project. 
+
+Sources of position data for London locations
+
+API (used in get_london_location_data.py)
+https://web.archive.org/web/20160402224319/http://edina.ac.uk/unlock/places/deep.html
+Wikipedia (see data for specific pages)
+
+Downloaded (for possible future use)
+
+Statistical GIS london borough boundary file: http://data.london.gov.uk/dataset/statistical-gis-boundary-files-london
+London wards 2014 - http://data.london.gov.uk/dataset/statistical-gis-boundary-files-london
+Vision of Britain - parishes and other from London: http://visionofbritain.org.uk/maps/series?xCenter=3325675.77767&yCenter=2793852.71194&scale=253440&viewScale=181417.4208&mapLayer=osm&subLayer=os_sanitary_districts_1888&title=Ordnance%20Survey%20Sanitary%20Districts%2C%20showing%20Civil%20Parishes&download=true
+ 
+
+Possible source of maps / data (for possible future use)
+
+Historical london maps (printed) - http://mapco.net/london.htm
+Maps of districts - http://visionofbritain.org.uk/maps/sheet/os_sanitary_districts_1888/Middlesex_1888
+Historic maps of UK and specific areas - http://www.oldmapsonline.org/en/Kent#bbox=-1.496086914062289,50.818021794257,2.503913063715572,52.14963753650118&q=&date_from=0&date_to=9999&scale_from=&scale_to=
+
+
+
+
+Emails sent: 
+27/08/2016	archive@historicengland.org.uk
+
+
+
+
+Jen Thomas, 28/08/2016
+
