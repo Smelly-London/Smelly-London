@@ -1,4 +1,12 @@
 
+'''This script datamines the reports by simple python operations to find smell related words in the reports.
+
+Only nltk sentence tokenizer is used.
+
+Uses prettyprint to display the results nicely.
+'''
+
+
 from map import mapping
 # walk through the os and get all files
 # read each file in tern and go through line by line
@@ -6,8 +14,9 @@ from map import mapping
 from os import listdir
 import nltk.data
 import json
+from pprint import pprint as pp
 
-SMELL_WORDS = ['smell', 'stench', 'stink', 'odour', 'sniff', 'effluvium']
+SMELL_WORDS = ['smell', 'stench', 'stink', 'odour', 'sniff', 'effluvium', 'effluvia']
 REPORTS_DIR = '/Users/deborah/Documents/scripts/python_work/project2016/Full Text Online'
 
 global finalResult
@@ -34,35 +43,10 @@ def process_file(fileName):
             report_tokenized = tokenize_to_sentence(line)
 
             for sentence in report_tokenized:
-                pos_tag = get_pos_tag(sentence)
-                # pos_tag is a list of words with their pos_tag
-                # print(pos_tag)
-                lemasRes = []
-                for word in pos_tag:
-                    # print(word)
-                    lemas = lemmatize(word)
-                    if lemas:
-                        lemasRes.append(lemas[0])
-                # print()
-                lematizedSentence = (' '.join(lemasRes))
-                # break
-                # print(leamatizedSentence)
-
                 for word in SMELL_WORDS:
-                    if word in lematizedSentence.lower():
-                        references.append(lematizedSentence)
+                    if word in sentence.lower():
+                        references.append(sentence)
     return references
-
-
-def convert_pos(old_tag):
-    if old_tag.startswith('J'):
-        return 'adj'
-    elif old_tag.startswith('V'):
-        return 'v'
-    elif old_tag.startswith('N'):
-        return 'n'
-    elif old_tag.startswith('R'):
-        return 'adv'
 
 
 def tokenize_to_sentence(sentence):
@@ -71,30 +55,14 @@ def tokenize_to_sentence(sentence):
     result = parser.tokenize(sentence.strip())
     return result
 
-
-def get_pos_tag(result):
-    # split into a list of words in a sentence
-    tokens = nltk.word_tokenize(result)
-    pos_tagging = nltk.pos_tag(tokens)
-    return pos_tagging
-
-def lemmatize(pos_tag):
-    wnl = nltk.WordNetLemmatizer()
-    lemmas = []
-    try:
-        lemmas.append(wnl.lemmatize(pos_tag[0],convert_pos(pos_tag[1])))
-    except:
-        print(pos_tag[0])
-    return lemmas
-
-
 def saveObject(results):
     '''Save results dictionary as file'''
     with open('processed_results.txt', 'w') as outfile:
         json.dump(results, outfile)
 
 def performAnalysis(fileName, references):
-    '''Create the resuts output'''
+    '''Create the results output'''
+
     # splits a fileName into :['Acton', '1900', 'b19783358', 'txt']
     splitReport = fileName.split('.')
     bID = splitReport[2]
@@ -130,11 +98,11 @@ def main():
     fileNames = fileNames[:10]
     for f in fileNames:
         references = process_file(f)
-        print(f)
-        print(references)
-        # if references:
-        #     performAnalysis(f, references)
-    # print(finalResult)
+        # print(f)
+        # print(references)
+        if references:
+            performAnalysis(f, references)
+    pp(finalResult)
     # saveObject(finalResult)
 
 
