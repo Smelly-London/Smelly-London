@@ -18,3 +18,31 @@ plotted.
 
 Instructions to upload to carto.com:
  # TO DO
+
+The following are SQLite commands used to create the match between smell data and locations. It needs to be written in a script:
+sqlite> .open /home/jen/projects/smelly_london/git/smelly_london/database
+sqlite> .tables
+smells
+sqlite> .mode csv
+sqlite> .import /home/jen/projects/smelly_london/git/generate_boroughs/location_data_all.csv locations
+sqlite> .tables
+locations  smells   
+sqlite> .schema locations
+CREATE TABLE locations(
+  "centroid_lon" TEXT,
+  "centroid_lat" TEXT,
+  "feature_type" TEXT,
+  "name" TEXT,
+  "source" TEXT
+);
+sqlite> .mode csv
+sqlite> .output /home/jen/projects/smelly_london/git/generate_maps/carto_categories.csv 
+sqlite> select name, centroid_lat, centroid_lon, year, category, count(*) from (select name, centroid_lat, centroid_lon, year, category from locations inner join smells on locations.name = smells.borough) group by name, year, category;
+sqlite> .output stdout
+sqlite> .output /home/jen/projects/smelly_london/git/sample_data/barking_and_dagenham_smells.csv
+sqlite> select name, centroid_lat, centroid_lon, year, category, sentence from (select name, centroid_lat, centroid_lon, year, category, sentence from locations inner join smells on locations.name = smells.borough where borough='Barking and Dagenham') group by name, year, category;
+sqlite> .output stdout
+sqlite> .output /home/jen/projects/smelly_london/git/sample_data/barking_and_dagenham_smell_summary.csv
+sqlite> select name, centroid_lat, centroid_lon, year, category, count(*) from (select name, centroid_lat, centroid_lon, year, category from locations inner join smells on locations.name = smells.borough where borough='Barking and Dagenham') group by name, year, category;
+sqlite> .output stdout
+
