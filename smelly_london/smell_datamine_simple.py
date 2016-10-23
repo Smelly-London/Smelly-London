@@ -103,6 +103,7 @@ def main():
         if references:
             performAnalysis(f, references)
     pp(finalResult)
+    save_to_database()
     # saveObject(finalResult)
 
 

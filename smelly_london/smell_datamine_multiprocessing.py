@@ -41,6 +41,10 @@ class Smell(object):
         self.category = category
         self.sentence = sentence
         self.year = year
+    def __repr__(self):
+        return "Smell(%s, %s, %s, %s)" % (repr(self.borough), repr(self.category), repr(self.sentence), repr(self.year))
+    def __eq__(self, other):
+        return repr(self) == repr(other)
 
 # TEMPLATE: category = SmellType('category_name', ['synonym1', 'synonym2'])
 # TODO: Create smell categories here
@@ -76,28 +80,6 @@ def tokenize_to_sentence(sentence):
     # split into sentences
     result = parser.tokenize(sentence.strip())
     return result
-
-
-def saveObject(results):
-    '''Save results dictionary as file'''
-    with open('processed_results.txt', 'w') as outfile:
-        json.dump(results, outfile)
-
-
-def get_categorised_results(results_list, categories):
-    for category in categories:
-        for result in results_list:
-            if result.category == category:
-                pp({category: {result.borough: {result.year:result.sentence}}})
-
-def get_uncategorised_results(results_list):
-    for result in results_list:
-        pp({'uncategorised': {result.borough: {result.year:result.sentence}}})
-
-def get_all_results(categorised_results, uncategorised_results):
-    results = categorised_results + uncategorised_results
-    for result in results:
-        pp({result.borough: {result.year:result.sentence}})
 
 def worker(file_name):
     dataminer = SmellDataMine()
@@ -153,20 +135,22 @@ class SmellDataMine(object):
                 for sentence in report_tokenized:
                     for word in SMELL_WORDS:
                         if word in sentence.lower():
-                            category = self.categorise_sentence(sentence)
-                            if category:
-                                o = Smell(region, category, sentence, year)
-                                self.results.append(o)
+                            categories = self.categorise_sentence(sentence)
+                            if categories:
+                                for category in categories:
+                                    o = Smell(region, category, sentence, year)
+                                    self.results.append(o)
                             else:
                                 o = Smell(region, 'Uncategorised', sentence, year)
                                 self.uncategorised.append(o)
 
     def categorise_sentence(self, sentence):
+        results = set()
         for category in self.smellTypes:
             for synonym in category.synonyms:
                 if synonym in sentence.lower():
-                    return category.name
-
+                    results.add(category.name)
+        return results
 
 
 def main():
