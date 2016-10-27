@@ -150,6 +150,7 @@ class SmellDataMine(object):
             for synonym in category.synonyms:
                 if synonym in sentence.lower():
                     results.add(category.name)
+                    break
         return results
 
 
