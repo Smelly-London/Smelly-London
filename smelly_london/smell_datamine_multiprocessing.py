@@ -140,9 +140,11 @@ class SmellDataMine(object):
                                 for category in categories:
                                     o = Smell(region, category, sentence, year)
                                     self.results.append(o)
+                                    break
                             else:
                                 o = Smell(region, 'Uncategorised', sentence, year)
                                 self.uncategorised.append(o)
+                                break
 
     def categorise_sentence(self, sentence):
         results = set()
