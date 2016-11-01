@@ -1,0 +1,621 @@
+﻿Id,MoHPlace,GazetteerPlace,MatchType,MarcSource,NormalisedPlace,SecondaryNormalisedPlace,NormalisedMoHPlace
+1,Erith,83439,exact,0,Bexley,NULL,Erith
+2,Paddington,181320,Dup exact,0,City of Westminster,NULL,Paddington
+3,Wood Green,254618,Dup exact,0,Haringey,NULL,Wood Green
+4,"St. Margaret & St. John, Westminster (London, England)",248192,NULL,0,City of Westminster,NULL,Westminster
+5,"Southwark, Borough of",217788,NULL,0,Southwark,NULL,Southwark
+6,"Southwark, The Vestry of the Parish of St. George the Martyr",217788,NULL,0,Southwark,NULL,St George (Southwark)
+7,Ealing,78352,exact,0,Ealing,NULL,Ealing
+8,Finsbury Borough,87737,Bor,0,Islington,NULL,Finsbury (Metropolitan Borough)
+9,"Hanover Square, The Vestry of the Parish of Saint George",157732,NULL,0,City of Westminster,NULL,St George (Hanover Square)
+10,Fulham Borough,91949,Bor,0,Hammersmith and Fulham,NULL,Fulham (Metropolitan Borough)
+11,Fulham,91949,exact,0,Hammersmith and Fulham,NULL,Fulham
+12,"Kensington (London, England)",128157,Dup Lon,0,Kensington and Chelsea,NULL,Kensington
+13,St. Giles District,205812,NULL,0,Camden,NULL,St Giles (Camden)
+14,"Holborn (London, England)",119505,Dup Lon,0,Camden,NULL,Holborn
+15,Deptford Borough,72085,Dup Bor,0,Lewisham,NULL,Deptford (Metropolitan Borough)
+16,"Hampstead, Metropolitan Borough of",108106,Dup Met,0,Camden,NULL,Hampstead (Metropolitan Borough)
+17,"Bethnal Green, Parish of St. Matthew",21189,NULL,0,Tower Hamlets,NULL,Bethnal Green
+18,"Paddington, Borough of",181320,NULL,0,City of Westminster,NULL,Paddington (Metropolitan Borough)
+19,"Clerkenwell, St James & St John",52197,NULL,0,Islington,NULL,Clerkenwell
+20,St. Martin-in-the-Fields,223190,NULL,0,City of Westminster,NULL,St Martin-in-the-Fields
+21,Chingford,49845,exact,0,Waltham Forest,NULL,Chingford
+22,Kensington Parish,128157,NULL,0,Kensington and Chelsea,NULL,Kensington
+23,City of Westminster,248192,NULL,0,City of Westminster,NULL,Westminster
+24,Westminster,248192,exact,0,City of Westminster,NULL,Westminster
+25,Southgate,217654,Dup exact,0,Enfield,NULL,Southgate
+26,"Lambeth (London, England)",133571,Lon,0,Lambeth,NULL,Lambeth
+27,Lewisham,137348,exact,0,Lewisham,NULL,Lewisham
+28,"Southwark (London, England)",217788,NULL,0,Southwark,NULL,Southwark
+29,Woolwich,256381,exact,0,Greenwich,NULL,Woolwich
+30,Islington,126467,Dup exact,0,Islington,NULL,Islington
+31,Walthamstow,242130,exact,0,Waltham Forest,NULL,Walthamstow
+32,"Tower Hamlets, London Borough",33472,NULL,0,Tower Hamlets,NULL,Tower Hamlets
+33,Lewisham District,137348,NULL,0,Lewisham,NULL,Lewisham
+34,Hayes,111162,Dup exact,0,Hillingdon,NULL,Hayes
+35,Battersea Borough,16597,Bor,0,Wandsworth,NULL,Battersea (Metropolitan Borough)
+36,Penge,185262,exact,0,Bromley,NULL,Penge
+37,Chigwell,49654,exact,0,Redbridge,NULL,Chigwell
+38,Islington Borough,126467,Dup Bor,0,Islington,NULL,Islington (Metropolitan Borough)
+39,Havering,238913,NULL,0,Havering,NULL,Havering
+40,"Paddington (London, England)",181320,Dup Lon,0,City of Westminster,NULL,Paddington
+41,Greenwich District,103864,NULL,0,Greenwich,NULL,Greenwich
+42,Croydon,66993,Dup exact,0,Croydon,NULL,Croydon
+43,Wimbledon,252840,exact,0,Merton,NULL,Wimbledon
+44,Harringey,232759,NULL,0,Haringey,NULL,Harringey
+45,Orpington,179957,exact,0,Bromley,NULL,Orpington
+46,Hillingdon,118301,Dup exact,0,Hillingdon,NULL,Hillingdon
+47,"St. Marylebone, Metropolitan Borough",157386,NULL,0,City of Westminster,NULL,St Marylebone (Metropolitan Borough)
+48,Bethnal Green Borough,21189,Bor,0,Tower Hamlets,NULL,Bethnal Green (Metropolitan Borough)
+49,Finchley,87551,exact,0,Barnet,NULL,Finchley
+50,Beckenham,17921,exact,0,Bromley,NULL,Beckenham
+51,Twickenham,236711,exact,0,Richmond upon Thames,NULL,Twickenham
+52,Barnet Rural District,15436,NULL,0,Barnet,NULL,Barnet
+53,"Deptford (London, England)",72085,Dup Lon,0,Lewisham,NULL,Deptford
+54,Sutton,225103,Dup exact,0,Sutton,NULL,Sutton
+55,"Camberwell (London, England)",41975,Lon,0,Southwark,NULL,Camberwell
+56,"London, City of",42520,NULL,0,City of London,NULL,City of London
+57,Stoke Newington,222063,exact,0,Hackney,NULL,Stoke Newington
+58,"Poplar (London, England)",190870,Dup Lon,0,Tower Hamlets,NULL,Poplar
+59,"Westminster, The United Parishes of St. Margaret and St. John, Westminster",248192,NULL,0,City of Westminster,NULL,Westminster
+60,"St. Pancras, London, Borough of",206204,NULL,0,Camden,NULL,St Pancras (Metropolitan Borough)
+61,"St. Marylebone, The Parish of",157386,NULL,0,City of Westminster,NULL,Marylebone
+62,"Hammersmith (London, England)",108012,Dup Lon,0,Hammersmith and Fulham,NULL,Hammersmith
+63,Friern Barnet,91334,exact,0,Barnet,NULL,Friern Barnet
+64,Stepney,221199,Dup exact,0,Tower Hamlets,NULL,Stepney
+65,"St. Marylebone (London, England)",157386,NULL,0,City of Westminster,NULL,Marylebone
+66,Lewisham Borough,137348,Bor,0,Lewisham,NULL,Lewisham
+67,"Holborn, Metropolitan Borough",119505,Dup Met,0,Camden,NULL,Holborn (Metropolitan Borough)
+68,Hampstead Borough,108106,Dup Bor,0,Camden,NULL,Hampstead (Metropolitan Borough)
+69,"Islington, Parish of St. Mary",126467,NULL,0,Islington,NULL,St Mary (Islington)
+70,Wanstead and Woodford,242365,NULL,0,Redbridge,NULL,Wanstead and Woodford
+71,Battersea,16597,exact,0,Wandsworth,NULL,Battersea
+72,Leyton,137515,Dup exact,0,Waltham Forest,NULL,Leyton
+73,Shoreditch,212523,Dup exact,0,Hackney,NULL,Shoreditch
+74,Acton,1559,Dup exact,0,Ealing,NULL,Acton
+75,"St James's, Westminster",205889,NULL,0,City of Westminster,NULL,St James's
+76,Hammersmith Borough,108012,Dup Bor,0,Hammersmith and Fulham,NULL,Hammersmith (Metropolitan Borough)
+77,Brentford and Chiswick,49975,NULL,0,Hounslow,NULL,Brentford and Chiswick
+78,Lambeth Borough,133571,Bor,0,Lambeth,NULL,Lambeth (Metropolitan Borough)
+79,"Bermondsey, Metropolitan Borough of",20743,Met,0,Southwark,NULL,Bermondsey (Metropolitan Borough)
+80,Ilford,125179,Dup exact,0,Redbridge,NULL,Ilford
+81,Southall,217416,exact,0,Ealing,NULL,Southall
+82,"Camberwell, St. Giles",41975,NULL,0,Southwark,NULL,St Giles (Camberwell)
+83,Richmond,198324,Dup exact,0,Richmond upon Thames,NULL,Richmond upon Thames
+84,"Hornsey, Borough of",122404,NULL,0,Haringey,NULL,Hornsey
+85,Edmonton,81264,Dup exact,0,Enfield,NULL,Edmonton
+86,"St. Giles (London, England)",205812,NULL,0,Camden,NULL,St Giles (Camden)
+87,"Marylebone (London, England)",157386,Dup Lon,0,City of Westminster,NULL,Marylebone
+88,"Finsbury (London, England)",87737,Lon,0,Islington,NULL,Finsbury
+89,Hendon RDC,113019,NULL,0,Barnet,NULL,Hendon
+90,"Wandsworth District, The Board of Works (Clapham, Putney, Streatham, Tooting & Wandsworth)",242314,NULL,0,Wandsworth,NULL,Wandsworth
+91,Hornchurch,122319,exact,0,Havering,NULL,Hornchurch
+92,"Wandsworth, Metropolitan Borough",242314,Met,0,Wandsworth,NULL,Wandsworth
+93,Bethnal Green,21189,exact,0,Tower Hamlets,NULL,Bethnal Green
+94,Enfield,83221,Dup exact,0,Enfield,NULL,Enfield
+95,Camberwell,41975,exact,0,Southwark,NULL,Camberwell
+96,"Stoke Newington, The Parish of St. Mary",222063,NULL,0,Hackney,NULL,Stoke Newington
+97,Holborn Borough,119505,Dup Bor,0,Camden,NULL,Holborn (Metropolitan Borough)
+98,Kensington Borough,128157,Dup Bor,0,Kensington and Chelsea,NULL,Kensington (Metropolitan Borough)
+99,"Strand District, London",223190,NULL,0,City of Westminster,NULL,Strand (Westminster)
+100,"Hammersmith, Metropolitan Borough of",108012,Dup Met,0,Hammersmith and Fulham,NULL,Hammersmith (Metropolitan Borough)
+101,"Islington, Metropolitan Borough of",126467,Dup Met,0,Islington,NULL,Islington (Metropolitan Borough)
+102,West Ham,246279,Dup exact,0,Newham,NULL,West Ham
+103,Wembley,245249,exact,0,Brent,NULL,Wembley
+104,Heston and Isleworth,126463,NULL,0,Hounslow,NULL,Heston and Isleworth
+105,Yiewsley,258031,exact,0,Hillingdon,NULL,Yiewsley
+106,Kensington,128157,Dup exact,0,Kensington and Chelsea,NULL,Kensington
+107,"Stoke Newington, The Metropolitan Borough",222063,NULL,0,Hackney,NULL,Stoke Newington (Metropolitan Borough)
+108,"Westminster, City of",248192,NULL,0,City of Westminster,NULL,City of Westminster
+109,Port of London,242400,NULL,0,Port of London,NULL,Port of London
+110,Hendon,113019,Dup exact,0,Barnet,NULL,Hendon
+111,Southall-Norwood,217416,NULL,0,Ealing,NULL,Southall-Norwood
+112,South Hornsey,122404,NULL,0,Hackney,NULL,South Hornsey
+113,Bexley,21346,exact,0,Bexley,NULL,Bexley
+114,Coulsdon,60634,exact,0,Croydon,NULL,Coulsdon
+115,East Ham,79220,Dup exact,0,Newham,NULL,East Ham
+116,Ruislip,204595,exact,0,Hillingdon,NULL,Ruislip
+117,"Stoke Newington (London, England)",222063,Lon,0,Hackney,NULL,Stoke Newington
+118,"Paddington, Metropolitan Borough of",181320,Dup Met,0,City of Westminster,NULL,Paddington (Metropolitan Borough)
+119,Greenwich Borough,103864,Dup Bor,0,Greenwich,NULL,Greenwich
+120,"Lambeth, Metropolitan Borough of",133571,Met,0,Lambeth,NULL,Lambeth (Metropolitan Borough)
+121,"Newington (London, England)",173046,Dup Lon,0,Southwark,NULL,Newington
+122,"Chelsea (London, England)",49141,Lon,0,Kensington and Chelsea,NULL,Chelsea
+123,East Barnet,78781,exact,0,Barnet,NULL,East Barnet
+124,Feltham,86152,Dup exact,0,Hounslow,NULL,Feltham
+125,Kensington & Chelsea Borough,128157,NULL,0,Kensington and Chelsea,NULL,Kensington and Chelsea
+126,"Hamlet of Mile End Old Town (London, England)",161765,NULL,0,Tower Hamlets,NULL,Mile End
+127,London County Council,148090,NULL,0,London County Council,NULL,London County Council
+128,Crayford,63492,Dup exact,0,Bexley,NULL,Crayford
+129,"Islington (London, England)",126467,Dup Lon,0,Islington,NULL,Islington
+130,City of London,42520,NULL,0,City of London,NULL,City of London
+131,"Lambeth, The Vestry of the Parish of",133571,NULL,0,Lambeth,NULL,Lambeth
+132,Barnet,15436,exact,0,Barnet,NULL,Barnet
+133,Barnet UDC,15436,NULL,0,Barnet,NULL,Barnet
+134,Willesden,252355,exact,0,Brent,NULL,Willesden
+135,Hackney,106082,exact,0,Hackney,NULL,Hackney
+136,(unset - will be set by table xml),NULL,NULL,0,NULL,NULL,(unset - will be set by table xml)
+137,"Hampstead (London, England)",108106,Dup Lon,0,Camden,NULL,Hampstead
+138,Chislehurst,49962,exact,0,Bromley,NULL,Chislehurst
+139,Sutton and Cheam,225103,NULL,0,Sutton,NULL,Sutton and Cheam
+140,"Hanover Square (London, England)",157732,NULL,0,City of Westminster,NULL,Hanover Square
+141,Kingston-upon-Thames,130148,NULL,0,Kingston upon Thames,NULL,Kingston upon Thames
+142,"Greenwich (London, England)",103864,Dup Lon,0,Greenwich,NULL,Greenwich
+143,Barking,15062,Dup exact,0,Barking and Dagenham,NULL,Barking
+144,Romford,201526,Dup exact,0,Havering,NULL,Romford
+145,Dagenham,69358,exact,0,Barking and Dagenham,NULL,Dagenham
+146,"Poplar, Metropolitan Borough",190870,Dup Met,0,Tower Hamlets,NULL,Poplar (Metropolitan Borough)
+147,"St. Pancras (London, England)",206204,NULL,0,Camden,NULL,St Pancras
+148,Barnes,15417,exact,0,Richmond upon Thames,NULL,Barnes
+149,Harrow,109567,Dup exact,0,Harrow,NULL,Harrow
+150,"St. Pancras, Metropolitan Borough",206204,NULL,0,Camden,NULL,St Pancras (Metropolitan Borough)
+151,St. Marylebone,157386,NULL,0,City of Westminster,NULL,Marylebone
+152,"St. James's, Westminster",205889,NULL,0,City of Westminster,NULL,St James's
+153,"City of London (London, England)",42520,NULL,0,City of London,NULL,City of London
+154,"Bermondsey (London, England)",20743,Lon,0,Southwark,NULL,Bermondsey
+155,"Wandsworth (London, England)",242314,Lon,0,Wandsworth,NULL,Wandsworth
+156,"Clerkenwell (London, England)",52197,Lon,0,Islington,NULL,Clerkenwell
+157,"Lewisham (London, England)",137348,Lon,0,Lewisham,NULL,Lewisham
+158,"Bethnal Green (London, England)",21189,Lon,0,Tower Hamlets,NULL,Bethnal Green
+159,St Pancras,206204,exact,0,Camden,NULL,St Pancras
+160,Bromley,33472,Dup exact,0,Bromley,NULL,Bromley
+161,"Poplar, Bromley, South District comprising the parishes of All Saints Poplar and Bromley Saint Leonard",33472,NULL,0,Tower Hamlets,NULL,Poplar and Bromley
+162,"St. Luke (Middlesex, England)",NULL,NULL,0,Islington,NULL,St Luke
+163,"St. Luke (Middlesex, England)",NULL,NULL,110,Islington,NULL,St Luke
+164,"St Luke (Middlesex, England)",NULL,NULL,651,Islington,NULL,St Luke
+165,"Bermondsey (London, England)",NULL,NULL,110,Southwark,NULL,Bermondsey
+166,"Bermondsey (London, England)",NULL,NULL,651,Southwark,NULL,Bermondsey
+167,"Waltham Forest (London, England)",NULL,NULL,110,Waltham Forest,NULL,Waltham Forest
+168,"Waltham Forest (London, England)",NULL,NULL,651,Waltham Forest,NULL,Waltham Forest
+169,"Wandsworth (London, England)",NULL,NULL,110,Wandsworth,NULL,Wandsworth
+170,"Wandsworth (London, England)",NULL,NULL,651,Wandsworth,NULL,Wandsworth
+171,"Bromley (London, England)",NULL,NULL,110,Bromley,NULL,Bromley
+172,"Bromley (London, England)",NULL,NULL,651,Bromley,NULL,Bromley
+173,"London County Council (London, England)",NULL,NULL,110,London County Council,NULL,London County Council
+174,London (England),NULL,NULL,651,London County Council,NULL,London County Council
+175,"Clerkenwell, St. James and St. John",NULL,NULL,0,Islington,NULL,Clerkenwell
+176,"St. James and St. John (Clerkenwell, London, England)",NULL,NULL,110,Islington,NULL,Clerkenwell
+177,"Clerkenwell (London, England)",NULL,NULL,651,Islington,NULL,Clerkenwell
+178,"Poplar (London, England)",NULL,NULL,110,Tower Hamlets,NULL,Poplar
+179,"Poplar (London, England)",NULL,NULL,651,Tower Hamlets,NULL,Poplar
+180,"Greenwich (London, England)",NULL,NULL,110,Greenwich,NULL,Greenwich
+181,"Deptford (London, England)",NULL,NULL,651,Greenwich,NULL,Deptford
+182,"Greenwich (London, England)",NULL,NULL,651,Greenwich,NULL,Greenwich
+183,"Camberwell (London, England)",NULL,NULL,110,Southwark,NULL,Camberwell
+184,"Camberwell (London, England)",NULL,NULL,651,Southwark,NULL,Camberwell
+185,"Holborn (London, England)",NULL,NULL,110,Camden,NULL,Holborn
+186,"Holborn (London, England)",NULL,NULL,651,Camden,NULL,Holborn
+187,"Charlton (London, England)",NULL,NULL,0,Greenwich,NULL,Charlton
+188,"Plumstead (London, England)",NULL,NULL,110,Greenwich,NULL,Plumstead
+189,"Kidbrook (London, England)",NULL,NULL,651,Greenwich,NULL,Kidbrook
+190,"Lee (London, England)",NULL,NULL,651,Lewisham,Greenwich,Lee
+191,"Plumstead (London, England)",NULL,NULL,651,Greenwich,NULL,Plumstead
+192,"Eltham (London, England)",NULL,NULL,651,Greenwich,NULL,Eltham
+193,"Charlton (London, England)",NULL,NULL,651,Greenwich,NULL,Charlton
+194,"Plumstead (London, England)",NULL,NULL,0,Greenwich,NULL,Plumstead
+195,"Chelsea (London, England)",NULL,NULL,110,Kensington and Chelsea,NULL,Chelsea
+196,"Chelsea (London, England)",NULL,NULL,651,Kensington and Chelsea,NULL,Chelsea
+197,"Clerkenwell (London, England)",NULL,NULL,110,Islington,NULL,Clerkenwell
+198,"Battersea (London, England)",NULL,NULL,110,Wandsworth,NULL,Battersea
+199,"Battersea (London, England)",NULL,NULL,651,Wandsworth,NULL,Battersea
+200,"Bethnal Green (London, England)",NULL,NULL,110,Tower Hamlets,NULL,Bethnal Green
+201,"Bethnal Green (London, England)",NULL,NULL,651,Tower Hamlets,NULL,Bethnal Green
+202,"Bow (London, England)",NULL,NULL,651,Tower Hamlets,NULL,Bow
+203,"Hackney (London, England)",NULL,NULL,0,Tower Hamlets,NULL,Hackney
+204,"Hackney (London, England)",NULL,NULL,110,Hackney,NULL,Hackney
+205,"Hackney (London, England)",NULL,NULL,651,Hackney,NULL,Hackney
+206,"Hammersmith (London, England)",NULL,NULL,110,Hammersmith and Fulham,NULL,Hammersmith
+207,"Hammersmith (London, England)",NULL,NULL,651,Hammersmith and Fulham,NULL,Hammersmith
+208,"Hamlet of Mile End Old Town (London, England)",NULL,NULL,110,Tower Hamlets,NULL,Mile End
+209,"Mile End (London, England)",NULL,NULL,651,Tower Hamlets,NULL,Mile End
+210,"Hanover Square (London, England)",NULL,NULL,110,City of Westminster,NULL,Hanover Square
+211,"Hanover Square (London, England)",NULL,NULL,651,City of Westminster,NULL,Hanover Square
+212,"Hampstead (London, England)",NULL,NULL,110,Camden,NULL,Hampstead
+213,"Hampstead (London, England)",NULL,NULL,651,Camden,NULL,Hampstead
+214,"Fulham (London, England)",NULL,NULL,110,Hammersmith and Fulham,NULL,Fulham
+215,"Fulham (London, England)",NULL,NULL,651,Hammersmith and Fulham,NULL,Fulham
+216,"Islington (London, England)",NULL,NULL,110,Islington,NULL,Islington
+217,"Islington (London, England)",NULL,NULL,651,Islington,NULL,Islington
+218,"Kensington (London, England)",NULL,NULL,110,Kensington and Chelsea,NULL,Kensington
+219,"Kensington (London, England)",NULL,NULL,651,Kensington and Chelsea,NULL,Kensington
+220,"Lambeth (London, England)",NULL,NULL,110,Lambeth,NULL,Lambeth
+221,"Lambeth (London, England)",NULL,NULL,651,Lambeth,NULL,Lambeth
+222,"Lewisham (London, England)",NULL,NULL,110,Lewisham,NULL,Lewisham
+223,"Lewisham (London, England)",NULL,NULL,651,Lewisham,NULL,Lewisham
+224,"City of London (London, England)",NULL,NULL,110,City of London,NULL,City of London
+225,City of London (England),NULL,NULL,651,City of London,NULL,City of London
+226,"Newington (London, England)",NULL,NULL,110,Southwark,NULL,Newington
+227,"Newington (London, England)",NULL,NULL,651,Southwark,NULL,Newington
+228,"Paddington (London, England)",NULL,NULL,110,City of Westminster,NULL,Paddington
+229,"Paddington (London, England)",NULL,NULL,651,City of Westminster,NULL,Paddington
+230,"South Hornsey (Middlesex, England)",NULL,NULL,110,Hackney,NULL,South Hornsey
+231,"Hornsey (London, England)",NULL,NULL,651,Hackney,NULL,Hornsey
+232,"Southwark (London, England)",NULL,NULL,110,Southwark,NULL,Southwark
+233,"Southwark (London, England)",NULL,NULL,651,Southwark,NULL,Southwark
+234,"St. Giles (London, England)",NULL,NULL,110,Camden,NULL,St Giles (Camden)
+235,"St Giles (London, England)",NULL,NULL,651,Camden,NULL,St Giles (Camden)
+236,"St. Martin-in-the-Fields (London, England)",NULL,NULL,0,City of Westminster,NULL,St Martin-in-the-Fields
+237,"St. Martin-in-the-Fields (London, England)",NULL,NULL,110,City of Westminster,NULL,St Martin-in-the-Fields
+238,"St. Marylebone (London, England)",NULL,NULL,110,City of Westminster,NULL,Marylebone
+239,"Marylebone (London, England)",NULL,NULL,651,City of Westminster,NULL,Marylebone
+240,"St. Olave (London, England)",NULL,NULL,0,City of London,NULL,St Olave
+241,"St. Olave (London, England)",NULL,NULL,110,City of London,NULL,St Olave
+242,"St Olave (London, England)",NULL,NULL,651,City of London,NULL,St Olave
+243,St Olave,NULL,NULL,0,City of London,NULL,St Olave
+244,"St. Pancras (London, England)",NULL,NULL,110,Camden,NULL,St Pancras
+245,"St Pancras (London, England)",NULL,NULL,651,Camden,NULL,St Pancras
+246,"Strand (London, England)",NULL,NULL,0,City of Westminster,NULL,Strand (Westminster)
+247,"Strand (London, England)",NULL,NULL,110,City of Westminster,NULL,Strand (Westminster)
+248,"Strand (London, England)",NULL,NULL,651,City of Westminster,NULL,Strand (Westminster)
+249,"Tottenham (London, England)",NULL,NULL,0,Haringey,NULL,Tottenham
+250,"Tottenham (London, England)",NULL,NULL,110,Haringey,NULL,Tottenham
+251,"Tottenham (London, England)",NULL,NULL,651,Haringey,NULL,Tottenham
+252,"Putney & Roehampton (London, England)",NULL,NULL,651,Wandsworth,NULL,Putney and Roehampton
+253,"Clapham (London, England)",NULL,NULL,651,Wandsworth,NULL,Clapham
+254,"Streatham (London, England)",NULL,NULL,651,Wandsworth,NULL,Streatham
+255,"Tooting (London, England)",NULL,NULL,651,Wandsworth,NULL,Tooting
+256,"St. Margaret & St. John, Westminster (London, England)",NULL,NULL,110,City of Westminster,NULL,Westminster
+257,"Westminster (London, England)",NULL,NULL,651,City of Westminster,NULL,Westminster
+258,"Whitechapel (London, England)",NULL,NULL,0,Tower Hamlets,NULL,Whitechapel
+259,"Whitechapel (London, England)",NULL,NULL,110,Tower Hamlets,NULL,Whitechapel
+260,"Whitechapel (London, England)",NULL,NULL,651,Tower Hamlets,NULL,Whitechapel
+261,"Woolwich (London, England)",NULL,NULL,0,Greenwich,NULL,Woolwich
+262,"Woolwich (London, England)",NULL,NULL,110,Greenwich,NULL,Woolwich
+263,"Woolwich (London, England)",NULL,NULL,651,Greenwich,NULL,Woolwich
+264,"Middle Temple (London, England)",NULL,NULL,0,City of London,NULL,Middle Temple
+265,"Middle Temple (London, England)",NULL,NULL,110,City of London,NULL,Middle Temple
+266,"Middle Temple (London, England)",NULL,NULL,651,City of London,NULL,Middle Temple
+267,"St. James, Westminster(London, England)",NULL,NULL,0,City of Westminster,NULL,St James's
+268,"St. James, Westminster (London, England)",NULL,NULL,110,City of Westminster,NULL,St James's
+269,St Martin-in-the-Fields,NULL,NULL,0,City of Westminster,NULL,St Martin-in-the-Fields
+270,Strand,NULL,NULL,0,City of Westminster,NULL,Strand (Westminster)
+271,"Finsbury (London, England)",NULL,NULL,110,Islington,NULL,Finsbury
+272,"Finsbury (London, England)",NULL,NULL,651,Islington,NULL,Finsbury
+273,"Deptford (London, England)",NULL,NULL,110,Lewisham,NULL,Deptford
+274,Greenwich,NULL,NULL,0,Greenwich,NULL,Greenwich
+275,"Port of London (London, England)",NULL,NULL,0,Port of London,NULL,Port of London
+276,"Port of London (London, England)",NULL,NULL,110,Port of London,NULL,Port of London
+277,"Port of London (London, England)",NULL,NULL,651,Port of London,NULL,Port of London
+278,"West Ham (London, England)",NULL,NULL,110,Newham,NULL,West Ham
+279,"West Ham (London, England)",NULL,NULL,651,Newham,NULL,West Ham
+280,"Limehouse (London, England)",NULL,NULL,0,Tower Hamlets,NULL,Limehouse
+281,"Limehouse (London, England)",NULL,NULL,110,Tower Hamlets,NULL,Limehouse
+282,"Ratcliff (London, England)",NULL,NULL,651,Tower Hamlets,NULL,Ratcliff
+283,"Wapping (London, England)",NULL,NULL,651,Tower Hamlets,NULL,Wapping
+284,"Shadwell (London, England)",NULL,NULL,651,Tower Hamlets,NULL,Shadwell
+285,"Limehouse (London, England)",NULL,NULL,651,Tower Hamlets,NULL,Limehouse
+286,Kensington (London (England),NULL,NULL,651,Kensington and Chelsea,NULL,Kensington
+287,"Kensington& Chelsea (London, England)",NULL,NULL,110,Kensington and Chelsea,NULL,Kensington and Chelsea
+288,"Kensington& Chelsea (London, England)",NULL,NULL,651,Kensington and Chelsea,NULL,Kensington and Chelsea
+289,"Kensington & Chelsea (London, England)",NULL,NULL,110,Kensington and Chelsea,NULL,Kensington and Chelsea
+290,"Kensington & Chelsea (London, England)",NULL,NULL,651,Kensington and Chelsea,NULL,Kensington and Chelsea
+291,"City of Westminster (London, England)",NULL,NULL,110,City of Westminster,NULL,City of Westminster
+292,Hornsey,NULL,NULL,0,Haringey,NULL,Hornsey
+293,"Hornsey (Middlesex, England)",NULL,NULL,110,Haringey,NULL,Hornsey
+294,Poplar District - Bow District & Parish of St. Mary Stratford-le-Bow,NULL,NULL,0,Tower Hamlets,NULL,Poplar District (Bow and Stratford)
+295,Southwark,NULL,NULL,0,Southwark,NULL,Southwark
+296,"St. George the Martyr (Southwark, London, England)",NULL,NULL,110,Southwark,NULL,St George (Southwark)
+297,Southwark\,NULL,NULL,0,Southwark,NULL,Southwark
+298,"St. George (Westminster, London, England)",NULL,NULL,110,City of Westminster,NULL,St George (Westminster)
+299,"St. Martin-in-the-Fields, Vestry of",NULL,NULL,0,City of Westminster,NULL,St Martin-in-the-Fields
+300,"City of Westminster (London, England). County Council",NULL,NULL,110,City of Westminster,NULL,City of Westminster
+301,"Westminster District (London, England)",NULL,NULL,110,City of Westminster,NULL,Westminster
+302,Hornsey (England),NULL,NULL,110,Haringey,NULL,Hornsey
+303,"Tower Hamlets (London, England)",NULL,NULL,110,Tower Hamlets,NULL,Tower Hamlets
+304,"Tower Hamlets (London, England)",NULL,NULL,651,Tower Hamlets,NULL,Tower Hamlets
+305,"Stoke Newington (London, England)",NULL,NULL,110,Hackney,NULL,Stoke Newington
+306,"Stoke Newington (London, England)",NULL,NULL,651,Hackney,NULL,Stoke Newington
+307,"Acton (London, England)",NULL,NULL,110,Ealing,NULL,Acton
+308,"Acton (London, England)",NULL,NULL,651,Ealing,NULL,Acton
+309,"Barnet (London, England)",NULL,NULL,110,Barnet,NULL,Barnet
+310,"Barnet (London, England)",NULL,NULL,651,Barnet,NULL,Barnet
+311,"Barking (London, England)",NULL,NULL,110,Barking and Dagenham,NULL,Barking
+312,"Barking (London, England)",NULL,NULL,651,Barking and Dagenham,NULL,Barking
+313,"Beckenham (London, England)",NULL,NULL,110,Bromley,NULL,Beckenham
+314,"Beckenham (London, England)",NULL,NULL,651,Bromley,NULL,Beckenham
+315,"Beckenham (London, England). Urban District Council",NULL,NULL,110,Bromley,NULL,Beckenham
+316,"Bexley (London, England)",NULL,NULL,110,Bexley,NULL,Bexley
+317,"Bexley (London, England)",NULL,NULL,651,Bexley,NULL,Bexley
+318,Bromley UDC,NULL,NULL,0,Bromley,NULL,Bromley
+319,"Chislehurst (Kent, England)",NULL,NULL,110,Bromley,NULL,Chislehurst
+320,"Chislehurst (Kent, England)",NULL,NULL,651,Bromley,NULL,Chislehurst
+321,"Chislehurst (London, England)",NULL,NULL,110,Bromley,NULL,Chislehurst
+322,"Chislehurst (London, England)",NULL,NULL,651,Bromley,NULL,Chislehurst
+323,"Chislehurst and Sidcup (London, England)",NULL,NULL,110,Bromley,NULL,Chislehurst and Sidcup
+324,"Chislehurst and Sidcup (London, England)",NULL,NULL,651,Bromley,NULL,Chislehurst and Sidcup
+325,"Chislehurst and Sidcup (Kent, England)",NULL,NULL,110,Bromley,NULL,Chislehurst and Sidcup
+326,"Chislehurst and Sidcup (Kent, England)",NULL,NULL,651,Bromley,NULL,Chislehurst and Sidcup
+327,"Coulsdon and Purley (London, England)",NULL,NULL,110,Croydon,NULL,Coulsdon and Purley
+328,"Coulsdon and Purley (London, England)",NULL,NULL,651,Croydon,NULL,Coulsdon and Purley
+329,"Crayford (London, England)",NULL,NULL,110,Bexley,NULL,Crayford
+330,"Crayford (London, England)",NULL,NULL,651,Bexley,NULL,Crayford
+331,"Croydon (London, England)",NULL,NULL,110,Croydon,NULL,Croydon
+332,"Croydon (London, England)",NULL,NULL,651,Croydon,NULL,Croydon
+333,"Croydon (Surrey, England)",NULL,NULL,110,Croydon,NULL,Croydon
+334,"Croydon (Surrey, England)",NULL,NULL,651,Croydon,NULL,Croydon
+335,"Dagenham (London, England)",NULL,NULL,110,Barking and Dagenham,NULL,Dagenham
+336,"Dagenham (London, England)",NULL,NULL,651,Barking and Dagenham,NULL,Dagenham
+337,"Ealing (London, England)",NULL,NULL,110,Ealing,NULL,Ealing
+338,"Ealing (London, England)",NULL,NULL,651,Ealing,NULL,Ealing
+339,East Barnet Valley (England),NULL,NULL,110,Barnet,NULL,East Barnet Valley
+340,East Barnet (England),NULL,NULL,651,Barnet,NULL,East Barnet
+341,"East Barnet (London, England)",NULL,NULL,110,Barnet,NULL,East Barnet
+342,"East Barnet (London, England)",NULL,NULL,651,Barnet,NULL,East Barnet
+343,"Edmonton (London, England)",NULL,NULL,110,Enfield,NULL,Edmonton
+344,"Edmonton (London, England)",NULL,NULL,651,Enfield,NULL,Edmonton
+345,"Enfield (London, England)",NULL,NULL,110,Enfield,NULL,Enfield
+346,"Enfield (London, England)",NULL,NULL,651,Enfield,NULL,Enfield
+347,"Erith (London, England)",NULL,NULL,110,Bexley,NULL,Erith
+348,"Erith (London, England)",NULL,NULL,651,Bexley,NULL,Erith
+349,"Erith (Kent, England)",NULL,NULL,110,Bexley,NULL,Erith
+350,"Erith (Kent, England)",NULL,NULL,651,Bexley,NULL,Erith
+351,"Finchley (London, England)",NULL,NULL,110,Barnet,NULL,Finchley
+352,"Finchley (London, England)",NULL,NULL,651,Barnet,NULL,Finchley
+353,"Friern Barnet (London, England)",NULL,NULL,110,Barnet,NULL,Friern Barnet
+354,"Friern Barnet (London, England)",NULL,NULL,651,Barnet,NULL,Friern Barnet
+355,Greenford,NULL,NULL,0,Ealing,NULL,Greenford
+356,"Greenford (London, England)",NULL,NULL,110,Ealing,NULL,Greenford
+357,"Greenford (London, England)",NULL,NULL,651,Ealing,NULL,Greenford
+358,"Haringey (London, England)",NULL,NULL,110,Haringey,NULL,Haringey
+359,"Haringey (London, England)",NULL,NULL,651,Haringey,NULL,Haringey
+360,"Havering (London, England)",NULL,NULL,110,Havering,NULL,Havering
+361,"Havering (London, England)",NULL,NULL,651,Havering,NULL,Havering
+362,"Hayes and Harlington (London, England)",NULL,NULL,110,Hillingdon,NULL,Hayes and Harlington
+363,"Hayes and Harlington (London, England)",NULL,NULL,651,Hillingdon,NULL,Hayes and Harlington
+364,Hayes and Harlington (England),NULL,NULL,110,Hillingdon,NULL,Hayes and Harlington
+365,Hayes and Harlington (England),NULL,NULL,651,Hillingdon,NULL,Hayes and Harlington
+366,"Hayes (London, England)",NULL,NULL,110,Hillingdon,NULL,Hayes
+367,"Hayes (London, England)",NULL,NULL,651,Hillingdon,NULL,Hayes
+368,"Hendon (London, England)",NULL,NULL,110,Barnet,NULL,Hendon
+369,"Hendon (London, England)",NULL,NULL,651,Barnet,NULL,Hendon
+370,"Hornchurch (London, England)",NULL,NULL,110,Havering,NULL,Hornchurch
+371,"Hornchurch (London, England)",NULL,NULL,651,Havering,NULL,Hornchurch
+372,"Leyton (London, England)",NULL,NULL,110,Waltham Forest,NULL,Leyton
+373,"Leyton (London, England)",NULL,NULL,651,Waltham Forest,NULL,Leyton
+374,"Orpington (London, England)",NULL,NULL,110,Bromley,NULL,Orpington
+375,"Orpington (London, England)",NULL,NULL,651,Bromley,NULL,Orpington
+376,"Penge (Kent, England)",NULL,NULL,110,Bromley,NULL,Penge
+377,"Penge (Kent, England)",NULL,NULL,651,Bromley,NULL,Penge
+378,"Romford (London, England)",NULL,NULL,110,Havering,NULL,Romford
+379,"Romford (London, England)",NULL,NULL,651,Havering,NULL,Romford
+380,Romford RDC,NULL,NULL,0,Havering,NULL,Romford
+381,"Ruislip-Northwood (London, England)",NULL,NULL,110,Hillingdon,NULL,Ruislip-Northwood
+382,"Ruislip-Northwood (London, England)",NULL,NULL,651,Hillingdon,NULL,Ruislip-Northwood
+383,Sidcup,NULL,NULL,0,Bexley,NULL,Sidcup
+384,"Sidcup (Kent, England)",NULL,NULL,110,Bexley,NULL,Sidcup
+385,"Sidcup (Kent, England)",NULL,NULL,651,Bexley,NULL,Sidcup
+386,Southgate (England),NULL,NULL,110,Enfield,NULL,Southgate
+387,Southgate (England),NULL,NULL,651,Enfield,NULL,Southgate
+388,"Southgate (London, England)",NULL,NULL,110,Enfield,NULL,Southgate
+389,"Southgate (London, England)",NULL,NULL,651,Enfield,NULL,Southgate
+390,Uxbridge,NULL,NULL,0,Hillingdon,NULL,Uxbridge
+391,"Uxbridge (London, England)",NULL,NULL,110,Hillingdon,NULL,Uxbridge
+392,"Uxbridge (London, England)",NULL,NULL,651,Hillingdon,NULL,Uxbridge
+393,Uxbridge RDC,NULL,NULL,0,Hillingdon,NULL,Uxbridge
+394,"Wembley (London, England)",NULL,NULL,110,Brent,NULL,Wembley
+395,"Wembley (London, England)",NULL,NULL,651,Brent,NULL,Wembley
+396,Willesden (England),NULL,NULL,110,Brent,NULL,Willesden
+397,Willesden (England),NULL,NULL,651,Brent,NULL,Willesden
+398,"Willesden (London, England)",NULL,NULL,110,Brent,NULL,Willesden
+399,"Willesden (London, England)",NULL,NULL,651,Brent,NULL,Willesden
+400,"Wood Green (London, England)",NULL,NULL,110,Haringey,NULL,Wood Green
+401,"Wood Green (London, England)",NULL,NULL,651,Haringey,NULL,Wood Green
+402,"Yiewsley (London, England)",NULL,NULL,110,Hillingdon,NULL,Yiewsley
+403,"Yiewsley (London, England)",NULL,NULL,651,Hillingdon,NULL,Yiewsley
+404,"Yiewsley and West Drayton (London, England)",NULL,NULL,110,Hillingdon,NULL,Yiewsley and West Drayton
+405,"Yiewsley and West Drayton (London, England)",NULL,NULL,651,Hillingdon,NULL,Yiewsley and West Drayton
+406,"St. Matthew (Bethnal Green, London, England)",NULL,NULL,110,Tower Hamlets,NULL,Bethnal Green
+407,Lambeth,NULL,NULL,0,Lambeth,NULL,Lambeth
+408,"St. Leonard (Shoreditch, London, England)",NULL,NULL,110,Hackney,NULL,Shoreditch
+409,"Shoreditch (London, England)",NULL,NULL,651,Hackney,NULL,Shoreditch
+410,"Shoreditch (London, England)",NULL,NULL,110,Hackney,NULL,Shoreditch
+411,"St. Luke, Middlesex",NULL,NULL,0,Islington,NULL,St Luke
+412,Middlesex (England),NULL,NULL,651,Islington,NULL,Middlesex
+413,"Stepney (London, England)",NULL,NULL,110,Tower Hamlets,NULL,Stepney
+414,"Stepney (London, England)",NULL,NULL,651,Tower Hamlets,NULL,Stepney
+415,"St. Mary Abbotts (Kensington, London, England)",NULL,NULL,110,Kensington and Chelsea,NULL,Kensington
+416,"Harrow (London, England)",NULL,NULL,110,Harrow,NULL,Harrow
+417,"Harrow (London, England)",NULL,NULL,651,Harrow,NULL,Harrow
+418,Hammersmith,NULL,NULL,0,Hammersmith and Fulham,NULL,Hammersmith
+419,Newington,NULL,NULL,0,Southwark,NULL,Newington
+420,"St. Mary (Newington, London, England)",NULL,NULL,110,Southwark,NULL,St Mary (Newington)
+421,Rotherhithe,NULL,NULL,0,Southwark,NULL,Rotherhithe
+422,"Rotherhithe (London, England)",NULL,NULL,110,Southwark,NULL,Rotherhithe
+423,"Rotherhithe (London, England)",NULL,NULL,651,Southwark,NULL,Rotherhithe
+424,East Ham (England),NULL,NULL,110,Newham,NULL,East Ham
+425,East Ham (England),NULL,NULL,651,Newham,NULL,East Ham
+426,"Kingston upon Thames (London, England)",NULL,NULL,110,Kingston upon Thames,NULL,Kingston upon Thames
+427,"Kingston upon Thames (London, England)",NULL,NULL,651,Kingston upon Thames,NULL,Kingston upon Thames
+428,"St. Mary (Battersea, London, England)",NULL,NULL,110,Wandsworth,NULL,St Mary (Battersea)
+429,Harrow-on-the-Hill,NULL,NULL,0,Harrow,NULL,Harrow-on-the-Hill
+430,"St. Giles Camberwell (Parish : Surrey, England)",NULL,NULL,110,Southwark,NULL,St Giles (Camberwell)
+431,"St Giles Camberwell (Parish : Surrey, England)",NULL,NULL,651,Southwark,NULL,St Giles (Camberwell)
+432,"Ilford (London, England)",NULL,NULL,110,Redbridge,NULL,Ilford
+433,"Ilford (London, England)",NULL,NULL,651,Redbridge,NULL,Ilford
+434,"Walthamstow (London, England)",NULL,NULL,110,Waltham Forest,NULL,Walthamstow
+435,"Walthamstow (London, England)",NULL,NULL,651,Waltham Forest,NULL,Walthamstow
+436,"Wimbledon (London, England)",NULL,NULL,110,Merton,NULL,Wimbledon
+437,"Wimbledon (London, England)",NULL,NULL,651,Merton,NULL,Wimbledon
+438,Heston and Isleworth (England),NULL,NULL,110,Hounslow,NULL,Heston and Isleworth
+439,Heston and Isleworth (England),NULL,NULL,651,Hounslow,NULL,Heston and Isleworth
+440,"Heston and Isleworth (London, England)",NULL,NULL,110,Hounslow,NULL,Heston and Isleworth
+441,"Heston and Isleworth (London, England)",NULL,NULL,651,Hounslow,NULL,Heston and Isleworth
+442,"Southall-Norwood (London, England)",NULL,NULL,110,Ealing,NULL,Southall-Norwood
+443,"Southall-Norwood (London, England)",NULL,NULL,651,Ealing,NULL,Southall-Norwood
+444,"Southall (London, England)",NULL,NULL,110,Ealing,NULL,Southall
+445,"Southall (London, England)",NULL,NULL,651,Ealing,NULL,Southall
+446,"Chigwell (London, England)",NULL,NULL,110,Redbridge,NULL,Chigwell
+447,"Chigwell (London, England)",NULL,NULL,651,Redbridge,NULL,Chigwell
+448,Wanstead,NULL,NULL,0,Redbridge,NULL,Wanstead
+449,"Wanstead and Woodford (London, England)",NULL,NULL,110,Redbridge,NULL,Wanstead and Woodford
+450,"Wanstead and Woodford (London, England)",NULL,NULL,651,Redbridge,NULL,Wanstead and Woodford
+451,Woodford,NULL,NULL,0,Redbridge,NULL,Woodford
+452,"Barnes (London, England)",NULL,NULL,110,Richmond upon Thames,NULL,Barnes
+453,"Barnes (London, England)",NULL,NULL,651,Richmond upon Thames,NULL,Barnes
+454,"Twickenham (London, England)",NULL,NULL,110,Richmond upon Thames,NULL,Twickenham
+455,"Twickenham (London, England)",NULL,NULL,651,Richmond upon Thames,NULL,Twickenham
+456,"Chingford (London, England)",NULL,NULL,110,Waltham Forest,NULL,Chingford
+457,"Chingford (London, England)",NULL,NULL,651,Waltham Forest,NULL,Chingford
+458,"Richmond (London, England)",NULL,NULL,110,Richmond upon Thames,NULL,Richmond upon Thames
+459,"Richmond (London, England)",NULL,NULL,651,Richmond upon Thames,NULL,Richmond upon Thames
+460,"Richmond upon Thames (London, England)",NULL,NULL,110,Richmond upon Thames,NULL,Richmond upon Thames
+461,"Richmond upon Thames (London, England)",NULL,NULL,651,Richmond upon Thames,NULL,Richmond upon Thames
+462,"Hillingdon (London, England)",NULL,NULL,110,Hillingdon,NULL,Hillingdon
+463,"Hillingdon (London, England)",NULL,NULL,651,Hillingdon,NULL,Hillingdon
+464,"Feltham (London, England)",NULL,NULL,110,Hounslow,NULL,Feltham
+465,"Feltham (London, England)",NULL,NULL,651,Hounslow,NULL,Feltham
+466,Hounslow,NULL,NULL,0,Hounslow,NULL,Hounslow
+467,"Hounslow (London, England)",NULL,NULL,110,Hounslow,NULL,Hounslow
+468,"Hounslow (London, England)",NULL,NULL,651,Hounslow,NULL,Hounslow
+469,"Brentford and Chiswick (London, England)",NULL,NULL,110,Hounslow,NULL,Brentford and Chiswick
+470,"Brentford and Chiswick (London, England)",NULL,NULL,651,Hounslow,NULL,Brentford and Chiswick
+471,"Brent (London, England)",NULL,NULL,110,Hounslow,NULL,Brent
+472,"Brent (London, England)",NULL,NULL,651,Hounslow,NULL,Brent
+473,"Sutton (London, England)",NULL,NULL,110,Sutton,NULL,Sutton
+474,"Sutton (London, England)",NULL,NULL,651,Sutton,NULL,Sutton
+475,"Sutton and Cheam (London, England)",NULL,NULL,110,Sutton,NULL,Sutton and Cheam
+476,"Sutton and Cheam (London, England)",NULL,NULL,651,Sutton,NULL,Sutton and Cheam
+477,Tottenham,NULL,NULL,0,Haringey,NULL,Tottenham
+478,Tottenham (England). Urban District Council,NULL,NULL,110,Haringey,NULL,Tottenham
+479,Tottenham (England). Borough Council,NULL,NULL,110,Haringey,NULL,Tottenham
+480,Mitcham,NULL,NULL,0,Merton,NULL,Mitcham
+481,"Mitcham (London, England)",NULL,NULL,110,Merton,NULL,Mitcham
+482,"Mitcham (London, England)",NULL,NULL,651,Merton,NULL,Mitcham
+483,Carshalton,NULL,NULL,0,Sutton,NULL,Carshalton
+484,"Carshalton (Surrey, England)",NULL,NULL,110,Sutton,NULL,Carshalton
+485,"Carshalton (Surrey, England)",NULL,NULL,651,Sutton,NULL,Carshalton
+486,Merton & Morden,NULL,NULL,0,Merton,NULL,Merton and Morden
+487,Merton and Morden (England),NULL,NULL,110,Merton,NULL,Merton and Morden
+488,Merton and Morden (England),NULL,NULL,651,Merton,NULL,Merton and Morden
+489,Merton,NULL,NULL,0,Merton,NULL,Merton
+490,"Merton (London, England)",NULL,NULL,110,Merton,NULL,Merton
+491,"Merton (London, England)",NULL,NULL,651,Merton,NULL,Merton
+492,Teddington,NULL,NULL,0,Richmond upon Thames,NULL,Teddington
+493,"Teddington (London, England)",NULL,NULL,110,Richmond upon Thames,NULL,Teddington
+494,"Teddington (London, England)",NULL,NULL,651,Richmond upon Thames,NULL,Teddington
+495,Camden,NULL,NULL,0,Camden,NULL,Camden
+496,"Camden (London, England). Borough Council",NULL,NULL,110,Camden,NULL,Camden
+497,"Camden (London, England) Borough Council",NULL,NULL,651,Camden,NULL,Camden
+498,Malden & Coombe,NULL,NULL,0,Kingston upon Thames,NULL,Malden and Coombe
+499,Malden and Coombe (England),NULL,NULL,110,Kingston upon Thames,NULL,Malden and Coombe
+500,Malden and Coombe (England),NULL,NULL,651,Kingston upon Thames,NULL,Malden and Coombe
+501,Newham,NULL,NULL,0,Newham,NULL,Newham
+502,"Newham (London, England). Borough Council",NULL,NULL,110,Newham,NULL,Newham
+503,"Newham (London, England)",NULL,NULL,651,Newham,NULL,Newham
+504,Redbridge,NULL,NULL,0,Redbridge,NULL,Redbridge
+505,"Redbridge (London, England)",NULL,NULL,110,Redbridge,NULL,Redbridge
+506,"Redbridge (London, England)",NULL,NULL,651,Redbridge,NULL,Redbridge
+507,Whitechapel,NULL,NULL,0,Tower Hamlets,NULL,Whitechapel
+508,Beddington and Wallington,NULL,NULL,0,Sutton,NULL,Beddington and Wallington
+509,Beddington and Wallington (England),NULL,NULL,110,Sutton,NULL,Beddington and Wallington
+510,Beddington and Wallington (England),NULL,NULL,651,Sutton,NULL,Beddington and Wallington
+511,St. Olave,NULL,NULL,0,City of London,NULL,St Olave
+512,"Strand (Westminster, London, England)",NULL,NULL,110,City of Westminster,NULL,Strand (Westminster)
+513,"Strand (Westminster, London, England)",NULL,NULL,651,City of Westminster,NULL,Strand (Westminster)
+514,Port and City of London,NULL,NULL,0,Port of London,NULL,Port of London
+515,London (England). Port & City Council,NULL,NULL,110,Port of London,NULL,Port of London
+516,London (England) Port & City Council,NULL,NULL,651,Port of London,NULL,Port of London
+517,London (England),NULL,NULL,110,City of London,NULL,City of London
+518,London (England). Port Health Authority,NULL,NULL,110,Port of London,NULL,Port of London
+519,London (England) Port Health Authority,NULL,NULL,651,Port of London,NULL,Port of London
+520,Hayes and Harlington,NULL,NULL,0,Hillingdon,NULL,Hayes and Harlington
+521,Limehouse,NULL,NULL,0,Tower Hamlets,NULL,Limehouse
+522,St. Saviour's,NULL,NULL,0,Southwark,NULL,St Saviour's (Southwark)
+523,Deptford,NULL,NULL,0,Lewisham,NULL,Deptford
+524,Hampton,NULL,NULL,0,Richmond upon Thames,NULL,Hampton
+525,"Hampton (London, England)",NULL,NULL,110,Richmond upon Thames,NULL,Hampton
+526,"Hampton (London, England)",NULL,NULL,651,Richmond upon Thames,NULL,Hampton
+527,Plumstead,NULL,NULL,0,Greenwich,NULL,Plumstead
+528,St. Luke,NULL,NULL,0,Islington,NULL,St Luke
+529,Poplar,NULL,NULL,0,Tower Hamlets,NULL,Poplar
+530,Lee,NULL,NULL,0,Lewisham,Greenwich,Lee
+531,"Lee (London, England)",NULL,NULL,110,Lewisham,Greenwich,Lee
+532,Mile End,NULL,NULL,0,Tower Hamlets,NULL,Mile End
+533,"Hackney (London, England). Borough Council",NULL,NULL,110,Hackney,NULL,Hackney
+534,"Hackney (London, England) Borough Council",NULL,NULL,651,Hackney,NULL,Hackney
+535,Hamlet of Mile End Old Town,NULL,NULL,0,Tower Hamlets,NULL,Mile End
+536,"St. Martin-in-the-Fields (Westminster, London, England)",NULL,NULL,110,City of Westminster,NULL,St Martin-in-the-Fields
+537,"St. Saviour's District (London, England)",NULL,NULL,110,Southwark,NULL,St Saviour's (Southwark)
+538,"St Saviour's District (London, England)",NULL,NULL,651,Southwark,NULL,St Saviour's (Southwark)
+539,Heston,NULL,NULL,0,Hounslow,NULL,Heston
+540,Beddington,NULL,NULL,0,Sutton,NULL,Beddington
+541,Brentford & Chiswick,NULL,NULL,0,Hounslow,NULL,Brentford and Chiswick
+542,"Brentford (London, England)",NULL,NULL,110,Hounslow,NULL,Brentford
+543,"Brentford (London, England)",NULL,NULL,651,Hounslow,NULL,Brentford
+544,Brentford,NULL,NULL,0,Hounslow,NULL,Brentford
+545,Chiswick,NULL,NULL,0,Hounslow,NULL,Chiswick
+546,"Chiswick (London, England)",NULL,NULL,110,Hounslow,NULL,Chiswick
+547,"Chiswick (London, England)",NULL,NULL,651,Hounslow,NULL,Chiswick
+548,EastHam,NULL,NULL,0,Newham,NULL,East Ham
+549,"Harrow-on-the-Hill (London, England)",NULL,NULL,110,Harrow,NULL,Harrow-on-the-Hill
+550,"Harrow-on-the-Hill (London, England)",NULL,NULL,651,Harrow,NULL,Harrow-on-the-Hill
+551,HestonandIsleworth,NULL,NULL,0,Hounslow,NULL,Heston and Isleworth
+552,Kingston,NULL,NULL,0,Kingston upon Thames,NULL,Kingston
+553,MaldenandCoombe,NULL,NULL,0,Kingston upon Thames,NULL,Malden and Coombe
+554,Maldens,NULL,NULL,0,Kingston upon Thames,NULL,Maldens
+555,MertonandMorden,NULL,NULL,0,Merton,NULL,Merton and Morden
+556,Southall-Norwood (England),NULL,NULL,110,Ealing,NULL,Southall-Norwood
+557,Southall-Norwood (England),NULL,NULL,651,Ealing,NULL,Southall-Norwood
+558,Surbiton,NULL,NULL,0,Kingston upon Thames,NULL,Surbiton
+559,"Surbiton (Surrey, England)",NULL,NULL,110,Kingston upon Thames,NULL,Surbiton
+560,"Surbiton (London, England)",NULL,NULL,651,Kingston upon Thames,NULL,Surbiton
+561,TottenhamDistrict,NULL,NULL,0,Haringey,NULL,Tottenham
+562,Tottenham (England),NULL,NULL,110,Haringey,NULL,Tottenham
+563,"Wanstead (London, England)",NULL,NULL,110,Redbridge,NULL,Wanstead
+564,WestHam,NULL,NULL,0,Newham,NULL,West Ham
+565,St.GilesDistrict,NULL,NULL,0,Camden,NULL,St Giles (Camden)
+566,"Battersea, Metropolitan Borough of",NULL,NULL,0,Wandsworth,NULL,Battersea (Metropolitan Borough)
+567,"St. Mary (Islington, London, England)",NULL,NULL,110,Islington,NULL,St Mary (Islington)
+568,"Shoreditch, Parish of St. Leonard",NULL,NULL,0,Hackney,NULL,Shoreditch
+569,Wandsworth,NULL,NULL,0,Wandsworth,NULL,Wandsworth
+570,Brent Borough,NULL,NULL,0,Brent,NULL,Brent
+571,"(Westminster (London, England)",NULL,NULL,651,City of Westminster,NULL,Strand (Westminster)
+572,Brentford and Chiswick (England),NULL,NULL,110,Hounslow,NULL,Brentford and Chiswick
+573,Brentford and Chiswick (England),NULL,NULL,651,Hounslow,NULL,Brentford and Chiswick
+574,"Camden (London, England)",NULL,NULL,110,Camden,NULL,Camden
+575,"Camden (London, England)",NULL,NULL,651,Camden,NULL,Camden
+576,"Carshalton (Surrey, England)",NULL,NULL,0,Sutton,NULL,Carshalton
+577,Chislehurst  (England),NULL,NULL,651,Bromley,NULL,Chislehurst
+578,Chislehurst (England),NULL,NULL,110,Bromley,NULL,Chislehurst
+579,Chislehurst (England),NULL,NULL,651,Bromley,NULL,Chislehurst
+580,Chislehurst and Sidcup (England),NULL,NULL,110,Bromley,NULL,Chislehurst
+581,Coulsdon (England),NULL,NULL,651,Croydon,NULL,Coulsdon and Purley
+582,East Barnet (England),NULL,NULL,110,Barnet,NULL,East Barnet
+583,Erith (London England),NULL,NULL,110,Bexley,NULL,Erith
+584,"Finchley (London, England)",NULL,NULL,0,Barnet,NULL,Finchley
+585,"Gray's Inn (London, England)",NULL,NULL,0,Camden,NULL,Gray's Inn
+586,"Gray's Inn (London, England)",NULL,NULL,110,Camden,NULL,Gray's Inn
+587,"Hampton (London, England)",NULL,NULL,0,Richmond upon Thames,NULL,Hampton
+588,Hayes and Harlington (England),NULL,NULL,0,Hillingdon,NULL,Hayes and Harlington
+589,"Hendon (London, England)",NULL,NULL,0,Barnet,NULL,Hendon
+590,"Hornchurch (London, England)",NULL,NULL,0,Havering,NULL,Hornchurch
+591,"Kingsbury (London, England)",NULL,NULL,110,Brent,NULL,Kingsbury
+592,"Kingsbury (London, England)",NULL,NULL,651,Brent,NULL,Kingsbury
+593,Kingsbury,NULL,NULL,0,Brent,NULL,Kingsbury
+594,London (England),NULL,NULL,0,City of London,NULL,City of London
+595,"Mayfair (London, England)",NULL,NULL,651,City of Westminster,NULL,Hanover Square
+596,"Newham (London, England)",NULL,NULL,110,Newham,NULL,Newham
+597,"Newington, St. Mary",NULL,NULL,0,Southwark,NULL,Newington
+598,Orsett (England),NULL,NULL,110,NULL,NULL,Orsett
+599,Orsett (England),NULL,NULL,651,NULL,NULL,Orsett
+600,Orsett,NULL,NULL,0,NULL,NULL,Orsett
+601,"Purley (London, England)",NULL,NULL,651,Croydon,NULL,Coulsdon and Purley
+602,"Sidcup (London, England)",NULL,NULL,110,Bexley,NULL,Sidcup
+603,"Sidcup (London, England)",NULL,NULL,651,Bromley,NULL,Chislehurst
+604,"St. Giles (London, England)",NULL,NULL,651,Camden,NULL,St Giles (Camden)
+605,"St. Leonard Shoreditch (London, England)",NULL,NULL,110,Hackney,NULL,Shoreditch
+606,"St. Luke (Middlesex, England : Parish).",NULL,NULL,110,Islington,NULL,St Luke
+607,"St. Luke (Middlesex, England : Parish)",NULL,NULL,110,Islington,NULL,St Luke
+608,"St. Luke (Middlesex, England : Parish)",NULL,NULL,651,Islington,NULL,St Luke
+609,"St. Martin-in-the-Fields (Church : Westminster, London, England)",NULL,NULL,110,City of Westminster,NULL,St Martin-in-the-Fields
+610,"St. Martin-in-the-Fields (London, England : Parish)",NULL,NULL,0,City of Westminster,NULL,St Martin-in-the-Fields
+611,"St. Martin-in-the-Fields (London, England : Parish)",NULL,NULL,110,City of Westminster,NULL,St Martin-in-the-Fields
+612,"St. Mary, Islington (London, England)",NULL,NULL,110,Islington,NULL,St Mary (Islington)
+613,"St. Mary, Newington (London, England)",NULL,NULL,110,Southwark,NULL,Newington
+614,"St. Pancras (London, England)",NULL,NULL,651,Camden,NULL,St Pancras
+615,Walthamstow (England),NULL,NULL,110,Waltham Forest,NULL,Walthamstow
+616,Walthamstow (England),NULL,NULL,651,Waltham Forest,NULL,Walthamstow
+617,"Wealdstone (London, England)",NULL,NULL,110,Harrow,NULL,Wealdstone
+618,"Wealdstone (London, England)",NULL,NULL,651,Harrow,NULL,Wealdstone
+619,Wealdstone,NULL,NULL,0,Harrow,NULL,Wealdstone
+620,"Wembley (London, England)",NULL,NULL,0,Brent,NULL,Wembley
