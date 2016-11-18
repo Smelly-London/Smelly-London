@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Smelly London</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <link rel="shortcut icon" href="http://cartodb.com/assets/favicon.ico" />
+    <style>
+      html, body, #map {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+      }
+    </style>
+
+    <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css" />
+  </head>
+  <body>
+    <div id="map"></div>
+
+    <!-- include cartodb.js library -->
+    <script src="http://libs.cartocdn.com/cartodb.js/v3/3.15.10/cartodb.js"></script>
+
+    <script>
+      function main() {
+        cartodb.createVis('map', 'http://jenny-t152.carto.com/api/v2/viz/e5271422-6d3a-11e6-92c4-0e8c56e2ffdb/viz.json', {
+            shareable: true,
+            title: true,
+            description: true,
+            search: false,
+            tiles_loader: true,
+            center_lat: 51.5,
+            center_lon: -0.05,
+            zoom: 10,
+	    time_slider: true
+        })
+        .done(function(vis, layers) {
+          // layer 0 is the base layer, layer 1 is cartodb layer
+          // setInteraction is disabled by default
+          // layers[1].setInteraction(true);
+          layers[1].on('featureOver', function(e, latlng, pos, data) {
+            cartodb.log.log(e, latlng, pos, data);
+          });
+
+          // you can get the native map to work with it
+          var map = vis.getNativeMap();
+
+	  vis.timeSlider.formatter(function(d) {
+	  	return "Year: " + d.getFullYear();
+	  });
+	
+        })
+        .error(function(err) {
+          console.log(err);
+        });
+      }
+
+      window.onload = main;
+    </script>
+  </body>
+</html>
