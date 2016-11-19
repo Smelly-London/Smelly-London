@@ -7,7 +7,7 @@ The code for this visualisation is based on that created for different projects:
 
 
 ###### Viewing the map.#######
-To run the code locally on a Unix system, download the repository then run:
+To run the code locally on a Unix system, download the repository then from the git directory run:
 
 python -m SimpleHTTPServer
 
