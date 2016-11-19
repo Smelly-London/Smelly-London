@@ -79,10 +79,11 @@ function makeMap(error, single_entries) {
     for (var i=0; i<nested_data.length; i++) {
         var d = nested_data[i];
 
-        var marker = L.circleMarker(new L.LatLng(d.latitude, d.longitude), {
+        var marker = L.piechartMarker(new L.LatLng(d.latitude, d.longitude), {
             radius: radius(d.total_number_smells),
-            color: highlightColor,
-            fillOpacity: markerOpacity,
+            data: d.piechart_data
+            //color: highlightColor,
+            //fillOpacity: markerOpacity,
         });
 
         var tooltipContentDiv;
