@@ -26,15 +26,20 @@ function makeMap(error, single_entries) {
 
         var piechart_data = [];
         var total_number_of_smells = 0;
+        var slider_time = [];
 
         for (var c=0; c<nested_data[i].values.length; c++) {
             var number_of_smells = parseInt(nested_data[i].values[c].no_smells);
             smell_data = {name: nested_data[i].values[c].category, value: number_of_smells};
             piechart_data.push(smell_data);
             total_number_of_smells += number_of_smells;
+            var year_time = parseInt(nested_data[i].values[c].year);
+            report_year = {year: year_time};
+            slider_time.push(report_year)            
         }
         nested_data[i].piechart_data = piechart_data;
         nested_data[i].total_number_smells = total_number_of_smells;
+        nested_data[i].slider_time = slider_time;
     }
 
 
@@ -81,7 +86,8 @@ function makeMap(error, single_entries) {
 
         var marker = L.piechartMarker(new L.LatLng(d.latitude, d.longitude), {
             radius: radius(d.total_number_smells),
-            data: d.piechart_data
+            data: d.piechart_data, 
+            year: {d.slider_time}
             //color: highlightColor,
             //fillOpacity: markerOpacity,
         });
@@ -126,6 +132,21 @@ function makeMap(error, single_entries) {
     }
     map.addLayer(allmarkers);
 
+    // Animation - time slider
+    var sliderControl = null
+
+    var testlayer = L.geoJson(json);
+    var sliderControl = L.control.sliderControl({
+        position: "topright",
+        layer: testlayer,
+        follow: 3 // displays markers only at specific timestamp
+    });
+
+    //Make sure to add the slider to the map ;-)
+    map.addControl(sliderControl);
+    //An initialize the slider
+    sliderControl.startSlider();
+    
     // Infowindow
     var infoContainer = L.Control.extend({
         options: {

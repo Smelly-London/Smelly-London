@@ -27,6 +27,15 @@ def list_of_tuples_to_csv(data, csvfile, header):
         for row in data:
             csv_out.writerow(row)
 
+def read_csv_file(csvfile):
+    '''Read in the data from a csv file.'''
+
+    with open(csvfile, 'r') as infile:
+        reader = csv.reader(infile)
+
+    return reader
+         
+
 if __name__ == '__main__':
  
     csvfile = '/home/jen/projects/smelly_london/test_data/dict_data.csv'

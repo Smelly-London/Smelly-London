@@ -56,6 +56,23 @@ def main():
     conn.close()
 
     #### Generate data.####
+
+    # TEST 1 - all data from 1858 with only totals of smells (to get markers on map and change size of marker).
+    
+    # Get data from database: group by borough and year for 1858 (test for visualisation).
+    conn, cur = sqlite_utilities.connect_to_sqlite_db(database_out)
+
+    sql = "select Borough, Year, centroid_lat, centroid_lon, count(*) no_smells from (select Borough,  Year, centroid_lat, centroid_lon from smells join locations on location_name=Borough) group by Borough,  Year having Year='1858' order by Borough, Year;"
+    data_list = sqlite_utilities.get_data(conn, cur, sql)
+    print(data_list)
+
+    # Print the data to a csv file (for use in leaflet).
+    csv_file = os.path.join("..", "..", "data", "smells_data_1858_summary.csv")
+    header = ["location_name", "year", "centroid_lat", "centroid_lon", "no_smells"]
+    csv_utilities.list_of_tuples_to_csv(data_list, csv_file, header)
+    
+    # TEST 2 - all data from 1858 with smells in categories (to create piecharts with categories and change radius with total number of smells)
+
     # Get data from database: group by borough, year and category and test firstly with 1858.
     conn, cur = sqlite_utilities.connect_to_sqlite_db(database_out)
 
@@ -68,17 +85,18 @@ def main():
     header = ["location_name", "smell_category", "year", "centroid_lat", "centroid_lon", "no_smells"]
     csv_utilities.list_of_tuples_to_csv(data_list, csv_file, header)
 
-    ### Generate test data - first map. ###
-    # Get data from database: group by borough and year for 1858 (test for visualisation).
+    # OUTPUT VISUALISATION DATA
+
+    # Get data from database: group by borough, year and category (for all years).
     conn, cur = sqlite_utilities.connect_to_sqlite_db(database_out)
 
-    sql = "select Borough, Year, centroid_lat, centroid_lon, count(*) no_smells from (select Borough,  Year, centroid_lat, centroid_lon from smells join locations on location_name=Borough) group by Borough,  Year having Year='1858' order by Borough, Year;"
+    sql = "select Borough, Category, Year, centroid_lat, centroid_lon, count(*) no_smells from (select Borough, Category, Year, centroid_lat, centroid_lon from smells join locations on location_name=Borough) group by Borough, Category, Year order by Borough, Category, Year;"
     data_list = sqlite_utilities.get_data(conn, cur, sql)
     print(data_list)
 
     # Print the data to a csv file (for use in leaflet).
-    csv_file = os.path.join("..", "..", "data", "smells_data_1858_summary.csv")
-    header = ["location_name", "year", "centroid_lat", "centroid_lon", "no_smells"]
+    csv_file = os.path.join("..", "..", "data", "smells_data.csv")
+    header = ["location_name", "smell_category", "year", "centroid_lat", "centroid_lon", "no_smells"]
     csv_utilities.list_of_tuples_to_csv(data_list, csv_file, header)
 
 if __name__ == "__main__":
