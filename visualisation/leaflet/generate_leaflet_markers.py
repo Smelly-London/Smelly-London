@@ -5,14 +5,10 @@
 #TODO
 # Do we need the place name and report url in the marker info as well so that info can be pulled up about it?
 
-# get year in correct format
-# create object of smells and categories in format: {smell_ca1: 2, smell_cat2: 5, smell_cat3: 6}
-# calculate total smells per place per year (size of marker)
-# put all of the data into json format
-
 import csv
 import sys
 import os
+import json
 
 # Set the python path.
 sys.path.append(os.path.join(os.path.dirname(__file__), "..", "..", "python_utils"))
@@ -116,9 +112,12 @@ def main():
 
         print(markers_information)
 
+        # convert the marker information to json and output to a json file
+        json_file_out = os.path.join("..", "..", "data", "leaflet_markers.json")
 
-        csv_file_out = os.path.join("..", "..", "data", "leaflet_markers.csv")
-        header = "location_name" 
+        with open(json_file_out, 'w') as outfile:
+            json.dump(markers_information, outfile)
+ 
 if __name__ == "__main__":
     main()
 
