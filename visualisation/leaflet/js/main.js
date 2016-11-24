@@ -9,40 +9,11 @@ var selectedColor = '#f442dc';
 var disableClusterZoomLevel = 8;
 var markerOpacity = 0.35;
 
-queue()
-    .defer(d3.csv, '/data/smells_data_1858.csv')
-    .await(makeMap);
+function initMap() {
+	$.getJSON("/data/leaflet_markers.json", makeMap);
+}
 
-function makeMap(error, single_entries) {
-
-    var nested_data = d3.nest()
-        .key(function(d) { return d.location_name; })
-        .entries(single_entries);
-
-    for (var i=0; i<nested_data.length; i++) {
-        nested_data[i].latitude = nested_data[i].values[0].centroid_lat;
-        nested_data[i].longitude = nested_data[i].values[0].centroid_lon;
-//        nested_data[i].number_smells = nested_data[i].values[0].no_smells;
-
-        var piechart_data = [];
-        var total_number_of_smells = 0;
-        var slider_time = [];
-
-        for (var c=0; c<nested_data[i].values.length; c++) {
-            var number_of_smells = parseInt(nested_data[i].values[c].no_smells);
-            smell_data = {name: nested_data[i].values[c].category, value: number_of_smells};
-            piechart_data.push(smell_data);
-            total_number_of_smells += number_of_smells;
-            var year_time = parseInt(nested_data[i].values[c].year);
-            report_year = {year: year_time};
-            slider_time.push(report_year);
-        }
-        nested_data[i].piechart_data = piechart_data;
-        nested_data[i].total_number_smells = total_number_of_smells;
-        nested_data[i].slider_time = slider_time;
-    }
-
-
+function makeMap(data) {
     ////////////// Map Parameters //////////////
     var centreLatitude = 51.5;
     var centreLongitude = 0.12;
@@ -81,12 +52,14 @@ function makeMap(error, single_entries) {
 
     allmarkers = new L.layerGroup();
 
-    for (var i=0; i<nested_data.length; i++) {
-        var d = nested_data[i];
+    for (var i=0; i<data.length; i++) {
+        var d = data[i];
+        d.centroid_lat = parseFloat(d.centroid_lat);
+        d.centroid_lon = parseFloat(d.centroid_lon);
 
-        var marker = L.piechartMarker(new L.LatLng(d.latitude, d.longitude), {
-            radius: radius(d.total_number_smells),
-            data: d.piechart_data
+        var marker = L.piechartMarker(new L.LatLng(d.centroid_lat, d.centroid_lon), {
+            radius: radius(d.total_smells_location_year),
+            data: d.smells
             //year: {d.slider_time}
             //color: highlightColor,
             //fillOpacity: markerOpacity,
@@ -94,8 +67,8 @@ function makeMap(error, single_entries) {
 
         var tooltipContentDiv;
         function tooltipContent(){
-            tooltipContentDiv = '<h2 id="tooltipContentDiv">Borough: '+d.key+'</h2>'+
-                                '<p id="tooltipContentDiv">Records: '+ d.values.length+'</p>';
+            tooltipContentDiv = '<h2 id="tooltipContentDiv">Borough: '+d.location_name+'</h2>'+
+                                '<p id="tooltipContentDiv">Records: '+ d.total_smells_location_year+'</p>';
 
             return tooltipContentDiv;
         }
@@ -135,7 +108,7 @@ function makeMap(error, single_entries) {
     // Animation - time slider
     var sliderControl = null
 
-    var testlayer = L.geoJson(json);
+    /*var testlayer = L.geoJson(json);
     var sliderControl = L.control.sliderControl({
         position: "topright",
         layer: testlayer,
@@ -146,6 +119,7 @@ function makeMap(error, single_entries) {
     map.addControl(sliderControl);
     //An initialize the slider
     sliderControl.startSlider();
+    */
     
     // Infowindow
     var infoContainer = L.Control.extend({

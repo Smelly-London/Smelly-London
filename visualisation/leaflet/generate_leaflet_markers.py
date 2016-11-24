@@ -38,15 +38,18 @@ def calculate_total_smells(data_list, location, year):
 def create_dict_of_smells(data_list, location, year):
     '''Read in each item of a list and output a dictionary of the smell categores and number of smells in each category.'''
 
-    smell_dictionary = {}
+    smell_list = []
     
     for dictionary in data_list:
         if dictionary["location_name"] == location and dictionary["year"] == year:
+             smell_dictionary = {}
              category = dictionary["category"]
              no_smells = dictionary["no_smells"]
-             smell_dictionary[category]=no_smells
+             smell_dictionary["name"] = category
+             smell_dictionary["value"] =int(no_smells)
+             smell_list.append(smell_dictionary)
 
-    return smell_dictionary
+    return smell_list
 
 def main():
 
@@ -69,8 +72,8 @@ def main():
             data_out["location_name"] = row[0]
             data_out["category"] = row[1]
             data_out["year"] = row[2]
-            data_out["centroid_lat"] = row[3]
-            data_out["centroid_lon"] = row[4]
+            data_out["centroid_lat"] = float(row[3])
+            data_out["centroid_lon"] = float(row[4])
 #            print(row[5])
             data_out["no_smells"] = int(row[5])
     # convert year to date time format
@@ -96,14 +99,14 @@ def main():
             total_smells_location_year = calculate_total_smells(data_list, item["location_name"], item["year"])
 
             # create a dictionary of smell categories and assign number of smells.        
-            smell_dictionary = create_dict_of_smells(data_list, item["location_name"], item["year"])
+            smell_list = create_dict_of_smells(data_list, item["location_name"], item["year"])
 
             marker_information = {}
             marker_information["location_name"] = item["location_name"]
             marker_information["formatted_year"] = item["formatted_year"]
             marker_information["centroid_lat"] = item["centroid_lat"]
             marker_information["centroid_lon"] = item["centroid_lon"]
-            marker_information["smells"] = smell_dictionary
+            marker_information["smells"] = smell_list
             marker_information["total_smells_location_year"] = total_smells_location_year
 
             # append the data to the list if there are no existing rows for the specific location and year.
