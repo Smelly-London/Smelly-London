@@ -14,6 +14,7 @@ import json
 sys.path.append(os.path.join(os.path.dirname(__file__), "..", "..", "python_utils"))
 
 import csv_utilities
+import python_utilities
 
 def year_to_date_time_format(year):
     '''Read in a year and output a string of the date and time in the format yyyy-mm-dd hh24:mm:ss+01'''
@@ -115,11 +116,13 @@ def main():
 
         print(markers_information)
 
+        sorted_data = python_utilities.sort_list(markers_information)
+
         # convert the marker information to json and output to a json file
         json_file_out = os.path.join("..", "..", "data", "leaflet_markers.json")
 
         with open(json_file_out, 'w') as outfile:
-            json.dump(markers_information, outfile)
+            json.dump(sorted_data, outfile)
  
 if __name__ == "__main__":
     main()
