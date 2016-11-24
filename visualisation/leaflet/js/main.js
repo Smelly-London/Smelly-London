@@ -104,7 +104,7 @@ function makeMap(data) {
         
         allmarkers.addLayer(marker);
     }
-    map.addLayer(allmarkers);
+    // map.addLayer(allmarkers); // It's the slider showing them
 
     // Animation - time slider
 	    sliderControl = L.control.sliderControl({
