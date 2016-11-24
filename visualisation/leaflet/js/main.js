@@ -59,8 +59,8 @@ function makeMap(data) {
 
         var marker = L.piechartMarker(new L.LatLng(d.centroid_lat, d.centroid_lon), {
             radius: radius(d.total_smells_location_year),
-            data: d.smells
-            //year: {d.slider_time}
+            data: d.smells,
+            time: d.formatted_year
             //color: highlightColor,
             //fillOpacity: markerOpacity,
         });
@@ -101,25 +101,23 @@ function makeMap(data) {
             e.target.setStyle({color:highlightColor})
         })
         marker.bindPopup(tooltipContent());
+        
         allmarkers.addLayer(marker);
     }
     map.addLayer(allmarkers);
 
     // Animation - time slider
-    var sliderControl = null
-
-    /*var testlayer = L.geoJson(json);
-    var sliderControl = L.control.sliderControl({
+	    sliderControl = L.control.sliderControl({
         position: "topright",
-        layer: testlayer,
+        layer: allmarkers,
         follow: 3 // displays markers only at specific timestamp
     });
 
     //Make sure to add the slider to the map ;-)
     map.addControl(sliderControl);
-    //An initialize the slider
+    // Initialize the slider
     sliderControl.startSlider();
-    */
+    
     
     // Infowindow
     var infoContainer = L.Control.extend({
