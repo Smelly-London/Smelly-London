@@ -35,7 +35,7 @@ function makeMap(error, single_entries) {
             total_number_of_smells += number_of_smells;
             var year_time = parseInt(nested_data[i].values[c].year);
             report_year = {year: year_time};
-            slider_time.push(report_year)            
+            slider_time.push(report_year);
         }
         nested_data[i].piechart_data = piechart_data;
         nested_data[i].total_number_smells = total_number_of_smells;
@@ -86,8 +86,8 @@ function makeMap(error, single_entries) {
 
         var marker = L.piechartMarker(new L.LatLng(d.latitude, d.longitude), {
             radius: radius(d.total_number_smells),
-            data: d.piechart_data, 
-            year: {d.slider_time}
+            data: d.piechart_data
+            //year: {d.slider_time}
             //color: highlightColor,
             //fillOpacity: markerOpacity,
         });
