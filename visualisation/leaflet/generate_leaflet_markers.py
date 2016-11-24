@@ -34,7 +34,7 @@ def calculate_total_smells(data_list, location, year):
     total_smells_location_year = 0
 
     for dictionary in data_list:
-        if dictionary["location"] == location and dictionary["year"] == year:
+        if dictionary["location_name"] == location and dictionary["year"] == year:
             total_smells_location_year = total_smells_location_year + dictionary["no_smells"]
 
     return total_smells_location_year
@@ -45,7 +45,7 @@ def create_dict_of_smells(data_list, location, year):
     smell_dictionary = {}
     
     for dictionary in data_list:
-        if dictionary["location"] == location and dictionary["year"] == year:
+        if dictionary["location_name"] == location and dictionary["year"] == year:
              category = dictionary["category"]
              no_smells = dictionary["no_smells"]
              smell_dictionary[category]=no_smells
@@ -70,7 +70,7 @@ def main():
 
             data_out = {}
             print(row)
-            data_out["location"] = row[0]
+            data_out["location_name"] = row[0]
             data_out["category"] = row[1]
             data_out["year"] = row[2]
             data_out["centroid_lat"] = row[3]
@@ -91,19 +91,19 @@ def main():
 
         # create output dictionary
         for item in data_list:
-            loc_year = (item["location"], item["year"])
+            loc_year = (item["location_name"], item["year"])
 
             if loc_year in known_location_years:
                 continue
 
             # calculate the total number of smells per year for each location
-            total_smells_location_year = calculate_total_smells(data_list, item["location"], item["year"])
+            total_smells_location_year = calculate_total_smells(data_list, item["location_name"], item["year"])
 
             # create a dictionary of smell categories and assign number of smells.        
-            smell_dictionary = create_dict_of_smells(data_list, item["location"], item["year"])
+            smell_dictionary = create_dict_of_smells(data_list, item["location_name"], item["year"])
 
             marker_information = {}
-            marker_information["location"] = item["location"]
+            marker_information["location_name"] = item["location_name"]
             marker_information["formatted_year"] = item["formatted_year"]
             marker_information["centroid_lat"] = item["centroid_lat"]
             marker_information["centroid_lon"] = item["centroid_lon"]
@@ -118,7 +118,7 @@ def main():
 
 
         csv_file_out = os.path.join("..", "..", "data", "leaflet_markers.csv")
-        header = "location" 
+        header = "location_name" 
 if __name__ == "__main__":
     main()
 
