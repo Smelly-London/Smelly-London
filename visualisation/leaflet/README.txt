@@ -17,9 +17,13 @@ then
 
 python3 generate_leaflet_markers.py
 
-Navigate up one level to the git directory and run:
+Navigate up one level to the git directory and run if you are using Python2:
 
 python -m SimpleHTTPServer
+
+Navigate up one level to the git directory and run if you are using Python3:
+
+python -m http.server
 
 and open http://localhost:8000/visualisation/leaflet/ in a browser to view the map.
 
