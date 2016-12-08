@@ -1,0 +1,54 @@
+location_name,smell_category,year,centroid_lat,centroid_lon,no_smells
+Camden,Uncategorised,1858,51.546394,-0.157424,1
+Camden,decomposition,1858,51.546394,-0.157424,1
+Camden,food,1858,51.546394,-0.157424,1
+Camden,habitation,1858,51.546394,-0.157424,3
+Camden,sewer,1858,51.546394,-0.157424,1
+City of Westminster,Uncategorised,1858,51.513444,-0.160467,9
+City of Westminster,air_gas,1858,51.513444,-0.160467,8
+City of Westminster,animal,1858,51.513444,-0.160467,5
+City of Westminster,decomposition,1858,51.513444,-0.160467,4
+City of Westminster,food,1858,51.513444,-0.160467,19
+City of Westminster,habitation,1858,51.513444,-0.160467,24
+City of Westminster,no_smell,1858,51.513444,-0.160467,1
+City of Westminster,sewer,1858,51.513444,-0.160467,20
+City of Westminster,thames_water,1858,51.513444,-0.160467,4
+City of Westminster,waste_excrement,1858,51.513444,-0.160467,9
+City of Westminster,waste_rubbish,1858,51.513444,-0.160467,8
+Greenwich,Uncategorised,1858,51.474432,0.055547,1
+Greenwich,food,1858,51.474432,0.055547,1
+Greenwich,habitation,1858,51.474432,0.055547,1
+Hackney,Uncategorised,1858,51.552267,-0.063316,1
+Hackney,habitation,1858,51.552267,-0.063316,3
+Hackney,waste_excrement,1858,51.552267,-0.063316,2
+Hammersmith and Fulham,air_gas,1858,51.49501,-0.220789,1
+Hammersmith and Fulham,disinfectant,1858,51.49501,-0.220789,1
+Hammersmith and Fulham,food,1858,51.49501,-0.220789,2
+Hammersmith and Fulham,sewer,1858,51.49501,-0.220789,1
+Islington,food,1858,51.548487,-0.110251,1
+Islington,habitation,1858,51.548487,-0.110251,3
+Lewisham,food,1858,51.448284,-0.02029,3
+Lewisham,habitation,1858,51.448284,-0.02029,2
+Lewisham,sewer,1858,51.448284,-0.02029,2
+Southwark,Uncategorised,1858,51.474239,-0.074055,12
+Southwark,air_gas,1858,51.474239,-0.074055,10
+Southwark,animal,1858,51.474239,-0.074055,7
+Southwark,decomposition,1858,51.474239,-0.074055,1
+Southwark,factory_fuel,1858,51.474239,-0.074055,3
+Southwark,food,1858,51.474239,-0.074055,10
+Southwark,habitation,1858,51.474239,-0.074055,18
+Southwark,no_smell,1858,51.474239,-0.074055,1
+Southwark,sewer,1858,51.474239,-0.074055,6
+Southwark,trade,1858,51.474239,-0.074055,3
+Southwark,waste_excrement,1858,51.474239,-0.074055,5
+Southwark,waste_rubbish,1858,51.474239,-0.074055,2
+Tower Hamlets,Uncategorised,1858,51.515741,-0.034662,5
+Tower Hamlets,air_gas,1858,51.515741,-0.034662,3
+Tower Hamlets,animal,1858,51.515741,-0.034662,3
+Tower Hamlets,decomposition,1858,51.515741,-0.034662,1
+Tower Hamlets,food,1858,51.515741,-0.034662,5
+Tower Hamlets,habitation,1858,51.515741,-0.034662,3
+Tower Hamlets,thames_water,1858,51.515741,-0.034662,2
+Tower Hamlets,trade,1858,51.515741,-0.034662,3
+Tower Hamlets,waste_excrement,1858,51.515741,-0.034662,1
+Tower Hamlets,waste_rubbish,1858,51.515741,-0.034662,1
