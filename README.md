@@ -12,3 +12,19 @@ The project website is here:
 http://londonsmells.co.uk/
 
 Contributors: D. Leem, J. Thomas, C. Pina Estany, M. Robinson
+
+## Setup
+
+```
+$ curl https://s3-eu-west-1.amazonaws.com/moh-reports/zips/Fulltext.zip -o Fulltext.zip
+$ unzip Fulltext.zip
+$ pip install nltk dataset
+$ python -m nltk.downloader punkt
+```
+
+## Datamine smells
+
+```
+$ cd NLTK_textmine
+$ python smell_datamine_multiprocessing.py
+```
