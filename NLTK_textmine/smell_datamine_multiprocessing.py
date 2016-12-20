@@ -130,7 +130,7 @@ class SmellDataMine(object):
             report_tokenized = [tokenize_to_sentence(line) for line in f]
             for sentence in report_tokenized:
                 for word in SMELL_WORDS:
-                    if word in lower(sentence):
+                    if word in [lower(w) for w in sentence]:
                         categories = self.categorise_sentence(sentence)
 
                         if categories:
