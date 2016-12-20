@@ -15,7 +15,7 @@ import nltk.data
 import dataset
 
 SMELL_WORDS = ['smell', 'stench', 'stink', 'odour', 'sniff', 'effluvium', 'effluvia']
-REPORTS_DIR = '/Users/deborah/Documents/scripts/python_work/project2016/Full Text Online'
+REPORTS_DIR = '../Full text'
 
 
 class SmellType(object):
