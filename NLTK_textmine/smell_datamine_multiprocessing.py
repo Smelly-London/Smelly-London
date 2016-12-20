@@ -108,7 +108,7 @@ class SmellDataMine(object):
             region = mapping[bID]
         except:
             # TODO there is a problem with mappings e.g Acton.1915.b19783905.txt. Region cannot be found
-            print(fileName)
+            print("error with mapping", fileName)
             return (None, None)
         return year, region
 
@@ -166,6 +166,7 @@ def main():
 
     with concurrent.futures.ProcessPoolExecutor() as executor:
         for file, smell in zip(files, executor.map(worker, files)):
+            print("processing", file)
             smell_results = smell_results + smell
     smell_results = [x for x in smell_results if x]
 
