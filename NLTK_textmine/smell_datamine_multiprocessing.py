@@ -1,27 +1,17 @@
 
-'''This script datamines the reports by simple python operations to find smell related words in the reports and categorises by smell types.
-
-Can print categorised and uncategorised.
-
-Only nltk sentence tokenizer is used.
-
-Uses prettyprint to display the results nicely.
-
+'''This script datamines the reports by simple python operations to find smell related words in the reports and
+categorises by smell types. Only nltk sentence tokenizer is used.
 SQLite set up.
 '''
 
-
 from map import mapping
 import concurrent.futures
+from timeit import default_timer as timer
 
 # walk through the os and get all files
 # read each file in tern and go through line by line
-# print lines that contain smell and the report name
 from os import listdir
 import nltk.data
-import json
-from pprint import pprint as pp
-from collections import defaultdict
 import dataset
 
 SMELL_WORDS = ['smell', 'stench', 'stink', 'odour', 'sniff', 'effluvium', 'effluvia']
@@ -41,8 +31,10 @@ class Smell(object):
         self.category = category
         self.sentence = sentence
         self.year = year
+
     def __repr__(self):
         return "Smell(%s, %s, %s, %s)" % (repr(self.borough), repr(self.category), repr(self.sentence), repr(self.year))
+
     def __eq__(self, other):
         return repr(self) == repr(other)
 
@@ -94,11 +86,11 @@ class SmellDataMine(object):
                            decomposition, animal, food, habitation, no_smell, disinfectant]
         self.results = []
         self.uncategorised = []
-        self.db = dataset.connect('sqlite:///database')
 
     def save_to_database(self, results):
         # create table
-        table = self.db['smells']
+        db = dataset.connect('sqlite:///database')
+        table = db['smells']
         for result in results:
             try:
                 table.insert({'Category': result.category,
@@ -127,38 +119,49 @@ class SmellDataMine(object):
         if not all([year, region]):
             return
 
-        with open(path) as f:
-            for line in f:
-                # break into sentences
-                report_tokenized = tokenize_to_sentence(line)
+        # reassign global fns to local variable
+        lower = str.lower
+        appendResults = self.results.append
+        appendUncategorised = self.uncategorised.append
 
-                for sentence in report_tokenized:
-                    for word in SMELL_WORDS:
-                        if word in sentence.lower():
-                            categories = self.categorise_sentence(sentence)
-                            if categories:
-                                for category in categories:
-                                    o = Smell(region, category, sentence, year)
-                                    self.results.append(o)
-                                    break
-                            else:
-                                o = Smell(region, 'Uncategorised', sentence, year)
-                                self.uncategorised.append(o)
+        with open(path) as f:
+
+            # break into sentences
+            report_tokenized = [tokenize_to_sentence(line) for line in f]
+            for sentence in report_tokenized:
+                for word in SMELL_WORDS:
+                    if word in lower(sentence):
+                        categories = self.categorise_sentence(sentence)
+
+                        if categories:
+                            for category in categories:
+                                o = Smell(region, category, sentence, year)
+                                appendResults(o)
                                 break
+                        else:
+                            o = Smell(region, 'Uncategorised', sentence, year)
+                            appendUncategorised(o)
+                            break
 
     def categorise_sentence(self, sentence):
         results = set()
-        for category in self.smellTypes:
-            for synonym in category.synonyms:
-                if synonym in sentence.lower():
-                    results.add(category.name)
-                    break
+        # add = results.add
+        # lower = str.lower
+        # for category in self.smellTypes:
+        #     for synonym in category.synonyms:
+        #         if synonym in lower(sentence):
+        #             add(category.name)
+        #             break
+        [self.res.add(category.name) for category in self.smellTypes for synonym in category.synonyms
+        if synonym in sentence.lower()]
         return results
 
 
 def main():
+
+    start = timer()
+
     files = get_file_names()
-    # files = files[:2000]
     smell_results = []
 
     with concurrent.futures.ProcessPoolExecutor() as executor:
@@ -166,28 +169,10 @@ def main():
             smell_results = smell_results + smell
     smell_results = [x for x in smell_results if x]
 
-    # print(smell_results)
-    # print(len(smell_results))
-
-    dataminer = SmellDataMine()
-    dataminer.save_to_database(smell_results)
-
-
-    # runner = SmellDataMine()
-    # runner.run()
-    # categories = [category.name for category in runner.smellTypes]
-
-    # run this to get categorised smell results
-    # get_categorised_results(runner.results, categories)
-
-    # run this to get uncategorised smell results
-    # get_uncategorised_results(runner.uncategorised)
-
-    # run this to get all smell results
-    # get_all_results(runner.results, runner.uncategorised)
-
-    # results = runner.results + runner.uncategorised
-    # runner.save_to_database(results)
+    end = timer()
+    print(end - start)
+    # dataminer = SmellDataMine()
+    # dataminer.save_to_database(smell_results)
 
 
 if __name__ == '__main__':
