@@ -108,7 +108,7 @@ class SmellDataMine(object):
             region = mapping[bID]
         except:
             # TODO there is a problem with mappings e.g Acton.1915.b19783905.txt. Region cannot be found
-            print("error with mapping", fileName)
+            print(fileName)
             return (None, None)
         return year, region
 
@@ -120,41 +120,33 @@ class SmellDataMine(object):
             return
 
         # reassign global fns to local variable
-        lower = str.lower
         appendResults = self.results.append
         appendUncategorised = self.uncategorised.append
 
         with open(path) as f:
+            for line in f:
+                report_tokenized = tokenize_to_sentence(line)
+                # break into sentences
+                for sentence in report_tokenized:
+                    for word in SMELL_WORDS:
+                        if word in sentence.lower():
+                            categories = self.categorise_sentence(sentence)
 
-            # break into sentences
-            report_tokenized = [tokenize_to_sentence(line) for line in f]
-            for sentence in report_tokenized:
-                for word in SMELL_WORDS:
-                    if word in [lower(w) for w in sentence]:
-                        categories = self.categorise_sentence(sentence)
-
-                        if categories:
-                            for category in categories:
-                                o = Smell(region, category, sentence, year)
-                                appendResults(o)
+                            if categories:
+                                for category in categories:
+                                    o = Smell(region, category, sentence, year)
+                                    appendResults(o)
+                                    break
+                            else:
+                                o = Smell(region, 'Uncategorised', sentence, year)
+                                appendUncategorised(o)
                                 break
-                        else:
-                            o = Smell(region, 'Uncategorised', sentence, year)
-                            appendUncategorised(o)
-                            break
 
     def categorise_sentence(self, sentence):
-        results = set()
-        # add = results.add
-        # lower = str.lower
-        # for category in self.smellTypes:
-        #     for synonym in category.synonyms:
-        #         if synonym in lower(sentence):
-        #             add(category.name)
-        #             break
-        [self.res.add(category.name) for category in self.smellTypes for synonym in category.synonyms
-        if synonym in sentence.lower()]
-        return results
+        for category in self.smellTypes:
+            for synonym in category.synonyms:
+                if synonym in sentence.lower():
+                    return category.name
 
 
 def main():
@@ -166,14 +158,13 @@ def main():
 
     with concurrent.futures.ProcessPoolExecutor() as executor:
         for file, smell in zip(files, executor.map(worker, files)):
-            print("processing", file)
             smell_results = smell_results + smell
     smell_results = [x for x in smell_results if x]
 
     end = timer()
     print(end - start)
-    # dataminer = SmellDataMine()
-    # dataminer.save_to_database(smell_results)
+    dataminer = SmellDataMine()
+    dataminer.save_to_database(smell_results)
 
 
 if __name__ == '__main__':
