@@ -1,0 +1,3527 @@
+location_name,smell_category,year,centroid_lat,centroid_lon,no_smells
+Barking and Dagenham,Uncategorised,1898,51.54396,0.13317,1
+Barking and Dagenham,Uncategorised,1907,51.54396,0.13317,1
+Barking and Dagenham,Uncategorised,1908,51.54396,0.13317,3
+Barking and Dagenham,Uncategorised,1931,51.54396,0.13317,1
+Barking and Dagenham,Uncategorised,1936,51.54396,0.13317,1
+Barking and Dagenham,Uncategorised,1937,51.54396,0.13317,1
+Barking and Dagenham,Uncategorised,1938,51.54396,0.13317,1
+Barking and Dagenham,Uncategorised,1951,51.54396,0.13317,1
+Barking and Dagenham,Uncategorised,1957,51.54396,0.13317,2
+Barking and Dagenham,Uncategorised,1959,51.54396,0.13317,1
+Barking and Dagenham,a,1957,51.54396,0.13317,2
+Barking and Dagenham,a,1959,51.54396,0.13317,1
+Barking and Dagenham,a,1960,51.54396,0.13317,1
+Barking and Dagenham,d,1932,51.54396,0.13317,1
+Barking and Dagenham,d,1971,51.54396,0.13317,1
+Barking and Dagenham,f,1932,51.54396,0.13317,1
+Barking and Dagenham,f,1943,51.54396,0.13317,1
+Barking and Dagenham,f,1948,51.54396,0.13317,1
+Barking and Dagenham,f,1950,51.54396,0.13317,1
+Barking and Dagenham,f,1951,51.54396,0.13317,1
+Barking and Dagenham,f,1953,51.54396,0.13317,1
+Barking and Dagenham,f,1954,51.54396,0.13317,2
+Barking and Dagenham,f,1956,51.54396,0.13317,1
+Barking and Dagenham,f,1957,51.54396,0.13317,4
+Barking and Dagenham,f,1966,51.54396,0.13317,1
+Barking and Dagenham,f,1968,51.54396,0.13317,2
+Barking and Dagenham,s,1896,51.54396,0.13317,1
+Barking and Dagenham,s,1898,51.54396,0.13317,3
+Barking and Dagenham,s,1905,51.54396,0.13317,1
+Barking and Dagenham,s,1907,51.54396,0.13317,1
+Barking and Dagenham,s,1930,51.54396,0.13317,1
+Barking and Dagenham,s,1935,51.54396,0.13317,1
+Barking and Dagenham,s,1937,51.54396,0.13317,1
+Barking and Dagenham,s,1947,51.54396,0.13317,1
+Barking and Dagenham,s,1949,51.54396,0.13317,1
+Barking and Dagenham,t,1898,51.54396,0.13317,1
+Barking and Dagenham,t,1913,51.54396,0.13317,1
+Barking and Dagenham,t,1914,51.54396,0.13317,1
+Barking and Dagenham,t,1924,51.54396,0.13317,1
+Barking and Dagenham,t,1931,51.54396,0.13317,1
+Barking and Dagenham,t,1938,51.54396,0.13317,1
+Barking and Dagenham,t,1951,51.54396,0.13317,1
+Barking and Dagenham,t,1957,51.54396,0.13317,1
+Barking and Dagenham,t,1962,51.54396,0.13317,1
+Barking and Dagenham,w,1932,51.54396,0.13317,1
+Barnet,Uncategorised,1895,51.616027,-0.210017,1
+Barnet,Uncategorised,1911,51.616027,-0.210017,2
+Barnet,Uncategorised,1915,51.616027,-0.210017,1
+Barnet,Uncategorised,1945,51.616027,-0.210017,1
+Barnet,Uncategorised,1953,51.616027,-0.210017,1
+Barnet,Uncategorised,1956,51.616027,-0.210017,1
+Barnet,Uncategorised,1959,51.616027,-0.210017,2
+Barnet,Uncategorised,1960,51.616027,-0.210017,2
+Barnet,Uncategorised,1961,51.616027,-0.210017,2
+Barnet,a,1895,51.616027,-0.210017,1
+Barnet,a,1907,51.616027,-0.210017,1
+Barnet,a,1911,51.616027,-0.210017,1
+Barnet,a,1937,51.616027,-0.210017,1
+Barnet,d,1895,51.616027,-0.210017,1
+Barnet,f,1910,51.616027,-0.210017,1
+Barnet,f,1938,51.616027,-0.210017,1
+Barnet,f,1955,51.616027,-0.210017,1
+Barnet,f,1959,51.616027,-0.210017,1
+Barnet,f,1960,51.616027,-0.210017,1
+Barnet,n,1895,51.616027,-0.210017,1
+Barnet,s,1894,51.616027,-0.210017,6
+Barnet,s,1895,51.616027,-0.210017,4
+Barnet,s,1897,51.616027,-0.210017,3
+Barnet,s,1904,51.616027,-0.210017,2
+Barnet,s,1908,51.616027,-0.210017,1
+Barnet,s,1911,51.616027,-0.210017,2
+Barnet,s,1913,51.616027,-0.210017,1
+Barnet,s,1914,51.616027,-0.210017,2
+Barnet,s,1925,51.616027,-0.210017,2
+Barnet,s,1928,51.616027,-0.210017,1
+Barnet,s,1934,51.616027,-0.210017,1
+Barnet,s,1935,51.616027,-0.210017,1
+Barnet,s,1936,51.616027,-0.210017,1
+Barnet,s,1937,51.616027,-0.210017,1
+Barnet,s,1938,51.616027,-0.210017,1
+Barnet,s,1947,51.616027,-0.210017,2
+Barnet,s,1953,51.616027,-0.210017,1
+Barnet,s,1954,51.616027,-0.210017,1
+Barnet,s,1955,51.616027,-0.210017,1
+Barnet,s,1956,51.616027,-0.210017,1
+Barnet,s,1957,51.616027,-0.210017,1
+Barnet,s,1958,51.616027,-0.210017,1
+Barnet,s,1959,51.616027,-0.210017,2
+Barnet,s,1960,51.616027,-0.210017,2
+Barnet,s,1961,51.616027,-0.210017,1
+Barnet,s,1962,51.616027,-0.210017,2
+Barnet,s,1963,51.616027,-0.210017,1
+Barnet,s,1964,51.616027,-0.210017,1
+Barnet,t,1894,51.616027,-0.210017,1
+Barnet,t,1905,51.616027,-0.210017,1
+Barnet,t,1911,51.616027,-0.210017,2
+Barnet,t,1937,51.616027,-0.210017,2
+Barnet,t,1942,51.616027,-0.210017,1
+Barnet,t,1943,51.616027,-0.210017,1
+Barnet,t,1944,51.616027,-0.210017,1
+Barnet,t,1945,51.616027,-0.210017,1
+Barnet,t,1946,51.616027,-0.210017,1
+Barnet,t,1947,51.616027,-0.210017,1
+Barnet,t,1948,51.616027,-0.210017,1
+Barnet,t,1949,51.616027,-0.210017,1
+Barnet,t,1950,51.616027,-0.210017,1
+Barnet,t,1951,51.616027,-0.210017,1
+Barnet,t,1962,51.616027,-0.210017,1
+Barnet,w,1894,51.616027,-0.210017,1
+Barnet,w,1895,51.616027,-0.210017,1
+Barnet,w,1896,51.616027,-0.210017,1
+Barnet,w,1955,51.616027,-0.210017,1
+Bexley,Uncategorised,1949,51.46088,0.142359,2
+Bexley,Uncategorised,1954,51.46088,0.142359,1
+Bexley,Uncategorised,1963,51.46088,0.142359,1
+Bexley,Uncategorised,1965,51.46088,0.142359,1
+Bexley,f,1961,51.46088,0.142359,1
+Bexley,f,1962,51.46088,0.142359,1
+Bexley,s,1913,51.46088,0.142359,2
+Bexley,s,1951,51.46088,0.142359,1
+Bexley,s,1957,51.46088,0.142359,1
+Bexley,s,1960,51.46088,0.142359,1
+Bexley,t,1949,51.46088,0.142359,4
+Bexley,t,1950,51.46088,0.142359,6
+Bexley,t,1951,51.46088,0.142359,3
+Bexley,t,1952,51.46088,0.142359,4
+Bexley,t,1953,51.46088,0.142359,4
+Bexley,t,1954,51.46088,0.142359,4
+Bexley,t,1955,51.46088,0.142359,3
+Bexley,t,1956,51.46088,0.142359,2
+Bexley,t,1957,51.46088,0.142359,2
+Bexley,t,1958,51.46088,0.142359,2
+Bexley,t,1961,51.46088,0.142359,2
+Bexley,t,1962,51.46088,0.142359,2
+Bexley,w,1944,51.46088,0.142359,1
+Bexley,w,1971,51.46088,0.142359,1
+Brent,Uncategorised,1924,51.558556,-0.267821,2
+Brent,Uncategorised,1937,51.558556,-0.267821,1
+Brent,Uncategorised,1938,51.558556,-0.267821,2
+Brent,Uncategorised,1946,51.558556,-0.267821,1
+Brent,Uncategorised,1956,51.558556,-0.267821,3
+Brent,Uncategorised,1957,51.558556,-0.267821,4
+Brent,Uncategorised,1959,51.558556,-0.267821,5
+Brent,Uncategorised,1960,51.558556,-0.267821,1
+Brent,a,1897,51.558556,-0.267821,1
+Brent,a,1898,51.558556,-0.267821,1
+Brent,a,1938,51.558556,-0.267821,1
+Brent,a,1946,51.558556,-0.267821,1
+Brent,a,1957,51.558556,-0.267821,1
+Brent,a,1959,51.558556,-0.267821,1
+Brent,a,1960,51.558556,-0.267821,1
+Brent,f,1919,51.558556,-0.267821,1
+Brent,f,1933,51.558556,-0.267821,1
+Brent,f,1935,51.558556,-0.267821,1
+Brent,f,1938,51.558556,-0.267821,1
+Brent,f,1957,51.558556,-0.267821,1
+Brent,f,1961,51.558556,-0.267821,1
+Brent,f,1972,51.558556,-0.267821,2
+Brent,h,1913,51.558556,-0.267821,1
+Brent,h,1959,51.558556,-0.267821,1
+Brent,s,1893,51.558556,-0.267821,2
+Brent,s,1895,51.558556,-0.267821,2
+Brent,s,1896,51.558556,-0.267821,1
+Brent,s,1898,51.558556,-0.267821,2
+Brent,s,1904,51.558556,-0.267821,1
+Brent,s,1914,51.558556,-0.267821,2
+Brent,s,1920,51.558556,-0.267821,1
+Brent,s,1938,51.558556,-0.267821,1
+Brent,s,1939,51.558556,-0.267821,1
+Brent,s,1945,51.558556,-0.267821,1
+Brent,s,1946,51.558556,-0.267821,1
+Brent,s,1947,51.558556,-0.267821,1
+Brent,s,1948,51.558556,-0.267821,1
+Brent,s,1949,51.558556,-0.267821,1
+Brent,s,1950,51.558556,-0.267821,1
+Brent,s,1952,51.558556,-0.267821,1
+Brent,s,1953,51.558556,-0.267821,1
+Brent,s,1958,51.558556,-0.267821,1
+Brent,s,1959,51.558556,-0.267821,1
+Brent,s,1964,51.558556,-0.267821,1
+Brent,t,1898,51.558556,-0.267821,2
+Brent,t,1902,51.558556,-0.267821,1
+Brent,t,1920,51.558556,-0.267821,3
+Brent,t,1945,51.558556,-0.267821,2
+Brent,t,1947,51.558556,-0.267821,1
+Brent,t,1948,51.558556,-0.267821,1
+Brent,t,1956,51.558556,-0.267821,1
+Brent,t,1957,51.558556,-0.267821,2
+Brent,t,1960,51.558556,-0.267821,2
+Brent,t,1961,51.558556,-0.267821,1
+Brent,t,1962,51.558556,-0.267821,2
+Brent,t,1963,51.558556,-0.267821,1
+Brent,t,1964,51.558556,-0.267821,1
+Brent,w,1902,51.558556,-0.267821,1
+Brent,w,1910,51.558556,-0.267821,1
+Brent,w,1938,51.558556,-0.267821,2
+Brent,w,1947,51.558556,-0.267821,1
+Brent,w,1948,51.558556,-0.267821,1
+Brent,w,1949,51.558556,-0.267821,2
+Brent,w,1950,51.558556,-0.267821,4
+Brent,w,1951,51.558556,-0.267821,2
+Brent,w,1952,51.558556,-0.267821,1
+Brent,w,1953,51.558556,-0.267821,1
+Brent,w,1954,51.558556,-0.267821,2
+Brent,w,1955,51.558556,-0.267821,2
+Brent,w,1956,51.558556,-0.267821,1
+Brent,w,1957,51.558556,-0.267821,5
+Brent,w,1958,51.558556,-0.267821,6
+Brent,w,1959,51.558556,-0.267821,3
+Brent,w,1960,51.558556,-0.267821,2
+Brent,w,1961,51.558556,-0.267821,1
+Brent,w,1962,51.558556,-0.267821,1
+Brent,w,1963,51.558556,-0.267821,1
+Brent,w,1964,51.558556,-0.267821,1
+Bromley,Uncategorised,1898,51.371999,0.051524,1
+Bromley,Uncategorised,1913,51.371999,0.051524,3
+Bromley,Uncategorised,1958,51.371999,0.051524,1
+Bromley,Uncategorised,1959,51.371999,0.051524,1
+Bromley,Uncategorised,1963,51.371999,0.051524,1
+Bromley,a,1913,51.371999,0.051524,3
+Bromley,a,1925,51.371999,0.051524,1
+Bromley,a,1971,51.371999,0.051524,1
+Bromley,d,1966,51.371999,0.051524,1
+Bromley,d,1970,51.371999,0.051524,2
+Bromley,f,1909,51.371999,0.051524,1
+Bromley,f,1947,51.371999,0.051524,1
+Bromley,f,1948,51.371999,0.051524,1
+Bromley,f,1949,51.371999,0.051524,1
+Bromley,f,1950,51.371999,0.051524,1
+Bromley,f,1951,51.371999,0.051524,2
+Bromley,f,1962,51.371999,0.051524,4
+Bromley,f,1963,51.371999,0.051524,1
+Bromley,f,1965,51.371999,0.051524,4
+Bromley,f,1966,51.371999,0.051524,1
+Bromley,f,1968,51.371999,0.051524,1
+Bromley,f,1969,51.371999,0.051524,1
+Bromley,f,1970,51.371999,0.051524,1
+Bromley,f,1971,51.371999,0.051524,1
+Bromley,f,1972,51.371999,0.051524,1
+Bromley,h,1950,51.371999,0.051524,1
+Bromley,s,1898,51.371999,0.051524,3
+Bromley,s,1905,51.371999,0.051524,1
+Bromley,s,1910,51.371999,0.051524,1
+Bromley,s,1911,51.371999,0.051524,3
+Bromley,s,1913,51.371999,0.051524,2
+Bromley,s,1914,51.371999,0.051524,2
+Bromley,s,1920,51.371999,0.051524,2
+Bromley,s,1925,51.371999,0.051524,2
+Bromley,s,1934,51.371999,0.051524,1
+Bromley,s,1948,51.371999,0.051524,1
+Bromley,s,1959,51.371999,0.051524,1
+Bromley,s,1960,51.371999,0.051524,1
+Bromley,s,1961,51.371999,0.051524,1
+Bromley,s,1962,51.371999,0.051524,1
+Bromley,s,1963,51.371999,0.051524,1
+Bromley,s,1966,51.371999,0.051524,1
+Bromley,t,1908,51.371999,0.051524,1
+Bromley,t,1911,51.371999,0.051524,1
+Bromley,t,1913,51.371999,0.051524,1
+Bromley,t,1949,51.371999,0.051524,1
+Bromley,t,1950,51.371999,0.051524,1
+Bromley,t,1959,51.371999,0.051524,1
+Bromley,t,1963,51.371999,0.051524,2
+Bromley,w,1904,51.371999,0.051524,1
+Bromley,w,1905,51.371999,0.051524,4
+Bromley,w,1962,51.371999,0.051524,1
+Camden,Uncategorised,1856,51.546394,-0.157424,3
+Camden,Uncategorised,1857,51.546394,-0.157424,1
+Camden,Uncategorised,1858,51.546394,-0.157424,1
+Camden,Uncategorised,1865,51.546394,-0.157424,1
+Camden,Uncategorised,1889,51.546394,-0.157424,1
+Camden,Uncategorised,1891,51.546394,-0.157424,1
+Camden,Uncategorised,1892,51.546394,-0.157424,3
+Camden,Uncategorised,1902,51.546394,-0.157424,2
+Camden,Uncategorised,1903,51.546394,-0.157424,4
+Camden,Uncategorised,1904,51.546394,-0.157424,2
+Camden,Uncategorised,1905,51.546394,-0.157424,2
+Camden,Uncategorised,1908,51.546394,-0.157424,2
+Camden,Uncategorised,1910,51.546394,-0.157424,1
+Camden,Uncategorised,1911,51.546394,-0.157424,1
+Camden,Uncategorised,1912,51.546394,-0.157424,1
+Camden,Uncategorised,1913,51.546394,-0.157424,1
+Camden,Uncategorised,1914,51.546394,-0.157424,1
+Camden,Uncategorised,1923,51.546394,-0.157424,2
+Camden,Uncategorised,1925,51.546394,-0.157424,1
+Camden,Uncategorised,1926,51.546394,-0.157424,1
+Camden,Uncategorised,1928,51.546394,-0.157424,1
+Camden,Uncategorised,1932,51.546394,-0.157424,1
+Camden,Uncategorised,1936,51.546394,-0.157424,2
+Camden,Uncategorised,1963,51.546394,-0.157424,1
+Camden,a,1856,51.546394,-0.157424,2
+Camden,a,1859,51.546394,-0.157424,1
+Camden,a,1870,51.546394,-0.157424,2
+Camden,a,1871,51.546394,-0.157424,1
+Camden,a,1876,51.546394,-0.157424,3
+Camden,a,1877,51.546394,-0.157424,1
+Camden,a,1892,51.546394,-0.157424,1
+Camden,a,1895,51.546394,-0.157424,1
+Camden,a,1896,51.546394,-0.157424,1
+Camden,a,1898,51.546394,-0.157424,3
+Camden,a,1904,51.546394,-0.157424,1
+Camden,a,1905,51.546394,-0.157424,2
+Camden,a,1906,51.546394,-0.157424,1
+Camden,a,1938,51.546394,-0.157424,1
+Camden,d,1856,51.546394,-0.157424,1
+Camden,d,1858,51.546394,-0.157424,1
+Camden,d,1934,51.546394,-0.157424,1
+Camden,d,1955,51.546394,-0.157424,2
+Camden,f,1856,51.546394,-0.157424,3
+Camden,f,1857,51.546394,-0.157424,1
+Camden,f,1858,51.546394,-0.157424,1
+Camden,f,1860,51.546394,-0.157424,2
+Camden,f,1876,51.546394,-0.157424,1
+Camden,f,1895,51.546394,-0.157424,1
+Camden,f,1903,51.546394,-0.157424,1
+Camden,f,1904,51.546394,-0.157424,1
+Camden,f,1907,51.546394,-0.157424,1
+Camden,f,1910,51.546394,-0.157424,1
+Camden,f,1911,51.546394,-0.157424,1
+Camden,f,1913,51.546394,-0.157424,1
+Camden,f,1914,51.546394,-0.157424,2
+Camden,f,1923,51.546394,-0.157424,1
+Camden,f,1924,51.546394,-0.157424,3
+Camden,f,1926,51.546394,-0.157424,1
+Camden,f,1927,51.546394,-0.157424,1
+Camden,f,1928,51.546394,-0.157424,2
+Camden,f,1929,51.546394,-0.157424,1
+Camden,f,1932,51.546394,-0.157424,1
+Camden,f,1964,51.546394,-0.157424,1
+Camden,f,1966,51.546394,-0.157424,1
+Camden,h,1856,51.546394,-0.157424,1
+Camden,h,1858,51.546394,-0.157424,1
+Camden,h,1860,51.546394,-0.157424,2
+Camden,h,1870,51.546394,-0.157424,1
+Camden,h,1881,51.546394,-0.157424,1
+Camden,h,1891,51.546394,-0.157424,1
+Camden,h,1892,51.546394,-0.157424,1
+Camden,h,1903,51.546394,-0.157424,2
+Camden,h,1909,51.546394,-0.157424,1
+Camden,h,1910,51.546394,-0.157424,1
+Camden,h,1912,51.546394,-0.157424,2
+Camden,h,1927,51.546394,-0.157424,1
+Camden,h,1928,51.546394,-0.157424,2
+Camden,h,1955,51.546394,-0.157424,1
+Camden,n,1883,51.546394,-0.157424,1
+Camden,n,1935,51.546394,-0.157424,1
+Camden,n,1938,51.546394,-0.157424,1
+Camden,s,1856,51.546394,-0.157424,8
+Camden,s,1857,51.546394,-0.157424,1
+Camden,s,1858,51.546394,-0.157424,3
+Camden,s,1859,51.546394,-0.157424,1
+Camden,s,1860,51.546394,-0.157424,2
+Camden,s,1862,51.546394,-0.157424,1
+Camden,s,1863,51.546394,-0.157424,2
+Camden,s,1864,51.546394,-0.157424,1
+Camden,s,1869,51.546394,-0.157424,1
+Camden,s,1871,51.546394,-0.157424,3
+Camden,s,1872,51.546394,-0.157424,1
+Camden,s,1876,51.546394,-0.157424,1
+Camden,s,1884,51.546394,-0.157424,1
+Camden,s,1889,51.546394,-0.157424,4
+Camden,s,1891,51.546394,-0.157424,1
+Camden,s,1892,51.546394,-0.157424,4
+Camden,s,1893,51.546394,-0.157424,1
+Camden,s,1894,51.546394,-0.157424,1
+Camden,s,1895,51.546394,-0.157424,3
+Camden,s,1896,51.546394,-0.157424,1
+Camden,s,1898,51.546394,-0.157424,2
+Camden,s,1899,51.546394,-0.157424,1
+Camden,s,1901,51.546394,-0.157424,2
+Camden,s,1902,51.546394,-0.157424,7
+Camden,s,1903,51.546394,-0.157424,10
+Camden,s,1904,51.546394,-0.157424,5
+Camden,s,1905,51.546394,-0.157424,8
+Camden,s,1906,51.546394,-0.157424,8
+Camden,s,1907,51.546394,-0.157424,3
+Camden,s,1908,51.546394,-0.157424,6
+Camden,s,1909,51.546394,-0.157424,4
+Camden,s,1910,51.546394,-0.157424,5
+Camden,s,1911,51.546394,-0.157424,6
+Camden,s,1912,51.546394,-0.157424,5
+Camden,s,1913,51.546394,-0.157424,3
+Camden,s,1914,51.546394,-0.157424,3
+Camden,s,1915,51.546394,-0.157424,1
+Camden,s,1916,51.546394,-0.157424,2
+Camden,s,1917,51.546394,-0.157424,2
+Camden,s,1919,51.546394,-0.157424,1
+Camden,s,1920,51.546394,-0.157424,2
+Camden,s,1921,51.546394,-0.157424,1
+Camden,s,1923,51.546394,-0.157424,1
+Camden,s,1924,51.546394,-0.157424,1
+Camden,s,1926,51.546394,-0.157424,1
+Camden,s,1928,51.546394,-0.157424,1
+Camden,s,1932,51.546394,-0.157424,1
+Camden,s,1935,51.546394,-0.157424,1
+Camden,s,1936,51.546394,-0.157424,1
+Camden,s,1937,51.546394,-0.157424,1
+Camden,s,1938,51.546394,-0.157424,1
+Camden,s,1949,51.546394,-0.157424,1
+Camden,s,1950,51.546394,-0.157424,1
+Camden,s,1951,51.546394,-0.157424,1
+Camden,s,1952,51.546394,-0.157424,1
+Camden,s,1953,51.546394,-0.157424,1
+Camden,s,1954,51.546394,-0.157424,2
+Camden,s,1955,51.546394,-0.157424,2
+Camden,s,1956,51.546394,-0.157424,2
+Camden,s,1957,51.546394,-0.157424,2
+Camden,s,1958,51.546394,-0.157424,1
+Camden,s,1959,51.546394,-0.157424,1
+Camden,s,1960,51.546394,-0.157424,1
+Camden,s,1961,51.546394,-0.157424,2
+Camden,s,1962,51.546394,-0.157424,2
+Camden,s,1963,51.546394,-0.157424,1
+Camden,s,1964,51.546394,-0.157424,1
+Camden,s,1965,51.546394,-0.157424,1
+Camden,t,1856,51.546394,-0.157424,1
+Camden,t,1857,51.546394,-0.157424,3
+Camden,t,1859,51.546394,-0.157424,1
+Camden,t,1869,51.546394,-0.157424,1
+Camden,t,1879,51.546394,-0.157424,1
+Camden,t,1881,51.546394,-0.157424,1
+Camden,t,1891,51.546394,-0.157424,1
+Camden,t,1892,51.546394,-0.157424,1
+Camden,t,1893,51.546394,-0.157424,1
+Camden,t,1894,51.546394,-0.157424,1
+Camden,t,1896,51.546394,-0.157424,1
+Camden,t,1898,51.546394,-0.157424,1
+Camden,t,1900,51.546394,-0.157424,6
+Camden,t,1901,51.546394,-0.157424,6
+Camden,t,1902,51.546394,-0.157424,16
+Camden,t,1903,51.546394,-0.157424,7
+Camden,t,1904,51.546394,-0.157424,6
+Camden,t,1905,51.546394,-0.157424,4
+Camden,t,1906,51.546394,-0.157424,4
+Camden,t,1907,51.546394,-0.157424,5
+Camden,t,1908,51.546394,-0.157424,8
+Camden,t,1909,51.546394,-0.157424,7
+Camden,t,1910,51.546394,-0.157424,8
+Camden,t,1911,51.546394,-0.157424,10
+Camden,t,1912,51.546394,-0.157424,7
+Camden,t,1913,51.546394,-0.157424,3
+Camden,t,1914,51.546394,-0.157424,3
+Camden,t,1915,51.546394,-0.157424,2
+Camden,t,1916,51.546394,-0.157424,1
+Camden,t,1917,51.546394,-0.157424,2
+Camden,t,1918,51.546394,-0.157424,1
+Camden,t,1919,51.546394,-0.157424,3
+Camden,t,1920,51.546394,-0.157424,1
+Camden,t,1921,51.546394,-0.157424,1
+Camden,t,1922,51.546394,-0.157424,2
+Camden,t,1923,51.546394,-0.157424,1
+Camden,t,1924,51.546394,-0.157424,1
+Camden,t,1925,51.546394,-0.157424,2
+Camden,t,1926,51.546394,-0.157424,5
+Camden,t,1931,51.546394,-0.157424,1
+Camden,t,1933,51.546394,-0.157424,1
+Camden,t,1934,51.546394,-0.157424,1
+Camden,w,1857,51.546394,-0.157424,3
+Camden,w,1861,51.546394,-0.157424,1
+Camden,w,1862,51.546394,-0.157424,2
+Camden,w,1880,51.546394,-0.157424,2
+Camden,w,1890,51.546394,-0.157424,1
+Camden,w,1892,51.546394,-0.157424,3
+Camden,w,1899,51.546394,-0.157424,2
+Camden,w,1902,51.546394,-0.157424,1
+Camden,w,1904,51.546394,-0.157424,1
+Camden,w,1905,51.546394,-0.157424,4
+Camden,w,1907,51.546394,-0.157424,1
+Camden,w,1913,51.546394,-0.157424,1
+Camden,w,1914,51.546394,-0.157424,1
+Camden,w,1916,51.546394,-0.157424,1
+Camden,w,1925,51.546394,-0.157424,3
+Camden,w,1926,51.546394,-0.157424,3
+Camden,w,1932,51.546394,-0.157424,1
+Camden,w,1956,51.546394,-0.157424,1
+City of London,Uncategorised,1849,51.514414,-0.092438,1
+City of London,Uncategorised,1854,51.514414,-0.092438,1
+City of London,Uncategorised,1891,51.514414,-0.092438,1
+City of London,Uncategorised,1899,51.514414,-0.092438,1
+City of London,Uncategorised,1901,51.514414,-0.092438,2
+City of London,Uncategorised,1904,51.514414,-0.092438,2
+City of London,Uncategorised,1906,51.514414,-0.092438,14
+City of London,Uncategorised,1910,51.514414,-0.092438,2
+City of London,Uncategorised,1913,51.514414,-0.092438,1
+City of London,Uncategorised,1914,51.514414,-0.092438,1
+City of London,Uncategorised,1917,51.514414,-0.092438,1
+City of London,Uncategorised,1919,51.514414,-0.092438,1
+City of London,Uncategorised,1920,51.514414,-0.092438,2
+City of London,Uncategorised,1921,51.514414,-0.092438,1
+City of London,Uncategorised,1925,51.514414,-0.092438,3
+City of London,Uncategorised,1926,51.514414,-0.092438,1
+City of London,Uncategorised,1930,51.514414,-0.092438,1
+City of London,Uncategorised,1931,51.514414,-0.092438,1
+City of London,Uncategorised,1932,51.514414,-0.092438,1
+City of London,Uncategorised,1933,51.514414,-0.092438,1
+City of London,Uncategorised,1934,51.514414,-0.092438,1
+City of London,Uncategorised,1935,51.514414,-0.092438,1
+City of London,Uncategorised,1936,51.514414,-0.092438,4
+City of London,Uncategorised,1937,51.514414,-0.092438,1
+City of London,Uncategorised,1938,51.514414,-0.092438,1
+City of London,Uncategorised,1944,51.514414,-0.092438,1
+City of London,Uncategorised,1946,51.514414,-0.092438,3
+City of London,Uncategorised,1947,51.514414,-0.092438,1
+City of London,Uncategorised,1952,51.514414,-0.092438,1
+City of London,Uncategorised,1954,51.514414,-0.092438,1
+City of London,Uncategorised,1956,51.514414,-0.092438,1
+City of London,Uncategorised,1957,51.514414,-0.092438,1
+City of London,Uncategorised,1958,51.514414,-0.092438,2
+City of London,Uncategorised,1960,51.514414,-0.092438,1
+City of London,Uncategorised,1962,51.514414,-0.092438,3
+City of London,Uncategorised,1963,51.514414,-0.092438,1
+City of London,Uncategorised,1970,51.514414,-0.092438,1
+City of London,Uncategorised,1972,51.514414,-0.092438,1
+City of London,Uncategorised,1973,51.514414,-0.092438,1
+City of London,a,1849,51.514414,-0.092438,1
+City of London,a,1850,51.514414,-0.092438,1
+City of London,a,1901,51.514414,-0.092438,1
+City of London,a,1903,51.514414,-0.092438,1
+City of London,a,1904,51.514414,-0.092438,1
+City of London,a,1908,51.514414,-0.092438,2
+City of London,a,1916,51.514414,-0.092438,1
+City of London,a,1922,51.514414,-0.092438,1
+City of London,a,1926,51.514414,-0.092438,3
+City of London,a,1935,51.514414,-0.092438,1
+City of London,a,1944,51.514414,-0.092438,1
+City of London,a,1957,51.514414,-0.092438,3
+City of London,a,1962,51.514414,-0.092438,1
+City of London,d,1891,51.514414,-0.092438,1
+City of London,d,1908,51.514414,-0.092438,1
+City of London,d,1910,51.514414,-0.092438,1
+City of London,d,1920,51.514414,-0.092438,1
+City of London,d,1924,51.514414,-0.092438,2
+City of London,d,1937,51.514414,-0.092438,1
+City of London,d,1944,51.514414,-0.092438,1
+City of London,d,1948,51.514414,-0.092438,1
+City of London,d,1952,51.514414,-0.092438,1
+City of London,d,1958,51.514414,-0.092438,1
+City of London,d,1960,51.514414,-0.092438,2
+City of London,d,1965,51.514414,-0.092438,1
+City of London,d,1969,51.514414,-0.092438,2
+City of London,d,1970,51.514414,-0.092438,1
+City of London,f,1849,51.514414,-0.092438,1
+City of London,f,1864,51.514414,-0.092438,2
+City of London,f,1891,51.514414,-0.092438,1
+City of London,f,1893,51.514414,-0.092438,1
+City of London,f,1901,51.514414,-0.092438,3
+City of London,f,1902,51.514414,-0.092438,2
+City of London,f,1905,51.514414,-0.092438,1
+City of London,f,1908,51.514414,-0.092438,2
+City of London,f,1910,51.514414,-0.092438,5
+City of London,f,1912,51.514414,-0.092438,1
+City of London,f,1914,51.514414,-0.092438,1
+City of London,f,1918,51.514414,-0.092438,1
+City of London,f,1919,51.514414,-0.092438,1
+City of London,f,1921,51.514414,-0.092438,2
+City of London,f,1924,51.514414,-0.092438,1
+City of London,f,1925,51.514414,-0.092438,1
+City of London,f,1926,51.514414,-0.092438,1
+City of London,f,1928,51.514414,-0.092438,1
+City of London,f,1930,51.514414,-0.092438,1
+City of London,f,1931,51.514414,-0.092438,2
+City of London,f,1932,51.514414,-0.092438,1
+City of London,f,1933,51.514414,-0.092438,2
+City of London,f,1934,51.514414,-0.092438,1
+City of London,f,1935,51.514414,-0.092438,1
+City of London,f,1936,51.514414,-0.092438,1
+City of London,f,1937,51.514414,-0.092438,1
+City of London,f,1944,51.514414,-0.092438,1
+City of London,f,1951,51.514414,-0.092438,1
+City of London,f,1953,51.514414,-0.092438,1
+City of London,f,1954,51.514414,-0.092438,2
+City of London,f,1959,51.514414,-0.092438,1
+City of London,f,1960,51.514414,-0.092438,1
+City of London,f,1962,51.514414,-0.092438,1
+City of London,f,1963,51.514414,-0.092438,2
+City of London,f,1965,51.514414,-0.092438,1
+City of London,f,1966,51.514414,-0.092438,2
+City of London,f,1967,51.514414,-0.092438,1
+City of London,f,1968,51.514414,-0.092438,3
+City of London,f,1969,51.514414,-0.092438,4
+City of London,f,1970,51.514414,-0.092438,8
+City of London,f,1971,51.514414,-0.092438,1
+City of London,f,1972,51.514414,-0.092438,3
+City of London,f,1978,51.514414,-0.092438,1
+City of London,h,1899,51.514414,-0.092438,1
+City of London,h,1901,51.514414,-0.092438,1
+City of London,h,1902,51.514414,-0.092438,2
+City of London,h,1917,51.514414,-0.092438,1
+City of London,h,1973,51.514414,-0.092438,1
+City of London,h,1976,51.514414,-0.092438,2
+City of London,n,1906,51.514414,-0.092438,8
+City of London,n,1921,51.514414,-0.092438,1
+City of London,n,1933,51.514414,-0.092438,1
+City of London,n,1952,51.514414,-0.092438,1
+City of London,n,1959,51.514414,-0.092438,1
+City of London,n,1968,51.514414,-0.092438,5
+City of London,n,1969,51.514414,-0.092438,1
+City of London,n,1970,51.514414,-0.092438,6
+City of London,n,1971,51.514414,-0.092438,1
+City of London,n,1972,51.514414,-0.092438,1
+City of London,n,1973,51.514414,-0.092438,1
+City of London,s,1848,51.514414,-0.092438,3
+City of London,s,1849,51.514414,-0.092438,6
+City of London,s,1850,51.514414,-0.092438,3
+City of London,s,1852,51.514414,-0.092438,2
+City of London,s,1856,51.514414,-0.092438,1
+City of London,s,1865,51.514414,-0.092438,3
+City of London,s,1869,51.514414,-0.092438,1
+City of London,s,1891,51.514414,-0.092438,1
+City of London,s,1894,51.514414,-0.092438,1
+City of London,s,1895,51.514414,-0.092438,1
+City of London,s,1898,51.514414,-0.092438,2
+City of London,s,1901,51.514414,-0.092438,1
+City of London,s,1902,51.514414,-0.092438,1
+City of London,s,1903,51.514414,-0.092438,1
+City of London,s,1904,51.514414,-0.092438,1
+City of London,s,1905,51.514414,-0.092438,3
+City of London,s,1906,51.514414,-0.092438,2
+City of London,s,1907,51.514414,-0.092438,1
+City of London,s,1908,51.514414,-0.092438,1
+City of London,s,1910,51.514414,-0.092438,2
+City of London,s,1911,51.514414,-0.092438,1
+City of London,s,1912,51.514414,-0.092438,4
+City of London,s,1913,51.514414,-0.092438,1
+City of London,s,1914,51.514414,-0.092438,3
+City of London,s,1915,51.514414,-0.092438,1
+City of London,s,1919,51.514414,-0.092438,1
+City of London,s,1920,51.514414,-0.092438,1
+City of London,s,1921,51.514414,-0.092438,1
+City of London,s,1922,51.514414,-0.092438,1
+City of London,s,1923,51.514414,-0.092438,2
+City of London,s,1924,51.514414,-0.092438,1
+City of London,s,1925,51.514414,-0.092438,1
+City of London,s,1926,51.514414,-0.092438,1
+City of London,s,1927,51.514414,-0.092438,1
+City of London,s,1928,51.514414,-0.092438,2
+City of London,s,1929,51.514414,-0.092438,2
+City of London,s,1930,51.514414,-0.092438,1
+City of London,s,1931,51.514414,-0.092438,2
+City of London,s,1932,51.514414,-0.092438,1
+City of London,s,1933,51.514414,-0.092438,1
+City of London,s,1934,51.514414,-0.092438,1
+City of London,s,1935,51.514414,-0.092438,1
+City of London,s,1936,51.514414,-0.092438,1
+City of London,s,1937,51.514414,-0.092438,1
+City of London,s,1938,51.514414,-0.092438,1
+City of London,s,1944,51.514414,-0.092438,1
+City of London,s,1954,51.514414,-0.092438,1
+City of London,s,1955,51.514414,-0.092438,2
+City of London,t,1848,51.514414,-0.092438,3
+City of London,t,1849,51.514414,-0.092438,1
+City of London,t,1850,51.514414,-0.092438,5
+City of London,t,1861,51.514414,-0.092438,5
+City of London,t,1864,51.514414,-0.092438,1
+City of London,t,1891,51.514414,-0.092438,6
+City of London,t,1899,51.514414,-0.092438,1
+City of London,t,1901,51.514414,-0.092438,6
+City of London,t,1902,51.514414,-0.092438,1
+City of London,t,1903,51.514414,-0.092438,3
+City of London,t,1904,51.514414,-0.092438,3
+City of London,t,1906,51.514414,-0.092438,3
+City of London,t,1908,51.514414,-0.092438,1
+City of London,t,1910,51.514414,-0.092438,4
+City of London,t,1913,51.514414,-0.092438,1
+City of London,t,1914,51.514414,-0.092438,2
+City of London,t,1919,51.514414,-0.092438,1
+City of London,t,1920,51.514414,-0.092438,1
+City of London,t,1922,51.514414,-0.092438,3
+City of London,t,1924,51.514414,-0.092438,2
+City of London,t,1926,51.514414,-0.092438,1
+City of London,t,1927,51.514414,-0.092438,1
+City of London,t,1928,51.514414,-0.092438,1
+City of London,t,1929,51.514414,-0.092438,1
+City of London,t,1930,51.514414,-0.092438,1
+City of London,t,1931,51.514414,-0.092438,1
+City of London,t,1932,51.514414,-0.092438,2
+City of London,t,1933,51.514414,-0.092438,2
+City of London,t,1934,51.514414,-0.092438,4
+City of London,t,1935,51.514414,-0.092438,1
+City of London,t,1936,51.514414,-0.092438,2
+City of London,t,1937,51.514414,-0.092438,1
+City of London,t,1938,51.514414,-0.092438,1
+City of London,t,1944,51.514414,-0.092438,1
+City of London,t,1947,51.514414,-0.092438,2
+City of London,t,1948,51.514414,-0.092438,1
+City of London,t,1949,51.514414,-0.092438,2
+City of London,t,1950,51.514414,-0.092438,1
+City of London,t,1951,51.514414,-0.092438,1
+City of London,t,1954,51.514414,-0.092438,2
+City of London,t,1955,51.514414,-0.092438,3
+City of London,t,1956,51.514414,-0.092438,2
+City of London,t,1957,51.514414,-0.092438,1
+City of London,t,1961,51.514414,-0.092438,1
+City of London,t,1962,51.514414,-0.092438,2
+City of London,t,1965,51.514414,-0.092438,1
+City of London,t,1967,51.514414,-0.092438,1
+City of London,t,1968,51.514414,-0.092438,1
+City of London,t,1969,51.514414,-0.092438,14
+City of London,t,1970,51.514414,-0.092438,2
+City of London,t,1972,51.514414,-0.092438,1
+City of London,t,1973,51.514414,-0.092438,2
+City of London,t,1976,51.514414,-0.092438,2
+City of London,w,1849,51.514414,-0.092438,2
+City of London,w,1891,51.514414,-0.092438,1
+City of London,w,1901,51.514414,-0.092438,3
+City of London,w,1903,51.514414,-0.092438,1
+City of London,w,1905,51.514414,-0.092438,1
+City of London,w,1911,51.514414,-0.092438,1
+City of London,w,1912,51.514414,-0.092438,1
+City of London,w,1913,51.514414,-0.092438,1
+City of London,w,1914,51.514414,-0.092438,1
+City of London,w,1921,51.514414,-0.092438,1
+City of London,w,1935,51.514414,-0.092438,1
+City of London,w,1947,51.514414,-0.092438,1
+City of London,w,1972,51.514414,-0.092438,1
+City of Westminster,Uncategorised,1857,51.513444,-0.160467,2
+City of Westminster,Uncategorised,1858,51.513444,-0.160467,9
+City of Westminster,Uncategorised,1859,51.513444,-0.160467,27
+City of Westminster,Uncategorised,1860,51.513444,-0.160467,6
+City of Westminster,Uncategorised,1861,51.513444,-0.160467,4
+City of Westminster,Uncategorised,1865,51.513444,-0.160467,3
+City of Westminster,Uncategorised,1866,51.513444,-0.160467,3
+City of Westminster,Uncategorised,1868,51.513444,-0.160467,1
+City of Westminster,Uncategorised,1869,51.513444,-0.160467,1
+City of Westminster,Uncategorised,1870,51.513444,-0.160467,1
+City of Westminster,Uncategorised,1871,51.513444,-0.160467,2
+City of Westminster,Uncategorised,1873,51.513444,-0.160467,1
+City of Westminster,Uncategorised,1874,51.513444,-0.160467,1
+City of Westminster,Uncategorised,1875,51.513444,-0.160467,3
+City of Westminster,Uncategorised,1876,51.513444,-0.160467,2
+City of Westminster,Uncategorised,1877,51.513444,-0.160467,1
+City of Westminster,Uncategorised,1878,51.513444,-0.160467,1
+City of Westminster,Uncategorised,1879,51.513444,-0.160467,1
+City of Westminster,Uncategorised,1881,51.513444,-0.160467,1
+City of Westminster,Uncategorised,1888,51.513444,-0.160467,1
+City of Westminster,Uncategorised,1891,51.513444,-0.160467,1
+City of Westminster,Uncategorised,1894,51.513444,-0.160467,1
+City of Westminster,Uncategorised,1895,51.513444,-0.160467,1
+City of Westminster,Uncategorised,1896,51.513444,-0.160467,2
+City of Westminster,Uncategorised,1897,51.513444,-0.160467,3
+City of Westminster,Uncategorised,1898,51.513444,-0.160467,4
+City of Westminster,Uncategorised,1899,51.513444,-0.160467,1
+City of Westminster,Uncategorised,1900,51.513444,-0.160467,1
+City of Westminster,Uncategorised,1902,51.513444,-0.160467,1
+City of Westminster,Uncategorised,1904,51.513444,-0.160467,5
+City of Westminster,Uncategorised,1905,51.513444,-0.160467,3
+City of Westminster,Uncategorised,1907,51.513444,-0.160467,3
+City of Westminster,Uncategorised,1908,51.513444,-0.160467,2
+City of Westminster,Uncategorised,1909,51.513444,-0.160467,1
+City of Westminster,Uncategorised,1910,51.513444,-0.160467,1
+City of Westminster,Uncategorised,1911,51.513444,-0.160467,1
+City of Westminster,Uncategorised,1912,51.513444,-0.160467,1
+City of Westminster,Uncategorised,1913,51.513444,-0.160467,1
+City of Westminster,Uncategorised,1914,51.513444,-0.160467,2
+City of Westminster,Uncategorised,1915,51.513444,-0.160467,1
+City of Westminster,Uncategorised,1938,51.513444,-0.160467,1
+City of Westminster,Uncategorised,1948,51.513444,-0.160467,3
+City of Westminster,Uncategorised,1949,51.513444,-0.160467,3
+City of Westminster,Uncategorised,1950,51.513444,-0.160467,2
+City of Westminster,Uncategorised,1951,51.513444,-0.160467,4
+City of Westminster,Uncategorised,1952,51.513444,-0.160467,1
+City of Westminster,Uncategorised,1953,51.513444,-0.160467,2
+City of Westminster,Uncategorised,1954,51.513444,-0.160467,1
+City of Westminster,Uncategorised,1958,51.513444,-0.160467,1
+City of Westminster,Uncategorised,1960,51.513444,-0.160467,2
+City of Westminster,Uncategorised,1961,51.513444,-0.160467,1
+City of Westminster,Uncategorised,1963,51.513444,-0.160467,2
+City of Westminster,Uncategorised,1964,51.513444,-0.160467,1
+City of Westminster,Uncategorised,1965,51.513444,-0.160467,2
+City of Westminster,Uncategorised,1967,51.513444,-0.160467,1
+City of Westminster,Uncategorised,1968,51.513444,-0.160467,1
+City of Westminster,Uncategorised,1970,51.513444,-0.160467,1
+City of Westminster,Uncategorised,1971,51.513444,-0.160467,1
+City of Westminster,a,1857,51.513444,-0.160467,3
+City of Westminster,a,1858,51.513444,-0.160467,6
+City of Westminster,a,1859,51.513444,-0.160467,27
+City of Westminster,a,1860,51.513444,-0.160467,1
+City of Westminster,a,1861,51.513444,-0.160467,1
+City of Westminster,a,1864,51.513444,-0.160467,1
+City of Westminster,a,1866,51.513444,-0.160467,2
+City of Westminster,a,1868,51.513444,-0.160467,1
+City of Westminster,a,1869,51.513444,-0.160467,1
+City of Westminster,a,1870,51.513444,-0.160467,2
+City of Westminster,a,1871,51.513444,-0.160467,1
+City of Westminster,a,1884,51.513444,-0.160467,1
+City of Westminster,a,1895,51.513444,-0.160467,1
+City of Westminster,a,1896,51.513444,-0.160467,1
+City of Westminster,a,1898,51.513444,-0.160467,6
+City of Westminster,a,1904,51.513444,-0.160467,1
+City of Westminster,a,1908,51.513444,-0.160467,1
+City of Westminster,a,1910,51.513444,-0.160467,1
+City of Westminster,a,1912,51.513444,-0.160467,2
+City of Westminster,a,1948,51.513444,-0.160467,2
+City of Westminster,a,1956,51.513444,-0.160467,1
+City of Westminster,a,1966,51.513444,-0.160467,2
+City of Westminster,a,1967,51.513444,-0.160467,1
+City of Westminster,a,1968,51.513444,-0.160467,1
+City of Westminster,a,1969,51.513444,-0.160467,1
+City of Westminster,a,1970,51.513444,-0.160467,1
+City of Westminster,a,1971,51.513444,-0.160467,1
+City of Westminster,a,1972,51.513444,-0.160467,1
+City of Westminster,d,1856,51.513444,-0.160467,1
+City of Westminster,d,1858,51.513444,-0.160467,2
+City of Westminster,d,1860,51.513444,-0.160467,1
+City of Westminster,d,1866,51.513444,-0.160467,1
+City of Westminster,d,1870,51.513444,-0.160467,4
+City of Westminster,d,1888,51.513444,-0.160467,1
+City of Westminster,d,1909,51.513444,-0.160467,1
+City of Westminster,d,1913,51.513444,-0.160467,1
+City of Westminster,d,1956,51.513444,-0.160467,2
+City of Westminster,f,1856,51.513444,-0.160467,1
+City of Westminster,f,1858,51.513444,-0.160467,4
+City of Westminster,f,1859,51.513444,-0.160467,7
+City of Westminster,f,1860,51.513444,-0.160467,1
+City of Westminster,f,1865,51.513444,-0.160467,2
+City of Westminster,f,1866,51.513444,-0.160467,2
+City of Westminster,f,1868,51.513444,-0.160467,1
+City of Westminster,f,1871,51.513444,-0.160467,1
+City of Westminster,f,1873,51.513444,-0.160467,1
+City of Westminster,f,1879,51.513444,-0.160467,2
+City of Westminster,f,1898,51.513444,-0.160467,1
+City of Westminster,f,1900,51.513444,-0.160467,1
+City of Westminster,f,1903,51.513444,-0.160467,1
+City of Westminster,f,1904,51.513444,-0.160467,1
+City of Westminster,f,1907,51.513444,-0.160467,2
+City of Westminster,f,1909,51.513444,-0.160467,4
+City of Westminster,f,1913,51.513444,-0.160467,1
+City of Westminster,f,1935,51.513444,-0.160467,1
+City of Westminster,f,1948,51.513444,-0.160467,1
+City of Westminster,f,1950,51.513444,-0.160467,3
+City of Westminster,f,1951,51.513444,-0.160467,2
+City of Westminster,f,1952,51.513444,-0.160467,1
+City of Westminster,f,1953,51.513444,-0.160467,1
+City of Westminster,f,1954,51.513444,-0.160467,2
+City of Westminster,f,1955,51.513444,-0.160467,1
+City of Westminster,f,1956,51.513444,-0.160467,2
+City of Westminster,f,1958,51.513444,-0.160467,2
+City of Westminster,f,1961,51.513444,-0.160467,2
+City of Westminster,f,1963,51.513444,-0.160467,1
+City of Westminster,f,1964,51.513444,-0.160467,3
+City of Westminster,f,1965,51.513444,-0.160467,2
+City of Westminster,f,1966,51.513444,-0.160467,1
+City of Westminster,f,1967,51.513444,-0.160467,1
+City of Westminster,f,1968,51.513444,-0.160467,5
+City of Westminster,f,1970,51.513444,-0.160467,3
+City of Westminster,h,1856,51.513444,-0.160467,2
+City of Westminster,h,1857,51.513444,-0.160467,1
+City of Westminster,h,1858,51.513444,-0.160467,9
+City of Westminster,h,1859,51.513444,-0.160467,6
+City of Westminster,h,1860,51.513444,-0.160467,1
+City of Westminster,h,1861,51.513444,-0.160467,5
+City of Westminster,h,1862,51.513444,-0.160467,1
+City of Westminster,h,1863,51.513444,-0.160467,1
+City of Westminster,h,1864,51.513444,-0.160467,2
+City of Westminster,h,1865,51.513444,-0.160467,1
+City of Westminster,h,1866,51.513444,-0.160467,2
+City of Westminster,h,1868,51.513444,-0.160467,1
+City of Westminster,h,1871,51.513444,-0.160467,2
+City of Westminster,h,1881,51.513444,-0.160467,1
+City of Westminster,h,1894,51.513444,-0.160467,1
+City of Westminster,h,1898,51.513444,-0.160467,1
+City of Westminster,h,1902,51.513444,-0.160467,1
+City of Westminster,h,1903,51.513444,-0.160467,1
+City of Westminster,h,1905,51.513444,-0.160467,1
+City of Westminster,h,1950,51.513444,-0.160467,1
+City of Westminster,h,1961,51.513444,-0.160467,1
+City of Westminster,h,1962,51.513444,-0.160467,1
+City of Westminster,h,1963,51.513444,-0.160467,1
+City of Westminster,h,1964,51.513444,-0.160467,1
+City of Westminster,h,1965,51.513444,-0.160467,1
+City of Westminster,n,1858,51.513444,-0.160467,1
+City of Westminster,n,1867,51.513444,-0.160467,1
+City of Westminster,n,1875,51.513444,-0.160467,1
+City of Westminster,n,1907,51.513444,-0.160467,2
+City of Westminster,n,1912,51.513444,-0.160467,1
+City of Westminster,s,1856,51.513444,-0.160467,1
+City of Westminster,s,1857,51.513444,-0.160467,1
+City of Westminster,s,1858,51.513444,-0.160467,51
+City of Westminster,s,1859,51.513444,-0.160467,29
+City of Westminster,s,1860,51.513444,-0.160467,22
+City of Westminster,s,1861,51.513444,-0.160467,12
+City of Westminster,s,1862,51.513444,-0.160467,3
+City of Westminster,s,1863,51.513444,-0.160467,1
+City of Westminster,s,1864,51.513444,-0.160467,11
+City of Westminster,s,1865,51.513444,-0.160467,17
+City of Westminster,s,1866,51.513444,-0.160467,17
+City of Westminster,s,1867,51.513444,-0.160467,1
+City of Westminster,s,1868,51.513444,-0.160467,4
+City of Westminster,s,1869,51.513444,-0.160467,5
+City of Westminster,s,1870,51.513444,-0.160467,5
+City of Westminster,s,1871,51.513444,-0.160467,2
+City of Westminster,s,1872,51.513444,-0.160467,8
+City of Westminster,s,1873,51.513444,-0.160467,13
+City of Westminster,s,1874,51.513444,-0.160467,3
+City of Westminster,s,1875,51.513444,-0.160467,9
+City of Westminster,s,1876,51.513444,-0.160467,3
+City of Westminster,s,1877,51.513444,-0.160467,3
+City of Westminster,s,1878,51.513444,-0.160467,1
+City of Westminster,s,1879,51.513444,-0.160467,6
+City of Westminster,s,1880,51.513444,-0.160467,6
+City of Westminster,s,1881,51.513444,-0.160467,3
+City of Westminster,s,1882,51.513444,-0.160467,4
+City of Westminster,s,1883,51.513444,-0.160467,2
+City of Westminster,s,1884,51.513444,-0.160467,3
+City of Westminster,s,1885,51.513444,-0.160467,2
+City of Westminster,s,1886,51.513444,-0.160467,1
+City of Westminster,s,1888,51.513444,-0.160467,7
+City of Westminster,s,1889,51.513444,-0.160467,2
+City of Westminster,s,1891,51.513444,-0.160467,2
+City of Westminster,s,1895,51.513444,-0.160467,2
+City of Westminster,s,1896,51.513444,-0.160467,6
+City of Westminster,s,1898,51.513444,-0.160467,4
+City of Westminster,s,1899,51.513444,-0.160467,2
+City of Westminster,s,1900,51.513444,-0.160467,1
+City of Westminster,s,1902,51.513444,-0.160467,3
+City of Westminster,s,1903,51.513444,-0.160467,5
+City of Westminster,s,1904,51.513444,-0.160467,4
+City of Westminster,s,1905,51.513444,-0.160467,3
+City of Westminster,s,1906,51.513444,-0.160467,7
+City of Westminster,s,1907,51.513444,-0.160467,1
+City of Westminster,s,1908,51.513444,-0.160467,3
+City of Westminster,s,1909,51.513444,-0.160467,1
+City of Westminster,s,1910,51.513444,-0.160467,3
+City of Westminster,s,1911,51.513444,-0.160467,3
+City of Westminster,s,1912,51.513444,-0.160467,10
+City of Westminster,s,1913,51.513444,-0.160467,2
+City of Westminster,s,1914,51.513444,-0.160467,2
+City of Westminster,s,1915,51.513444,-0.160467,2
+City of Westminster,s,1921,51.513444,-0.160467,1
+City of Westminster,s,1929,51.513444,-0.160467,2
+City of Westminster,s,1930,51.513444,-0.160467,3
+City of Westminster,s,1931,51.513444,-0.160467,2
+City of Westminster,s,1948,51.513444,-0.160467,3
+City of Westminster,s,1949,51.513444,-0.160467,3
+City of Westminster,s,1950,51.513444,-0.160467,2
+City of Westminster,s,1951,51.513444,-0.160467,2
+City of Westminster,s,1952,51.513444,-0.160467,2
+City of Westminster,s,1953,51.513444,-0.160467,2
+City of Westminster,s,1954,51.513444,-0.160467,3
+City of Westminster,s,1955,51.513444,-0.160467,4
+City of Westminster,s,1956,51.513444,-0.160467,3
+City of Westminster,s,1957,51.513444,-0.160467,3
+City of Westminster,s,1958,51.513444,-0.160467,2
+City of Westminster,s,1959,51.513444,-0.160467,2
+City of Westminster,s,1960,51.513444,-0.160467,3
+City of Westminster,s,1961,51.513444,-0.160467,2
+City of Westminster,s,1962,51.513444,-0.160467,2
+City of Westminster,s,1963,51.513444,-0.160467,3
+City of Westminster,s,1964,51.513444,-0.160467,1
+City of Westminster,s,1965,51.513444,-0.160467,3
+City of Westminster,s,1966,51.513444,-0.160467,3
+City of Westminster,s,1967,51.513444,-0.160467,1
+City of Westminster,s,1969,51.513444,-0.160467,1
+City of Westminster,s,1971,51.513444,-0.160467,1
+City of Westminster,t,1856,51.513444,-0.160467,1
+City of Westminster,t,1857,51.513444,-0.160467,1
+City of Westminster,t,1858,51.513444,-0.160467,13
+City of Westminster,t,1859,51.513444,-0.160467,11
+City of Westminster,t,1860,51.513444,-0.160467,2
+City of Westminster,t,1861,51.513444,-0.160467,2
+City of Westminster,t,1862,51.513444,-0.160467,1
+City of Westminster,t,1863,51.513444,-0.160467,1
+City of Westminster,t,1864,51.513444,-0.160467,3
+City of Westminster,t,1865,51.513444,-0.160467,2
+City of Westminster,t,1866,51.513444,-0.160467,5
+City of Westminster,t,1869,51.513444,-0.160467,1
+City of Westminster,t,1871,51.513444,-0.160467,2
+City of Westminster,t,1873,51.513444,-0.160467,4
+City of Westminster,t,1874,51.513444,-0.160467,6
+City of Westminster,t,1875,51.513444,-0.160467,2
+City of Westminster,t,1879,51.513444,-0.160467,2
+City of Westminster,t,1888,51.513444,-0.160467,1
+City of Westminster,t,1894,51.513444,-0.160467,1
+City of Westminster,t,1895,51.513444,-0.160467,1
+City of Westminster,t,1898,51.513444,-0.160467,2
+City of Westminster,t,1899,51.513444,-0.160467,1
+City of Westminster,t,1900,51.513444,-0.160467,1
+City of Westminster,t,1902,51.513444,-0.160467,7
+City of Westminster,t,1903,51.513444,-0.160467,4
+City of Westminster,t,1904,51.513444,-0.160467,15
+City of Westminster,t,1905,51.513444,-0.160467,7
+City of Westminster,t,1906,51.513444,-0.160467,6
+City of Westminster,t,1907,51.513444,-0.160467,5
+City of Westminster,t,1908,51.513444,-0.160467,1
+City of Westminster,t,1909,51.513444,-0.160467,1
+City of Westminster,t,1910,51.513444,-0.160467,2
+City of Westminster,t,1911,51.513444,-0.160467,2
+City of Westminster,t,1912,51.513444,-0.160467,2
+City of Westminster,t,1913,51.513444,-0.160467,1
+City of Westminster,t,1914,51.513444,-0.160467,2
+City of Westminster,t,1920,51.513444,-0.160467,1
+City of Westminster,t,1921,51.513444,-0.160467,2
+City of Westminster,t,1922,51.513444,-0.160467,1
+City of Westminster,t,1927,51.513444,-0.160467,1
+City of Westminster,t,1949,51.513444,-0.160467,1
+City of Westminster,t,1952,51.513444,-0.160467,1
+City of Westminster,t,1954,51.513444,-0.160467,2
+City of Westminster,t,1957,51.513444,-0.160467,1
+City of Westminster,t,1960,51.513444,-0.160467,2
+City of Westminster,t,1961,51.513444,-0.160467,2
+City of Westminster,t,1964,51.513444,-0.160467,2
+City of Westminster,t,1966,51.513444,-0.160467,1
+City of Westminster,t,1967,51.513444,-0.160467,1
+City of Westminster,t,1968,51.513444,-0.160467,3
+City of Westminster,t,1969,51.513444,-0.160467,1
+City of Westminster,t,1970,51.513444,-0.160467,1
+City of Westminster,t,1971,51.513444,-0.160467,2
+City of Westminster,t,1972,51.513444,-0.160467,1
+City of Westminster,w,1857,51.513444,-0.160467,1
+City of Westminster,w,1858,51.513444,-0.160467,16
+City of Westminster,w,1859,51.513444,-0.160467,5
+City of Westminster,w,1860,51.513444,-0.160467,2
+City of Westminster,w,1861,51.513444,-0.160467,2
+City of Westminster,w,1863,51.513444,-0.160467,1
+City of Westminster,w,1864,51.513444,-0.160467,1
+City of Westminster,w,1865,51.513444,-0.160467,2
+City of Westminster,w,1866,51.513444,-0.160467,6
+City of Westminster,w,1869,51.513444,-0.160467,1
+City of Westminster,w,1870,51.513444,-0.160467,3
+City of Westminster,w,1871,51.513444,-0.160467,6
+City of Westminster,w,1872,51.513444,-0.160467,2
+City of Westminster,w,1873,51.513444,-0.160467,1
+City of Westminster,w,1874,51.513444,-0.160467,1
+City of Westminster,w,1875,51.513444,-0.160467,4
+City of Westminster,w,1879,51.513444,-0.160467,1
+City of Westminster,w,1886,51.513444,-0.160467,1
+City of Westminster,w,1889,51.513444,-0.160467,1
+City of Westminster,w,1891,51.513444,-0.160467,1
+City of Westminster,w,1893,51.513444,-0.160467,1
+City of Westminster,w,1896,51.513444,-0.160467,1
+City of Westminster,w,1897,51.513444,-0.160467,3
+City of Westminster,w,1898,51.513444,-0.160467,2
+City of Westminster,w,1899,51.513444,-0.160467,2
+City of Westminster,w,1902,51.513444,-0.160467,11
+City of Westminster,w,1903,51.513444,-0.160467,8
+City of Westminster,w,1904,51.513444,-0.160467,6
+City of Westminster,w,1905,51.513444,-0.160467,5
+City of Westminster,w,1906,51.513444,-0.160467,4
+City of Westminster,w,1907,51.513444,-0.160467,9
+City of Westminster,w,1908,51.513444,-0.160467,4
+City of Westminster,w,1909,51.513444,-0.160467,3
+City of Westminster,w,1910,51.513444,-0.160467,1
+City of Westminster,w,1911,51.513444,-0.160467,1
+City of Westminster,w,1912,51.513444,-0.160467,1
+City of Westminster,w,1913,51.513444,-0.160467,1
+City of Westminster,w,1914,51.513444,-0.160467,3
+City of Westminster,w,1915,51.513444,-0.160467,1
+City of Westminster,w,1920,51.513444,-0.160467,2
+City of Westminster,w,1921,51.513444,-0.160467,1
+City of Westminster,w,1922,51.513444,-0.160467,1
+City of Westminster,w,1923,51.513444,-0.160467,2
+City of Westminster,w,1924,51.513444,-0.160467,2
+City of Westminster,w,1925,51.513444,-0.160467,2
+City of Westminster,w,1926,51.513444,-0.160467,1
+City of Westminster,w,1927,51.513444,-0.160467,1
+City of Westminster,w,1928,51.513444,-0.160467,1
+City of Westminster,w,1929,51.513444,-0.160467,1
+City of Westminster,w,1930,51.513444,-0.160467,1
+City of Westminster,w,1931,51.513444,-0.160467,2
+City of Westminster,w,1968,51.513444,-0.160467,1
+City of Westminster,w,1969,51.513444,-0.160467,1
+Croydon,Uncategorised,1895,51.355335,-0.087157,3
+Croydon,Uncategorised,1905,51.355335,-0.087157,1
+Croydon,Uncategorised,1909,51.355335,-0.087157,2
+Croydon,Uncategorised,1910,51.355335,-0.087157,1
+Croydon,Uncategorised,1914,51.355335,-0.087157,2
+Croydon,Uncategorised,1934,51.355335,-0.087157,2
+Croydon,Uncategorised,1936,51.355335,-0.087157,1
+Croydon,Uncategorised,1937,51.355335,-0.087157,1
+Croydon,Uncategorised,1950,51.355335,-0.087157,1
+Croydon,Uncategorised,1973,51.355335,-0.087157,1
+Croydon,a,1973,51.355335,-0.087157,1
+Croydon,d,1924,51.355335,-0.087157,1
+Croydon,d,1925,51.355335,-0.087157,1
+Croydon,d,1926,51.355335,-0.087157,1
+Croydon,d,1951,51.355335,-0.087157,1
+Croydon,f,1910,51.355335,-0.087157,1
+Croydon,f,1938,51.355335,-0.087157,1
+Croydon,f,1953,51.355335,-0.087157,1
+Croydon,f,1957,51.355335,-0.087157,1
+Croydon,n,1905,51.355335,-0.087157,1
+Croydon,n,1938,51.355335,-0.087157,3
+Croydon,s,1894,51.355335,-0.087157,1
+Croydon,s,1895,51.355335,-0.087157,1
+Croydon,s,1909,51.355335,-0.087157,1
+Croydon,s,1931,51.355335,-0.087157,1
+Croydon,s,1932,51.355335,-0.087157,1
+Croydon,s,1933,51.355335,-0.087157,2
+Croydon,s,1934,51.355335,-0.087157,2
+Croydon,s,1935,51.355335,-0.087157,3
+Croydon,s,1936,51.355335,-0.087157,3
+Croydon,s,1937,51.355335,-0.087157,4
+Croydon,s,1938,51.355335,-0.087157,2
+Croydon,s,1946,51.355335,-0.087157,1
+Croydon,s,1947,51.355335,-0.087157,1
+Croydon,t,1894,51.355335,-0.087157,1
+Croydon,t,1959,51.355335,-0.087157,1
+Croydon,t,1964,51.355335,-0.087157,1
+Croydon,t,1968,51.355335,-0.087157,1
+Ealing,Uncategorised,1897,51.522475,-0.331026,2
+Ealing,Uncategorised,1900,51.522475,-0.331026,1
+Ealing,Uncategorised,1903,51.522475,-0.331026,1
+Ealing,Uncategorised,1905,51.522475,-0.331026,1
+Ealing,Uncategorised,1906,51.522475,-0.331026,4
+Ealing,Uncategorised,1926,51.522475,-0.331026,1
+Ealing,Uncategorised,1927,51.522475,-0.331026,4
+Ealing,Uncategorised,1928,51.522475,-0.331026,1
+Ealing,Uncategorised,1949,51.522475,-0.331026,1
+Ealing,Uncategorised,1967,51.522475,-0.331026,1
+Ealing,a,1901,51.522475,-0.331026,1
+Ealing,a,1902,51.522475,-0.331026,1
+Ealing,a,1903,51.522475,-0.331026,1
+Ealing,a,1904,51.522475,-0.331026,1
+Ealing,a,1907,51.522475,-0.331026,2
+Ealing,a,1919,51.522475,-0.331026,1
+Ealing,a,1927,51.522475,-0.331026,2
+Ealing,a,1928,51.522475,-0.331026,1
+Ealing,a,1929,51.522475,-0.331026,1
+Ealing,a,1934,51.522475,-0.331026,1
+Ealing,a,1935,51.522475,-0.331026,1
+Ealing,a,1955,51.522475,-0.331026,1
+Ealing,a,1956,51.522475,-0.331026,1
+Ealing,a,1957,51.522475,-0.331026,1
+Ealing,a,1958,51.522475,-0.331026,1
+Ealing,d,1906,51.522475,-0.331026,1
+Ealing,d,1926,51.522475,-0.331026,1
+Ealing,f,1906,51.522475,-0.331026,1
+Ealing,f,1911,51.522475,-0.331026,2
+Ealing,f,1919,51.522475,-0.331026,3
+Ealing,f,1927,51.522475,-0.331026,2
+Ealing,f,1928,51.522475,-0.331026,2
+Ealing,f,1929,51.522475,-0.331026,1
+Ealing,h,1939,51.522475,-0.331026,1
+Ealing,h,1953,51.522475,-0.331026,1
+Ealing,h,1954,51.522475,-0.331026,1
+Ealing,h,1967,51.522475,-0.331026,1
+Ealing,n,1934,51.522475,-0.331026,1
+Ealing,n,1935,51.522475,-0.331026,1
+Ealing,n,1941,51.522475,-0.331026,1
+Ealing,s,1897,51.522475,-0.331026,1
+Ealing,s,1900,51.522475,-0.331026,1
+Ealing,s,1907,51.522475,-0.331026,2
+Ealing,s,1908,51.522475,-0.331026,2
+Ealing,s,1909,51.522475,-0.331026,2
+Ealing,s,1910,51.522475,-0.331026,1
+Ealing,s,1913,51.522475,-0.331026,2
+Ealing,s,1914,51.522475,-0.331026,2
+Ealing,s,1923,51.522475,-0.331026,1
+Ealing,s,1925,51.522475,-0.331026,1
+Ealing,s,1929,51.522475,-0.331026,1
+Ealing,s,1930,51.522475,-0.331026,1
+Ealing,s,1934,51.522475,-0.331026,1
+Ealing,s,1935,51.522475,-0.331026,2
+Ealing,s,1936,51.522475,-0.331026,1
+Ealing,s,1937,51.522475,-0.331026,1
+Ealing,s,1938,51.522475,-0.331026,1
+Ealing,s,1939,51.522475,-0.331026,2
+Ealing,s,1940,51.522475,-0.331026,1
+Ealing,s,1941,51.522475,-0.331026,1
+Ealing,s,1942,51.522475,-0.331026,1
+Ealing,s,1943,51.522475,-0.331026,1
+Ealing,s,1944,51.522475,-0.331026,1
+Ealing,s,1945,51.522475,-0.331026,1
+Ealing,s,1946,51.522475,-0.331026,1
+Ealing,s,1960,51.522475,-0.331026,1
+Ealing,t,1903,51.522475,-0.331026,1
+Ealing,t,1906,51.522475,-0.331026,1
+Ealing,t,1911,51.522475,-0.331026,1
+Ealing,t,1919,51.522475,-0.331026,2
+Ealing,t,1927,51.522475,-0.331026,1
+Ealing,t,1929,51.522475,-0.331026,1
+Ealing,t,1953,51.522475,-0.331026,1
+Ealing,t,1954,51.522475,-0.331026,1
+Ealing,w,1906,51.522475,-0.331026,1
+Ealing,w,1908,51.522475,-0.331026,1
+Ealing,w,1915,51.522475,-0.331026,1
+Ealing,w,1931,51.522475,-0.331026,1
+Ealing,w,1932,51.522475,-0.331026,1
+Ealing,w,1933,51.522475,-0.331026,2
+Ealing,w,1938,51.522475,-0.331026,2
+Ealing,w,1959,51.522475,-0.331026,1
+Ealing,w,1960,51.522475,-0.331026,1
+Ealing,w,1971,51.522475,-0.331026,1
+Enfield,Uncategorised,1900,51.650995,-0.087272,1
+Enfield,Uncategorised,1904,51.650995,-0.087272,1
+Enfield,Uncategorised,1916,51.650995,-0.087272,1
+Enfield,Uncategorised,1933,51.650995,-0.087272,1
+Enfield,Uncategorised,1959,51.650995,-0.087272,1
+Enfield,Uncategorised,1971,51.650995,-0.087272,1
+Enfield,a,1903,51.650995,-0.087272,1
+Enfield,a,1916,51.650995,-0.087272,1
+Enfield,a,1960,51.650995,-0.087272,1
+Enfield,d,1962,51.650995,-0.087272,1
+Enfield,d,1963,51.650995,-0.087272,1
+Enfield,d,1964,51.650995,-0.087272,1
+Enfield,f,1906,51.650995,-0.087272,1
+Enfield,f,1913,51.650995,-0.087272,1
+Enfield,f,1916,51.650995,-0.087272,1
+Enfield,f,1925,51.650995,-0.087272,1
+Enfield,f,1960,51.650995,-0.087272,1
+Enfield,f,1961,51.650995,-0.087272,1
+Enfield,f,1971,51.650995,-0.087272,1
+Enfield,s,1894,51.650995,-0.087272,1
+Enfield,s,1898,51.650995,-0.087272,1
+Enfield,s,1902,51.650995,-0.087272,1
+Enfield,s,1904,51.650995,-0.087272,2
+Enfield,s,1905,51.650995,-0.087272,1
+Enfield,s,1908,51.650995,-0.087272,1
+Enfield,s,1914,51.650995,-0.087272,1
+Enfield,s,1921,51.650995,-0.087272,1
+Enfield,s,1925,51.650995,-0.087272,1
+Enfield,s,1936,51.650995,-0.087272,2
+Enfield,s,1937,51.650995,-0.087272,1
+Enfield,s,1938,51.650995,-0.087272,1
+Enfield,t,1905,51.650995,-0.087272,3
+Enfield,t,1908,51.650995,-0.087272,1
+Enfield,t,1915,51.650995,-0.087272,1
+Enfield,t,1918,51.650995,-0.087272,1
+Enfield,t,1920,51.650995,-0.087272,1
+Enfield,t,1934,51.650995,-0.087272,2
+Enfield,t,1946,51.650995,-0.087272,1
+Enfield,t,1951,51.650995,-0.087272,1
+Enfield,t,1956,51.650995,-0.087272,1
+Enfield,t,1967,51.650995,-0.087272,1
+Enfield,t,1968,51.650995,-0.087272,1
+Enfield,t,1969,51.650995,-0.087272,2
+Enfield,t,1970,51.650995,-0.087272,1
+Enfield,t,1971,51.650995,-0.087272,1
+Enfield,t,1972,51.650995,-0.087272,2
+Enfield,w,1904,51.650995,-0.087272,2
+Enfield,w,1905,51.650995,-0.087272,3
+Enfield,w,1906,51.650995,-0.087272,1
+Enfield,w,1913,51.650995,-0.087272,1
+Enfield,w,1933,51.650995,-0.087272,1
+Enfield,w,1934,51.650995,-0.087272,1
+Greenwich,Uncategorised,1858,51.474432,0.055547,1
+Greenwich,Uncategorised,1896,51.474432,0.055547,1
+Greenwich,Uncategorised,1898,51.474432,0.055547,1
+Greenwich,Uncategorised,1908,51.474432,0.055547,1
+Greenwich,Uncategorised,1910,51.474432,0.055547,1
+Greenwich,Uncategorised,1913,51.474432,0.055547,1
+Greenwich,Uncategorised,1929,51.474432,0.055547,1
+Greenwich,Uncategorised,1934,51.474432,0.055547,1
+Greenwich,Uncategorised,1935,51.474432,0.055547,1
+Greenwich,Uncategorised,1936,51.474432,0.055547,1
+Greenwich,Uncategorised,1938,51.474432,0.055547,1
+Greenwich,Uncategorised,1949,51.474432,0.055547,1
+Greenwich,Uncategorised,1950,51.474432,0.055547,1
+Greenwich,Uncategorised,1953,51.474432,0.055547,1
+Greenwich,Uncategorised,1955,51.474432,0.055547,1
+Greenwich,Uncategorised,1956,51.474432,0.055547,1
+Greenwich,Uncategorised,1964,51.474432,0.055547,1
+Greenwich,Uncategorised,1965,51.474432,0.055547,2
+Greenwich,Uncategorised,1966,51.474432,0.055547,2
+Greenwich,Uncategorised,1967,51.474432,0.055547,1
+Greenwich,Uncategorised,1971,51.474432,0.055547,1
+Greenwich,a,1855,51.474432,0.055547,1
+Greenwich,a,1858,51.474432,0.055547,1
+Greenwich,a,1860,51.474432,0.055547,3
+Greenwich,a,1910,51.474432,0.055547,1
+Greenwich,a,1913,51.474432,0.055547,1
+Greenwich,a,1948,51.474432,0.055547,1
+Greenwich,a,1949,51.474432,0.055547,1
+Greenwich,a,1950,51.474432,0.055547,1
+Greenwich,a,1953,51.474432,0.055547,1
+Greenwich,a,1958,51.474432,0.055547,1
+Greenwich,a,1964,51.474432,0.055547,4
+Greenwich,d,1901,51.474432,0.055547,1
+Greenwich,d,1905,51.474432,0.055547,1
+Greenwich,d,1950,51.474432,0.055547,2
+Greenwich,f,1860,51.474432,0.055547,3
+Greenwich,f,1911,51.474432,0.055547,1
+Greenwich,f,1936,51.474432,0.055547,1
+Greenwich,f,1951,51.474432,0.055547,1
+Greenwich,f,1953,51.474432,0.055547,1
+Greenwich,f,1956,51.474432,0.055547,1
+Greenwich,f,1964,51.474432,0.055547,1
+Greenwich,f,1967,51.474432,0.055547,4
+Greenwich,h,1895,51.474432,0.055547,1
+Greenwich,h,1907,51.474432,0.055547,1
+Greenwich,h,1912,51.474432,0.055547,1
+Greenwich,h,1919,51.474432,0.055547,1
+Greenwich,h,1920,51.474432,0.055547,1
+Greenwich,h,1932,51.474432,0.055547,3
+Greenwich,h,1933,51.474432,0.055547,1
+Greenwich,h,1962,51.474432,0.055547,1
+Greenwich,h,1963,51.474432,0.055547,1
+Greenwich,h,1964,51.474432,0.055547,1
+Greenwich,h,1965,51.474432,0.055547,1
+Greenwich,h,1966,51.474432,0.055547,1
+Greenwich,h,1967,51.474432,0.055547,1
+Greenwich,h,1968,51.474432,0.055547,1
+Greenwich,h,1969,51.474432,0.055547,1
+Greenwich,h,1971,51.474432,0.055547,1
+Greenwich,s,1856,51.474432,0.055547,1
+Greenwich,s,1861,51.474432,0.055547,1
+Greenwich,s,1893,51.474432,0.055547,3
+Greenwich,s,1894,51.474432,0.055547,1
+Greenwich,s,1895,51.474432,0.055547,2
+Greenwich,s,1896,51.474432,0.055547,2
+Greenwich,s,1897,51.474432,0.055547,1
+Greenwich,s,1898,51.474432,0.055547,1
+Greenwich,s,1899,51.474432,0.055547,2
+Greenwich,s,1900,51.474432,0.055547,2
+Greenwich,s,1901,51.474432,0.055547,1
+Greenwich,s,1905,51.474432,0.055547,1
+Greenwich,s,1907,51.474432,0.055547,1
+Greenwich,s,1908,51.474432,0.055547,6
+Greenwich,s,1909,51.474432,0.055547,2
+Greenwich,s,1910,51.474432,0.055547,2
+Greenwich,s,1913,51.474432,0.055547,1
+Greenwich,s,1914,51.474432,0.055547,1
+Greenwich,s,1929,51.474432,0.055547,2
+Greenwich,s,1934,51.474432,0.055547,3
+Greenwich,s,1935,51.474432,0.055547,1
+Greenwich,s,1938,51.474432,0.055547,1
+Greenwich,s,1949,51.474432,0.055547,1
+Greenwich,s,1950,51.474432,0.055547,1
+Greenwich,s,1951,51.474432,0.055547,1
+Greenwich,s,1952,51.474432,0.055547,2
+Greenwich,s,1953,51.474432,0.055547,1
+Greenwich,s,1954,51.474432,0.055547,3
+Greenwich,s,1955,51.474432,0.055547,1
+Greenwich,s,1956,51.474432,0.055547,1
+Greenwich,s,1957,51.474432,0.055547,2
+Greenwich,s,1959,51.474432,0.055547,1
+Greenwich,s,1960,51.474432,0.055547,2
+Greenwich,s,1961,51.474432,0.055547,4
+Greenwich,s,1962,51.474432,0.055547,4
+Greenwich,s,1963,51.474432,0.055547,4
+Greenwich,s,1964,51.474432,0.055547,3
+Greenwich,s,1965,51.474432,0.055547,2
+Greenwich,s,1966,51.474432,0.055547,1
+Greenwich,s,1967,51.474432,0.055547,2
+Greenwich,s,1968,51.474432,0.055547,2
+Greenwich,s,1969,51.474432,0.055547,2
+Greenwich,s,1971,51.474432,0.055547,2
+Greenwich,t,1855,51.474432,0.055547,1
+Greenwich,t,1856,51.474432,0.055547,2
+Greenwich,t,1858,51.474432,0.055547,1
+Greenwich,t,1860,51.474432,0.055547,3
+Greenwich,t,1895,51.474432,0.055547,1
+Greenwich,t,1898,51.474432,0.055547,2
+Greenwich,t,1909,51.474432,0.055547,1
+Greenwich,t,1910,51.474432,0.055547,2
+Greenwich,t,1912,51.474432,0.055547,1
+Greenwich,t,1913,51.474432,0.055547,4
+Greenwich,t,1919,51.474432,0.055547,1
+Greenwich,t,1934,51.474432,0.055547,2
+Greenwich,t,1935,51.474432,0.055547,1
+Greenwich,t,1936,51.474432,0.055547,1
+Greenwich,t,1937,51.474432,0.055547,1
+Greenwich,t,1938,51.474432,0.055547,2
+Greenwich,t,1949,51.474432,0.055547,6
+Greenwich,t,1950,51.474432,0.055547,6
+Greenwich,t,1951,51.474432,0.055547,2
+Greenwich,t,1952,51.474432,0.055547,1
+Greenwich,t,1953,51.474432,0.055547,5
+Greenwich,t,1954,51.474432,0.055547,1
+Greenwich,t,1955,51.474432,0.055547,2
+Greenwich,t,1956,51.474432,0.055547,2
+Greenwich,t,1957,51.474432,0.055547,1
+Greenwich,t,1959,51.474432,0.055547,3
+Greenwich,t,1960,51.474432,0.055547,4
+Greenwich,t,1961,51.474432,0.055547,3
+Greenwich,t,1962,51.474432,0.055547,3
+Greenwich,t,1963,51.474432,0.055547,2
+Greenwich,t,1964,51.474432,0.055547,2
+Greenwich,t,1965,51.474432,0.055547,2
+Greenwich,t,1966,51.474432,0.055547,2
+Greenwich,t,1967,51.474432,0.055547,1
+Greenwich,t,1968,51.474432,0.055547,1
+Greenwich,t,1969,51.474432,0.055547,1
+Greenwich,t,1971,51.474432,0.055547,1
+Greenwich,w,1855,51.474432,0.055547,1
+Greenwich,w,1904,51.474432,0.055547,1
+Greenwich,w,1913,51.474432,0.055547,1
+Greenwich,w,1932,51.474432,0.055547,1
+Greenwich,w,1971,51.474432,0.055547,1
+Hackney,Uncategorised,1857,51.552267,-0.063316,1
+Hackney,Uncategorised,1858,51.552267,-0.063316,1
+Hackney,Uncategorised,1859,51.552267,-0.063316,1
+Hackney,Uncategorised,1868,51.552267,-0.063316,2
+Hackney,Uncategorised,1871,51.552267,-0.063316,2
+Hackney,Uncategorised,1872,51.552267,-0.063316,1
+Hackney,Uncategorised,1875,51.552267,-0.063316,1
+Hackney,Uncategorised,1876,51.552267,-0.063316,1
+Hackney,Uncategorised,1879,51.552267,-0.063316,1
+Hackney,Uncategorised,1881,51.552267,-0.063316,1
+Hackney,Uncategorised,1882,51.552267,-0.063316,1
+Hackney,Uncategorised,1888,51.552267,-0.063316,3
+Hackney,Uncategorised,1889,51.552267,-0.063316,1
+Hackney,Uncategorised,1897,51.552267,-0.063316,3
+Hackney,Uncategorised,1898,51.552267,-0.063316,2
+Hackney,Uncategorised,1899,51.552267,-0.063316,3
+Hackney,Uncategorised,1900,51.552267,-0.063316,1
+Hackney,Uncategorised,1902,51.552267,-0.063316,3
+Hackney,Uncategorised,1905,51.552267,-0.063316,1
+Hackney,Uncategorised,1908,51.552267,-0.063316,3
+Hackney,Uncategorised,1909,51.552267,-0.063316,3
+Hackney,Uncategorised,1910,51.552267,-0.063316,1
+Hackney,Uncategorised,1911,51.552267,-0.063316,4
+Hackney,Uncategorised,1912,51.552267,-0.063316,1
+Hackney,Uncategorised,1913,51.552267,-0.063316,1
+Hackney,Uncategorised,1921,51.552267,-0.063316,1
+Hackney,Uncategorised,1924,51.552267,-0.063316,4
+Hackney,Uncategorised,1925,51.552267,-0.063316,1
+Hackney,Uncategorised,1926,51.552267,-0.063316,1
+Hackney,a,1856,51.552267,-0.063316,1
+Hackney,a,1862,51.552267,-0.063316,1
+Hackney,a,1876,51.552267,-0.063316,3
+Hackney,a,1878,51.552267,-0.063316,1
+Hackney,a,1881,51.552267,-0.063316,1
+Hackney,a,1895,51.552267,-0.063316,1
+Hackney,a,1897,51.552267,-0.063316,1
+Hackney,a,1898,51.552267,-0.063316,1
+Hackney,a,1902,51.552267,-0.063316,2
+Hackney,a,1904,51.552267,-0.063316,1
+Hackney,a,1908,51.552267,-0.063316,1
+Hackney,d,1887,51.552267,-0.063316,1
+Hackney,d,1888,51.552267,-0.063316,1
+Hackney,d,1892,51.552267,-0.063316,2
+Hackney,d,1911,51.552267,-0.063316,2
+Hackney,f,1868,51.552267,-0.063316,1
+Hackney,f,1869,51.552267,-0.063316,1
+Hackney,f,1878,51.552267,-0.063316,2
+Hackney,f,1879,51.552267,-0.063316,2
+Hackney,f,1881,51.552267,-0.063316,1
+Hackney,f,1886,51.552267,-0.063316,1
+Hackney,f,1887,51.552267,-0.063316,1
+Hackney,f,1892,51.552267,-0.063316,1
+Hackney,f,1895,51.552267,-0.063316,2
+Hackney,f,1898,51.552267,-0.063316,1
+Hackney,f,1899,51.552267,-0.063316,1
+Hackney,f,1900,51.552267,-0.063316,3
+Hackney,f,1904,51.552267,-0.063316,1
+Hackney,f,1905,51.552267,-0.063316,2
+Hackney,f,1908,51.552267,-0.063316,3
+Hackney,f,1909,51.552267,-0.063316,1
+Hackney,f,1910,51.552267,-0.063316,3
+Hackney,f,1911,51.552267,-0.063316,3
+Hackney,f,1913,51.552267,-0.063316,1
+Hackney,f,1914,51.552267,-0.063316,1
+Hackney,f,1928,51.552267,-0.063316,1
+Hackney,h,1859,51.552267,-0.063316,1
+Hackney,h,1876,51.552267,-0.063316,2
+Hackney,h,1880,51.552267,-0.063316,1
+Hackney,h,1882,51.552267,-0.063316,3
+Hackney,h,1887,51.552267,-0.063316,2
+Hackney,h,1897,51.552267,-0.063316,1
+Hackney,h,1900,51.552267,-0.063316,1
+Hackney,h,1909,51.552267,-0.063316,1
+Hackney,h,1913,51.552267,-0.063316,1
+Hackney,h,1914,51.552267,-0.063316,1
+Hackney,s,1858,51.552267,-0.063316,5
+Hackney,s,1859,51.552267,-0.063316,3
+Hackney,s,1860,51.552267,-0.063316,1
+Hackney,s,1861,51.552267,-0.063316,2
+Hackney,s,1868,51.552267,-0.063316,1
+Hackney,s,1875,51.552267,-0.063316,2
+Hackney,s,1876,51.552267,-0.063316,1
+Hackney,s,1877,51.552267,-0.063316,2
+Hackney,s,1879,51.552267,-0.063316,1
+Hackney,s,1880,51.552267,-0.063316,4
+Hackney,s,1881,51.552267,-0.063316,3
+Hackney,s,1882,51.552267,-0.063316,6
+Hackney,s,1883,51.552267,-0.063316,2
+Hackney,s,1886,51.552267,-0.063316,3
+Hackney,s,1887,51.552267,-0.063316,3
+Hackney,s,1889,51.552267,-0.063316,1
+Hackney,s,1892,51.552267,-0.063316,5
+Hackney,s,1893,51.552267,-0.063316,2
+Hackney,s,1895,51.552267,-0.063316,6
+Hackney,s,1897,51.552267,-0.063316,3
+Hackney,s,1898,51.552267,-0.063316,9
+Hackney,s,1899,51.552267,-0.063316,5
+Hackney,s,1900,51.552267,-0.063316,6
+Hackney,s,1901,51.552267,-0.063316,2
+Hackney,s,1902,51.552267,-0.063316,2
+Hackney,s,1903,51.552267,-0.063316,1
+Hackney,s,1904,51.552267,-0.063316,4
+Hackney,s,1905,51.552267,-0.063316,9
+Hackney,s,1907,51.552267,-0.063316,1
+Hackney,s,1909,51.552267,-0.063316,2
+Hackney,s,1910,51.552267,-0.063316,1
+Hackney,s,1911,51.552267,-0.063316,5
+Hackney,s,1912,51.552267,-0.063316,1
+Hackney,s,1924,51.552267,-0.063316,1
+Hackney,s,1925,51.552267,-0.063316,1
+Hackney,t,1857,51.552267,-0.063316,1
+Hackney,t,1859,51.552267,-0.063316,1
+Hackney,t,1868,51.552267,-0.063316,1
+Hackney,t,1871,51.552267,-0.063316,1
+Hackney,t,1872,51.552267,-0.063316,2
+Hackney,t,1876,51.552267,-0.063316,1
+Hackney,t,1882,51.552267,-0.063316,2
+Hackney,t,1884,51.552267,-0.063316,1
+Hackney,t,1887,51.552267,-0.063316,11
+Hackney,t,1888,51.552267,-0.063316,1
+Hackney,t,1889,51.552267,-0.063316,1
+Hackney,t,1890,51.552267,-0.063316,2
+Hackney,t,1891,51.552267,-0.063316,1
+Hackney,t,1893,51.552267,-0.063316,3
+Hackney,t,1894,51.552267,-0.063316,1
+Hackney,t,1897,51.552267,-0.063316,4
+Hackney,t,1898,51.552267,-0.063316,2
+Hackney,t,1900,51.552267,-0.063316,1
+Hackney,t,1902,51.552267,-0.063316,2
+Hackney,t,1909,51.552267,-0.063316,1
+Hackney,t,1910,51.552267,-0.063316,3
+Hackney,t,1913,51.552267,-0.063316,1
+Hackney,t,1922,51.552267,-0.063316,1
+Hackney,t,1963,51.552267,-0.063316,1
+Hackney,t,1964,51.552267,-0.063316,2
+Hackney,w,1857,51.552267,-0.063316,1
+Hackney,w,1860,51.552267,-0.063316,1
+Hackney,w,1864,51.552267,-0.063316,1
+Hackney,w,1879,51.552267,-0.063316,1
+Hackney,w,1881,51.552267,-0.063316,2
+Hackney,w,1892,51.552267,-0.063316,1
+Hackney,w,1897,51.552267,-0.063316,1
+Hackney,w,1900,51.552267,-0.063316,3
+Hackney,w,1903,51.552267,-0.063316,2
+Hackney,w,1910,51.552267,-0.063316,3
+Hackney,w,1911,51.552267,-0.063316,1
+Hackney,w,1914,51.552267,-0.063316,1
+Hackney,w,1922,51.552267,-0.063316,1
+Hackney,w,1926,51.552267,-0.063316,1
+Hackney,w,1952,51.552267,-0.063316,1
+Hammersmith and Fulham,Uncategorised,1893,51.49501,-0.220789,2
+Hammersmith and Fulham,Uncategorised,1896,51.49501,-0.220789,1
+Hammersmith and Fulham,Uncategorised,1952,51.49501,-0.220789,4
+Hammersmith and Fulham,Uncategorised,1953,51.49501,-0.220789,2
+Hammersmith and Fulham,Uncategorised,1954,51.49501,-0.220789,2
+Hammersmith and Fulham,Uncategorised,1957,51.49501,-0.220789,1
+Hammersmith and Fulham,Uncategorised,1959,51.49501,-0.220789,1
+Hammersmith and Fulham,Uncategorised,1960,51.49501,-0.220789,2
+Hammersmith and Fulham,Uncategorised,1963,51.49501,-0.220789,1
+Hammersmith and Fulham,Uncategorised,1967,51.49501,-0.220789,2
+Hammersmith and Fulham,a,1858,51.49501,-0.220789,1
+Hammersmith and Fulham,a,1880,51.49501,-0.220789,2
+Hammersmith and Fulham,a,1893,51.49501,-0.220789,2
+Hammersmith and Fulham,a,1894,51.49501,-0.220789,1
+Hammersmith and Fulham,a,1896,51.49501,-0.220789,1
+Hammersmith and Fulham,a,1898,51.49501,-0.220789,1
+Hammersmith and Fulham,a,1902,51.49501,-0.220789,1
+Hammersmith and Fulham,a,1937,51.49501,-0.220789,1
+Hammersmith and Fulham,a,1951,51.49501,-0.220789,1
+Hammersmith and Fulham,a,1960,51.49501,-0.220789,1
+Hammersmith and Fulham,a,1964,51.49501,-0.220789,1
+Hammersmith and Fulham,a,1972,51.49501,-0.220789,1
+Hammersmith and Fulham,d,1858,51.49501,-0.220789,1
+Hammersmith and Fulham,d,1953,51.49501,-0.220789,1
+Hammersmith and Fulham,d,1960,51.49501,-0.220789,1
+Hammersmith and Fulham,f,1882,51.49501,-0.220789,1
+Hammersmith and Fulham,f,1883,51.49501,-0.220789,1
+Hammersmith and Fulham,f,1885,51.49501,-0.220789,1
+Hammersmith and Fulham,f,1886,51.49501,-0.220789,2
+Hammersmith and Fulham,f,1893,51.49501,-0.220789,1
+Hammersmith and Fulham,f,1894,51.49501,-0.220789,2
+Hammersmith and Fulham,f,1911,51.49501,-0.220789,1
+Hammersmith and Fulham,f,1932,51.49501,-0.220789,2
+Hammersmith and Fulham,f,1937,51.49501,-0.220789,1
+Hammersmith and Fulham,f,1953,51.49501,-0.220789,3
+Hammersmith and Fulham,f,1957,51.49501,-0.220789,6
+Hammersmith and Fulham,f,1958,51.49501,-0.220789,2
+Hammersmith and Fulham,f,1959,51.49501,-0.220789,2
+Hammersmith and Fulham,f,1960,51.49501,-0.220789,3
+Hammersmith and Fulham,f,1961,51.49501,-0.220789,3
+Hammersmith and Fulham,f,1966,51.49501,-0.220789,2
+Hammersmith and Fulham,f,1967,51.49501,-0.220789,2
+Hammersmith and Fulham,f,1972,51.49501,-0.220789,3
+Hammersmith and Fulham,h,1912,51.49501,-0.220789,1
+Hammersmith and Fulham,h,1961,51.49501,-0.220789,2
+Hammersmith and Fulham,n,1925,51.49501,-0.220789,1
+Hammersmith and Fulham,s,1858,51.49501,-0.220789,1
+Hammersmith and Fulham,s,1861,51.49501,-0.220789,1
+Hammersmith and Fulham,s,1881,51.49501,-0.220789,1
+Hammersmith and Fulham,s,1883,51.49501,-0.220789,1
+Hammersmith and Fulham,s,1884,51.49501,-0.220789,1
+Hammersmith and Fulham,s,1886,51.49501,-0.220789,1
+Hammersmith and Fulham,s,1891,51.49501,-0.220789,1
+Hammersmith and Fulham,s,1892,51.49501,-0.220789,5
+Hammersmith and Fulham,s,1893,51.49501,-0.220789,3
+Hammersmith and Fulham,s,1894,51.49501,-0.220789,2
+Hammersmith and Fulham,s,1895,51.49501,-0.220789,1
+Hammersmith and Fulham,s,1896,51.49501,-0.220789,3
+Hammersmith and Fulham,s,1897,51.49501,-0.220789,1
+Hammersmith and Fulham,s,1900,51.49501,-0.220789,2
+Hammersmith and Fulham,s,1905,51.49501,-0.220789,1
+Hammersmith and Fulham,s,1910,51.49501,-0.220789,1
+Hammersmith and Fulham,s,1924,51.49501,-0.220789,1
+Hammersmith and Fulham,s,1925,51.49501,-0.220789,1
+Hammersmith and Fulham,s,1932,51.49501,-0.220789,1
+Hammersmith and Fulham,s,1933,51.49501,-0.220789,2
+Hammersmith and Fulham,s,1972,51.49501,-0.220789,1
+Hammersmith and Fulham,t,1858,51.49501,-0.220789,2
+Hammersmith and Fulham,t,1859,51.49501,-0.220789,1
+Hammersmith and Fulham,t,1888,51.49501,-0.220789,1
+Hammersmith and Fulham,t,1893,51.49501,-0.220789,5
+Hammersmith and Fulham,t,1894,51.49501,-0.220789,1
+Hammersmith and Fulham,t,1898,51.49501,-0.220789,1
+Hammersmith and Fulham,t,1904,51.49501,-0.220789,3
+Hammersmith and Fulham,t,1906,51.49501,-0.220789,1
+Hammersmith and Fulham,t,1914,51.49501,-0.220789,2
+Hammersmith and Fulham,t,1919,51.49501,-0.220789,1
+Hammersmith and Fulham,t,1932,51.49501,-0.220789,2
+Hammersmith and Fulham,t,1953,51.49501,-0.220789,3
+Hammersmith and Fulham,t,1960,51.49501,-0.220789,2
+Hammersmith and Fulham,t,1963,51.49501,-0.220789,1
+Hammersmith and Fulham,t,1964,51.49501,-0.220789,1
+Hammersmith and Fulham,t,1972,51.49501,-0.220789,3
+Hammersmith and Fulham,w,1886,51.49501,-0.220789,1
+Hammersmith and Fulham,w,1893,51.49501,-0.220789,2
+Hammersmith and Fulham,w,1894,51.49501,-0.220789,2
+Hammersmith and Fulham,w,1897,51.49501,-0.220789,5
+Hammersmith and Fulham,w,1904,51.49501,-0.220789,1
+Hammersmith and Fulham,w,1925,51.49501,-0.220789,1
+Hammersmith and Fulham,w,1926,51.49501,-0.220789,2
+Hammersmith and Fulham,w,1936,51.49501,-0.220789,1
+Hammersmith and Fulham,w,1948,51.49501,-0.220789,1
+Hammersmith and Fulham,w,1960,51.49501,-0.220789,1
+Hammersmith and Fulham,w,1972,51.49501,-0.220789,1
+Haringey,Uncategorised,1923,51.590372,-0.10747,1
+Haringey,Uncategorised,1925,51.590372,-0.10747,2
+Haringey,Uncategorised,1948,51.590372,-0.10747,1
+Haringey,Uncategorised,1950,51.590372,-0.10747,1
+Haringey,Uncategorised,1951,51.590372,-0.10747,2
+Haringey,Uncategorised,1952,51.590372,-0.10747,1
+Haringey,Uncategorised,1954,51.590372,-0.10747,1
+Haringey,Uncategorised,1959,51.590372,-0.10747,1
+Haringey,a,1956,51.590372,-0.10747,2
+Haringey,f,1948,51.590372,-0.10747,1
+Haringey,f,1951,51.590372,-0.10747,1
+Haringey,f,1953,51.590372,-0.10747,1
+Haringey,f,1956,51.590372,-0.10747,2
+Haringey,f,1960,51.590372,-0.10747,1
+Haringey,f,1967,51.590372,-0.10747,1
+Haringey,h,1897,51.590372,-0.10747,2
+Haringey,h,1911,51.590372,-0.10747,1
+Haringey,h,1951,51.590372,-0.10747,1
+Haringey,h,1955,51.590372,-0.10747,1
+Haringey,n,1945,51.590372,-0.10747,1
+Haringey,s,1895,51.590372,-0.10747,1
+Haringey,s,1898,51.590372,-0.10747,1
+Haringey,s,1938,51.590372,-0.10747,2
+Haringey,s,1950,51.590372,-0.10747,2
+Haringey,t,1948,51.590372,-0.10747,1
+Haringey,t,1959,51.590372,-0.10747,1
+Haringey,t,1966,51.590372,-0.10747,1
+Haringey,t,1967,51.590372,-0.10747,1
+Haringey,t,1972,51.590372,-0.10747,1
+Haringey,w,1893,51.590372,-0.10747,1
+Haringey,w,1897,51.590372,-0.10747,2
+Haringey,w,1906,51.590372,-0.10747,1
+Haringey,w,1952,51.590372,-0.10747,2
+Haringey,w,1954,51.590372,-0.10747,1
+Haringey,w,1956,51.590372,-0.10747,1
+Harrow,Uncategorised,1898,51.597723,-0.341267,1
+Harrow,Uncategorised,1911,51.597723,-0.341267,1
+Harrow,Uncategorised,1935,51.597723,-0.341267,1
+Harrow,Uncategorised,1936,51.597723,-0.341267,1
+Harrow,Uncategorised,1937,51.597723,-0.341267,1
+Harrow,Uncategorised,1945,51.597723,-0.341267,1
+Harrow,Uncategorised,1948,51.597723,-0.341267,1
+Harrow,Uncategorised,1954,51.597723,-0.341267,1
+Harrow,Uncategorised,1955,51.597723,-0.341267,1
+Harrow,Uncategorised,1956,51.597723,-0.341267,1
+Harrow,Uncategorised,1957,51.597723,-0.341267,1
+Harrow,Uncategorised,1958,51.597723,-0.341267,1
+Harrow,Uncategorised,1966,51.597723,-0.341267,1
+Harrow,Uncategorised,1967,51.597723,-0.341267,1
+Harrow,Uncategorised,1969,51.597723,-0.341267,1
+Harrow,Uncategorised,1970,51.597723,-0.341267,1
+Harrow,Uncategorised,1971,51.597723,-0.341267,1
+Harrow,Uncategorised,1972,51.597723,-0.341267,1
+Harrow,Uncategorised,1973,51.597723,-0.341267,1
+Harrow,a,1921,51.597723,-0.341267,1
+Harrow,a,1938,51.597723,-0.341267,1
+Harrow,a,1944,51.597723,-0.341267,1
+Harrow,a,1956,51.597723,-0.341267,1
+Harrow,d,1935,51.597723,-0.341267,1
+Harrow,f,1968,51.597723,-0.341267,1
+Harrow,h,1965,51.597723,-0.341267,1
+Harrow,s,1925,51.597723,-0.341267,1
+Harrow,s,1944,51.597723,-0.341267,1
+Harrow,t,1937,51.597723,-0.341267,2
+Harrow,t,1946,51.597723,-0.341267,1
+Harrow,t,1957,51.597723,-0.341267,1
+Harrow,t,1959,51.597723,-0.341267,2
+Harrow,t,1960,51.597723,-0.341267,1
+Harrow,t,1961,51.597723,-0.341267,1
+Harrow,t,1962,51.597723,-0.341267,1
+Harrow,t,1963,51.597723,-0.341267,1
+Harrow,t,1964,51.597723,-0.341267,1
+Harrow,t,1971,51.597723,-0.341267,2
+Harrow,w,1937,51.597723,-0.341267,2
+Harrow,w,1943,51.597723,-0.341267,1
+Harrow,w,1954,51.597723,-0.341267,1
+Havering,Uncategorised,1956,51.563121,0.22042,4
+Havering,Uncategorised,1958,51.563121,0.22042,1
+Havering,Uncategorised,1960,51.563121,0.22042,1
+Havering,Uncategorised,1961,51.563121,0.22042,2
+Havering,Uncategorised,1964,51.563121,0.22042,1
+Havering,Uncategorised,1968,51.563121,0.22042,1
+Havering,a,1913,51.563121,0.22042,2
+Havering,a,1957,51.563121,0.22042,1
+Havering,a,1962,51.563121,0.22042,1
+Havering,d,1959,51.563121,0.22042,1
+Havering,d,1960,51.563121,0.22042,1
+Havering,f,1955,51.563121,0.22042,1
+Havering,f,1961,51.563121,0.22042,2
+Havering,f,1963,51.563121,0.22042,1
+Havering,f,1966,51.563121,0.22042,1
+Havering,f,1970,51.563121,0.22042,1
+Havering,h,1913,51.563121,0.22042,2
+Havering,s,1900,51.563121,0.22042,1
+Havering,s,1904,51.563121,0.22042,1
+Havering,s,1938,51.563121,0.22042,1
+Havering,s,1948,51.563121,0.22042,1
+Havering,s,1956,51.563121,0.22042,1
+Havering,s,1964,51.563121,0.22042,1
+Havering,s,1966,51.563121,0.22042,1
+Havering,s,1970,51.563121,0.22042,1
+Havering,s,1971,51.563121,0.22042,1
+Havering,t,1909,51.563121,0.22042,1
+Havering,t,1958,51.563121,0.22042,1
+Havering,t,1959,51.563121,0.22042,1
+Havering,t,1967,51.563121,0.22042,1
+Havering,t,1968,51.563121,0.22042,2
+Havering,w,1909,51.563121,0.22042,1
+Havering,w,1913,51.563121,0.22042,1
+Havering,w,1968,51.563121,0.22042,3
+Havering,w,1973,51.563121,0.22042,1
+Hillingdon,Uncategorised,1920,51.541513,-0.445658,1
+Hillingdon,Uncategorised,1953,51.541513,-0.445658,1
+Hillingdon,Uncategorised,1961,51.541513,-0.445658,1
+Hillingdon,Uncategorised,1962,51.541513,-0.445658,1
+Hillingdon,Uncategorised,1963,51.541513,-0.445658,1
+Hillingdon,Uncategorised,1964,51.541513,-0.445658,1
+Hillingdon,Uncategorised,1970,51.541513,-0.445658,2
+Hillingdon,Uncategorised,1971,51.541513,-0.445658,2
+Hillingdon,a,1963,51.541513,-0.445658,1
+Hillingdon,a,1970,51.541513,-0.445658,1
+Hillingdon,a,1971,51.541513,-0.445658,1
+Hillingdon,a,1972,51.541513,-0.445658,2
+Hillingdon,f,1954,51.541513,-0.445658,1
+Hillingdon,f,1970,51.541513,-0.445658,3
+Hillingdon,f,1971,51.541513,-0.445658,3
+Hillingdon,h,1896,51.541513,-0.445658,1
+Hillingdon,s,1913,51.541513,-0.445658,1
+Hillingdon,s,1919,51.541513,-0.445658,1
+Hillingdon,s,1921,51.541513,-0.445658,2
+Hillingdon,s,1925,51.541513,-0.445658,1
+Hillingdon,s,1935,51.541513,-0.445658,1
+Hillingdon,s,1950,51.541513,-0.445658,1
+Hillingdon,s,1951,51.541513,-0.445658,1
+Hillingdon,s,1952,51.541513,-0.445658,1
+Hillingdon,s,1953,51.541513,-0.445658,1
+Hillingdon,s,1954,51.541513,-0.445658,2
+Hillingdon,s,1955,51.541513,-0.445658,2
+Hillingdon,s,1956,51.541513,-0.445658,1
+Hillingdon,s,1957,51.541513,-0.445658,1
+Hillingdon,s,1958,51.541513,-0.445658,2
+Hillingdon,s,1959,51.541513,-0.445658,2
+Hillingdon,s,1960,51.541513,-0.445658,1
+Hillingdon,s,1961,51.541513,-0.445658,2
+Hillingdon,s,1962,51.541513,-0.445658,2
+Hillingdon,s,1963,51.541513,-0.445658,2
+Hillingdon,s,1964,51.541513,-0.445658,1
+Hillingdon,s,1969,51.541513,-0.445658,1
+Hillingdon,s,1970,51.541513,-0.445658,1
+Hillingdon,s,1971,51.541513,-0.445658,1
+Hillingdon,s,1972,51.541513,-0.445658,1
+Hillingdon,s,1973,51.541513,-0.445658,1
+Hillingdon,t,1913,51.541513,-0.445658,1
+Hillingdon,t,1964,51.541513,-0.445658,1
+Hillingdon,t,1966,51.541513,-0.445658,1
+Hillingdon,t,1967,51.541513,-0.445658,2
+Hillingdon,t,1968,51.541513,-0.445658,2
+Hillingdon,t,1969,51.541513,-0.445658,1
+Hillingdon,t,1970,51.541513,-0.445658,2
+Hillingdon,t,1971,51.541513,-0.445658,1
+Hillingdon,t,1972,51.541513,-0.445658,1
+Hillingdon,w,1908,51.541513,-0.445658,1
+Hillingdon,w,1949,51.541513,-0.445658,1
+Hillingdon,w,1950,51.541513,-0.445658,1
+Hillingdon,w,1951,51.541513,-0.445658,1
+Hillingdon,w,1952,51.541513,-0.445658,1
+Hillingdon,w,1953,51.541513,-0.445658,1
+Hillingdon,w,1955,51.541513,-0.445658,1
+Hillingdon,w,1956,51.541513,-0.445658,1
+Hillingdon,w,1965,51.541513,-0.445658,2
+Hillingdon,w,1966,51.541513,-0.445658,1
+Hillingdon,w,1967,51.541513,-0.445658,1
+Hillingdon,w,1968,51.541513,-0.445658,1
+Hillingdon,w,1969,51.541513,-0.445658,2
+Hillingdon,w,1971,51.541513,-0.445658,3
+Hillingdon,w,1972,51.541513,-0.445658,2
+Hillingdon,w,1973,51.541513,-0.445658,2
+Hounslow,Uncategorised,1910,51.468495,-0.366134,3
+Hounslow,Uncategorised,1911,51.468495,-0.366134,1
+Hounslow,Uncategorised,1926,51.468495,-0.366134,1
+Hounslow,Uncategorised,1927,51.468495,-0.366134,1
+Hounslow,Uncategorised,1932,51.468495,-0.366134,4
+Hounslow,Uncategorised,1933,51.468495,-0.366134,1
+Hounslow,Uncategorised,1934,51.468495,-0.366134,1
+Hounslow,Uncategorised,1947,51.468495,-0.366134,1
+Hounslow,Uncategorised,1948,51.468495,-0.366134,1
+Hounslow,Uncategorised,1949,51.468495,-0.366134,1
+Hounslow,Uncategorised,1950,51.468495,-0.366134,1
+Hounslow,Uncategorised,1955,51.468495,-0.366134,1
+Hounslow,Uncategorised,1956,51.468495,-0.366134,1
+Hounslow,Uncategorised,1957,51.468495,-0.366134,1
+Hounslow,Uncategorised,1958,51.468495,-0.366134,1
+Hounslow,Uncategorised,1959,51.468495,-0.366134,1
+Hounslow,Uncategorised,1963,51.468495,-0.366134,1
+Hounslow,a,1932,51.468495,-0.366134,1
+Hounslow,a,1933,51.468495,-0.366134,1
+Hounslow,a,1934,51.468495,-0.366134,1
+Hounslow,a,1935,51.468495,-0.366134,1
+Hounslow,a,1952,51.468495,-0.366134,1
+Hounslow,a,1961,51.468495,-0.366134,1
+Hounslow,a,1964,51.468495,-0.366134,1
+Hounslow,d,1933,51.468495,-0.366134,1
+Hounslow,f,1897,51.468495,-0.366134,1
+Hounslow,f,1932,51.468495,-0.366134,1
+Hounslow,f,1935,51.468495,-0.366134,1
+Hounslow,f,1950,51.468495,-0.366134,1
+Hounslow,f,1951,51.468495,-0.366134,1
+Hounslow,f,1952,51.468495,-0.366134,1
+Hounslow,f,1964,51.468495,-0.366134,1
+Hounslow,f,1965,51.468495,-0.366134,1
+Hounslow,f,1966,51.468495,-0.366134,1
+Hounslow,h,1921,51.468495,-0.366134,1
+Hounslow,h,1925,51.468495,-0.366134,1
+Hounslow,h,1931,51.468495,-0.366134,2
+Hounslow,h,1932,51.468495,-0.366134,2
+Hounslow,n,1932,51.468495,-0.366134,1
+Hounslow,s,1894,51.468495,-0.366134,1
+Hounslow,s,1911,51.468495,-0.366134,1
+Hounslow,s,1915,51.468495,-0.366134,1
+Hounslow,s,1920,51.468495,-0.366134,1
+Hounslow,s,1933,51.468495,-0.366134,2
+Hounslow,s,1935,51.468495,-0.366134,1
+Hounslow,s,1949,51.468495,-0.366134,1
+Hounslow,s,1956,51.468495,-0.366134,1
+Hounslow,s,1957,51.468495,-0.366134,1
+Hounslow,s,1958,51.468495,-0.366134,1
+Hounslow,s,1959,51.468495,-0.366134,1
+Hounslow,s,1960,51.468495,-0.366134,2
+Hounslow,s,1961,51.468495,-0.366134,1
+Hounslow,s,1962,51.468495,-0.366134,4
+Hounslow,s,1963,51.468495,-0.366134,4
+Hounslow,s,1964,51.468495,-0.366134,2
+Hounslow,t,1910,51.468495,-0.366134,1
+Hounslow,t,1928,51.468495,-0.366134,1
+Hounslow,t,1930,51.468495,-0.366134,1
+Hounslow,t,1933,51.468495,-0.366134,2
+Hounslow,t,1960,51.468495,-0.366134,1
+Hounslow,t,1961,51.468495,-0.366134,1
+Hounslow,t,1962,51.468495,-0.366134,2
+Hounslow,t,1963,51.468495,-0.366134,2
+Hounslow,t,1964,51.468495,-0.366134,1
+Hounslow,t,1966,51.468495,-0.366134,1
+Hounslow,w,1931,51.468495,-0.366134,1
+Hounslow,w,1934,51.468495,-0.366134,1
+Hounslow,w,1958,51.468495,-0.366134,1
+Hounslow,w,1964,51.468495,-0.366134,1
+Islington,Uncategorised,1856,51.548487,-0.110251,3
+Islington,Uncategorised,1857,51.548487,-0.110251,7
+Islington,Uncategorised,1860,51.548487,-0.110251,1
+Islington,Uncategorised,1863,51.548487,-0.110251,2
+Islington,Uncategorised,1864,51.548487,-0.110251,1
+Islington,Uncategorised,1874,51.548487,-0.110251,6
+Islington,Uncategorised,1885,51.548487,-0.110251,2
+Islington,Uncategorised,1893,51.548487,-0.110251,1
+Islington,Uncategorised,1899,51.548487,-0.110251,1
+Islington,Uncategorised,1903,51.548487,-0.110251,12
+Islington,Uncategorised,1904,51.548487,-0.110251,2
+Islington,Uncategorised,1905,51.548487,-0.110251,3
+Islington,Uncategorised,1906,51.548487,-0.110251,2
+Islington,Uncategorised,1907,51.548487,-0.110251,1
+Islington,Uncategorised,1908,51.548487,-0.110251,2
+Islington,Uncategorised,1909,51.548487,-0.110251,1
+Islington,Uncategorised,1910,51.548487,-0.110251,1
+Islington,Uncategorised,1911,51.548487,-0.110251,1
+Islington,Uncategorised,1912,51.548487,-0.110251,1
+Islington,Uncategorised,1913,51.548487,-0.110251,2
+Islington,Uncategorised,1914,51.548487,-0.110251,2
+Islington,Uncategorised,1915,51.548487,-0.110251,1
+Islington,Uncategorised,1925,51.548487,-0.110251,1
+Islington,Uncategorised,1926,51.548487,-0.110251,2
+Islington,Uncategorised,1929,51.548487,-0.110251,3
+Islington,Uncategorised,1937,51.548487,-0.110251,1
+Islington,Uncategorised,1938,51.548487,-0.110251,1
+Islington,Uncategorised,1949,51.548487,-0.110251,2
+Islington,Uncategorised,1952,51.548487,-0.110251,1
+Islington,Uncategorised,1953,51.548487,-0.110251,2
+Islington,Uncategorised,1954,51.548487,-0.110251,1
+Islington,Uncategorised,1955,51.548487,-0.110251,3
+Islington,Uncategorised,1961,51.548487,-0.110251,3
+Islington,Uncategorised,1971,51.548487,-0.110251,1
+Islington,Uncategorised,1972,51.548487,-0.110251,1
+Islington,a,1856,51.548487,-0.110251,6
+Islington,a,1857,51.548487,-0.110251,1
+Islington,a,1860,51.548487,-0.110251,3
+Islington,a,1861,51.548487,-0.110251,1
+Islington,a,1903,51.548487,-0.110251,2
+Islington,a,1910,51.548487,-0.110251,1
+Islington,a,1955,51.548487,-0.110251,1
+Islington,a,1957,51.548487,-0.110251,1
+Islington,a,1965,51.548487,-0.110251,1
+Islington,d,1856,51.548487,-0.110251,4
+Islington,d,1893,51.548487,-0.110251,3
+Islington,d,1903,51.548487,-0.110251,3
+Islington,d,1904,51.548487,-0.110251,1
+Islington,d,1905,51.548487,-0.110251,1
+Islington,d,1906,51.548487,-0.110251,1
+Islington,d,1907,51.548487,-0.110251,1
+Islington,d,1909,51.548487,-0.110251,1
+Islington,d,1910,51.548487,-0.110251,1
+Islington,d,1911,51.548487,-0.110251,1
+Islington,d,1964,51.548487,-0.110251,1
+Islington,f,1857,51.548487,-0.110251,1
+Islington,f,1903,51.548487,-0.110251,7
+Islington,f,1904,51.548487,-0.110251,2
+Islington,f,1905,51.548487,-0.110251,3
+Islington,f,1907,51.548487,-0.110251,1
+Islington,f,1909,51.548487,-0.110251,1
+Islington,f,1910,51.548487,-0.110251,2
+Islington,f,1911,51.548487,-0.110251,1
+Islington,f,1912,51.548487,-0.110251,1
+Islington,f,1913,51.548487,-0.110251,1
+Islington,f,1936,51.548487,-0.110251,1
+Islington,f,1952,51.548487,-0.110251,1
+Islington,f,1953,51.548487,-0.110251,2
+Islington,f,1955,51.548487,-0.110251,1
+Islington,f,1956,51.548487,-0.110251,1
+Islington,f,1957,51.548487,-0.110251,1
+Islington,f,1959,51.548487,-0.110251,2
+Islington,h,1856,51.548487,-0.110251,1
+Islington,h,1857,51.548487,-0.110251,3
+Islington,h,1858,51.548487,-0.110251,1
+Islington,h,1865,51.548487,-0.110251,1
+Islington,h,1874,51.548487,-0.110251,1
+Islington,h,1906,51.548487,-0.110251,1
+Islington,h,1950,51.548487,-0.110251,1
+Islington,h,1952,51.548487,-0.110251,4
+Islington,h,1953,51.548487,-0.110251,2
+Islington,n,1856,51.548487,-0.110251,2
+Islington,s,1856,51.548487,-0.110251,5
+Islington,s,1857,51.548487,-0.110251,1
+Islington,s,1858,51.548487,-0.110251,2
+Islington,s,1859,51.548487,-0.110251,1
+Islington,s,1860,51.548487,-0.110251,3
+Islington,s,1863,51.548487,-0.110251,1
+Islington,s,1864,51.548487,-0.110251,2
+Islington,s,1870,51.548487,-0.110251,2
+Islington,s,1875,51.548487,-0.110251,1
+Islington,s,1877,51.548487,-0.110251,1
+Islington,s,1885,51.548487,-0.110251,1
+Islington,s,1893,51.548487,-0.110251,3
+Islington,s,1896,51.548487,-0.110251,1
+Islington,s,1897,51.548487,-0.110251,1
+Islington,s,1900,51.548487,-0.110251,3
+Islington,s,1902,51.548487,-0.110251,1
+Islington,s,1903,51.548487,-0.110251,2
+Islington,s,1904,51.548487,-0.110251,2
+Islington,s,1906,51.548487,-0.110251,1
+Islington,s,1909,51.548487,-0.110251,1
+Islington,s,1910,51.548487,-0.110251,2
+Islington,s,1929,51.548487,-0.110251,1
+Islington,s,1935,51.548487,-0.110251,1
+Islington,s,1936,51.548487,-0.110251,1
+Islington,s,1959,51.548487,-0.110251,1
+Islington,s,1962,51.548487,-0.110251,1
+Islington,t,1856,51.548487,-0.110251,4
+Islington,t,1857,51.548487,-0.110251,3
+Islington,t,1858,51.548487,-0.110251,1
+Islington,t,1860,51.548487,-0.110251,2
+Islington,t,1864,51.548487,-0.110251,2
+Islington,t,1870,51.548487,-0.110251,1
+Islington,t,1874,51.548487,-0.110251,1
+Islington,t,1903,51.548487,-0.110251,3
+Islington,t,1904,51.548487,-0.110251,1
+Islington,t,1907,51.548487,-0.110251,2
+Islington,t,1910,51.548487,-0.110251,2
+Islington,t,1912,51.548487,-0.110251,1
+Islington,t,1913,51.548487,-0.110251,4
+Islington,t,1914,51.548487,-0.110251,2
+Islington,t,1915,51.548487,-0.110251,1
+Islington,t,1925,51.548487,-0.110251,1
+Islington,t,1936,51.548487,-0.110251,1
+Islington,t,1957,51.548487,-0.110251,1
+Islington,t,1959,51.548487,-0.110251,3
+Islington,t,1963,51.548487,-0.110251,3
+Islington,t,1964,51.548487,-0.110251,1
+Islington,t,1968,51.548487,-0.110251,1
+Islington,t,1971,51.548487,-0.110251,1
+Islington,t,1972,51.548487,-0.110251,1
+Islington,w,1856,51.548487,-0.110251,3
+Islington,w,1863,51.548487,-0.110251,4
+Islington,w,1864,51.548487,-0.110251,1
+Islington,w,1868,51.548487,-0.110251,1
+Islington,w,1869,51.548487,-0.110251,1
+Islington,w,1871,51.548487,-0.110251,1
+Islington,w,1874,51.548487,-0.110251,2
+Islington,w,1883,51.548487,-0.110251,1
+Islington,w,1886,51.548487,-0.110251,1
+Islington,w,1903,51.548487,-0.110251,4
+Islington,w,1904,51.548487,-0.110251,2
+Islington,w,1905,51.548487,-0.110251,1
+Islington,w,1906,51.548487,-0.110251,1
+Islington,w,1926,51.548487,-0.110251,2
+Islington,w,1949,51.548487,-0.110251,1
+Islington,w,1952,51.548487,-0.110251,1
+Islington,w,1953,51.548487,-0.110251,1
+Islington,w,1954,51.548487,-0.110251,1
+Islington,w,1959,51.548487,-0.110251,2
+Islington,w,1965,51.548487,-0.110251,1
+Islington,w,1969,51.548487,-0.110251,1
+Islington,w,1970,51.548487,-0.110251,1
+Islington,w,1971,51.548487,-0.110251,1
+Kensington and Chelsea,Uncategorised,1856,51.501207,-0.192219,2
+Kensington and Chelsea,Uncategorised,1868,51.501207,-0.192219,1
+Kensington and Chelsea,Uncategorised,1872,51.501207,-0.192219,1
+Kensington and Chelsea,Uncategorised,1875,51.501207,-0.192219,2
+Kensington and Chelsea,Uncategorised,1882,51.501207,-0.192219,1
+Kensington and Chelsea,Uncategorised,1884,51.501207,-0.192219,3
+Kensington and Chelsea,Uncategorised,1886,51.501207,-0.192219,1
+Kensington and Chelsea,Uncategorised,1887,51.501207,-0.192219,3
+Kensington and Chelsea,Uncategorised,1889,51.501207,-0.192219,2
+Kensington and Chelsea,Uncategorised,1890,51.501207,-0.192219,2
+Kensington and Chelsea,Uncategorised,1892,51.501207,-0.192219,1
+Kensington and Chelsea,Uncategorised,1893,51.501207,-0.192219,3
+Kensington and Chelsea,Uncategorised,1895,51.501207,-0.192219,3
+Kensington and Chelsea,Uncategorised,1896,51.501207,-0.192219,6
+Kensington and Chelsea,Uncategorised,1897,51.501207,-0.192219,3
+Kensington and Chelsea,Uncategorised,1898,51.501207,-0.192219,4
+Kensington and Chelsea,Uncategorised,1899,51.501207,-0.192219,2
+Kensington and Chelsea,Uncategorised,1900,51.501207,-0.192219,5
+Kensington and Chelsea,Uncategorised,1901,51.501207,-0.192219,2
+Kensington and Chelsea,Uncategorised,1902,51.501207,-0.192219,1
+Kensington and Chelsea,Uncategorised,1903,51.501207,-0.192219,2
+Kensington and Chelsea,Uncategorised,1904,51.501207,-0.192219,1
+Kensington and Chelsea,Uncategorised,1905,51.501207,-0.192219,1
+Kensington and Chelsea,Uncategorised,1906,51.501207,-0.192219,5
+Kensington and Chelsea,Uncategorised,1951,51.501207,-0.192219,1
+Kensington and Chelsea,Uncategorised,1956,51.501207,-0.192219,1
+Kensington and Chelsea,Uncategorised,1960,51.501207,-0.192219,1
+Kensington and Chelsea,Uncategorised,1964,51.501207,-0.192219,1
+Kensington and Chelsea,a,1856,51.501207,-0.192219,1
+Kensington and Chelsea,a,1873,51.501207,-0.192219,1
+Kensington and Chelsea,a,1876,51.501207,-0.192219,2
+Kensington and Chelsea,a,1890,51.501207,-0.192219,1
+Kensington and Chelsea,a,1898,51.501207,-0.192219,2
+Kensington and Chelsea,a,1899,51.501207,-0.192219,2
+Kensington and Chelsea,a,1900,51.501207,-0.192219,4
+Kensington and Chelsea,a,1901,51.501207,-0.192219,4
+Kensington and Chelsea,a,1902,51.501207,-0.192219,2
+Kensington and Chelsea,a,1905,51.501207,-0.192219,1
+Kensington and Chelsea,a,1906,51.501207,-0.192219,2
+Kensington and Chelsea,a,1911,51.501207,-0.192219,1
+Kensington and Chelsea,a,1912,51.501207,-0.192219,2
+Kensington and Chelsea,a,1913,51.501207,-0.192219,1
+Kensington and Chelsea,a,1951,51.501207,-0.192219,1
+Kensington and Chelsea,a,1957,51.501207,-0.192219,1
+Kensington and Chelsea,a,1964,51.501207,-0.192219,1
+Kensington and Chelsea,d,1875,51.501207,-0.192219,1
+Kensington and Chelsea,d,1960,51.501207,-0.192219,1
+Kensington and Chelsea,f,1863,51.501207,-0.192219,1
+Kensington and Chelsea,f,1864,51.501207,-0.192219,1
+Kensington and Chelsea,f,1873,51.501207,-0.192219,1
+Kensington and Chelsea,f,1874,51.501207,-0.192219,1
+Kensington and Chelsea,f,1876,51.501207,-0.192219,1
+Kensington and Chelsea,f,1881,51.501207,-0.192219,1
+Kensington and Chelsea,f,1884,51.501207,-0.192219,2
+Kensington and Chelsea,f,1886,51.501207,-0.192219,1
+Kensington and Chelsea,f,1887,51.501207,-0.192219,3
+Kensington and Chelsea,f,1890,51.501207,-0.192219,2
+Kensington and Chelsea,f,1892,51.501207,-0.192219,1
+Kensington and Chelsea,f,1893,51.501207,-0.192219,1
+Kensington and Chelsea,f,1895,51.501207,-0.192219,2
+Kensington and Chelsea,f,1896,51.501207,-0.192219,2
+Kensington and Chelsea,f,1898,51.501207,-0.192219,1
+Kensington and Chelsea,f,1899,51.501207,-0.192219,2
+Kensington and Chelsea,f,1900,51.501207,-0.192219,1
+Kensington and Chelsea,f,1901,51.501207,-0.192219,1
+Kensington and Chelsea,f,1902,51.501207,-0.192219,1
+Kensington and Chelsea,f,1903,51.501207,-0.192219,1
+Kensington and Chelsea,f,1904,51.501207,-0.192219,1
+Kensington and Chelsea,f,1906,51.501207,-0.192219,1
+Kensington and Chelsea,f,1952,51.501207,-0.192219,1
+Kensington and Chelsea,f,1956,51.501207,-0.192219,1
+Kensington and Chelsea,f,1962,51.501207,-0.192219,3
+Kensington and Chelsea,f,1963,51.501207,-0.192219,1
+Kensington and Chelsea,f,1964,51.501207,-0.192219,2
+Kensington and Chelsea,h,1880,51.501207,-0.192219,1
+Kensington and Chelsea,h,1884,51.501207,-0.192219,1
+Kensington and Chelsea,h,1898,51.501207,-0.192219,2
+Kensington and Chelsea,h,1899,51.501207,-0.192219,1
+Kensington and Chelsea,h,1905,51.501207,-0.192219,1
+Kensington and Chelsea,h,1914,51.501207,-0.192219,1
+Kensington and Chelsea,n,1964,51.501207,-0.192219,1
+Kensington and Chelsea,s,1856,51.501207,-0.192219,1
+Kensington and Chelsea,s,1857,51.501207,-0.192219,1
+Kensington and Chelsea,s,1871,51.501207,-0.192219,3
+Kensington and Chelsea,s,1872,51.501207,-0.192219,2
+Kensington and Chelsea,s,1873,51.501207,-0.192219,4
+Kensington and Chelsea,s,1874,51.501207,-0.192219,1
+Kensington and Chelsea,s,1875,51.501207,-0.192219,1
+Kensington and Chelsea,s,1876,51.501207,-0.192219,1
+Kensington and Chelsea,s,1878,51.501207,-0.192219,1
+Kensington and Chelsea,s,1879,51.501207,-0.192219,1
+Kensington and Chelsea,s,1881,51.501207,-0.192219,2
+Kensington and Chelsea,s,1882,51.501207,-0.192219,2
+Kensington and Chelsea,s,1883,51.501207,-0.192219,2
+Kensington and Chelsea,s,1884,51.501207,-0.192219,4
+Kensington and Chelsea,s,1886,51.501207,-0.192219,8
+Kensington and Chelsea,s,1887,51.501207,-0.192219,7
+Kensington and Chelsea,s,1888,51.501207,-0.192219,3
+Kensington and Chelsea,s,1889,51.501207,-0.192219,4
+Kensington and Chelsea,s,1890,51.501207,-0.192219,4
+Kensington and Chelsea,s,1892,51.501207,-0.192219,4
+Kensington and Chelsea,s,1893,51.501207,-0.192219,2
+Kensington and Chelsea,s,1895,51.501207,-0.192219,3
+Kensington and Chelsea,s,1896,51.501207,-0.192219,10
+Kensington and Chelsea,s,1897,51.501207,-0.192219,14
+Kensington and Chelsea,s,1898,51.501207,-0.192219,14
+Kensington and Chelsea,s,1899,51.501207,-0.192219,15
+Kensington and Chelsea,s,1900,51.501207,-0.192219,8
+Kensington and Chelsea,s,1901,51.501207,-0.192219,12
+Kensington and Chelsea,s,1902,51.501207,-0.192219,8
+Kensington and Chelsea,s,1903,51.501207,-0.192219,8
+Kensington and Chelsea,s,1904,51.501207,-0.192219,12
+Kensington and Chelsea,s,1905,51.501207,-0.192219,10
+Kensington and Chelsea,s,1906,51.501207,-0.192219,20
+Kensington and Chelsea,s,1907,51.501207,-0.192219,5
+Kensington and Chelsea,s,1911,51.501207,-0.192219,3
+Kensington and Chelsea,s,1913,51.501207,-0.192219,1
+Kensington and Chelsea,s,1936,51.501207,-0.192219,1
+Kensington and Chelsea,s,1960,51.501207,-0.192219,2
+Kensington and Chelsea,s,1963,51.501207,-0.192219,1
+Kensington and Chelsea,s,1964,51.501207,-0.192219,1
+Kensington and Chelsea,t,1856,51.501207,-0.192219,1
+Kensington and Chelsea,t,1864,51.501207,-0.192219,1
+Kensington and Chelsea,t,1866,51.501207,-0.192219,1
+Kensington and Chelsea,t,1871,51.501207,-0.192219,1
+Kensington and Chelsea,t,1874,51.501207,-0.192219,2
+Kensington and Chelsea,t,1875,51.501207,-0.192219,1
+Kensington and Chelsea,t,1883,51.501207,-0.192219,3
+Kensington and Chelsea,t,1884,51.501207,-0.192219,3
+Kensington and Chelsea,t,1886,51.501207,-0.192219,1
+Kensington and Chelsea,t,1887,51.501207,-0.192219,4
+Kensington and Chelsea,t,1888,51.501207,-0.192219,3
+Kensington and Chelsea,t,1889,51.501207,-0.192219,6
+Kensington and Chelsea,t,1890,51.501207,-0.192219,10
+Kensington and Chelsea,t,1892,51.501207,-0.192219,2
+Kensington and Chelsea,t,1893,51.501207,-0.192219,2
+Kensington and Chelsea,t,1895,51.501207,-0.192219,3
+Kensington and Chelsea,t,1896,51.501207,-0.192219,6
+Kensington and Chelsea,t,1897,51.501207,-0.192219,3
+Kensington and Chelsea,t,1898,51.501207,-0.192219,4
+Kensington and Chelsea,t,1899,51.501207,-0.192219,6
+Kensington and Chelsea,t,1900,51.501207,-0.192219,4
+Kensington and Chelsea,t,1901,51.501207,-0.192219,5
+Kensington and Chelsea,t,1902,51.501207,-0.192219,5
+Kensington and Chelsea,t,1903,51.501207,-0.192219,6
+Kensington and Chelsea,t,1904,51.501207,-0.192219,4
+Kensington and Chelsea,t,1905,51.501207,-0.192219,6
+Kensington and Chelsea,t,1906,51.501207,-0.192219,4
+Kensington and Chelsea,t,1907,51.501207,-0.192219,3
+Kensington and Chelsea,t,1911,51.501207,-0.192219,1
+Kensington and Chelsea,t,1928,51.501207,-0.192219,1
+Kensington and Chelsea,t,1963,51.501207,-0.192219,2
+Kensington and Chelsea,t,1965,51.501207,-0.192219,1
+Kensington and Chelsea,w,1873,51.501207,-0.192219,1
+Kensington and Chelsea,w,1874,51.501207,-0.192219,3
+Kensington and Chelsea,w,1875,51.501207,-0.192219,2
+Kensington and Chelsea,w,1880,51.501207,-0.192219,5
+Kensington and Chelsea,w,1881,51.501207,-0.192219,1
+Kensington and Chelsea,w,1882,51.501207,-0.192219,1
+Kensington and Chelsea,w,1883,51.501207,-0.192219,1
+Kensington and Chelsea,w,1884,51.501207,-0.192219,1
+Kensington and Chelsea,w,1886,51.501207,-0.192219,1
+Kensington and Chelsea,w,1887,51.501207,-0.192219,3
+Kensington and Chelsea,w,1889,51.501207,-0.192219,3
+Kensington and Chelsea,w,1890,51.501207,-0.192219,4
+Kensington and Chelsea,w,1895,51.501207,-0.192219,4
+Kensington and Chelsea,w,1896,51.501207,-0.192219,9
+Kensington and Chelsea,w,1897,51.501207,-0.192219,4
+Kensington and Chelsea,w,1898,51.501207,-0.192219,3
+Kensington and Chelsea,w,1899,51.501207,-0.192219,6
+Kensington and Chelsea,w,1900,51.501207,-0.192219,7
+Kensington and Chelsea,w,1901,51.501207,-0.192219,4
+Kensington and Chelsea,w,1902,51.501207,-0.192219,3
+Kensington and Chelsea,w,1903,51.501207,-0.192219,1
+Kensington and Chelsea,w,1904,51.501207,-0.192219,2
+Kensington and Chelsea,w,1905,51.501207,-0.192219,1
+Kensington and Chelsea,w,1957,51.501207,-0.192219,1
+Kensington and Chelsea,w,1969,51.501207,-0.192219,1
+Kingston upon Thames,Uncategorised,1895,51.387906,-0.2869,4
+Kingston upon Thames,Uncategorised,1903,51.387906,-0.2869,1
+Kingston upon Thames,Uncategorised,1908,51.387906,-0.2869,5
+Kingston upon Thames,Uncategorised,1911,51.387906,-0.2869,1
+Kingston upon Thames,Uncategorised,1913,51.387906,-0.2869,1
+Kingston upon Thames,Uncategorised,1914,51.387906,-0.2869,1
+Kingston upon Thames,Uncategorised,1925,51.387906,-0.2869,2
+Kingston upon Thames,Uncategorised,1926,51.387906,-0.2869,2
+Kingston upon Thames,Uncategorised,1933,51.387906,-0.2869,1
+Kingston upon Thames,Uncategorised,1934,51.387906,-0.2869,4
+Kingston upon Thames,Uncategorised,1939,51.387906,-0.2869,1
+Kingston upon Thames,Uncategorised,1942,51.387906,-0.2869,2
+Kingston upon Thames,Uncategorised,1943,51.387906,-0.2869,1
+Kingston upon Thames,Uncategorised,1944,51.387906,-0.2869,1
+Kingston upon Thames,Uncategorised,1946,51.387906,-0.2869,1
+Kingston upon Thames,Uncategorised,1947,51.387906,-0.2869,1
+Kingston upon Thames,Uncategorised,1951,51.387906,-0.2869,1
+Kingston upon Thames,Uncategorised,1959,51.387906,-0.2869,1
+Kingston upon Thames,Uncategorised,1962,51.387906,-0.2869,1
+Kingston upon Thames,a,1895,51.387906,-0.2869,2
+Kingston upon Thames,a,1908,51.387906,-0.2869,1
+Kingston upon Thames,a,1930,51.387906,-0.2869,1
+Kingston upon Thames,a,1931,51.387906,-0.2869,1
+Kingston upon Thames,f,1895,51.387906,-0.2869,2
+Kingston upon Thames,f,1902,51.387906,-0.2869,1
+Kingston upon Thames,f,1905,51.387906,-0.2869,1
+Kingston upon Thames,f,1928,51.387906,-0.2869,1
+Kingston upon Thames,f,1932,51.387906,-0.2869,1
+Kingston upon Thames,f,1939,51.387906,-0.2869,1
+Kingston upon Thames,f,1946,51.387906,-0.2869,1
+Kingston upon Thames,f,1947,51.387906,-0.2869,2
+Kingston upon Thames,f,1948,51.387906,-0.2869,1
+Kingston upon Thames,f,1951,51.387906,-0.2869,1
+Kingston upon Thames,f,1962,51.387906,-0.2869,1
+Kingston upon Thames,f,1963,51.387906,-0.2869,1
+Kingston upon Thames,h,1903,51.387906,-0.2869,1
+Kingston upon Thames,n,1909,51.387906,-0.2869,1
+Kingston upon Thames,s,1894,51.387906,-0.2869,1
+Kingston upon Thames,s,1897,51.387906,-0.2869,1
+Kingston upon Thames,s,1904,51.387906,-0.2869,1
+Kingston upon Thames,s,1905,51.387906,-0.2869,2
+Kingston upon Thames,s,1906,51.387906,-0.2869,1
+Kingston upon Thames,s,1908,51.387906,-0.2869,2
+Kingston upon Thames,s,1911,51.387906,-0.2869,1
+Kingston upon Thames,s,1919,51.387906,-0.2869,1
+Kingston upon Thames,s,1925,51.387906,-0.2869,2
+Kingston upon Thames,s,1926,51.387906,-0.2869,1
+Kingston upon Thames,s,1927,51.387906,-0.2869,2
+Kingston upon Thames,s,1935,51.387906,-0.2869,1
+Kingston upon Thames,s,1936,51.387906,-0.2869,1
+Kingston upon Thames,s,1937,51.387906,-0.2869,1
+Kingston upon Thames,s,1938,51.387906,-0.2869,1
+Kingston upon Thames,s,1939,51.387906,-0.2869,1
+Kingston upon Thames,s,1944,51.387906,-0.2869,1
+Kingston upon Thames,s,1945,51.387906,-0.2869,1
+Kingston upon Thames,s,1948,51.387906,-0.2869,1
+Kingston upon Thames,s,1950,51.387906,-0.2869,1
+Kingston upon Thames,s,1952,51.387906,-0.2869,1
+Kingston upon Thames,s,1953,51.387906,-0.2869,2
+Kingston upon Thames,s,1954,51.387906,-0.2869,1
+Kingston upon Thames,s,1955,51.387906,-0.2869,1
+Kingston upon Thames,s,1956,51.387906,-0.2869,1
+Kingston upon Thames,s,1957,51.387906,-0.2869,1
+Kingston upon Thames,s,1958,51.387906,-0.2869,1
+Kingston upon Thames,s,1959,51.387906,-0.2869,2
+Kingston upon Thames,s,1962,51.387906,-0.2869,2
+Kingston upon Thames,s,1963,51.387906,-0.2869,2
+Kingston upon Thames,s,1964,51.387906,-0.2869,2
+Kingston upon Thames,s,1965,51.387906,-0.2869,1
+Kingston upon Thames,s,1966,51.387906,-0.2869,1
+Kingston upon Thames,s,1967,51.387906,-0.2869,1
+Kingston upon Thames,s,1969,51.387906,-0.2869,1
+Kingston upon Thames,s,1970,51.387906,-0.2869,1
+Kingston upon Thames,s,1971,51.387906,-0.2869,1
+Kingston upon Thames,s,1972,51.387906,-0.2869,1
+Kingston upon Thames,s,1973,51.387906,-0.2869,1
+Kingston upon Thames,t,1895,51.387906,-0.2869,3
+Kingston upon Thames,t,1903,51.387906,-0.2869,2
+Kingston upon Thames,t,1905,51.387906,-0.2869,1
+Kingston upon Thames,t,1906,51.387906,-0.2869,1
+Kingston upon Thames,t,1908,51.387906,-0.2869,2
+Kingston upon Thames,t,1926,51.387906,-0.2869,1
+Kingston upon Thames,t,1928,51.387906,-0.2869,1
+Kingston upon Thames,t,1929,51.387906,-0.2869,2
+Kingston upon Thames,t,1930,51.387906,-0.2869,1
+Kingston upon Thames,t,1931,51.387906,-0.2869,1
+Kingston upon Thames,t,1932,51.387906,-0.2869,2
+Kingston upon Thames,t,1934,51.387906,-0.2869,2
+Kingston upon Thames,t,1937,51.387906,-0.2869,1
+Kingston upon Thames,t,1938,51.387906,-0.2869,1
+Kingston upon Thames,t,1939,51.387906,-0.2869,1
+Kingston upon Thames,t,1945,51.387906,-0.2869,1
+Kingston upon Thames,t,1948,51.387906,-0.2869,1
+Kingston upon Thames,t,1952,51.387906,-0.2869,1
+Kingston upon Thames,t,1953,51.387906,-0.2869,1
+Kingston upon Thames,t,1954,51.387906,-0.2869,2
+Kingston upon Thames,t,1960,51.387906,-0.2869,3
+Kingston upon Thames,t,1961,51.387906,-0.2869,1
+Kingston upon Thames,t,1968,51.387906,-0.2869,1
+Kingston upon Thames,w,1905,51.387906,-0.2869,1
+Kingston upon Thames,w,1908,51.387906,-0.2869,2
+Kingston upon Thames,w,1951,51.387906,-0.2869,2
+Lambeth,Uncategorised,1863,51.453839,-0.118309,1
+Lambeth,Uncategorised,1867,51.453839,-0.118309,1
+Lambeth,Uncategorised,1870,51.453839,-0.118309,1
+Lambeth,Uncategorised,1884,51.453839,-0.118309,2
+Lambeth,Uncategorised,1891,51.453839,-0.118309,4
+Lambeth,Uncategorised,1892,51.453839,-0.118309,1
+Lambeth,Uncategorised,1900,51.453839,-0.118309,1
+Lambeth,Uncategorised,1902,51.453839,-0.118309,1
+Lambeth,Uncategorised,1903,51.453839,-0.118309,4
+Lambeth,Uncategorised,1904,51.453839,-0.118309,1
+Lambeth,Uncategorised,1905,51.453839,-0.118309,4
+Lambeth,Uncategorised,1906,51.453839,-0.118309,2
+Lambeth,Uncategorised,1907,51.453839,-0.118309,1
+Lambeth,Uncategorised,1908,51.453839,-0.118309,3
+Lambeth,Uncategorised,1909,51.453839,-0.118309,1
+Lambeth,Uncategorised,1912,51.453839,-0.118309,1
+Lambeth,Uncategorised,1913,51.453839,-0.118309,1
+Lambeth,Uncategorised,1914,51.453839,-0.118309,2
+Lambeth,Uncategorised,1917,51.453839,-0.118309,1
+Lambeth,Uncategorised,1919,51.453839,-0.118309,2
+Lambeth,Uncategorised,1925,51.453839,-0.118309,2
+Lambeth,Uncategorised,1956,51.453839,-0.118309,1
+Lambeth,Uncategorised,1957,51.453839,-0.118309,1
+Lambeth,Uncategorised,1959,51.453839,-0.118309,1
+Lambeth,Uncategorised,1961,51.453839,-0.118309,1
+Lambeth,Uncategorised,1964,51.453839,-0.118309,2
+Lambeth,Uncategorised,1967,51.453839,-0.118309,2
+Lambeth,a,1866,51.453839,-0.118309,1
+Lambeth,a,1899,51.453839,-0.118309,1
+Lambeth,a,1900,51.453839,-0.118309,3
+Lambeth,a,1902,51.453839,-0.118309,1
+Lambeth,a,1904,51.453839,-0.118309,1
+Lambeth,a,1906,51.453839,-0.118309,1
+Lambeth,a,1908,51.453839,-0.118309,1
+Lambeth,a,1909,51.453839,-0.118309,1
+Lambeth,d,1965,51.453839,-0.118309,1
+Lambeth,f,1898,51.453839,-0.118309,1
+Lambeth,f,1899,51.453839,-0.118309,1
+Lambeth,f,1900,51.453839,-0.118309,1
+Lambeth,f,1903,51.453839,-0.118309,1
+Lambeth,f,1904,51.453839,-0.118309,2
+Lambeth,f,1906,51.453839,-0.118309,1
+Lambeth,f,1909,51.453839,-0.118309,2
+Lambeth,f,1951,51.453839,-0.118309,1
+Lambeth,f,1957,51.453839,-0.118309,1
+Lambeth,f,1959,51.453839,-0.118309,1
+Lambeth,f,1960,51.453839,-0.118309,2
+Lambeth,f,1963,51.453839,-0.118309,1
+Lambeth,f,1964,51.453839,-0.118309,2
+Lambeth,f,1965,51.453839,-0.118309,3
+Lambeth,f,1967,51.453839,-0.118309,1
+Lambeth,h,1868,51.453839,-0.118309,1
+Lambeth,h,1869,51.453839,-0.118309,1
+Lambeth,h,1870,51.453839,-0.118309,1
+Lambeth,h,1871,51.453839,-0.118309,1
+Lambeth,h,1873,51.453839,-0.118309,1
+Lambeth,h,1874,51.453839,-0.118309,1
+Lambeth,h,1875,51.453839,-0.118309,1
+Lambeth,h,1876,51.453839,-0.118309,1
+Lambeth,h,1887,51.453839,-0.118309,1
+Lambeth,h,1903,51.453839,-0.118309,1
+Lambeth,h,1904,51.453839,-0.118309,1
+Lambeth,h,1906,51.453839,-0.118309,1
+Lambeth,s,1857,51.453839,-0.118309,1
+Lambeth,s,1860,51.453839,-0.118309,1
+Lambeth,s,1861,51.453839,-0.118309,1
+Lambeth,s,1863,51.453839,-0.118309,1
+Lambeth,s,1864,51.453839,-0.118309,1
+Lambeth,s,1866,51.453839,-0.118309,2
+Lambeth,s,1867,51.453839,-0.118309,1
+Lambeth,s,1868,51.453839,-0.118309,1
+Lambeth,s,1869,51.453839,-0.118309,1
+Lambeth,s,1870,51.453839,-0.118309,2
+Lambeth,s,1871,51.453839,-0.118309,1
+Lambeth,s,1872,51.453839,-0.118309,1
+Lambeth,s,1873,51.453839,-0.118309,1
+Lambeth,s,1874,51.453839,-0.118309,1
+Lambeth,s,1875,51.453839,-0.118309,1
+Lambeth,s,1876,51.453839,-0.118309,1
+Lambeth,s,1877,51.453839,-0.118309,2
+Lambeth,s,1884,51.453839,-0.118309,3
+Lambeth,s,1889,51.453839,-0.118309,2
+Lambeth,s,1892,51.453839,-0.118309,1
+Lambeth,s,1894,51.453839,-0.118309,4
+Lambeth,s,1898,51.453839,-0.118309,1
+Lambeth,s,1899,51.453839,-0.118309,4
+Lambeth,s,1900,51.453839,-0.118309,4
+Lambeth,s,1902,51.453839,-0.118309,2
+Lambeth,s,1903,51.453839,-0.118309,1
+Lambeth,s,1904,51.453839,-0.118309,2
+Lambeth,s,1906,51.453839,-0.118309,2
+Lambeth,s,1907,51.453839,-0.118309,3
+Lambeth,s,1908,51.453839,-0.118309,2
+Lambeth,s,1909,51.453839,-0.118309,1
+Lambeth,s,1912,51.453839,-0.118309,1
+Lambeth,s,1913,51.453839,-0.118309,1
+Lambeth,s,1914,51.453839,-0.118309,1
+Lambeth,s,1917,51.453839,-0.118309,1
+Lambeth,s,1918,51.453839,-0.118309,1
+Lambeth,s,1919,51.453839,-0.118309,2
+Lambeth,s,1923,51.453839,-0.118309,2
+Lambeth,s,1925,51.453839,-0.118309,2
+Lambeth,s,1926,51.453839,-0.118309,2
+Lambeth,s,1927,51.453839,-0.118309,2
+Lambeth,t,1857,51.453839,-0.118309,1
+Lambeth,t,1860,51.453839,-0.118309,1
+Lambeth,t,1862,51.453839,-0.118309,1
+Lambeth,t,1864,51.453839,-0.118309,1
+Lambeth,t,1872,51.453839,-0.118309,1
+Lambeth,t,1875,51.453839,-0.118309,1
+Lambeth,t,1876,51.453839,-0.118309,1
+Lambeth,t,1886,51.453839,-0.118309,1
+Lambeth,t,1894,51.453839,-0.118309,2
+Lambeth,t,1898,51.453839,-0.118309,3
+Lambeth,t,1899,51.453839,-0.118309,1
+Lambeth,t,1902,51.453839,-0.118309,2
+Lambeth,t,1903,51.453839,-0.118309,2
+Lambeth,t,1905,51.453839,-0.118309,2
+Lambeth,t,1906,51.453839,-0.118309,1
+Lambeth,t,1908,51.453839,-0.118309,1
+Lambeth,t,1909,51.453839,-0.118309,1
+Lambeth,t,1913,51.453839,-0.118309,2
+Lambeth,t,1914,51.453839,-0.118309,1
+Lambeth,t,1917,51.453839,-0.118309,1
+Lambeth,t,1918,51.453839,-0.118309,1
+Lambeth,t,1925,51.453839,-0.118309,1
+Lambeth,t,1951,51.453839,-0.118309,2
+Lambeth,t,1958,51.453839,-0.118309,2
+Lambeth,t,1962,51.453839,-0.118309,1
+Lambeth,t,1964,51.453839,-0.118309,1
+Lambeth,w,1887,51.453839,-0.118309,1
+Lambeth,w,1900,51.453839,-0.118309,2
+Lambeth,w,1902,51.453839,-0.118309,1
+Lambeth,w,1903,51.453839,-0.118309,2
+Lambeth,w,1905,51.453839,-0.118309,1
+Lambeth,w,1906,51.453839,-0.118309,1
+Lambeth,w,1907,51.453839,-0.118309,1
+Lambeth,w,1908,51.453839,-0.118309,3
+Lambeth,w,1909,51.453839,-0.118309,4
+Lambeth,w,1917,51.453839,-0.118309,1
+Lambeth,w,1918,51.453839,-0.118309,1
+Lambeth,w,1933,51.453839,-0.118309,1
+Lambeth,w,1935,51.453839,-0.118309,1
+Lambeth,w,1936,51.453839,-0.118309,1
+Lambeth,w,1937,51.453839,-0.118309,1
+Lambeth,w,1938,51.453839,-0.118309,1
+Lambeth,w,1966,51.453839,-0.118309,1
+Lambeth,w,1968,51.453839,-0.118309,1
+Lewisham,Uncategorised,1859,51.448284,-0.02029,2
+Lewisham,Uncategorised,1861,51.448284,-0.02029,1
+Lewisham,Uncategorised,1863,51.448284,-0.02029,3
+Lewisham,Uncategorised,1875,51.448284,-0.02029,1
+Lewisham,Uncategorised,1883,51.448284,-0.02029,1
+Lewisham,Uncategorised,1902,51.448284,-0.02029,1
+Lewisham,Uncategorised,1904,51.448284,-0.02029,3
+Lewisham,Uncategorised,1905,51.448284,-0.02029,1
+Lewisham,Uncategorised,1911,51.448284,-0.02029,1
+Lewisham,Uncategorised,1913,51.448284,-0.02029,1
+Lewisham,Uncategorised,1914,51.448284,-0.02029,3
+Lewisham,Uncategorised,1915,51.448284,-0.02029,1
+Lewisham,Uncategorised,1953,51.448284,-0.02029,1
+Lewisham,a,1856,51.448284,-0.02029,1
+Lewisham,a,1857,51.448284,-0.02029,2
+Lewisham,a,1858,51.448284,-0.02029,1
+Lewisham,a,1861,51.448284,-0.02029,2
+Lewisham,a,1867,51.448284,-0.02029,1
+Lewisham,a,1904,51.448284,-0.02029,2
+Lewisham,a,1907,51.448284,-0.02029,1
+Lewisham,a,1928,51.448284,-0.02029,2
+Lewisham,a,1950,51.448284,-0.02029,2
+Lewisham,d,1968,51.448284,-0.02029,1
+Lewisham,f,1857,51.448284,-0.02029,3
+Lewisham,f,1858,51.448284,-0.02029,2
+Lewisham,f,1859,51.448284,-0.02029,2
+Lewisham,f,1861,51.448284,-0.02029,1
+Lewisham,f,1862,51.448284,-0.02029,1
+Lewisham,f,1902,51.448284,-0.02029,1
+Lewisham,f,1926,51.448284,-0.02029,1
+Lewisham,f,1948,51.448284,-0.02029,1
+Lewisham,f,1952,51.448284,-0.02029,1
+Lewisham,f,1970,51.448284,-0.02029,1
+Lewisham,h,1857,51.448284,-0.02029,1
+Lewisham,h,1859,51.448284,-0.02029,1
+Lewisham,h,1861,51.448284,-0.02029,2
+Lewisham,h,1896,51.448284,-0.02029,1
+Lewisham,h,1914,51.448284,-0.02029,1
+Lewisham,h,1957,51.448284,-0.02029,1
+Lewisham,s,1856,51.448284,-0.02029,11
+Lewisham,s,1857,51.448284,-0.02029,7
+Lewisham,s,1858,51.448284,-0.02029,4
+Lewisham,s,1859,51.448284,-0.02029,2
+Lewisham,s,1860,51.448284,-0.02029,1
+Lewisham,s,1861,51.448284,-0.02029,3
+Lewisham,s,1862,51.448284,-0.02029,1
+Lewisham,s,1863,51.448284,-0.02029,1
+Lewisham,s,1864,51.448284,-0.02029,5
+Lewisham,s,1869,51.448284,-0.02029,1
+Lewisham,s,1872,51.448284,-0.02029,1
+Lewisham,s,1875,51.448284,-0.02029,5
+Lewisham,s,1878,51.448284,-0.02029,1
+Lewisham,s,1881,51.448284,-0.02029,2
+Lewisham,s,1883,51.448284,-0.02029,1
+Lewisham,s,1884,51.448284,-0.02029,2
+Lewisham,s,1885,51.448284,-0.02029,1
+Lewisham,s,1886,51.448284,-0.02029,1
+Lewisham,s,1887,51.448284,-0.02029,1
+Lewisham,s,1889,51.448284,-0.02029,1
+Lewisham,s,1896,51.448284,-0.02029,4
+Lewisham,s,1905,51.448284,-0.02029,1
+Lewisham,s,1909,51.448284,-0.02029,1
+Lewisham,s,1911,51.448284,-0.02029,1
+Lewisham,s,1926,51.448284,-0.02029,1
+Lewisham,s,1929,51.448284,-0.02029,2
+Lewisham,s,1950,51.448284,-0.02029,1
+Lewisham,s,1956,51.448284,-0.02029,1
+Lewisham,s,1961,51.448284,-0.02029,1
+Lewisham,t,1857,51.448284,-0.02029,2
+Lewisham,t,1861,51.448284,-0.02029,1
+Lewisham,t,1862,51.448284,-0.02029,1
+Lewisham,t,1875,51.448284,-0.02029,3
+Lewisham,t,1902,51.448284,-0.02029,1
+Lewisham,t,1904,51.448284,-0.02029,21
+Lewisham,t,1907,51.448284,-0.02029,1
+Lewisham,t,1925,51.448284,-0.02029,1
+Lewisham,t,1926,51.448284,-0.02029,2
+Lewisham,t,1952,51.448284,-0.02029,1
+Lewisham,t,1953,51.448284,-0.02029,4
+Lewisham,t,1968,51.448284,-0.02029,1
+Lewisham,t,1969,51.448284,-0.02029,1
+Lewisham,t,1970,51.448284,-0.02029,1
+Lewisham,w,1857,51.448284,-0.02029,1
+Lewisham,w,1862,51.448284,-0.02029,1
+Merton,Uncategorised,1895,51.40995,-0.197252,2
+Merton,Uncategorised,1913,51.40995,-0.197252,3
+Merton,Uncategorised,1933,51.40995,-0.197252,3
+Merton,Uncategorised,1937,51.40995,-0.197252,1
+Merton,Uncategorised,1951,51.40995,-0.197252,1
+Merton,Uncategorised,1956,51.40995,-0.197252,1
+Merton,Uncategorised,1962,51.40995,-0.197252,1
+Merton,Uncategorised,1971,51.40995,-0.197252,1
+Merton,a,1904,51.40995,-0.197252,1
+Merton,a,1906,51.40995,-0.197252,1
+Merton,a,1933,51.40995,-0.197252,1
+Merton,d,1955,51.40995,-0.197252,1
+Merton,d,1956,51.40995,-0.197252,1
+Merton,d,1970,51.40995,-0.197252,1
+Merton,f,1908,51.40995,-0.197252,1
+Merton,f,1928,51.40995,-0.197252,1
+Merton,f,1932,51.40995,-0.197252,2
+Merton,f,1934,51.40995,-0.197252,1
+Merton,f,1937,51.40995,-0.197252,1
+Merton,f,1948,51.40995,-0.197252,1
+Merton,f,1949,51.40995,-0.197252,1
+Merton,f,1956,51.40995,-0.197252,2
+Merton,f,1959,51.40995,-0.197252,2
+Merton,f,1968,51.40995,-0.197252,1
+Merton,f,1970,51.40995,-0.197252,2
+Merton,f,1971,51.40995,-0.197252,7
+Merton,f,1972,51.40995,-0.197252,4
+Merton,h,1895,51.40995,-0.197252,1
+Merton,h,1913,51.40995,-0.197252,1
+Merton,s,1895,51.40995,-0.197252,1
+Merton,s,1896,51.40995,-0.197252,1
+Merton,s,1898,51.40995,-0.197252,1
+Merton,s,1904,51.40995,-0.197252,1
+Merton,s,1963,51.40995,-0.197252,2
+Merton,s,1965,51.40995,-0.197252,2
+Merton,s,1967,51.40995,-0.197252,2
+Merton,s,1970,51.40995,-0.197252,2
+Merton,t,1959,51.40995,-0.197252,2
+Merton,t,1963,51.40995,-0.197252,1
+Merton,t,1966,51.40995,-0.197252,2
+Merton,t,1968,51.40995,-0.197252,2
+Merton,t,1969,51.40995,-0.197252,2
+Merton,t,1971,51.40995,-0.197252,2
+Merton,t,1972,51.40995,-0.197252,2
+Merton,t,1973,51.40995,-0.197252,3
+Merton,w,1895,51.40995,-0.197252,1
+Merton,w,1898,51.40995,-0.197252,1
+Merton,w,1909,51.40995,-0.197252,2
+Merton,w,1925,51.40995,-0.197252,1
+Newham,Uncategorised,1897,51.52689,0.037537,1
+Newham,Uncategorised,1898,51.52689,0.037537,1
+Newham,Uncategorised,1899,51.52689,0.037537,4
+Newham,Uncategorised,1907,51.52689,0.037537,1
+Newham,Uncategorised,1910,51.52689,0.037537,3
+Newham,Uncategorised,1913,51.52689,0.037537,1
+Newham,Uncategorised,1914,51.52689,0.037537,1
+Newham,Uncategorised,1925,51.52689,0.037537,1
+Newham,Uncategorised,1928,51.52689,0.037537,1
+Newham,Uncategorised,1931,51.52689,0.037537,2
+Newham,Uncategorised,1936,51.52689,0.037537,1
+Newham,Uncategorised,1937,51.52689,0.037537,1
+Newham,Uncategorised,1949,51.52689,0.037537,1
+Newham,Uncategorised,1950,51.52689,0.037537,1
+Newham,Uncategorised,1953,51.52689,0.037537,1
+Newham,a,1899,51.52689,0.037537,2
+Newham,a,1904,51.52689,0.037537,1
+Newham,a,1914,51.52689,0.037537,1
+Newham,a,1929,51.52689,0.037537,1
+Newham,d,1940,51.52689,0.037537,1
+Newham,f,1900,51.52689,0.037537,1
+Newham,f,1906,51.52689,0.037537,1
+Newham,f,1907,51.52689,0.037537,1
+Newham,f,1913,51.52689,0.037537,1
+Newham,f,1935,51.52689,0.037537,1
+Newham,f,1956,51.52689,0.037537,1
+Newham,h,1899,51.52689,0.037537,1
+Newham,h,1909,51.52689,0.037537,1
+Newham,h,1913,51.52689,0.037537,1
+Newham,h,1914,51.52689,0.037537,1
+Newham,h,1915,51.52689,0.037537,2
+Newham,s,1897,51.52689,0.037537,1
+Newham,s,1898,51.52689,0.037537,1
+Newham,s,1899,51.52689,0.037537,14
+Newham,s,1904,51.52689,0.037537,1
+Newham,s,1905,51.52689,0.037537,1
+Newham,s,1907,51.52689,0.037537,1
+Newham,s,1914,51.52689,0.037537,1
+Newham,s,1918,51.52689,0.037537,2
+Newham,s,1919,51.52689,0.037537,1
+Newham,s,1920,51.52689,0.037537,1
+Newham,s,1925,51.52689,0.037537,1
+Newham,s,1926,51.52689,0.037537,1
+Newham,s,1927,51.52689,0.037537,1
+Newham,s,1931,51.52689,0.037537,1
+Newham,s,1956,51.52689,0.037537,1
+Newham,s,1958,51.52689,0.037537,1
+Newham,t,1909,51.52689,0.037537,1
+Newham,t,1913,51.52689,0.037537,1
+Newham,t,1914,51.52689,0.037537,1
+Newham,t,1915,51.52689,0.037537,1
+Newham,t,1919,51.52689,0.037537,1
+Newham,t,1926,51.52689,0.037537,1
+Newham,t,1927,51.52689,0.037537,1
+Newham,t,1931,51.52689,0.037537,1
+Newham,t,1933,51.52689,0.037537,1
+Newham,t,1936,51.52689,0.037537,1
+Newham,t,1937,51.52689,0.037537,3
+Newham,t,1938,51.52689,0.037537,1
+Newham,w,1900,51.52689,0.037537,1
+Newham,w,1904,51.52689,0.037537,1
+Newham,w,1909,51.52689,0.037537,1
+Newham,w,1913,51.52689,0.037537,1
+Newham,w,1915,51.52689,0.037537,1
+Newham,w,1936,51.52689,0.037537,1
+Newham,w,1951,51.52689,0.037537,1
+Redbridge,Uncategorised,1900,51.585658,0.075864,1
+Redbridge,Uncategorised,1906,51.585658,0.075864,1
+Redbridge,Uncategorised,1912,51.585658,0.075864,1
+Redbridge,Uncategorised,1948,51.585658,0.075864,1
+Redbridge,Uncategorised,1950,51.585658,0.075864,1
+Redbridge,Uncategorised,1951,51.585658,0.075864,1
+Redbridge,Uncategorised,1952,51.585658,0.075864,1
+Redbridge,Uncategorised,1953,51.585658,0.075864,1
+Redbridge,Uncategorised,1956,51.585658,0.075864,1
+Redbridge,Uncategorised,1958,51.585658,0.075864,2
+Redbridge,Uncategorised,1971,51.585658,0.075864,1
+Redbridge,Uncategorised,1972,51.585658,0.075864,1
+Redbridge,a,1896,51.585658,0.075864,1
+Redbridge,a,1897,51.585658,0.075864,1
+Redbridge,a,1948,51.585658,0.075864,1
+Redbridge,a,1949,51.585658,0.075864,1
+Redbridge,a,1960,51.585658,0.075864,1
+Redbridge,a,1962,51.585658,0.075864,1
+Redbridge,a,1963,51.585658,0.075864,1
+Redbridge,d,1952,51.585658,0.075864,1
+Redbridge,f,1905,51.585658,0.075864,1
+Redbridge,f,1909,51.585658,0.075864,1
+Redbridge,f,1960,51.585658,0.075864,1
+Redbridge,s,1897,51.585658,0.075864,1
+Redbridge,s,1905,51.585658,0.075864,1
+Redbridge,s,1906,51.585658,0.075864,2
+Redbridge,s,1912,51.585658,0.075864,1
+Redbridge,s,1913,51.585658,0.075864,2
+Redbridge,s,1915,51.585658,0.075864,1
+Redbridge,s,1919,51.585658,0.075864,1
+Redbridge,s,1920,51.585658,0.075864,1
+Redbridge,s,1923,51.585658,0.075864,1
+Redbridge,s,1924,51.585658,0.075864,1
+Redbridge,s,1925,51.585658,0.075864,1
+Redbridge,s,1928,51.585658,0.075864,1
+Redbridge,s,1929,51.585658,0.075864,1
+Redbridge,s,1930,51.585658,0.075864,1
+Redbridge,s,1931,51.585658,0.075864,1
+Redbridge,s,1935,51.585658,0.075864,1
+Redbridge,s,1936,51.585658,0.075864,1
+Redbridge,s,1937,51.585658,0.075864,1
+Redbridge,s,1939,51.585658,0.075864,1
+Redbridge,s,1941,51.585658,0.075864,1
+Redbridge,s,1942,51.585658,0.075864,1
+Redbridge,s,1943,51.585658,0.075864,1
+Redbridge,s,1944,51.585658,0.075864,1
+Redbridge,s,1945,51.585658,0.075864,1
+Redbridge,s,1946,51.585658,0.075864,2
+Redbridge,s,1947,51.585658,0.075864,2
+Redbridge,s,1948,51.585658,0.075864,1
+Redbridge,s,1949,51.585658,0.075864,1
+Redbridge,s,1950,51.585658,0.075864,1
+Redbridge,s,1951,51.585658,0.075864,1
+Redbridge,s,1952,51.585658,0.075864,1
+Redbridge,s,1953,51.585658,0.075864,1
+Redbridge,s,1954,51.585658,0.075864,1
+Redbridge,s,1955,51.585658,0.075864,2
+Redbridge,s,1956,51.585658,0.075864,1
+Redbridge,s,1957,51.585658,0.075864,1
+Redbridge,s,1958,51.585658,0.075864,1
+Redbridge,s,1959,51.585658,0.075864,1
+Redbridge,s,1960,51.585658,0.075864,2
+Redbridge,s,1961,51.585658,0.075864,2
+Redbridge,s,1962,51.585658,0.075864,3
+Redbridge,s,1963,51.585658,0.075864,2
+Redbridge,s,1964,51.585658,0.075864,1
+Redbridge,s,1965,51.585658,0.075864,2
+Redbridge,s,1966,51.585658,0.075864,2
+Redbridge,s,1967,51.585658,0.075864,2
+Redbridge,s,1968,51.585658,0.075864,2
+Redbridge,s,1969,51.585658,0.075864,2
+Redbridge,s,1970,51.585658,0.075864,1
+Redbridge,s,1971,51.585658,0.075864,1
+Redbridge,s,1972,51.585658,0.075864,1
+Redbridge,t,1909,51.585658,0.075864,1
+Redbridge,t,1911,51.585658,0.075864,1
+Redbridge,t,1912,51.585658,0.075864,1
+Redbridge,t,1925,51.585658,0.075864,1
+Redbridge,t,1938,51.585658,0.075864,1
+Redbridge,t,1939,51.585658,0.075864,1
+Redbridge,t,1945,51.585658,0.075864,1
+Redbridge,t,1951,51.585658,0.075864,1
+Redbridge,t,1952,51.585658,0.075864,2
+Redbridge,t,1960,51.585658,0.075864,1
+Redbridge,t,1961,51.585658,0.075864,1
+Redbridge,t,1962,51.585658,0.075864,1
+Redbridge,w,1900,51.585658,0.075864,1
+Redbridge,w,1913,51.585658,0.075864,1
+Redbridge,w,1924,51.585658,0.075864,1
+Redbridge,w,1957,51.585658,0.075864,1
+Redbridge,w,1961,51.585658,0.075864,1
+Southwark,Uncategorised,1856,51.474239,-0.074055,5
+Southwark,Uncategorised,1857,51.474239,-0.074055,14
+Southwark,Uncategorised,1858,51.474239,-0.074055,12
+Southwark,Uncategorised,1859,51.474239,-0.074055,29
+Southwark,Uncategorised,1860,51.474239,-0.074055,9
+Southwark,Uncategorised,1864,51.474239,-0.074055,3
+Southwark,Uncategorised,1871,51.474239,-0.074055,4
+Southwark,Uncategorised,1874,51.474239,-0.074055,1
+Southwark,Uncategorised,1875,51.474239,-0.074055,2
+Southwark,Uncategorised,1878,51.474239,-0.074055,1
+Southwark,Uncategorised,1880,51.474239,-0.074055,2
+Southwark,Uncategorised,1884,51.474239,-0.074055,2
+Southwark,Uncategorised,1885,51.474239,-0.074055,1
+Southwark,Uncategorised,1887,51.474239,-0.074055,1
+Southwark,Uncategorised,1888,51.474239,-0.074055,2
+Southwark,Uncategorised,1893,51.474239,-0.074055,1
+Southwark,Uncategorised,1894,51.474239,-0.074055,1
+Southwark,Uncategorised,1895,51.474239,-0.074055,2
+Southwark,Uncategorised,1896,51.474239,-0.074055,3
+Southwark,Uncategorised,1897,51.474239,-0.074055,1
+Southwark,Uncategorised,1898,51.474239,-0.074055,2
+Southwark,Uncategorised,1899,51.474239,-0.074055,2
+Southwark,Uncategorised,1903,51.474239,-0.074055,6
+Southwark,Uncategorised,1905,51.474239,-0.074055,1
+Southwark,Uncategorised,1906,51.474239,-0.074055,4
+Southwark,Uncategorised,1908,51.474239,-0.074055,4
+Southwark,Uncategorised,1909,51.474239,-0.074055,3
+Southwark,Uncategorised,1913,51.474239,-0.074055,1
+Southwark,Uncategorised,1914,51.474239,-0.074055,3
+Southwark,Uncategorised,1915,51.474239,-0.074055,1
+Southwark,Uncategorised,1924,51.474239,-0.074055,1
+Southwark,Uncategorised,1935,51.474239,-0.074055,1
+Southwark,Uncategorised,1937,51.474239,-0.074055,2
+Southwark,Uncategorised,1944,51.474239,-0.074055,1
+Southwark,Uncategorised,1950,51.474239,-0.074055,1
+Southwark,Uncategorised,1953,51.474239,-0.074055,2
+Southwark,a,1856,51.474239,-0.074055,6
+Southwark,a,1857,51.474239,-0.074055,11
+Southwark,a,1858,51.474239,-0.074055,13
+Southwark,a,1859,51.474239,-0.074055,6
+Southwark,a,1864,51.474239,-0.074055,3
+Southwark,a,1871,51.474239,-0.074055,1
+Southwark,a,1882,51.474239,-0.074055,2
+Southwark,a,1884,51.474239,-0.074055,1
+Southwark,a,1887,51.474239,-0.074055,1
+Southwark,a,1896,51.474239,-0.074055,3
+Southwark,a,1898,51.474239,-0.074055,2
+Southwark,a,1904,51.474239,-0.074055,1
+Southwark,a,1905,51.474239,-0.074055,1
+Southwark,a,1912,51.474239,-0.074055,2
+Southwark,a,1913,51.474239,-0.074055,1
+Southwark,a,1936,51.474239,-0.074055,1
+Southwark,a,1949,51.474239,-0.074055,1
+Southwark,a,1950,51.474239,-0.074055,2
+Southwark,a,1952,51.474239,-0.074055,1
+Southwark,a,1956,51.474239,-0.074055,6
+Southwark,a,1958,51.474239,-0.074055,2
+Southwark,a,1960,51.474239,-0.074055,2
+Southwark,a,1963,51.474239,-0.074055,1
+Southwark,d,1857,51.474239,-0.074055,2
+Southwark,d,1858,51.474239,-0.074055,1
+Southwark,d,1859,51.474239,-0.074055,1
+Southwark,d,1898,51.474239,-0.074055,1
+Southwark,d,1950,51.474239,-0.074055,1
+Southwark,d,1968,51.474239,-0.074055,1
+Southwark,f,1856,51.474239,-0.074055,6
+Southwark,f,1857,51.474239,-0.074055,7
+Southwark,f,1858,51.474239,-0.074055,3
+Southwark,f,1859,51.474239,-0.074055,7
+Southwark,f,1860,51.474239,-0.074055,5
+Southwark,f,1864,51.474239,-0.074055,1
+Southwark,f,1876,51.474239,-0.074055,1
+Southwark,f,1879,51.474239,-0.074055,2
+Southwark,f,1880,51.474239,-0.074055,2
+Southwark,f,1885,51.474239,-0.074055,1
+Southwark,f,1887,51.474239,-0.074055,1
+Southwark,f,1895,51.474239,-0.074055,1
+Southwark,f,1896,51.474239,-0.074055,1
+Southwark,f,1898,51.474239,-0.074055,1
+Southwark,f,1899,51.474239,-0.074055,1
+Southwark,f,1902,51.474239,-0.074055,1
+Southwark,f,1903,51.474239,-0.074055,1
+Southwark,f,1905,51.474239,-0.074055,1
+Southwark,f,1907,51.474239,-0.074055,3
+Southwark,f,1909,51.474239,-0.074055,1
+Southwark,f,1910,51.474239,-0.074055,1
+Southwark,f,1911,51.474239,-0.074055,1
+Southwark,f,1912,51.474239,-0.074055,1
+Southwark,f,1917,51.474239,-0.074055,1
+Southwark,f,1924,51.474239,-0.074055,1
+Southwark,f,1938,51.474239,-0.074055,3
+Southwark,f,1946,51.474239,-0.074055,1
+Southwark,f,1947,51.474239,-0.074055,1
+Southwark,f,1948,51.474239,-0.074055,1
+Southwark,f,1949,51.474239,-0.074055,2
+Southwark,f,1951,51.474239,-0.074055,1
+Southwark,f,1954,51.474239,-0.074055,1
+Southwark,f,1965,51.474239,-0.074055,1
+Southwark,h,1856,51.474239,-0.074055,3
+Southwark,h,1857,51.474239,-0.074055,4
+Southwark,h,1858,51.474239,-0.074055,8
+Southwark,h,1859,51.474239,-0.074055,4
+Southwark,h,1860,51.474239,-0.074055,2
+Southwark,h,1864,51.474239,-0.074055,1
+Southwark,h,1871,51.474239,-0.074055,1
+Southwark,h,1875,51.474239,-0.074055,1
+Southwark,h,1879,51.474239,-0.074055,1
+Southwark,h,1880,51.474239,-0.074055,1
+Southwark,h,1881,51.474239,-0.074055,1
+Southwark,h,1883,51.474239,-0.074055,2
+Southwark,h,1884,51.474239,-0.074055,1
+Southwark,h,1896,51.474239,-0.074055,1
+Southwark,h,1898,51.474239,-0.074055,2
+Southwark,h,1899,51.474239,-0.074055,1
+Southwark,h,1912,51.474239,-0.074055,1
+Southwark,h,1913,51.474239,-0.074055,2
+Southwark,h,1914,51.474239,-0.074055,5
+Southwark,h,1950,51.474239,-0.074055,1
+Southwark,h,1954,51.474239,-0.074055,1
+Southwark,n,1857,51.474239,-0.074055,1
+Southwark,n,1858,51.474239,-0.074055,1
+Southwark,n,1859,51.474239,-0.074055,1
+Southwark,n,1888,51.474239,-0.074055,1
+Southwark,s,1856,51.474239,-0.074055,16
+Southwark,s,1857,51.474239,-0.074055,17
+Southwark,s,1858,51.474239,-0.074055,20
+Southwark,s,1859,51.474239,-0.074055,14
+Southwark,s,1860,51.474239,-0.074055,1
+Southwark,s,1868,51.474239,-0.074055,1
+Southwark,s,1871,51.474239,-0.074055,2
+Southwark,s,1875,51.474239,-0.074055,1
+Southwark,s,1880,51.474239,-0.074055,1
+Southwark,s,1882,51.474239,-0.074055,1
+Southwark,s,1883,51.474239,-0.074055,1
+Southwark,s,1884,51.474239,-0.074055,1
+Southwark,s,1888,51.474239,-0.074055,2
+Southwark,s,1892,51.474239,-0.074055,2
+Southwark,s,1893,51.474239,-0.074055,2
+Southwark,s,1894,51.474239,-0.074055,2
+Southwark,s,1895,51.474239,-0.074055,6
+Southwark,s,1896,51.474239,-0.074055,1
+Southwark,s,1897,51.474239,-0.074055,2
+Southwark,s,1898,51.474239,-0.074055,1
+Southwark,s,1900,51.474239,-0.074055,1
+Southwark,s,1902,51.474239,-0.074055,2
+Southwark,s,1903,51.474239,-0.074055,1
+Southwark,s,1904,51.474239,-0.074055,1
+Southwark,s,1905,51.474239,-0.074055,3
+Southwark,s,1906,51.474239,-0.074055,4
+Southwark,s,1907,51.474239,-0.074055,5
+Southwark,s,1912,51.474239,-0.074055,1
+Southwark,s,1914,51.474239,-0.074055,1
+Southwark,s,1929,51.474239,-0.074055,2
+Southwark,s,1933,51.474239,-0.074055,2
+Southwark,s,1937,51.474239,-0.074055,1
+Southwark,s,1946,51.474239,-0.074055,1
+Southwark,t,1856,51.474239,-0.074055,7
+Southwark,t,1857,51.474239,-0.074055,13
+Southwark,t,1858,51.474239,-0.074055,12
+Southwark,t,1859,51.474239,-0.074055,7
+Southwark,t,1860,51.474239,-0.074055,3
+Southwark,t,1863,51.474239,-0.074055,1
+Southwark,t,1864,51.474239,-0.074055,3
+Southwark,t,1869,51.474239,-0.074055,1
+Southwark,t,1871,51.474239,-0.074055,1
+Southwark,t,1873,51.474239,-0.074055,1
+Southwark,t,1874,51.474239,-0.074055,1
+Southwark,t,1875,51.474239,-0.074055,1
+Southwark,t,1878,51.474239,-0.074055,1
+Southwark,t,1880,51.474239,-0.074055,1
+Southwark,t,1884,51.474239,-0.074055,1
+Southwark,t,1886,51.474239,-0.074055,1
+Southwark,t,1892,51.474239,-0.074055,2
+Southwark,t,1894,51.474239,-0.074055,3
+Southwark,t,1895,51.474239,-0.074055,2
+Southwark,t,1896,51.474239,-0.074055,2
+Southwark,t,1902,51.474239,-0.074055,1
+Southwark,t,1906,51.474239,-0.074055,1
+Southwark,t,1907,51.474239,-0.074055,1
+Southwark,t,1908,51.474239,-0.074055,1
+Southwark,t,1910,51.474239,-0.074055,1
+Southwark,t,1912,51.474239,-0.074055,3
+Southwark,t,1914,51.474239,-0.074055,2
+Southwark,t,1915,51.474239,-0.074055,1
+Southwark,t,1923,51.474239,-0.074055,1
+Southwark,t,1933,51.474239,-0.074055,1
+Southwark,t,1935,51.474239,-0.074055,2
+Southwark,t,1938,51.474239,-0.074055,3
+Southwark,t,1947,51.474239,-0.074055,1
+Southwark,t,1950,51.474239,-0.074055,1
+Southwark,t,1951,51.474239,-0.074055,2
+Southwark,t,1952,51.474239,-0.074055,1
+Southwark,t,1953,51.474239,-0.074055,2
+Southwark,t,1956,51.474239,-0.074055,1
+Southwark,t,1964,51.474239,-0.074055,1
+Southwark,t,1970,51.474239,-0.074055,1
+Southwark,w,1856,51.474239,-0.074055,8
+Southwark,w,1857,51.474239,-0.074055,8
+Southwark,w,1858,51.474239,-0.074055,8
+Southwark,w,1859,51.474239,-0.074055,10
+Southwark,w,1860,51.474239,-0.074055,4
+Southwark,w,1863,51.474239,-0.074055,1
+Southwark,w,1865,51.474239,-0.074055,1
+Southwark,w,1867,51.474239,-0.074055,1
+Southwark,w,1872,51.474239,-0.074055,1
+Southwark,w,1882,51.474239,-0.074055,1
+Southwark,w,1884,51.474239,-0.074055,1
+Southwark,w,1896,51.474239,-0.074055,1
+Southwark,w,1902,51.474239,-0.074055,1
+Southwark,w,1904,51.474239,-0.074055,1
+Southwark,w,1907,51.474239,-0.074055,1
+Southwark,w,1912,51.474239,-0.074055,2
+Southwark,w,1913,51.474239,-0.074055,7
+Southwark,w,1914,51.474239,-0.074055,10
+Southwark,w,1925,51.474239,-0.074055,1
+Southwark,w,1957,51.474239,-0.074055,1
+Sutton,Uncategorised,1954,51.36209,-0.177573,1
+Sutton,Uncategorised,1957,51.36209,-0.177573,2
+Sutton,Uncategorised,1959,51.36209,-0.177573,1
+Sutton,Uncategorised,1960,51.36209,-0.177573,1
+Sutton,Uncategorised,1961,51.36209,-0.177573,2
+Sutton,Uncategorised,1963,51.36209,-0.177573,1
+Sutton,Uncategorised,1964,51.36209,-0.177573,1
+Sutton,Uncategorised,1965,51.36209,-0.177573,1
+Sutton,Uncategorised,1971,51.36209,-0.177573,2
+Sutton,Uncategorised,1972,51.36209,-0.177573,2
+Sutton,Uncategorised,1973,51.36209,-0.177573,1
+Sutton,a,1965,51.36209,-0.177573,1
+Sutton,f,1954,51.36209,-0.177573,1
+Sutton,f,1961,51.36209,-0.177573,1
+Sutton,f,1962,51.36209,-0.177573,1
+Sutton,s,1903,51.36209,-0.177573,1
+Sutton,s,1937,51.36209,-0.177573,1
+Sutton,s,1938,51.36209,-0.177573,1
+Sutton,s,1939,51.36209,-0.177573,1
+Sutton,s,1944,51.36209,-0.177573,1
+Sutton,s,1945,51.36209,-0.177573,1
+Sutton,s,1946,51.36209,-0.177573,1
+Sutton,s,1947,51.36209,-0.177573,1
+Sutton,s,1948,51.36209,-0.177573,1
+Sutton,s,1949,51.36209,-0.177573,1
+Sutton,s,1950,51.36209,-0.177573,1
+Sutton,s,1951,51.36209,-0.177573,1
+Sutton,s,1952,51.36209,-0.177573,1
+Sutton,s,1953,51.36209,-0.177573,1
+Sutton,s,1954,51.36209,-0.177573,1
+Sutton,s,1955,51.36209,-0.177573,1
+Sutton,s,1956,51.36209,-0.177573,1
+Sutton,s,1957,51.36209,-0.177573,1
+Sutton,s,1958,51.36209,-0.177573,1
+Sutton,s,1959,51.36209,-0.177573,1
+Sutton,s,1961,51.36209,-0.177573,1
+Sutton,s,1964,51.36209,-0.177573,1
+Sutton,s,1965,51.36209,-0.177573,1
+Sutton,s,1966,51.36209,-0.177573,1
+Sutton,s,1967,51.36209,-0.177573,1
+Sutton,s,1968,51.36209,-0.177573,1
+Sutton,s,1970,51.36209,-0.177573,1
+Sutton,s,1973,51.36209,-0.177573,1
+Sutton,t,1950,51.36209,-0.177573,1
+Sutton,t,1956,51.36209,-0.177573,1
+Sutton,t,1958,51.36209,-0.177573,1
+Sutton,t,1960,51.36209,-0.177573,2
+Sutton,t,1962,51.36209,-0.177573,2
+Sutton,t,1963,51.36209,-0.177573,1
+Sutton,t,1966,51.36209,-0.177573,1
+Sutton,t,1971,51.36209,-0.177573,1
+Sutton,t,1972,51.36209,-0.177573,3
+Sutton,w,1925,51.36209,-0.177573,1
+Tower Hamlets,Uncategorised,1856,51.515741,-0.034662,1
+Tower Hamlets,Uncategorised,1857,51.515741,-0.034662,1
+Tower Hamlets,Uncategorised,1858,51.515741,-0.034662,5
+Tower Hamlets,Uncategorised,1862,51.515741,-0.034662,1
+Tower Hamlets,Uncategorised,1864,51.515741,-0.034662,1
+Tower Hamlets,Uncategorised,1866,51.515741,-0.034662,1
+Tower Hamlets,Uncategorised,1868,51.515741,-0.034662,2
+Tower Hamlets,Uncategorised,1869,51.515741,-0.034662,2
+Tower Hamlets,Uncategorised,1872,51.515741,-0.034662,3
+Tower Hamlets,Uncategorised,1873,51.515741,-0.034662,1
+Tower Hamlets,Uncategorised,1874,51.515741,-0.034662,1
+Tower Hamlets,Uncategorised,1875,51.515741,-0.034662,1
+Tower Hamlets,Uncategorised,1876,51.515741,-0.034662,1
+Tower Hamlets,Uncategorised,1877,51.515741,-0.034662,1
+Tower Hamlets,Uncategorised,1878,51.515741,-0.034662,3
+Tower Hamlets,Uncategorised,1879,51.515741,-0.034662,2
+Tower Hamlets,Uncategorised,1880,51.515741,-0.034662,2
+Tower Hamlets,Uncategorised,1882,51.515741,-0.034662,3
+Tower Hamlets,Uncategorised,1883,51.515741,-0.034662,2
+Tower Hamlets,Uncategorised,1884,51.515741,-0.034662,2
+Tower Hamlets,Uncategorised,1887,51.515741,-0.034662,1
+Tower Hamlets,Uncategorised,1889,51.515741,-0.034662,1
+Tower Hamlets,Uncategorised,1890,51.515741,-0.034662,3
+Tower Hamlets,Uncategorised,1891,51.515741,-0.034662,2
+Tower Hamlets,Uncategorised,1892,51.515741,-0.034662,2
+Tower Hamlets,Uncategorised,1895,51.515741,-0.034662,4
+Tower Hamlets,Uncategorised,1897,51.515741,-0.034662,1
+Tower Hamlets,Uncategorised,1898,51.515741,-0.034662,2
+Tower Hamlets,Uncategorised,1900,51.515741,-0.034662,1
+Tower Hamlets,Uncategorised,1902,51.515741,-0.034662,1
+Tower Hamlets,Uncategorised,1904,51.515741,-0.034662,1
+Tower Hamlets,Uncategorised,1906,51.515741,-0.034662,4
+Tower Hamlets,Uncategorised,1908,51.515741,-0.034662,1
+Tower Hamlets,Uncategorised,1909,51.515741,-0.034662,3
+Tower Hamlets,Uncategorised,1910,51.515741,-0.034662,2
+Tower Hamlets,Uncategorised,1915,51.515741,-0.034662,1
+Tower Hamlets,Uncategorised,1923,51.515741,-0.034662,1
+Tower Hamlets,Uncategorised,1924,51.515741,-0.034662,1
+Tower Hamlets,Uncategorised,1925,51.515741,-0.034662,1
+Tower Hamlets,Uncategorised,1928,51.515741,-0.034662,1
+Tower Hamlets,Uncategorised,1932,51.515741,-0.034662,1
+Tower Hamlets,Uncategorised,1933,51.515741,-0.034662,1
+Tower Hamlets,Uncategorised,1958,51.515741,-0.034662,1
+Tower Hamlets,Uncategorised,1959,51.515741,-0.034662,3
+Tower Hamlets,Uncategorised,1961,51.515741,-0.034662,1
+Tower Hamlets,Uncategorised,1962,51.515741,-0.034662,1
+Tower Hamlets,Uncategorised,1963,51.515741,-0.034662,2
+Tower Hamlets,Uncategorised,1969,51.515741,-0.034662,2
+Tower Hamlets,a,1856,51.515741,-0.034662,1
+Tower Hamlets,a,1857,51.515741,-0.034662,3
+Tower Hamlets,a,1860,51.515741,-0.034662,1
+Tower Hamlets,a,1862,51.515741,-0.034662,2
+Tower Hamlets,a,1868,51.515741,-0.034662,2
+Tower Hamlets,a,1869,51.515741,-0.034662,1
+Tower Hamlets,a,1870,51.515741,-0.034662,2
+Tower Hamlets,a,1872,51.515741,-0.034662,1
+Tower Hamlets,a,1875,51.515741,-0.034662,1
+Tower Hamlets,a,1876,51.515741,-0.034662,2
+Tower Hamlets,a,1882,51.515741,-0.034662,2
+Tower Hamlets,a,1885,51.515741,-0.034662,2
+Tower Hamlets,a,1891,51.515741,-0.034662,1
+Tower Hamlets,a,1893,51.515741,-0.034662,1
+Tower Hamlets,a,1896,51.515741,-0.034662,1
+Tower Hamlets,a,1904,51.515741,-0.034662,2
+Tower Hamlets,a,1906,51.515741,-0.034662,2
+Tower Hamlets,a,1908,51.515741,-0.034662,1
+Tower Hamlets,a,1909,51.515741,-0.034662,1
+Tower Hamlets,a,1911,51.515741,-0.034662,1
+Tower Hamlets,a,1913,51.515741,-0.034662,1
+Tower Hamlets,a,1914,51.515741,-0.034662,1
+Tower Hamlets,a,1938,51.515741,-0.034662,1
+Tower Hamlets,a,1963,51.515741,-0.034662,1
+Tower Hamlets,a,1973,51.515741,-0.034662,1
+Tower Hamlets,d,1858,51.515741,-0.034662,1
+Tower Hamlets,d,1860,51.515741,-0.034662,1
+Tower Hamlets,d,1863,51.515741,-0.034662,1
+Tower Hamlets,d,1869,51.515741,-0.034662,4
+Tower Hamlets,d,1870,51.515741,-0.034662,2
+Tower Hamlets,d,1874,51.515741,-0.034662,1
+Tower Hamlets,d,1882,51.515741,-0.034662,3
+Tower Hamlets,d,1887,51.515741,-0.034662,1
+Tower Hamlets,d,1910,51.515741,-0.034662,1
+Tower Hamlets,d,1920,51.515741,-0.034662,1
+Tower Hamlets,d,1963,51.515741,-0.034662,1
+Tower Hamlets,f,1857,51.515741,-0.034662,1
+Tower Hamlets,f,1858,51.515741,-0.034662,3
+Tower Hamlets,f,1860,51.515741,-0.034662,2
+Tower Hamlets,f,1864,51.515741,-0.034662,1
+Tower Hamlets,f,1865,51.515741,-0.034662,1
+Tower Hamlets,f,1867,51.515741,-0.034662,1
+Tower Hamlets,f,1868,51.515741,-0.034662,3
+Tower Hamlets,f,1869,51.515741,-0.034662,2
+Tower Hamlets,f,1878,51.515741,-0.034662,2
+Tower Hamlets,f,1879,51.515741,-0.034662,1
+Tower Hamlets,f,1882,51.515741,-0.034662,1
+Tower Hamlets,f,1886,51.515741,-0.034662,1
+Tower Hamlets,f,1893,51.515741,-0.034662,1
+Tower Hamlets,f,1897,51.515741,-0.034662,1
+Tower Hamlets,f,1900,51.515741,-0.034662,1
+Tower Hamlets,f,1904,51.515741,-0.034662,2
+Tower Hamlets,f,1906,51.515741,-0.034662,5
+Tower Hamlets,f,1907,51.515741,-0.034662,1
+Tower Hamlets,f,1909,51.515741,-0.034662,1
+Tower Hamlets,f,1910,51.515741,-0.034662,1
+Tower Hamlets,f,1912,51.515741,-0.034662,1
+Tower Hamlets,f,1913,51.515741,-0.034662,1
+Tower Hamlets,f,1938,51.515741,-0.034662,1
+Tower Hamlets,f,1950,51.515741,-0.034662,1
+Tower Hamlets,f,1951,51.515741,-0.034662,1
+Tower Hamlets,f,1955,51.515741,-0.034662,1
+Tower Hamlets,f,1960,51.515741,-0.034662,2
+Tower Hamlets,f,1962,51.515741,-0.034662,1
+Tower Hamlets,h,1860,51.515741,-0.034662,1
+Tower Hamlets,h,1862,51.515741,-0.034662,1
+Tower Hamlets,h,1868,51.515741,-0.034662,1
+Tower Hamlets,h,1869,51.515741,-0.034662,1
+Tower Hamlets,h,1870,51.515741,-0.034662,3
+Tower Hamlets,h,1872,51.515741,-0.034662,1
+Tower Hamlets,h,1873,51.515741,-0.034662,4
+Tower Hamlets,h,1874,51.515741,-0.034662,2
+Tower Hamlets,h,1875,51.515741,-0.034662,1
+Tower Hamlets,h,1876,51.515741,-0.034662,1
+Tower Hamlets,h,1877,51.515741,-0.034662,1
+Tower Hamlets,h,1878,51.515741,-0.034662,1
+Tower Hamlets,h,1879,51.515741,-0.034662,1
+Tower Hamlets,h,1881,51.515741,-0.034662,1
+Tower Hamlets,h,1882,51.515741,-0.034662,3
+Tower Hamlets,h,1887,51.515741,-0.034662,1
+Tower Hamlets,h,1888,51.515741,-0.034662,1
+Tower Hamlets,h,1891,51.515741,-0.034662,1
+Tower Hamlets,h,1896,51.515741,-0.034662,1
+Tower Hamlets,h,1907,51.515741,-0.034662,1
+Tower Hamlets,h,1908,51.515741,-0.034662,1
+Tower Hamlets,h,1923,51.515741,-0.034662,2
+Tower Hamlets,n,1912,51.515741,-0.034662,1
+Tower Hamlets,s,1856,51.515741,-0.034662,2
+Tower Hamlets,s,1858,51.515741,-0.034662,6
+Tower Hamlets,s,1859,51.515741,-0.034662,3
+Tower Hamlets,s,1861,51.515741,-0.034662,2
+Tower Hamlets,s,1862,51.515741,-0.034662,1
+Tower Hamlets,s,1863,51.515741,-0.034662,1
+Tower Hamlets,s,1864,51.515741,-0.034662,1
+Tower Hamlets,s,1865,51.515741,-0.034662,1
+Tower Hamlets,s,1866,51.515741,-0.034662,2
+Tower Hamlets,s,1867,51.515741,-0.034662,3
+Tower Hamlets,s,1868,51.515741,-0.034662,1
+Tower Hamlets,s,1869,51.515741,-0.034662,1
+Tower Hamlets,s,1870,51.515741,-0.034662,3
+Tower Hamlets,s,1873,51.515741,-0.034662,1
+Tower Hamlets,s,1874,51.515741,-0.034662,1
+Tower Hamlets,s,1875,51.515741,-0.034662,3
+Tower Hamlets,s,1876,51.515741,-0.034662,2
+Tower Hamlets,s,1878,51.515741,-0.034662,4
+Tower Hamlets,s,1879,51.515741,-0.034662,1
+Tower Hamlets,s,1880,51.515741,-0.034662,3
+Tower Hamlets,s,1881,51.515741,-0.034662,1
+Tower Hamlets,s,1882,51.515741,-0.034662,5
+Tower Hamlets,s,1883,51.515741,-0.034662,5
+Tower Hamlets,s,1884,51.515741,-0.034662,4
+Tower Hamlets,s,1885,51.515741,-0.034662,5
+Tower Hamlets,s,1886,51.515741,-0.034662,2
+Tower Hamlets,s,1887,51.515741,-0.034662,7
+Tower Hamlets,s,1888,51.515741,-0.034662,1
+Tower Hamlets,s,1889,51.515741,-0.034662,4
+Tower Hamlets,s,1890,51.515741,-0.034662,2
+Tower Hamlets,s,1891,51.515741,-0.034662,7
+Tower Hamlets,s,1892,51.515741,-0.034662,4
+Tower Hamlets,s,1893,51.515741,-0.034662,8
+Tower Hamlets,s,1894,51.515741,-0.034662,5
+Tower Hamlets,s,1895,51.515741,-0.034662,3
+Tower Hamlets,s,1896,51.515741,-0.034662,3
+Tower Hamlets,s,1897,51.515741,-0.034662,1
+Tower Hamlets,s,1898,51.515741,-0.034662,1
+Tower Hamlets,s,1899,51.515741,-0.034662,1
+Tower Hamlets,s,1901,51.515741,-0.034662,1
+Tower Hamlets,s,1902,51.515741,-0.034662,3
+Tower Hamlets,s,1903,51.515741,-0.034662,3
+Tower Hamlets,s,1904,51.515741,-0.034662,4
+Tower Hamlets,s,1905,51.515741,-0.034662,1
+Tower Hamlets,s,1906,51.515741,-0.034662,4
+Tower Hamlets,s,1908,51.515741,-0.034662,2
+Tower Hamlets,s,1909,51.515741,-0.034662,4
+Tower Hamlets,s,1910,51.515741,-0.034662,2
+Tower Hamlets,s,1911,51.515741,-0.034662,1
+Tower Hamlets,s,1912,51.515741,-0.034662,1
+Tower Hamlets,s,1914,51.515741,-0.034662,1
+Tower Hamlets,s,1920,51.515741,-0.034662,1
+Tower Hamlets,s,1923,51.515741,-0.034662,2
+Tower Hamlets,s,1932,51.515741,-0.034662,2
+Tower Hamlets,s,1956,51.515741,-0.034662,1
+Tower Hamlets,s,1959,51.515741,-0.034662,1
+Tower Hamlets,s,1961,51.515741,-0.034662,1
+Tower Hamlets,t,1856,51.515741,-0.034662,1
+Tower Hamlets,t,1858,51.515741,-0.034662,10
+Tower Hamlets,t,1860,51.515741,-0.034662,2
+Tower Hamlets,t,1861,51.515741,-0.034662,1
+Tower Hamlets,t,1862,51.515741,-0.034662,1
+Tower Hamlets,t,1863,51.515741,-0.034662,1
+Tower Hamlets,t,1864,51.515741,-0.034662,1
+Tower Hamlets,t,1865,51.515741,-0.034662,1
+Tower Hamlets,t,1866,51.515741,-0.034662,1
+Tower Hamlets,t,1867,51.515741,-0.034662,2
+Tower Hamlets,t,1869,51.515741,-0.034662,1
+Tower Hamlets,t,1870,51.515741,-0.034662,1
+Tower Hamlets,t,1872,51.515741,-0.034662,2
+Tower Hamlets,t,1873,51.515741,-0.034662,3
+Tower Hamlets,t,1874,51.515741,-0.034662,3
+Tower Hamlets,t,1875,51.515741,-0.034662,2
+Tower Hamlets,t,1877,51.515741,-0.034662,1
+Tower Hamlets,t,1878,51.515741,-0.034662,1
+Tower Hamlets,t,1879,51.515741,-0.034662,1
+Tower Hamlets,t,1882,51.515741,-0.034662,3
+Tower Hamlets,t,1883,51.515741,-0.034662,1
+Tower Hamlets,t,1885,51.515741,-0.034662,1
+Tower Hamlets,t,1887,51.515741,-0.034662,1
+Tower Hamlets,t,1891,51.515741,-0.034662,1
+Tower Hamlets,t,1892,51.515741,-0.034662,1
+Tower Hamlets,t,1895,51.515741,-0.034662,3
+Tower Hamlets,t,1896,51.515741,-0.034662,1
+Tower Hamlets,t,1898,51.515741,-0.034662,3
+Tower Hamlets,t,1899,51.515741,-0.034662,1
+Tower Hamlets,t,1903,51.515741,-0.034662,1
+Tower Hamlets,t,1904,51.515741,-0.034662,4
+Tower Hamlets,t,1906,51.515741,-0.034662,2
+Tower Hamlets,t,1908,51.515741,-0.034662,1
+Tower Hamlets,t,1909,51.515741,-0.034662,10
+Tower Hamlets,t,1910,51.515741,-0.034662,2
+Tower Hamlets,t,1911,51.515741,-0.034662,2
+Tower Hamlets,t,1912,51.515741,-0.034662,3
+Tower Hamlets,t,1913,51.515741,-0.034662,1
+Tower Hamlets,t,1914,51.515741,-0.034662,2
+Tower Hamlets,t,1915,51.515741,-0.034662,1
+Tower Hamlets,t,1923,51.515741,-0.034662,1
+Tower Hamlets,t,1936,51.515741,-0.034662,1
+Tower Hamlets,t,1938,51.515741,-0.034662,1
+Tower Hamlets,t,1948,51.515741,-0.034662,1
+Tower Hamlets,t,1954,51.515741,-0.034662,1
+Tower Hamlets,t,1957,51.515741,-0.034662,4
+Tower Hamlets,t,1959,51.515741,-0.034662,1
+Tower Hamlets,t,1960,51.515741,-0.034662,1
+Tower Hamlets,t,1971,51.515741,-0.034662,2
+Tower Hamlets,w,1856,51.515741,-0.034662,4
+Tower Hamlets,w,1857,51.515741,-0.034662,1
+Tower Hamlets,w,1858,51.515741,-0.034662,2
+Tower Hamlets,w,1859,51.515741,-0.034662,4
+Tower Hamlets,w,1861,51.515741,-0.034662,1
+Tower Hamlets,w,1865,51.515741,-0.034662,4
+Tower Hamlets,w,1866,51.515741,-0.034662,1
+Tower Hamlets,w,1869,51.515741,-0.034662,3
+Tower Hamlets,w,1870,51.515741,-0.034662,3
+Tower Hamlets,w,1872,51.515741,-0.034662,1
+Tower Hamlets,w,1873,51.515741,-0.034662,1
+Tower Hamlets,w,1875,51.515741,-0.034662,3
+Tower Hamlets,w,1876,51.515741,-0.034662,2
+Tower Hamlets,w,1878,51.515741,-0.034662,5
+Tower Hamlets,w,1879,51.515741,-0.034662,1
+Tower Hamlets,w,1880,51.515741,-0.034662,1
+Tower Hamlets,w,1883,51.515741,-0.034662,1
+Tower Hamlets,w,1884,51.515741,-0.034662,1
+Tower Hamlets,w,1885,51.515741,-0.034662,2
+Tower Hamlets,w,1886,51.515741,-0.034662,2
+Tower Hamlets,w,1888,51.515741,-0.034662,2
+Tower Hamlets,w,1893,51.515741,-0.034662,1
+Tower Hamlets,w,1902,51.515741,-0.034662,1
+Tower Hamlets,w,1903,51.515741,-0.034662,2
+Tower Hamlets,w,1906,51.515741,-0.034662,4
+Tower Hamlets,w,1911,51.515741,-0.034662,1
+Tower Hamlets,w,1920,51.515741,-0.034662,1
+Tower Hamlets,w,1927,51.515741,-0.034662,1
+Tower Hamlets,w,1929,51.515741,-0.034662,1
+Tower Hamlets,w,1937,51.515741,-0.034662,1
+Waltham Forest,Uncategorised,1902,51.594033,-0.01264,2
+Waltham Forest,Uncategorised,1903,51.594033,-0.01264,1
+Waltham Forest,Uncategorised,1918,51.594033,-0.01264,1
+Waltham Forest,Uncategorised,1920,51.594033,-0.01264,1
+Waltham Forest,Uncategorised,1943,51.594033,-0.01264,1
+Waltham Forest,Uncategorised,1950,51.594033,-0.01264,1
+Waltham Forest,Uncategorised,1951,51.594033,-0.01264,2
+Waltham Forest,Uncategorised,1954,51.594033,-0.01264,2
+Waltham Forest,Uncategorised,1958,51.594033,-0.01264,1
+Waltham Forest,a,1938,51.594033,-0.01264,1
+Waltham Forest,f,1902,51.594033,-0.01264,1
+Waltham Forest,f,1903,51.594033,-0.01264,1
+Waltham Forest,f,1951,51.594033,-0.01264,2
+Waltham Forest,f,1952,51.594033,-0.01264,1
+Waltham Forest,f,1954,51.594033,-0.01264,3
+Waltham Forest,f,1962,51.594033,-0.01264,1
+Waltham Forest,f,1963,51.594033,-0.01264,1
+Waltham Forest,f,1969,51.594033,-0.01264,1
+Waltham Forest,s,1896,51.594033,-0.01264,1
+Waltham Forest,s,1897,51.594033,-0.01264,2
+Waltham Forest,s,1902,51.594033,-0.01264,2
+Waltham Forest,s,1903,51.594033,-0.01264,1
+Waltham Forest,s,1904,51.594033,-0.01264,2
+Waltham Forest,s,1920,51.594033,-0.01264,1
+Waltham Forest,s,1925,51.594033,-0.01264,1
+Waltham Forest,s,1938,51.594033,-0.01264,3
+Waltham Forest,s,1952,51.594033,-0.01264,1
+Waltham Forest,s,1953,51.594033,-0.01264,1
+Waltham Forest,s,1954,51.594033,-0.01264,1
+Waltham Forest,s,1955,51.594033,-0.01264,1
+Waltham Forest,s,1956,51.594033,-0.01264,1
+Waltham Forest,s,1957,51.594033,-0.01264,1
+Waltham Forest,s,1958,51.594033,-0.01264,1
+Waltham Forest,s,1960,51.594033,-0.01264,1
+Waltham Forest,s,1961,51.594033,-0.01264,1
+Waltham Forest,s,1972,51.594033,-0.01264,1
+Waltham Forest,t,1902,51.594033,-0.01264,2
+Waltham Forest,t,1903,51.594033,-0.01264,1
+Waltham Forest,t,1905,51.594033,-0.01264,1
+Waltham Forest,t,1935,51.594033,-0.01264,4
+Waltham Forest,t,1961,51.594033,-0.01264,1
+Waltham Forest,t,1968,51.594033,-0.01264,1
+Waltham Forest,t,1972,51.594033,-0.01264,2
+Waltham Forest,w,1903,51.594033,-0.01264,2
+Waltham Forest,w,1951,51.594033,-0.01264,1
+Waltham Forest,w,1953,51.594033,-0.01264,1
+Waltham Forest,w,1955,51.594033,-0.01264,1
+Waltham Forest,w,1956,51.594033,-0.01264,1
+Waltham Forest,w,1957,51.594033,-0.01264,1
+Waltham Forest,w,1958,51.594033,-0.01264,1
+Waltham Forest,w,1960,51.594033,-0.01264,1
+Waltham Forest,w,1962,51.594033,-0.01264,1
+Waltham Forest,w,1963,51.594033,-0.01264,1
+Waltham Forest,w,1966,51.594033,-0.01264,1
+Wandsworth,Uncategorised,1856,51.451974,-0.186191,2
+Wandsworth,Uncategorised,1865,51.451974,-0.186191,1
+Wandsworth,Uncategorised,1874,51.451974,-0.186191,2
+Wandsworth,Uncategorised,1877,51.451974,-0.186191,1
+Wandsworth,Uncategorised,1887,51.451974,-0.186191,1
+Wandsworth,Uncategorised,1891,51.451974,-0.186191,1
+Wandsworth,Uncategorised,1893,51.451974,-0.186191,1
+Wandsworth,Uncategorised,1894,51.451974,-0.186191,1
+Wandsworth,Uncategorised,1896,51.451974,-0.186191,1
+Wandsworth,Uncategorised,1901,51.451974,-0.186191,3
+Wandsworth,Uncategorised,1902,51.451974,-0.186191,1
+Wandsworth,Uncategorised,1903,51.451974,-0.186191,4
+Wandsworth,Uncategorised,1904,51.451974,-0.186191,2
+Wandsworth,Uncategorised,1905,51.451974,-0.186191,1
+Wandsworth,Uncategorised,1906,51.451974,-0.186191,1
+Wandsworth,Uncategorised,1907,51.451974,-0.186191,1
+Wandsworth,Uncategorised,1908,51.451974,-0.186191,2
+Wandsworth,Uncategorised,1910,51.451974,-0.186191,2
+Wandsworth,Uncategorised,1919,51.451974,-0.186191,1
+Wandsworth,Uncategorised,1921,51.451974,-0.186191,2
+Wandsworth,Uncategorised,1922,51.451974,-0.186191,3
+Wandsworth,Uncategorised,1923,51.451974,-0.186191,2
+Wandsworth,Uncategorised,1924,51.451974,-0.186191,2
+Wandsworth,Uncategorised,1925,51.451974,-0.186191,2
+Wandsworth,Uncategorised,1926,51.451974,-0.186191,1
+Wandsworth,Uncategorised,1927,51.451974,-0.186191,2
+Wandsworth,Uncategorised,1928,51.451974,-0.186191,1
+Wandsworth,Uncategorised,1929,51.451974,-0.186191,2
+Wandsworth,Uncategorised,1930,51.451974,-0.186191,2
+Wandsworth,Uncategorised,1931,51.451974,-0.186191,2
+Wandsworth,Uncategorised,1932,51.451974,-0.186191,2
+Wandsworth,Uncategorised,1933,51.451974,-0.186191,2
+Wandsworth,Uncategorised,1934,51.451974,-0.186191,1
+Wandsworth,Uncategorised,1935,51.451974,-0.186191,2
+Wandsworth,Uncategorised,1937,51.451974,-0.186191,2
+Wandsworth,Uncategorised,1938,51.451974,-0.186191,2
+Wandsworth,Uncategorised,1948,51.451974,-0.186191,1
+Wandsworth,Uncategorised,1949,51.451974,-0.186191,1
+Wandsworth,Uncategorised,1950,51.451974,-0.186191,1
+Wandsworth,Uncategorised,1951,51.451974,-0.186191,3
+Wandsworth,Uncategorised,1952,51.451974,-0.186191,1
+Wandsworth,Uncategorised,1953,51.451974,-0.186191,1
+Wandsworth,Uncategorised,1954,51.451974,-0.186191,1
+Wandsworth,Uncategorised,1957,51.451974,-0.186191,1
+Wandsworth,Uncategorised,1958,51.451974,-0.186191,1
+Wandsworth,Uncategorised,1963,51.451974,-0.186191,1
+Wandsworth,Uncategorised,1964,51.451974,-0.186191,1
+Wandsworth,Uncategorised,1972,51.451974,-0.186191,1
+Wandsworth,a,1874,51.451974,-0.186191,1
+Wandsworth,a,1879,51.451974,-0.186191,1
+Wandsworth,a,1881,51.451974,-0.186191,1
+Wandsworth,a,1882,51.451974,-0.186191,1
+Wandsworth,a,1887,51.451974,-0.186191,1
+Wandsworth,a,1895,51.451974,-0.186191,1
+Wandsworth,a,1896,51.451974,-0.186191,5
+Wandsworth,a,1898,51.451974,-0.186191,3
+Wandsworth,a,1903,51.451974,-0.186191,1
+Wandsworth,a,1904,51.451974,-0.186191,2
+Wandsworth,a,1907,51.451974,-0.186191,2
+Wandsworth,a,1961,51.451974,-0.186191,1
+Wandsworth,a,1962,51.451974,-0.186191,1
+Wandsworth,a,1969,51.451974,-0.186191,1
+Wandsworth,d,1874,51.451974,-0.186191,1
+Wandsworth,f,1872,51.451974,-0.186191,1
+Wandsworth,f,1877,51.451974,-0.186191,1
+Wandsworth,f,1878,51.451974,-0.186191,1
+Wandsworth,f,1887,51.451974,-0.186191,3
+Wandsworth,f,1894,51.451974,-0.186191,1
+Wandsworth,f,1895,51.451974,-0.186191,2
+Wandsworth,f,1896,51.451974,-0.186191,1
+Wandsworth,f,1897,51.451974,-0.186191,2
+Wandsworth,f,1898,51.451974,-0.186191,1
+Wandsworth,f,1902,51.451974,-0.186191,3
+Wandsworth,f,1903,51.451974,-0.186191,2
+Wandsworth,f,1904,51.451974,-0.186191,5
+Wandsworth,f,1906,51.451974,-0.186191,1
+Wandsworth,f,1907,51.451974,-0.186191,1
+Wandsworth,f,1908,51.451974,-0.186191,3
+Wandsworth,f,1919,51.451974,-0.186191,1
+Wandsworth,f,1921,51.451974,-0.186191,1
+Wandsworth,f,1926,51.451974,-0.186191,1
+Wandsworth,f,1928,51.451974,-0.186191,1
+Wandsworth,f,1935,51.451974,-0.186191,1
+Wandsworth,f,1962,51.451974,-0.186191,1
+Wandsworth,f,1970,51.451974,-0.186191,1
+Wandsworth,h,1882,51.451974,-0.186191,2
+Wandsworth,h,1884,51.451974,-0.186191,1
+Wandsworth,h,1885,51.451974,-0.186191,1
+Wandsworth,h,1887,51.451974,-0.186191,1
+Wandsworth,h,1890,51.451974,-0.186191,1
+Wandsworth,h,1891,51.451974,-0.186191,1
+Wandsworth,h,1893,51.451974,-0.186191,1
+Wandsworth,h,1902,51.451974,-0.186191,1
+Wandsworth,h,1904,51.451974,-0.186191,2
+Wandsworth,h,1910,51.451974,-0.186191,1
+Wandsworth,n,1856,51.451974,-0.186191,2
+Wandsworth,n,1865,51.451974,-0.186191,4
+Wandsworth,s,1856,51.451974,-0.186191,1
+Wandsworth,s,1874,51.451974,-0.186191,1
+Wandsworth,s,1878,51.451974,-0.186191,2
+Wandsworth,s,1879,51.451974,-0.186191,1
+Wandsworth,s,1881,51.451974,-0.186191,1
+Wandsworth,s,1884,51.451974,-0.186191,1
+Wandsworth,s,1885,51.451974,-0.186191,2
+Wandsworth,s,1886,51.451974,-0.186191,1
+Wandsworth,s,1887,51.451974,-0.186191,6
+Wandsworth,s,1890,51.451974,-0.186191,1
+Wandsworth,s,1891,51.451974,-0.186191,1
+Wandsworth,s,1892,51.451974,-0.186191,1
+Wandsworth,s,1893,51.451974,-0.186191,1
+Wandsworth,s,1894,51.451974,-0.186191,2
+Wandsworth,s,1895,51.451974,-0.186191,2
+Wandsworth,s,1896,51.451974,-0.186191,2
+Wandsworth,s,1897,51.451974,-0.186191,2
+Wandsworth,s,1898,51.451974,-0.186191,2
+Wandsworth,s,1899,51.451974,-0.186191,1
+Wandsworth,s,1901,51.451974,-0.186191,1
+Wandsworth,s,1903,51.451974,-0.186191,12
+Wandsworth,s,1904,51.451974,-0.186191,10
+Wandsworth,s,1906,51.451974,-0.186191,3
+Wandsworth,s,1907,51.451974,-0.186191,2
+Wandsworth,s,1908,51.451974,-0.186191,2
+Wandsworth,s,1909,51.451974,-0.186191,1
+Wandsworth,s,1910,51.451974,-0.186191,3
+Wandsworth,s,1911,51.451974,-0.186191,6
+Wandsworth,s,1912,51.451974,-0.186191,1
+Wandsworth,s,1913,51.451974,-0.186191,1
+Wandsworth,s,1914,51.451974,-0.186191,1
+Wandsworth,s,1915,51.451974,-0.186191,1
+Wandsworth,s,1919,51.451974,-0.186191,1
+Wandsworth,s,1921,51.451974,-0.186191,2
+Wandsworth,s,1922,51.451974,-0.186191,1
+Wandsworth,s,1924,51.451974,-0.186191,1
+Wandsworth,s,1925,51.451974,-0.186191,1
+Wandsworth,s,1926,51.451974,-0.186191,1
+Wandsworth,s,1927,51.451974,-0.186191,1
+Wandsworth,s,1930,51.451974,-0.186191,1
+Wandsworth,s,1931,51.451974,-0.186191,1
+Wandsworth,s,1932,51.451974,-0.186191,1
+Wandsworth,s,1933,51.451974,-0.186191,1
+Wandsworth,s,1934,51.451974,-0.186191,1
+Wandsworth,s,1935,51.451974,-0.186191,1
+Wandsworth,s,1937,51.451974,-0.186191,1
+Wandsworth,s,1938,51.451974,-0.186191,1
+Wandsworth,s,1972,51.451974,-0.186191,1
+Wandsworth,t,1859,51.451974,-0.186191,1
+Wandsworth,t,1877,51.451974,-0.186191,2
+Wandsworth,t,1878,51.451974,-0.186191,1
+Wandsworth,t,1882,51.451974,-0.186191,1
+Wandsworth,t,1887,51.451974,-0.186191,3
+Wandsworth,t,1896,51.451974,-0.186191,2
+Wandsworth,t,1897,51.451974,-0.186191,3
+Wandsworth,t,1898,51.451974,-0.186191,1
+Wandsworth,t,1901,51.451974,-0.186191,1
+Wandsworth,t,1902,51.451974,-0.186191,2
+Wandsworth,t,1903,51.451974,-0.186191,2
+Wandsworth,t,1904,51.451974,-0.186191,1
+Wandsworth,t,1905,51.451974,-0.186191,6
+Wandsworth,t,1906,51.451974,-0.186191,6
+Wandsworth,t,1907,51.451974,-0.186191,1
+Wandsworth,t,1910,51.451974,-0.186191,1
+Wandsworth,t,1911,51.451974,-0.186191,4
+Wandsworth,t,1917,51.451974,-0.186191,1
+Wandsworth,t,1923,51.451974,-0.186191,1
+Wandsworth,t,1925,51.451974,-0.186191,1
+Wandsworth,t,1928,51.451974,-0.186191,1
+Wandsworth,t,1929,51.451974,-0.186191,1
+Wandsworth,t,1935,51.451974,-0.186191,1
+Wandsworth,t,1938,51.451974,-0.186191,2
+Wandsworth,t,1949,51.451974,-0.186191,1
+Wandsworth,t,1965,51.451974,-0.186191,1
+Wandsworth,t,1966,51.451974,-0.186191,2
+Wandsworth,t,1970,51.451974,-0.186191,1
+Wandsworth,t,1971,51.451974,-0.186191,5
+Wandsworth,w,1882,51.451974,-0.186191,1
+Wandsworth,w,1887,51.451974,-0.186191,1
+Wandsworth,w,1895,51.451974,-0.186191,1
+Wandsworth,w,1897,51.451974,-0.186191,2
+Wandsworth,w,1904,51.451974,-0.186191,1
+Wandsworth,w,1905,51.451974,-0.186191,1
+Wandsworth,w,1915,51.451974,-0.186191,1
+Wandsworth,w,1948,51.451974,-0.186191,1
+Wandsworth,w,1949,51.451974,-0.186191,1
+Wandsworth,w,1950,51.451974,-0.186191,1
+Wandsworth,w,1951,51.451974,-0.186191,1
+Wandsworth,w,1952,51.451974,-0.186191,1
+Wandsworth,w,1953,51.451974,-0.186191,1
+Wandsworth,w,1954,51.451974,-0.186191,1
+Wandsworth,w,1969,51.451974,-0.186191,2
+Wandsworth,w,1972,51.451974,-0.186191,2

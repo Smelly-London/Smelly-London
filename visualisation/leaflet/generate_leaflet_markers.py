@@ -55,7 +55,7 @@ def create_dict_of_smells(data_list, location, year):
 def main():
 
     # read in data csv file
-    csvfile_in = os.path.join("..", "..", "data", "smells_data.csv")
+    csvfile_in = os.path.join("smells_data.csv")
     with open(csvfile_in, 'r') as infile:
         data_reader = csv.reader(infile, delimiter = ',')
         
@@ -119,7 +119,7 @@ def main():
         sorted_data = python_utilities.sort_list(markers_information)
 
         # convert the marker information to json and output to a json file
-        json_file_out = os.path.join("..", "..", "data", "leaflet_markers.json")
+        json_file_out = os.path.join("leaflet_markers.json")
 
         with open(json_file_out, 'w') as outfile:
             json.dump(sorted_data, outfile)

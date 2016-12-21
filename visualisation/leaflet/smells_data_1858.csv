@@ -1,0 +1,45 @@
+location_name,smell_category,year,centroid_lat,centroid_lon,no_smells
+Camden,Uncategorised,1858,51.546394,-0.157424,1
+Camden,d,1858,51.546394,-0.157424,1
+Camden,f,1858,51.546394,-0.157424,1
+Camden,h,1858,51.546394,-0.157424,1
+Camden,s,1858,51.546394,-0.157424,3
+City of Westminster,Uncategorised,1858,51.513444,-0.160467,9
+City of Westminster,a,1858,51.513444,-0.160467,6
+City of Westminster,d,1858,51.513444,-0.160467,2
+City of Westminster,f,1858,51.513444,-0.160467,4
+City of Westminster,h,1858,51.513444,-0.160467,9
+City of Westminster,n,1858,51.513444,-0.160467,1
+City of Westminster,s,1858,51.513444,-0.160467,51
+City of Westminster,t,1858,51.513444,-0.160467,13
+City of Westminster,w,1858,51.513444,-0.160467,16
+Greenwich,Uncategorised,1858,51.474432,0.055547,1
+Greenwich,a,1858,51.474432,0.055547,1
+Greenwich,t,1858,51.474432,0.055547,1
+Hackney,Uncategorised,1858,51.552267,-0.063316,1
+Hackney,s,1858,51.552267,-0.063316,5
+Hammersmith and Fulham,a,1858,51.49501,-0.220789,1
+Hammersmith and Fulham,d,1858,51.49501,-0.220789,1
+Hammersmith and Fulham,s,1858,51.49501,-0.220789,1
+Hammersmith and Fulham,t,1858,51.49501,-0.220789,2
+Islington,h,1858,51.548487,-0.110251,1
+Islington,s,1858,51.548487,-0.110251,2
+Islington,t,1858,51.548487,-0.110251,1
+Lewisham,a,1858,51.448284,-0.02029,1
+Lewisham,f,1858,51.448284,-0.02029,2
+Lewisham,s,1858,51.448284,-0.02029,4
+Southwark,Uncategorised,1858,51.474239,-0.074055,12
+Southwark,a,1858,51.474239,-0.074055,13
+Southwark,d,1858,51.474239,-0.074055,1
+Southwark,f,1858,51.474239,-0.074055,3
+Southwark,h,1858,51.474239,-0.074055,8
+Southwark,n,1858,51.474239,-0.074055,1
+Southwark,s,1858,51.474239,-0.074055,20
+Southwark,t,1858,51.474239,-0.074055,12
+Southwark,w,1858,51.474239,-0.074055,8
+Tower Hamlets,Uncategorised,1858,51.515741,-0.034662,5
+Tower Hamlets,d,1858,51.515741,-0.034662,1
+Tower Hamlets,f,1858,51.515741,-0.034662,3
+Tower Hamlets,s,1858,51.515741,-0.034662,6
+Tower Hamlets,t,1858,51.515741,-0.034662,10
+Tower Hamlets,w,1858,51.515741,-0.034662,2

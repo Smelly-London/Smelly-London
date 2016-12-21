@@ -16,8 +16,8 @@ import sqlite_utilities
 def main():
 
     # Set up for copying the database.
-    database_in = os.path.join("..", "..", "smelly_london", "database")
-    database_out = os.path.join("..", "..", "data", "database_out")
+    database_in = os.path.join("..", "..", "database")
+    database_out = os.path.join("database_out")
 
     # Copy original database (so that more data can be added).
     sqlite_utilities.copy_sqlite_file(database_in, database_out)
@@ -26,7 +26,7 @@ def main():
     conn, cur = sqlite_utilities.connect_to_sqlite_db(database_out)
 
     # Read JSON file.
-    json_file = os.path.join("..", "..", "data", "london_districts_latlong_with_centroids.json")
+    json_file = os.path.join("london_districts_latlong_with_centroids.json")
     json_data = json_utilities.read_json_file(json_file)
 
     # Creates a table to add the JSON file data to copied database.
@@ -67,7 +67,7 @@ def main():
     print(data_list)
 
     # Print the data to a csv file (for use in leaflet).
-    csv_file = os.path.join("..", "..", "data", "smells_data_1858_summary.csv")
+    csv_file = os.path.join("smells_data_1858_summary.csv")
     header = ["location_name", "year", "centroid_lat", "centroid_lon", "no_smells"]
     csv_utilities.list_of_tuples_to_csv(data_list, csv_file, header)
     
@@ -81,7 +81,7 @@ def main():
     print(data_list)
 
     # Print the data to a csv file (for use in leaflet).
-    csv_file = os.path.join("..", "..", "data", "smells_data_1858.csv")
+    csv_file = os.path.join("smells_data_1858.csv")
     header = ["location_name", "smell_category", "year", "centroid_lat", "centroid_lon", "no_smells"]
     csv_utilities.list_of_tuples_to_csv(data_list, csv_file, header)
 
@@ -95,7 +95,7 @@ def main():
     print(data_list)
 
     # Print the data to a csv file (for use in leaflet).
-    csv_file = os.path.join("..", "..", "data", "smells_data.csv")
+    csv_file = os.path.join("smells_data.csv")
     header = ["location_name", "smell_category", "year", "centroid_lat", "centroid_lon", "no_smells"]
     csv_utilities.list_of_tuples_to_csv(data_list, csv_file, header)
 

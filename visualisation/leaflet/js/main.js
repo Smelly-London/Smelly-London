@@ -101,7 +101,7 @@ function makeMap(data) {
             e.target.setStyle({color:highlightColor})
         })
         marker.bindPopup(tooltipContent());
-        
+
         allmarkers.addLayer(marker);
     }
     // map.addLayer(allmarkers); // It's the slider showing them
@@ -117,8 +117,8 @@ function makeMap(data) {
     map.addControl(sliderControl);
     // Initialize the slider
     sliderControl.startSlider();
-    
-    
+
+
     // Infowindow
     var infoContainer = L.Control.extend({
         options: {
