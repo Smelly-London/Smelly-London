@@ -89,7 +89,7 @@ class SmellDataMine(object):
 
     def save_to_database(self, results):
         # create table
-        db = dataset.connect('sqlite:///database')
+        db = dataset.connect('sqlite:///../database/smells.sqlite')
         table = db['smells']
         for result in results:
             try:

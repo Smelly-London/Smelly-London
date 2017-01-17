@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-#This script generates the data file required to be used with the leaflet software which is used to display the data on a map. 
+#This script generates the data file required to be used with the leaflet software which is used to display the data on a map.
 
 import sys
 import os
@@ -16,8 +16,8 @@ import sqlite_utilities
 def main():
 
     # Set up for copying the database.
-    database_in = os.path.join("..", "..", "database")
-    database_out = os.path.join("database_out")
+    database_in = os.path.join("..", "..", "database", "smells.sqlite")
+    database_out = os.path.join("..", "..", "database", "leaflet.sqlite")
 
     # Copy original database (so that more data can be added).
     sqlite_utilities.copy_sqlite_file(database_in, database_out)
@@ -26,14 +26,14 @@ def main():
     conn, cur = sqlite_utilities.connect_to_sqlite_db(database_out)
 
     # Read JSON file.
-    json_file = os.path.join("london_districts_latlong_with_centroids.json")
+    json_file = os.path.join("js", "london_districts_latlong_with_centroids.json")
     json_data = json_utilities.read_json_file(json_file)
 
     # Creates a table to add the JSON file data to copied database.
-    create_table_sql = """create table if not exists locations 
+    create_table_sql = """create table if not exists locations
                           ( location_name text PRIMARY KEY,
-                            centroid_lat numeric, 
-                            centroid_lon numeric, 
+                            centroid_lat numeric,
+                            centroid_lon numeric,
                             polygon_coordinates text)"""
 
     sqlite_utilities.execute_sql(conn, cur, create_table_sql)
@@ -47,9 +47,9 @@ def main():
         centroid_lat = feature["properties"]["lat_centre"]
         centroid_lon = feature["properties"]["long_centr"]
         polygon_coordinates = str(feature["geometry"]["coordinates"])
-        
+
         print(feature["properties"]["name"], feature["properties"]["lat_centre"], feature["properties"]["long_centr"], feature["geometry"]["coordinates"])
-        
+
         cur.execute("insert into locations values (?, ?, ?, ?)", (location_name, centroid_lat, centroid_lon, polygon_coordinates))
 
     conn.commit()
@@ -58,7 +58,7 @@ def main():
     #### Generate data.####
 
     # TEST 1 - all data from 1858 with only totals of smells (to get markers on map and change size of marker).
-    
+
     # Get data from database: group by borough and year for 1858 (test for visualisation).
     conn, cur = sqlite_utilities.connect_to_sqlite_db(database_out)
 
@@ -70,7 +70,7 @@ def main():
     csv_file = os.path.join("smells_data_1858_summary.csv")
     header = ["location_name", "year", "centroid_lat", "centroid_lon", "no_smells"]
     csv_utilities.list_of_tuples_to_csv(data_list, csv_file, header)
-    
+
     # TEST 2 - all data from 1858 with smells in categories (to create piecharts with categories and change radius with total number of smells)
 
     # Get data from database: group by borough, year and category and test firstly with 1858.
@@ -101,4 +101,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
