@@ -19,7 +19,6 @@ function makeMap(data) {
     var centreLongitude = 0.12;
     var initialZoom = 10;
 
-
     var map = L.map('map', {
         zoomControl:true,
         maxZoom: 21,
@@ -73,24 +72,22 @@ function makeMap(data) {
             return tooltipContentDiv;
         }
 
-        marker.data = d
+        marker.data = d;
 
         marker.on('click', function(e){
+          var d = e.target.data;
             // marker.setStyle({color:'blue'})
-            e.target.setStyle({color:selectedColor})
+            // e.target.setStyle({color:selectedColor})
             $('.infoWindow').css('opacity', '0.9');
             $('.infoWindow').css('height', 'auto');
             $('.infoWindow').html(function(){
-                sidebarContent = '<h1 id="tooltipContentDiv">'+e.target.data.key+'</h1>';
+                title = d.location_name + ' ' + d.formatted_year.substr(0, 4);
+                sidebarContent = '<h1 id="tooltipContentDiv">'+title+'</h1>';
 
-                for (var m=0; m< e.target.data.values.length; m++) {
+                for (var m=0; m < d.smells.length; m++) {
                     sidebarContent +=
-                                    "<h2>REPORT #"+ (m + 1) +"</h2>"+
-                                    "<p>Location "+e.target.data.values[m].location_name+"</p>"+
-                                    '<p id="years">'+ e.target.data.values[m].year +'</p>'+
-                                    //"<p><a href='"+ e.target.data.values[m].source_url +"' target='_blank'>Link to report</a></p>"+
-                                    //"<p>"+e.target.data.values[m].contextText+"</p>"+
-                                    '<hr>';
+                                    "<h2>Smell "+ (d.smells[m].name) +"</h2>"+
+                                    "<p>Reported "+d.smells[m].value+" times</p>";
 
                 };
                 return sidebarContent;
@@ -98,7 +95,7 @@ function makeMap(data) {
         })
 
         marker.on('popupclose', function(e){
-            e.target.setStyle({color:highlightColor})
+            // e.target.setStyle({color:highlightColor})
         })
         marker.bindPopup(tooltipContent());
 
