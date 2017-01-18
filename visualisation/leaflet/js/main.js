@@ -43,8 +43,8 @@ function makeMap(data) {
         }).addTo(map);
     });
 
-    radiusScale = d3.scale.sqrt().domain([1, 20]).range([5, 20])
-    numbersmellsradiusScale = d3.scale.sqrt().domain([1, 20]).range([0, 20])
+    radiusScale = d3.scale.sqrt().domain([1, 20]).range([20, 40])
+    //numbersmellsradiusScale = d3.scale.sqrt().domain([1, 20]).range([0, 20])
 
     function radius(total_number_smells){
         return radiusScale(total_number_smells)
