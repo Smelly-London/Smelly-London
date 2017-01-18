@@ -3,3 +3,4 @@
 *.pyc
 Full Text
 Fulltext.zip
+database/*.sqlite

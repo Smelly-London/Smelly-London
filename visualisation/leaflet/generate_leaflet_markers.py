@@ -40,14 +40,14 @@ def create_dict_of_smells(data_list, location, year):
     '''Read in each item of a list and output a dictionary of the smell categores and number of smells in each category.'''
 
     smell_list = []
-    
+
     for dictionary in data_list:
         if dictionary["location_name"] == location and dictionary["year"] == year:
              smell_dictionary = {}
              category = dictionary["category"]
              no_smells = dictionary["no_smells"]
              smell_dictionary["name"] = category
-             smell_dictionary["value"] =int(no_smells)
+             smell_dictionary["value"] = int(no_smells)
              smell_list.append(smell_dictionary)
 
     return smell_list
@@ -58,9 +58,9 @@ def main():
     csvfile_in = os.path.join("smells_data.csv")
     with open(csvfile_in, 'r') as infile:
         data_reader = csv.reader(infile, delimiter = ',')
-        
+
         first_line = True
- 
+
         data_list = []
         for row in data_reader:
             # skip header
@@ -80,7 +80,7 @@ def main():
     # convert year to date time format
             data_out["formatted_year"] = year_to_date_time_format(data_out["year"])
 
-            # append the dictionaries to a list (which will allow iteration over items in list)      
+            # append the dictionaries to a list (which will allow iteration over items in list)
             data_list.append(data_out)
 #        print(data_list)
 
@@ -99,7 +99,7 @@ def main():
             # calculate the total number of smells per year for each location
             total_smells_location_year = calculate_total_smells(data_list, item["location_name"], item["year"])
 
-            # create a dictionary of smell categories and assign number of smells.        
+            # create a dictionary of smell categories and assign number of smells.
             smell_list = create_dict_of_smells(data_list, item["location_name"], item["year"])
 
             marker_information = {}
@@ -119,11 +119,10 @@ def main():
         sorted_data = python_utilities.sort_list(markers_information)
 
         # convert the marker information to json and output to a json file
-        json_file_out = os.path.join("leaflet_markers.json")
+        json_file_out = os.path.join("js", "leaflet_markers.json")
 
         with open(json_file_out, 'w') as outfile:
             json.dump(sorted_data, outfile)
- 
+
 if __name__ == "__main__":
     main()
-
