@@ -119,7 +119,7 @@ def main():
         sorted_data = python_utilities.sort_list(markers_information)
 
         # convert the marker information to json and output to a json file
-        json_file_out = os.path.join("js", "leaflet_markers.json")
+        json_file_out = os.path.join("data", "leaflet_markers.json")
 
         with open(json_file_out, 'w') as outfile:
             json.dump(sorted_data, outfile)
