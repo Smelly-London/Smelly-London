@@ -92,13 +92,10 @@ class SmellDataMine(object):
         db = dataset.connect('sqlite:///../database/smells.sqlite')
         table = db['smells']
         for result in results:
-            try:
-                table.insert({'Category': result.category,
-                              'Borough': result.borough,
-                              'Year': result.year,
-                              'Sentence': result.sentence})
-            except:
-                print(result)
+            table.insert({'Category': result.category,
+                          'Borough': result.borough,
+                          'Year': result.year,
+                          'Sentence': result.sentence})
 
     def getMeta(self, fileName):
         splitReport = fileName.split('.')
@@ -143,11 +140,12 @@ class SmellDataMine(object):
                                 break
 
     def categorise_sentence(self, sentence):
+        categories = []
         for category in self.smellTypes:
             for synonym in category.synonyms:
                 if synonym in sentence.lower():
-                    return category.name
-
+                    categories.append(category.name)
+        return categories
 
 def main():
 
@@ -166,6 +164,16 @@ def main():
     dataminer = SmellDataMine()
     dataminer.save_to_database(smell_results)
 
+def delete_database():
+    import os.path
+    path = '../database/smells.sqlite'
+    if os.path.isfile(path):
+        os.remove(path)
+        print('DB deleted!')
+    else:
+        print('No DB found for removal!')
+
 
 if __name__ == '__main__':
+    delete_database()
     main()
