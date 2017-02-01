@@ -30,7 +30,7 @@ function makeMap(data) {
     var mbUrl = ''
 
     var darkMap = L.tileLayer(mbUrl).addTo(map);
-    $.getJSON("/data/london_districts_latlong_with_centroids.json",function(borough_outlines){
+    $.getJSON("data/london_districts_latlong_with_centroids.json",function(borough_outlines){
         boroughLayer = L.geoJson( borough_outlines, {
           style: function(feature){
             return {
