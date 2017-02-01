@@ -10,7 +10,7 @@ var disableClusterZoomLevel = 8;
 var markerOpacity = 0.35;
 
 function initMap() {
-	$.getJSON("/data/leaflet_markers.json", makeMap);
+	$.getJSON("data/leaflet_markers.json", makeMap);
 }
 
 function makeMap(data) {
