@@ -4,7 +4,7 @@ categorises by smell types. Only nltk sentence tokenizer is used.
 SQLite set up.
 '''
 
-from map import mapping
+from map2 import mapping
 import concurrent.futures
 from timeit import default_timer as timer
 
@@ -26,11 +26,14 @@ class SmellType(object):
 
 class Smell(object):
 
-    def __init__(self, borough, category, sentence, year):
+    def __init__(self, borough, category, sentence, year, bID, url, mohRegion):
         self.borough = borough
         self.category = category
         self.sentence = sentence
         self.year = year
+        self.bID = bID
+        self.url = url
+        self.mohRegion = mohRegion
 
     def __repr__(self):
         return "Smell(%s, %s, %s, %s)" % (repr(self.borough), repr(self.category), repr(self.sentence), repr(self.year))
@@ -95,24 +98,33 @@ class SmellDataMine(object):
             table.insert({'Category': result.category,
                           'Borough': result.borough,
                           'Year': result.year,
-                          'Sentence': result.sentence})
+                          'Sentence': result.sentence,
+                          'bID': result.bID,
+                          'URL': result.url,
+                          'MOH': result.mohRegion})
+
+    def getUrl(self, bID):
+        website = 'http://wellcomelibrary.org/item/'
+        return website + bID
 
     def getMeta(self, fileName):
         splitReport = fileName.split('.')
         bID = splitReport[2]
         year = splitReport[1]
+        url = self.getUrl(bID)
         try:
-            region = mapping[bID]
+            region = mapping[bID][1]
+            mohRegion = mapping[bID][0]
         except:
             # TODO there is a problem with mappings e.g Acton.1915.b19783905.txt. Region cannot be found
             print(fileName)
-            return (None, None)
-        return year, region
+            return (None, None, None, None, None)
+        return year, region, bID, url, mohRegion
 
     def process_file(self, fileName):
         path = REPORTS_DIR + '/' + fileName
         references = []
-        year, region = self.getMeta(fileName)
+        year, region, bID, url, mohRegion = self.getMeta(fileName)
         if not all([year, region]):
             return
 
@@ -131,11 +143,11 @@ class SmellDataMine(object):
 
                             if categories:
                                 for category in categories:
-                                    o = Smell(region, category, sentence, year)
+                                    o = Smell(region, category, sentence, year, bID, url, mohRegion)
                                     appendResults(o)
                                     break
                             else:
-                                o = Smell(region, 'Uncategorised', sentence, year)
+                                o = Smell(region, 'Uncategorised', sentence, year, bID, url, mohRegion)
                                 appendUncategorised(o)
                                 break
 
