@@ -71,12 +71,13 @@ def main():
             data_out = {}
             print(row)
             data_out["location_name"] = row[0]
-            data_out["category"] = row[1]
-            data_out["year"] = row[2]
-            data_out["centroid_lat"] = float(row[3])
-            data_out["centroid_lon"] = float(row[4])
+            data_out["moh"] = row[1]
+            data_out["category"] = row[2]
+            data_out["year"] = row[3]
+            data_out["centroid_lat"] = float(row[4])
+            data_out["centroid_lon"] = float(row[5])
 #            print(row[5])
-            data_out["no_smells"] = int(row[5])
+            data_out["no_smells"] = int(row[6])
     # convert year to date time format
             data_out["formatted_year"] = year_to_date_time_format(data_out["year"])
 
@@ -104,6 +105,7 @@ def main():
 
             marker_information = {}
             marker_information["location_name"] = item["location_name"]
+            marker_information["moh"] = item["moh"]
             marker_information["formatted_year"] = item["formatted_year"]
             marker_information["centroid_lat"] = item["centroid_lat"]
             marker_information["centroid_lon"] = item["centroid_lon"]

@@ -83,6 +83,8 @@ function makeMap(data) {
             $('.infoWindow').html(function(){
                 title = d.location_name + ' ' + d.formatted_year.substr(0, 4);
                 sidebarContent = '<h1 id="tooltipContentDiv">'+title+'</h1>';
+                sidebarContent +="<p>"+d.moh+"</p>"
+                sidebarContent += '<p><a href="http://wellcomelibrary.org/item/b1824404x'+'">Report: text</a></p>';
 
                 for (var m=0; m < d.smells.length; m++) {
                     sidebarContent +=
