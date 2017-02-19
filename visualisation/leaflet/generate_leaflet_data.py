@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
-#This script generates the data file required to be used with the leaflet software which is used to display the data on a map.
+# This script generates the data file required to be used with the leaflet software which is used to display the data on
+# a map. This creates a table in the db called locations and then makes a csv file.
 
 import sys
 import os
@@ -20,6 +21,10 @@ def main():
 
     db = dataset.connect('sqlite:///../../database/smells.sqlite')
     table = db['locations']
+    table.drop()
+    print('table locations dropped')
+    table = db['locations']
+
 
     for feature in list_of_features:
         location_name = feature["properties"]["name"]
@@ -38,13 +43,11 @@ def main():
     # OUTPUT VISUALISATION DATA
 
     # Get data from database: group by borough, year and category (for all years).
-    sql = "select Borough, MOH,  Category, Year, centroid_lat, centroid_lon, count(*) no_smells " \
-          "from (select Borough, MOH, Category, Year, centroid_lat, centroid_lon from smells join locations on location_name=Borough)" \
-          "group by Borough, Category, Year " \
-          "order by Borough, Category, Year;"
+    sql = "select Borough, MOH,  Category, Year, centroid_lat, centroid_lon , count(Year) from smells join locations on location_name = Borough group by Borough, Year, Category"
     result = list(db.query(sql))
     print(result)
     res = []
+
     for row in result:
         res.append(row.values())
 
