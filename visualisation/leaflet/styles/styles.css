@@ -12,12 +12,19 @@ body {
 }
 .leaflet-control-time {color: white; font-family: 'Oswald'; font-size: 30px}
 
-h1, h2, h3, p {
+h3, p {
     color: white;
+}
+
+h1 {
+    font-size: 20px;
+    color: #6495ED;
 }
 
 h2{
     font-size: 18px;
+    color: #DAA520;
+    margin: 0;
 }
 
 p {
@@ -48,14 +55,17 @@ h4 {
 
 .leaflet-container {
     font-family: 'Roboto Condensed';
-    font-weight: 700;
     font-size: 16px;
 }
 
 .tooltipTitle {
-    color: #fff;
+    color: #6495ED;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 15px;
+}
+
+.tooltipDescription {
+    font-size: 15px;
 }
 
 
@@ -217,6 +227,7 @@ h4 {
     background-color: #242424 !important;
     color:white;
 }
+
 .leaflet-container a:hover, .leaflet-container.dark a {
     color: #777;
 }
@@ -235,14 +246,12 @@ h4 {
     padding: 4px 20px 0 0;
 }
 
-
 .infoWindow{
     background-color: rgb(25,26,26);
     padding:10px;
     border-radius:20px;
-    max-width: 400px !important;
-    min-width: 400px !important;
-    max-height: 100vh !important;
+    width: 400px;
+    max-height: 100vh;
     opacity:0;
     overflow: auto;
     -webkit-overflow-scrolling: touch

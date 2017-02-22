@@ -21,8 +21,8 @@ function makeMap(data) {
 
     var map = L.map('map', {
         zoomControl:true,
-        maxZoom: 21,
-        minZoom: 2,
+        maxZoom: 12,
+        minZoom: 8,
     }).setView([centreLatitude, centreLongitude], initialZoom);
 
 
@@ -66,8 +66,8 @@ function makeMap(data) {
 
         var tooltipContentDiv;
         function tooltipContent(){
-            tooltipContentDiv = '<h2 id="tooltipContentDiv">Borough: '+d.location_name+'</h2>'+
-                                '<p id="tooltipContentDiv">Records: '+ d.total_smells_location_year+'</p>';
+            tooltipContentDiv = '<h2 id="tooltipContentDiv" class="tooltipTitle">Borough: '+d.location_name+'</h2>'+
+                                '<p id="tooltipContentDiv" class="tooltipDescription">Records: '+ d.total_smells_location_year+'</p>';
 
             return tooltipContentDiv;
         }
@@ -83,9 +83,8 @@ function makeMap(data) {
             $('.infoWindow').html(function(){
                 title = d.location_name + ' ' + d.formatted_year.substr(0, 4);
                 sidebarContent = '<h1 id="tooltipContentDiv">'+title+'</h1>';
-                sidebarContent +="<p>"+d.moh+"</p>"
-                sidebarContent += '<p><a href="http://wellcomelibrary.org/item/b1824404x'+'">Report: text</a></p>';
-
+                sidebarContent +='<p><a href="http://wellcomelibrary.org/item/b1824404x'+'" target="_blank">'+d.moh+'</a></p>'
+    
                 for (var m=0; m < d.smells.length; m++) {
                     sidebarContent +=
                                     "<h2>Smell "+ (d.smells[m].name) +"</h2>"+
