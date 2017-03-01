@@ -30,6 +30,12 @@ function makeMap(data) {
     var mbUrl = ''
 
     var darkMap = L.tileLayer(mbUrl).addTo(map);
+    // getting data to transform current borough to MOH
+    var boroughToMoh = {}
+    $.getJSON("data/moh_smell_category_borough_json.json",function(boroughToMohFromServer){
+        boroughToMoh = boroughToMohFromServer;
+        console.log(boroughToMoh)
+    });   
     $.getJSON("data/london_districts_latlong_with_centroids.json",function(borough_outlines){
         boroughLayer = L.geoJson( borough_outlines, {
           style: function(feature){
@@ -81,16 +87,44 @@ function makeMap(data) {
             $('.infoWindow').css('opacity', '0.9');
             $('.infoWindow').css('height', 'auto');
             $('.infoWindow').html(function(){
-                title = d.location_name + ' ' + d.formatted_year.substr(0, 4);
-                sidebarContent = '<h1 id="tooltipContentDiv">'+title+'</h1>';
-                sidebarContent +='<p><a href="http://wellcomelibrary.org/item/b1824404x'+'" target="_blank">'+d.moh+'</a></p>'
-    
-                for (var m=0; m < d.smells.length; m++) {
-                    sidebarContent +=
-                                    "<h2>Smell "+ (d.smells[m].name) +"</h2>"+
-                                    "<p>Reported "+d.smells[m].value+" times</p>";
+                var title = d.location_name + ' ' + d.formatted_year.substr(0, 4);
+                var sidebarContent = '<h1 id="tooltipContentDiv">'+title+'</h1>';
+                var mohs = boroughToMoh[title]
+                //console.log(boroughToMoh, d.location_name + ' ' + d.formatted_year);
+                //console.log('mohs=', mohs);
 
-                };
+                //if (moh.length > 0) { 
+                    // notes: create the dropdown with sub authorities
+                    //sidebarContent += '<select name="select">'
+                    //for (var i=0; i < moh.length; i++) {
+                        //var subAuthority = moh[i];
+                        //sidebarContent += '<option>'+ moh.name +"</option>";
+                    //};
+                    //sidebarContent += '</select>'
+
+                    // notes: smells per authority
+                    for (var mohName in mohs) {
+                        var moh = mohs[mohName];
+                        console.log("mohName=", mohName)
+
+                        sidebarContent += 
+                        '<p>' + 
+                          '<a href="http://wellcomelibrary.org/item/'+moh.bID+'" target="_blank">'+
+                          mohName+
+                          '</a>' +
+                        '</p>';
+                        for (var m=0; m < moh.smells.length; m++) {
+                            console.log(moh.smells[m])
+                            sidebarContent +=
+                                "<h2>Smell: "+ (moh.smells[m].cat) +"</h2>"+
+                                "<p>Reported "+moh.smells[m].count+" times</p>";
+
+                        };
+                    }
+                //}
+
+    
+                
                 return sidebarContent;
             });
         })
@@ -105,12 +139,11 @@ function makeMap(data) {
     // map.addLayer(allmarkers); // It's the slider showing them
 
     // Animation - time slider
-	    sliderControl = L.control.sliderControl({
+    sliderControl = L.control.sliderControl({
         position: "topright",
         layer: allmarkers,
         follow: 3 // displays markers only at specific timestamp
     });
-
     //Make sure to add the slider to the map ;-)
     map.addControl(sliderControl);
     // Initialize the slider
