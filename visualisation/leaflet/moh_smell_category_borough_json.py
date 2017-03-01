@@ -51,13 +51,15 @@ def main():
 		key = borough + " " + year
 		if key not in res:
 			res[key] = {}
-		
-		res[key] = {}
-		res[key][moh] = {
+		if moh not in res[key]:
+			res[key][moh] = {
+				'bID': bID,
+				'smells': []
+			}
+		res[key][moh]["smells"].append({
 		    'cat': cat, 
 		    'count': count,
-		    'bID': bID,
-		}
+		})
 
 	save_as_json(res)
 
