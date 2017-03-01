@@ -25,7 +25,7 @@ def get_results_from_db(sql):
 
 def save_as_json(results):
 	"""convert the information to json and output to a json file"""
-	json_file_out = os.path.join("data", "deb_test.json")
+	json_file_out = os.path.join("data", "moh_smell_category_borough_json.json")
 	print('saving to path: {}'.format(json_file_out))
 
 	with open(json_file_out, 'w') as outfile:
