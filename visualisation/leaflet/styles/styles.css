@@ -3,13 +3,33 @@ body {
     padding:0;
     background-color: black;
 }
-#map {
-    position:absolute;
-    top:0;
-    bottom:0;
-    width:100%;
-    background-color: #191a1a;
+#map-and-controls {
+  position:absolute;
+  top:0;
+  bottom:0;
+  width:100%;
+  background-color: #191a1a;
 }
+#map {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 70%;
+  background-color: #191a1a;
+}
+#map-info {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 30%;
+  overflow-y: scroll;
+}
+#map-info > * {
+  padding: 5px;
+}
+
 .leaflet-control-time {color: white; font-family: 'Oswald'; font-size: 30px}
 
 h3, p {
@@ -40,7 +60,7 @@ h4 {
     margin-bottom: 0px !important;
 }
 
-.leaflet-container .leaflet-control-attribution, .leaflet-container .leaflet-control-scale {
+#map-and-controls .leaflet-control-attribution, #map-and-controls .leaflet-control-scale {
     font-size: 13px;
     font-weight: 400;
 }
@@ -53,7 +73,7 @@ h4 {
     border-radius: 1px;
 }
 
-.leaflet-container {
+#map-and-controls {
     font-family: 'Roboto Condensed';
     font-size: 16px;
 }
@@ -170,7 +190,7 @@ h4 {
     background: #191a1a !important;
 }
 
-.leaflet-container a:hover, .leaflet-container.dark a {
+#map-and-controls a:hover, #map-and-controls.dark a {
     color: #ff0000;
 }
 
@@ -228,21 +248,21 @@ h4 {
     color:white;
 }
 
-.leaflet-container a:hover, .leaflet-container.dark a {
+#map-and-controls a:hover, #map-and-controls.dark a {
     color: #777;
 }
 
-.leaflet-container a, .leaflet-container.dark a {
+#map-and-controls a, #map-and-controls.dark a {
     color: #cecece;
 }
 
-.leaflet-container a > span.tekja, .leaflet-container.dark a > span.tekja {
+#map-and-controls a > span.tekja, #map-and-controls.dark a > span.tekja {
     color: #ff0039;
     font-size:15px;
 }
 
 
-.leaflet-container a.leaflet-popup-close-button {
+#map-and-controls a.leaflet-popup-close-button {
     padding: 4px 20px 0 0;
 }
 

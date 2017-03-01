@@ -16,7 +16,7 @@ function initMap() {
 function makeMap(data) {
     ////////////// Map Parameters //////////////
     var centreLatitude = 51.5;
-    var centreLongitude = 0.12;
+    var centreLongitude = -0.12;
     var initialZoom = 10;
 
     var map = L.map('map', {
@@ -35,7 +35,7 @@ function makeMap(data) {
     $.getJSON("data/moh_smell_category_borough_json.json",function(boroughToMohFromServer){
         boroughToMoh = boroughToMohFromServer;
         console.log(boroughToMoh)
-    });   
+    });
     $.getJSON("data/london_districts_latlong_with_centroids.json",function(borough_outlines){
         boroughLayer = L.geoJson( borough_outlines, {
           style: function(feature){
@@ -84,16 +84,15 @@ function makeMap(data) {
           var d = e.target.data;
             // marker.setStyle({color:'blue'})
             // e.target.setStyle({color:selectedColor})
-            $('.infoWindow').css('opacity', '0.9');
-            $('.infoWindow').css('height', 'auto');
-            $('.infoWindow').html(function(){
+            $('#map-info').css('opacity', '0.9');
+            $('#map-info').html(function(){
                 var title = d.location_name + ' ' + d.formatted_year.substr(0, 4);
                 var sidebarContent = '<h1 id="tooltipContentDiv">'+title+'</h1>';
                 var mohs = boroughToMoh[title]
                 //console.log(boroughToMoh, d.location_name + ' ' + d.formatted_year);
                 //console.log('mohs=', mohs);
 
-                //if (moh.length > 0) { 
+                //if (moh.length > 0) {
                     // notes: create the dropdown with sub authorities
                     //sidebarContent += '<select name="select">'
                     //for (var i=0; i < moh.length; i++) {
@@ -107,8 +106,8 @@ function makeMap(data) {
                         var moh = mohs[mohName];
                         console.log("mohName=", mohName)
 
-                        sidebarContent += 
-                        '<p>' + 
+                        sidebarContent +=
+                        '<p>' +
                           '<a href="http://wellcomelibrary.org/item/'+moh.bID+'" target="_blank">'+
                           mohName+
                           '</a>' +
@@ -123,8 +122,8 @@ function makeMap(data) {
                     }
                 //}
 
-    
-                
+
+
                 return sidebarContent;
             });
         })
@@ -142,26 +141,13 @@ function makeMap(data) {
     sliderControl = L.control.sliderControl({
         position: "topright",
         layer: allmarkers,
+        timeStrLength: 4,
         follow: 3 // displays markers only at specific timestamp
     });
     //Make sure to add the slider to the map ;-)
     map.addControl(sliderControl);
     // Initialize the slider
     sliderControl.startSlider();
-
-
-    // Infowindow
-    var infoContainer = L.Control.extend({
-        options: {
-            position: 'topright',
-        },
-        onAdd: function (map) {
-            // create the control container with a particular class name
-            var infoContainer = L.DomUtil.create('div', 'infoWindow');
-            return infoContainer;
-        }
-    });
-    map.addControl(new infoContainer());
 
     // Define base map layers
     var baseMaps = {
