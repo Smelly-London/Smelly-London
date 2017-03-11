@@ -153,7 +153,8 @@ function makeFilteredMap(filter) {
         position: "topright",
         layer: allmarkers,
         timeStrLength: 4,
-        follow: 3 // displays markers only at specific timestamp
+        range: true
+        //follow: 1 // displays markers only at specific timestamp
     });
     //Make sure to add the slider to the map ;-)
     map.addControl(sliderControl);
