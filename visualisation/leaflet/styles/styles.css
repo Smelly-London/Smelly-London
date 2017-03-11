@@ -283,7 +283,7 @@ h4 {
     -webkit-overflow-scrolling: touch
 }
 
-// Scrollbar
+/* Scrollbar */
 /*::-webkit-scrollbar {
     width: 12px;
 }
@@ -312,4 +312,21 @@ h4 {
 
 ::-webkit-scrollbar-corner {
     background: #000;
+}
+/* Slider */
+
+#custom-handle {
+    width: 4em;
+    height: 1.5em;
+    top: 50%;
+    margin-top: -.8em;
+    text-align: center;
+    line-height: 1.6em;
+    font-size: 12px;
+  }
+
+#slider {
+  margin-right: 20%;
+  width:80%;
+  margin-bottom: 0.5em;
 }

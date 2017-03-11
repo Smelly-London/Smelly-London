@@ -59,7 +59,7 @@ function makeFilteredMap(filter) {
     var centreLongitude = -0.12;
     var initialZoom = 10;
 
-    var map = L.map('map', {
+    map = L.map('map', {
         zoomControl:true,
         maxZoom: 12,
         minZoom: 8,
@@ -148,19 +148,6 @@ function makeFilteredMap(filter) {
         allmarkers.addLayer(marker);
     }
 
-    // Animation - time slider
-    sliderControl = L.control.sliderControl({
-        position: "topright",
-        layer: allmarkers,
-        timeStrLength: 4,
-        range: true
-        //follow: 1 // displays markers only at specific timestamp
-    });
-    //Make sure to add the slider to the map ;-)
-    map.addControl(sliderControl);
-    // Initialize the slider
-    sliderControl.startSlider();
-
     // Define base map layers
     var baseMaps = {
         "All": allmarkers
@@ -174,6 +161,19 @@ function makeFilteredMap(filter) {
     // Add legend title
     $('.leaflet-control-layers-expanded').prepend('<h3>Layers</h3>');
 
+    select_year( $("#slider").slider("value") );
+}
+
+function select_year(selected_year) {
+    var layers = allmarkers._layers;
+    for(var i in layers) {
+        var layer = layers[i];
+        var layer_year = parseInt( layer.data.formatted_year.substr(0,4) );
+        map.removeLayer(layer);
+        if(layer_year === selected_year) {
+            map.addLayer(layers[i]);
+        }
+    }
 }
 
 $(function(){
@@ -186,3 +186,18 @@ $(function(){
         }        
     });  
 });
+
+  $( function() {
+    var handle = $( "#custom-handle" );
+    $( "#slider" ).slider({
+      create: function() {
+        handle.text( $( this ).slider( "value" ) );
+      },
+      slide: function( event, ui ) {
+        handle.text( ui.value );
+        select_year(ui.value);
+      },
+      min:1848,
+      max:1973
+    });
+  } );
