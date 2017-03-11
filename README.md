@@ -11,6 +11,9 @@ http://wellcomelibrary.org/moh/
 The project website is here:
 http://londonsmells.co.uk/
 
+Leaflet map:
+https://smelly-london.github.io/Smelly-London/visualisation/leaflet/
+
 Contributors: D. Leem, J. Thomas, C. Pina Estany, M. Robinson
 
 ## Setup
