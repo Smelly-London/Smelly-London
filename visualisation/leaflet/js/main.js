@@ -19,6 +19,7 @@ function makeMap(raw_data) {
     makeFilteredMap(null);
 }    
 
+var smell_colors = d3.scale.category20();
 
 function get_filtered_leaflet_data(filter) {
     var raw_data = leaflet_json;
@@ -90,6 +91,13 @@ function makeFilteredMap(filter) {
     allmarkers = new L.layerGroup();
 
     for (var d of data) {
+        for(var s of d.smells) {
+            s.style = {
+                fillStyle: smell_colors(s.name),
+                strokeStyle: "black",
+                lineWidth: 0
+            }
+        }
 
         var marker = L.piechartMarker(new L.LatLng(d.centroid_lat, d.centroid_lon), {
             radius: radius(d.total_smells_location_year),
