@@ -2,32 +2,18 @@
 
 # This script connects to and performs queries on an SQLite database using Python. 
 
-# Jen Thomas, Oct 2016.
+import dataset
 
-#########################################################
 
-import sqlite3
-import shutil
-
-def connect_to_sqlite_db(sqlite_file):
+def connect_to_db():
     """ Connect to an SQLite database. Return a connection."""
+    db = dataset.connect('sqlite:///../database/smells.sqlite')
+    return db
 
-    try:
-        conn = sqlite3.connect(sqlite_file)
-        cur = conn.cursor()
-        return conn, cur
-    except:
-        print()
-
-    return None
-
-def close_sqlite_connection(conn):
-    """ Close the connection to an SQLite database."""
-
-    conn.close()
 
 def sql_get_data_colnames(cur, sql, column_names):
-    """Perform an SQL command to get data from an SQL database. Return data in a list of dictionaries with column headers as keys and their associated values."""
+    """Perform an SQL command to get data from an SQL database. Return data in a list of dictionaries with
+     column headers as keys and their associated values."""
     print(sql)
     sql = sql.replace('{column_names}', ",".join(column_names))
     cur.execute(sql)
@@ -45,27 +31,18 @@ def sql_get_data_colnames(cur, sql, column_names):
     
     return data
 
-def get_data(conn, cur, sql):
+def get_data(db, sql):
     '''Get data from a database using the connection and cursor and defined sql.Output the data in a python list.'''
-
-    cur.execute(sql)
-    all_rows = cur.fetchall()
-
+    table = db['smells'] 
     return all_rows
 
 def copy_sqlite_file(original_sqlite_file, destination_sqlite_file):
     '''Creates a copy of an sqlite file. Outputs an exact copy as an sqlite file.'''
     shutil.copy(original_sqlite_file, destination_sqlite_file)
 
-def execute_sql(conn, cur, sql):
-    ''' Execute some sql on the database.'''
-  
-    try:
-        cur.execute(sql)
-    except:
-       print()
 
 def main():
+    db = dataset.connect('sqlite:///../database/smells.sqlite')
 
     sqlite_file = '/home/jen/projects/smelly_london/git/smelly_london/database'
     column_names = ['category', 'location', 'number_of_smells', 'centroid_lat', 'centroid_lon', 'id', 'year', 'sentence']
