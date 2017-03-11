@@ -44,13 +44,14 @@ class Smell(object):
 # TEMPLATE: category = SmellType('category_name', ['synonym1', 'synonym2'])
 # TODO: Create smell categories here
 sewer = SmellType('sewer', ['sewer', 'drain', 'sewage', 'manhole', 'gully', 'gulley', 'gullies', 'cesspool', 'ventilator', 'ventilation'])
-thames_water = SmellType('thames_water', ['water', 'thames', 'river'])
+thames = SmellType('thames', ['quay', 'sediment', 'thames', 'river'])
+water = SmellType('water', ['water'])
 waste_rubbish = SmellType('waste_rubbish', ['refuse', 'dust', 'waste', 'dump', 'rubbish', 'offensive matter'])
 waste_excrement = SmellType('waste_excrement', ['excrement', 'excreta', 'privy', 'privies', 'manure', 'dung'])
 food = SmellType('food', ['food', 'yeast', 'pie', 'sauce', 'lemonade', 'bread', 'onion', 'vinegar', 'cherries', 'cherry', 'flavour', 'coffee', 'chocolate', 'cream', 'fruit', 'vegetable', 'salad', 'cheese',
                           'pickle', 'gherkin', 'fish', 'kipper', 'fillet', 'steak', 'mutton', 'tripe', 'cake', 'milk',
                           'yoghurt', 'butter', 'icing', 'caramel', 'canned', 'egg', 'preserve', 'cooking', 'veal',
-                          'lamb', 'soup', 'peel', 'ham', 'sausage', 'cow', 'meat', 'sour', 'beef'])
+                          'lamb', 'soup', 'peel', 'ham', 'sausage', 'cow', 'meat', 'sour', 'beef', 'rice', 'trough'])
 
 trade = SmellType('trade', ['trade', 'business', 'laboratory', 'laboratories', 'copper', 'dry cleaning', 'launderette',
                             'laundrette', 'chemist', 'hide', 'bladder', 'glue', 'tannery', 'tanneries', 'rubber', 'gum', 'fat', 'oil', 'fellmonger', 'slaughter',
@@ -59,9 +60,9 @@ animal = SmellType('animal', ['animal', 'pig', 'stable', 'piggeries', 'piggery',
 disinfectant = SmellType('disinfectant', ['disinfect', 'antiseptic'])
 factory_fuel = SmellType('factory_fuel', ['factory', 'factories', 'industrial', 'rubber', 'naphtha', 'fuel', 'works'])
 school = SmellType('school', ['school', 'lavatories', 'lavatory', 'discharging ears', 'playground'])
-air_gas = SmellType('air_gas', ['gas', 'air', 'atmosphere', 'coal', 'carbonic acid', 'hydrogen', 'vapour', 'smoke', 'sulphide'])
+air = SmellType('air', ['gas', 'air', 'atmosphere', 'coal', 'carbonic acid', 'hydrogen', 'vapour', 'smoke', 'sulphide'])
 decomposition = SmellType('decomposition', ['mortuary', 'coffin', 'decomposition', 'burial', 'dead', 'body', 'church', 'chapel'])
-habitation = SmellType('habitation', ['house', 'flat', 'dwelling', 'cottage', 'room', 'home', 'ward', 'clothing', 'bedding', 'barge', 'cupola'])
+habitation = SmellType('habitation', ['house', 'premise' 'flat', 'dwelling', 'cottage', 'room', 'home', 'ward', 'clothing', 'bedding', 'barge', 'cupola'])
 no_smell = SmellType('no_smell', ['no offensive smell', 'smell-none', 'no smell', 'no nuisance from smell', 'absence of smell', 'no offensive odour', 'no bad odour', 'odourless', 'no disagreeable smell'])
 
 def get_file_names():
@@ -85,7 +86,7 @@ def worker(file_name):
 class SmellDataMine(object):
 
     def __init__(self):
-        self.smellTypes = [sewer, thames_water, waste_rubbish, waste_excrement, trade, school, air_gas, factory_fuel,
+        self.smellTypes = [sewer, thames, water, waste_rubbish, waste_excrement, trade, school, air, factory_fuel,
                            decomposition, animal, food, habitation, no_smell, disinfectant]
         self.results = []
         self.uncategorised = []
