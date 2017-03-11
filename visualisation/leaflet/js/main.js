@@ -135,16 +135,18 @@ function makeFilteredMap(filter) {
                           '</a>' +
                         '</p>';
                         for (var smell of moh.smells) {
+                            var color = smell_colors(smell.cat)
+                            var header_content = "Smell: "+smell.cat;
+                            header_content += "<span class='color_legend' style='background-color:"+color+";'></span>"
                             if (filter === smell.cat) {
                                 sidebarContent +=
-                                    "<h2 class='highlighted'>Smell: "+smell.cat+"</h2>"+
-                                    "<p>Reported "+smell.count+" times</p>";
-
+                                    "<h2 class='highlighted'>"+header_content+"</h2>";
                             } else {
                                 sidebarContent +=
-                                    "<h2>Smell: "+smell.cat+"</h2>"+
-                                    "<p>Reported "+smell.count+" times</p>";
+                                    "<h2>"+header_content+"</h2>";
+                                    ;
                             }
+                            sidebarContent += "<p>Reported "+smell.count+" times</p>"
                         };
                     }
                 return sidebarContent;
