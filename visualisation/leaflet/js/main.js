@@ -1,5 +1,6 @@
 //Last updated in March 2017
 
+var radius = d3.scale.sqrt().domain([1, 20]).range([20, 40])
 
 var highlightColor = '#a9fcff';
 var selectedColor = '#f442dc';
@@ -89,18 +90,10 @@ function makeFilteredMap(filter) {
         }).addTo(map);
     });
 
-    radiusScale = d3.scale.sqrt().domain([1, 20]).range([20, 40])
-
-    function radius(total_number_smells){
-        return radiusScale(total_number_smells)
-    }
-
     allmarkers = new L.layerGroup();
 
     for (var i=0; i<data.length; i++) {
         var d = data[i];
-        d.centroid_lat = parseFloat(d.centroid_lat);
-        d.centroid_lon = parseFloat(d.centroid_lon);
 
         var marker = L.piechartMarker(new L.LatLng(d.centroid_lat, d.centroid_lon), {
             radius: radius(d.total_smells_location_year),
@@ -146,10 +139,6 @@ function makeFilteredMap(filter) {
 
                         };
                     }
-                //}
-
-
-
                 return sidebarContent;
             });
         })
@@ -158,7 +147,6 @@ function makeFilteredMap(filter) {
 
         allmarkers.addLayer(marker);
     }
-    // map.addLayer(allmarkers); // It's the slider showing them
 
     // Animation - time slider
     sliderControl = L.control.sliderControl({
@@ -184,7 +172,7 @@ function makeFilteredMap(filter) {
 
     // Add legend title
     jQuery(function($){$('.leaflet-control-layers-expanded').prepend(
-        '<h3 style="color:white"; margin-top:0px !important>' + 'Layers' + '</h3>');
+        '<h3>Layers</h3>');
     });
 
 }
