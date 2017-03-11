@@ -92,8 +92,7 @@ function makeFilteredMap(filter) {
 
     allmarkers = new L.layerGroup();
 
-    for (var i=0; i<data.length; i++) {
-        var d = data[i];
+    for (var d of data) {
 
         var marker = L.piechartMarker(new L.LatLng(d.centroid_lat, d.centroid_lon), {
             radius: radius(d.total_smells_location_year),
@@ -123,7 +122,6 @@ function makeFilteredMap(filter) {
                     // notes: smells per authority
                     for (var mohName in mohs) {
                         var moh = mohs[mohName];
-                        console.log("mohName=", mohName)
 
                         sidebarContent +=
                         '<p>' +
@@ -131,11 +129,10 @@ function makeFilteredMap(filter) {
                           mohName+
                           '</a>' +
                         '</p>';
-                        for (var m=0; m < moh.smells.length; m++) {
-                            console.log(moh.smells[m])
+                        for (var smell of moh.smells) {
                             sidebarContent +=
-                                "<h2>Smell: "+ (moh.smells[m].cat) +"</h2>"+
-                                "<p>Reported "+moh.smells[m].count+" times</p>";
+                                "<h2>Smell: "+smell.cat+"</h2>"+
+                                "<p>Reported "+smell.count+" times</p>";
 
                         };
                     }
