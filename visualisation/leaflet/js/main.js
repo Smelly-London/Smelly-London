@@ -127,10 +127,16 @@ function makeFilteredMap(filter) {
                           '</a>' +
                         '</p>';
                         for (var smell of moh.smells) {
-                            sidebarContent +=
-                                "<h2>Smell: "+smell.cat+"</h2>"+
-                                "<p>Reported "+smell.count+" times</p>";
+                            if (filter === smell.cat) {
+                                sidebarContent +=
+                                    "<h2 class='highlighted'>Smell: "+smell.cat+"</h2>"+
+                                    "<p>Reported "+smell.count+" times</p>";
 
+                            } else {
+                                sidebarContent +=
+                                    "<h2>Smell: "+smell.cat+"</h2>"+
+                                    "<p>Reported "+smell.count+" times</p>";
+                            }
                         };
                     }
                 return sidebarContent;
@@ -172,7 +178,6 @@ function makeFilteredMap(filter) {
 $(function(){
     $("select").change(function() {
         var selected_filter = $("select").val();
-        console.log("changing selection to", selected_filter);
         if(selected_filter === "all smells") {
              makeFilteredMap(null);
         } else {

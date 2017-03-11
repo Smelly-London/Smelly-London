@@ -18,13 +18,15 @@ body {
   width: 70%;
   background-color: #191a1a;
 }
-#map-info {
+#map-right {
   position: absolute;
   top: 0;
   right: 0;
   height: 100%;
   width: 30%;
   overflow-y: scroll;
+}
+#map-info {
 }
 #map-info > * {
   padding: 5px;
@@ -45,6 +47,10 @@ h2{
     font-size: 18px;
     color: #DAA520;
     margin: 0;
+}
+h2.highlighted {
+    color: red;
+    font-size: 150%;
 }
 
 p {
