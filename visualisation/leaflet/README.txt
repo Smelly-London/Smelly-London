@@ -28,6 +28,7 @@ python -m http.server
 and open http://localhost:8000/visualisation/leaflet/ in a browser to view the map.
 
 
+Leaflet map URL: https://smelly-london.github.io/Smelly-London/visualisation/leaflet/
 
-Updated 24/1//16.
+Updated 11 March 2017.
  
