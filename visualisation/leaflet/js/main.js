@@ -1,6 +1,5 @@
-//Code modified from Wellcome Trust Women's Work project: https://github.com/wellcometrust/womens-work/tree/master/visualisations/map
+//Last updated in March 2017
 
-////////////////////////////////////////////////////////////////
 
 var highlightColor = '#a9fcff';
 var selectedColor = '#f442dc';
@@ -13,7 +12,49 @@ function initMap() {
 	$.getJSON("data/leaflet_markers.json", makeMap);
 }
 
-function makeMap(data) {
+var leaflet_json = null
+function makeMap(raw_data) {
+    leaflet_json = raw_data;
+    var filter = window.location.hash;
+    if(filter) {
+         makeFilteredMap(filter.substr(1));
+    } else {
+        makeFilteredMap(null);
+    }
+}    
+
+
+function get_filtered_leaflet_data(filter) {
+    var raw_data = leaflet_json;
+    if(filter === null) {
+        return raw_data;
+    }
+    var data = [];
+    for(var data_item of raw_data) {
+        var filtered_item = {
+            smells: [],
+            centroid_lon: data_item.centroid_lon,
+            centroid_lat: data_item.centroid_lat,
+            total_smells_location_year: 0,
+            formatted_year: data_item.formatted_year,
+            location_name: data_item.location_name,
+            moh: data_item.moh
+        };
+        for(var smell of data_item.smells) {
+            if(smell.name === filter) {
+                filtered_item.smells.push(smell);
+                filtered_item.total_smells_location_year += smell.value;
+            }
+        }
+        if(filtered_item.total_smells_location_year) {
+            data.push(filtered_item);
+        }
+    }
+    return data;
+}
+
+function makeFilteredMap(filter) {
+    var data = get_filtered_leaflet_data(filter);
     ////////////// Map Parameters //////////////
     var centreLatitude = 51.5;
     var centreLongitude = -0.12;
@@ -49,7 +90,6 @@ function makeMap(data) {
     });
 
     radiusScale = d3.scale.sqrt().domain([1, 20]).range([20, 40])
-    //numbersmellsradiusScale = d3.scale.sqrt().domain([1, 20]).range([0, 20])
 
     function radius(total_number_smells){
         return radiusScale(total_number_smells)
@@ -66,8 +106,7 @@ function makeMap(data) {
             radius: radius(d.total_smells_location_year),
             data: d.smells,
             time: d.formatted_year
-            //color: highlightColor,
-            //fillOpacity: markerOpacity,
+            
         });
 
         var tooltipContentDiv;
@@ -82,24 +121,11 @@ function makeMap(data) {
 
         marker.on('click', function(e){
           var d = e.target.data;
-            // marker.setStyle({color:'blue'})
-            // e.target.setStyle({color:selectedColor})
             $('#map-info').css('opacity', '0.9');
             $('#map-info').html(function(){
                 var title = d.location_name + ' ' + d.formatted_year.substr(0, 4);
                 var sidebarContent = '<h1 id="tooltipContentDiv">'+title+'</h1>';
                 var mohs = boroughToMoh[title]
-                //console.log(boroughToMoh, d.location_name + ' ' + d.formatted_year);
-                //console.log('mohs=', mohs);
-
-                //if (moh.length > 0) {
-                    // notes: create the dropdown with sub authorities
-                    //sidebarContent += '<select name="select">'
-                    //for (var i=0; i < moh.length; i++) {
-                        //var subAuthority = moh[i];
-                        //sidebarContent += '<option>'+ moh.name +"</option>";
-                    //};
-                    //sidebarContent += '</select>'
 
                     // notes: smells per authority
                     for (var mohName in mohs) {
@@ -128,9 +154,6 @@ function makeMap(data) {
             });
         })
 
-        marker.on('popupclose', function(e){
-            // e.target.setStyle({color:highlightColor})
-        })
         marker.bindPopup(tooltipContent());
 
         allmarkers.addLayer(marker);
@@ -153,19 +176,6 @@ function makeMap(data) {
     var baseMaps = {
         "All": allmarkers
     };
-
-    layer_names = ["All"];
-    layer_urls = [allmarkers];
-
-    var overlayMaps = {};
-    for (i=0; i<layer_names.length; i++) {
-        var layer_name = layer_names[i];
-        var overlayLayer = layer_urls[i];
-        overlayDiv = ('<span style="width: 10px; ' +
-        'height: 10px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; border: 1px solid #FFF; float: left; margin-right: 0px; margin-left: 0px;' +
-        'margin-top: 3px;"></span>' + layer_name);
-        overlayMaps[overlayDiv] = overlayLayer;
-    }
 
     // Add controls
     L.control.layers(
