@@ -16,12 +16,7 @@ function initMap() {
 var leaflet_json = null
 function makeMap(raw_data) {
     leaflet_json = raw_data;
-    var filter = window.location.hash;
-    if(filter) {
-         makeFilteredMap(filter.substr(1));
-    } else {
-        makeFilteredMap(null);
-    }
+    makeFilteredMap(null);
 }    
 
 
@@ -57,6 +52,9 @@ function get_filtered_leaflet_data(filter) {
 function makeFilteredMap(filter) {
     var data = get_filtered_leaflet_data(filter);
     ////////////// Map Parameters //////////////
+    $("#map").remove();
+    $("#map-and-controls").prepend("<div id=map></div>");
+
     var centreLatitude = 51.5;
     var centreLongitude = -0.12;
     var initialZoom = 10;
@@ -76,7 +74,6 @@ function makeFilteredMap(filter) {
     var boroughToMoh = {}
     $.getJSON("data/moh_smell_category_borough_json.json",function(boroughToMohFromServer){
         boroughToMoh = boroughToMohFromServer;
-        console.log(boroughToMoh)
     });
     $.getJSON("data/london_districts_latlong_with_centroids.json",function(borough_outlines){
         boroughLayer = L.geoJson( borough_outlines, {
@@ -168,8 +165,18 @@ function makeFilteredMap(filter) {
     ).addTo(map);
 
     // Add legend title
-    jQuery(function($){$('.leaflet-control-layers-expanded').prepend(
-        '<h3>Layers</h3>');
-    });
+    $('.leaflet-control-layers-expanded').prepend('<h3>Layers</h3>');
 
 }
+
+$(function(){
+    $("select").change(function() {
+        var selected_filter = $("select").val();
+        console.log("changing selection to", selected_filter);
+        if(selected_filter === "all smells") {
+             makeFilteredMap(null);
+        } else {
+            makeFilteredMap(selected_filter);
+        }        
+    });  
+});
