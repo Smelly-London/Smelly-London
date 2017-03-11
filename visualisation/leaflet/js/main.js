@@ -206,6 +206,7 @@ $(function(){
         select_year(ui.value);
       },
       min:1848,
-      max:1973
+      max:1973,
+      value:1956
     });
   } );
