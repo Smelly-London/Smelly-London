@@ -15,6 +15,7 @@
 
 	<!-- Leaflet -->
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
+	
 	<!-- our own css -->
 	<script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
 	<script src="https://d3js.org/queue.v1.min.js"></script>
@@ -26,6 +27,7 @@
     <!-- Slider -->
     <script src="https://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.2/jquery.ui.touch-punch.min.js"></script>
+    
     <!-- custom style and scripts -->
 	<link rel="stylesheet" href="styles/styles.css"/>
 	<script src="js/main.js"></script>
@@ -44,7 +46,7 @@
 	  <div id="slider">
 	      <div id="custom-handle" class="ui-slider-handle"></div>
 	  </div>
-	  <form action="hello">
+	  <div>
 	    <select name="smellType" id="smellType">
 	    	<option value="all smells" selected>all smells</option>
     		<option value="sewer">sewer</option>
@@ -63,8 +65,9 @@
 		    <option value="habitation">habitation</option>
 		    <option value="no_smell">no_smell</option>
   		</select>
+	  </div>
 	  
-	  </form>
+	  
       <div id="map-info"></div>
 	</div>     	
      

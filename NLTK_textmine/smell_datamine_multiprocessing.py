@@ -65,8 +65,9 @@ decomposition = SmellType('decomposition', ['mortuary', 'coffin', 'decomposition
 habitation = SmellType('habitation', ['house', 'premise' 'flat', 'dwelling', 'cottage', 'room', 'home', 'ward', 'clothing', 'bedding', 'barge', 'cupola'])
 no_smell = SmellType('no_smell', ['no offensive smell', 'smell-none', 'no smell', 'no nuisance from smell', 'absence of smell', 'no offensive odour', 'no bad odour', 'odourless', 'no disagreeable smell'])
 
+
 def get_file_names():
-    '''Retrieve file names'''
+    """Retrieve file names"""
     fileNames = [f for f in listdir(REPORTS_DIR) if f.endswith('txt')]
     return fileNames
 
@@ -77,7 +78,9 @@ def tokenize_to_sentence(sentence):
     result = parser.tokenize(sentence.strip())
     return result
 
+
 def worker(file_name):
+    """This is a function used to calculate the result in concurrent futures."""
     dataminer = SmellDataMine()
     dataminer.process_file(file_name)
     return dataminer.results + dataminer.uncategorised
@@ -92,7 +95,7 @@ class SmellDataMine(object):
         self.uncategorised = []
 
     def save_to_database(self, results):
-        # create table
+        """Save results to the database."""
         db = dataset.connect('sqlite:///../database/smells.sqlite')
         table = db['smells']
         for result in results:
@@ -105,10 +108,12 @@ class SmellDataMine(object):
                           'MOH': result.mohRegion})
 
     def getUrl(self, bID):
+        """Return url for the website given bID."""
         website = 'http://wellcomelibrary.org/item/'
         return website + bID
 
     def getMeta(self, fileName):
+        """Return the meta data for a given fileName e.g year, url, MOH, borough, bID.  """
         splitReport = fileName.split('.')
         bID = splitReport[2]
         year = splitReport[1]
@@ -160,10 +165,10 @@ class SmellDataMine(object):
                     categories.append(category.name)
         return categories
 
+
 def main():
 
     start = timer()
-
     files = get_file_names()
     smell_results = []
 
@@ -176,6 +181,7 @@ def main():
     print(end - start)
     dataminer = SmellDataMine()
     dataminer.save_to_database(smell_results)
+
 
 def delete_database():
     import os.path

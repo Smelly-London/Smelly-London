@@ -1,26 +1,42 @@
 //Last updated in March 2017
+//Leaflet map
 
-var radius = d3.scale.sqrt().domain([1, 20]).range([20, 40])
+var radius = d3.scale.sqrt().domain([1, 20]).range([10, 15])
+var smell_colors = d3.scale.category20();
 
 var highlightColor = '#a9fcff';
 var selectedColor = '#f442dc';
 
-// For interactive map
-var disableClusterZoomLevel = 8;
-var markerOpacity = 0.35;
-
+var boroughToMoh;
+var borough_outlines;
+var leaflet_json = null
+/*
+ * processes one jason at a time and saves in the variables above. 
+ *after getting all three jsons, calls makeFilterMap().
+ */
 function initMap() {
-	$.getJSON("data/leaflet_markers.json", makeMap);
+    $.getJSON("data/moh_smell_category_borough_json.json",function(boroughToMohFromServer){
+        boroughToMoh = boroughToMohFromServer;
+        $.getJSON("data/london_districts_latlong_with_centroids.json",function(borough_outlines_data){
+            borough_outlines = borough_outlines_data;
+            $.getJSON("data/leaflet_markers.json", function(raw_data){
+                leaflet_json = raw_data;
+                makeFilteredMap();                
+            });
+        });
+    });
 }
 
-var leaflet_json = null
-function makeMap(raw_data) {
-    leaflet_json = raw_data;
-    makeFilteredMap(null);
-}    
+/*
+ * every control changes these variables.
+ */
+var selected_year = 1956;
+var selected_filter = null;
+var selected_borough = null;
 
-var smell_colors = d3.scale.category20();
-
+/*
+ * filtering the data
+ */
 function get_filtered_leaflet_data(filter) {
     var raw_data = leaflet_json;
     if(filter === null) {
@@ -49,9 +65,17 @@ function get_filtered_leaflet_data(filter) {
     }
     return data;
 }
+/*
+ * one layer for every year and every borough.
+ */
+var year_layers;
+var borough_layers;
 
-function makeFilteredMap(filter) {
-    var data = get_filtered_leaflet_data(filter);
+/*
+ * Funtion does everything else but should not. Can be improved.
+ */
+function makeFilteredMap() {
+    var data = get_filtered_leaflet_data(selected_filter);
     ////////////// Map Parameters //////////////
     $("#map").remove();
     $("#map-and-controls").prepend("<div id=map></div>");
@@ -66,30 +90,44 @@ function makeFilteredMap(filter) {
         minZoom: 8,
     }).setView([centreLatitude, centreLongitude], initialZoom);
 
-
-    // add basemap url here
-    var mbUrl = ''
-
-    var darkMap = L.tileLayer(mbUrl).addTo(map);
+    var darkMap = L.tileLayer("").addTo(map);
     // getting data to transform current borough to MOH
-    var boroughToMoh = {}
-    $.getJSON("data/moh_smell_category_borough_json.json",function(boroughToMohFromServer){
-        boroughToMoh = boroughToMohFromServer;
-    });
-    $.getJSON("data/london_districts_latlong_with_centroids.json",function(borough_outlines){
-        boroughLayer = L.geoJson( borough_outlines, {
+    
+/*
+ * white outlines. this is constant so this does not change. So can be avoided repeating.
+ */
+    L.geoJson(borough_outlines, {
+      style: function(feature){
+        return {
+            color: "white",
+            weight: 1,
+            fillColor: "black",
+            fillOpacity: 0 };
+        }
+    }).addTo(map);
+/*
+ * Create borough layers
+ */
+    year_layers = new L.layerGroup();
+    borough_layers = [];
+
+    for(var borough_outline of borough_outlines.features) {
+        var myLayer = L.geoJSON();
+        myLayer.addData(borough_outline, {
           style: function(feature){
             return {
                 color: "white",
                 weight: 1,
-                fillColor: 'none',
-                fillOpacity: 0 };
+                fillColor: "green", // not really green #3388ff
+                fillOpacity: 1 };
             }
-        }).addTo(map);
-    });
-
-    allmarkers = new L.layerGroup();
-
+        });
+        myLayer.name = borough_outline.properties.name;
+        borough_layers.push(myLayer);
+    }
+/*
+ * Crete year layers and tooltips.
+ */
     for (var d of data) {
         for(var s of d.smells) {
             s.style = {
@@ -118,64 +156,60 @@ function makeFilteredMap(filter) {
 
         marker.on('click', function(e){
           var d = e.target.data;
-            $('#map-info').css('opacity', '0.9');
-            $('#map-info').html(function(){
-                var title = d.location_name + ' ' + d.formatted_year.substr(0, 4);
-                var sidebarContent = '<h1 id="tooltipContentDiv">'+title+'</h1>';
-                var mohs = boroughToMoh[title]
-
-                    // notes: smells per authority
-                    for (var mohName in mohs) {
-                        var moh = mohs[mohName];
-
-                        sidebarContent +=
-                        '<p>' +
-                          '<a href="http://wellcomelibrary.org/item/'+moh.bID+'" target="_blank">'+
-                          mohName+
-                          '</a>' +
-                        '</p>';
-                        for (var smell of moh.smells) {
-                            var color = smell_colors(smell.cat)
-                            var header_content = "Smell: "+smell.cat;
-                            header_content += "<span class='color_legend' style='background-color:"+color+";'></span>"
-                            if (filter === smell.cat) {
-                                sidebarContent +=
-                                    "<h2 class='highlighted'>"+header_content+"</h2>";
-                            } else {
-                                sidebarContent +=
-                                    "<h2>"+header_content+"</h2>";
-                                    ;
-                            }
-                            sidebarContent += "<p>Reported "+smell.count+" times</p>"
-                        };
-                    }
-                return sidebarContent;
-            });
+          selected_borough = d.location_name;
+          select_borough()
+          update_sidebar();
         })
 
         marker.bindPopup(tooltipContent());
 
-        allmarkers.addLayer(marker);
+        year_layers.addLayer(marker);
     }
 
-    // Define base map layers
-    var baseMaps = {
-        "All": allmarkers
-    };
-
-    // Add controls
-    L.control.layers(
-        baseMaps, null, {collapsed:false, position:"bottomleft"}
-    ).addTo(map);
-
-    // Add legend title
-    $('.leaflet-control-layers-expanded').prepend('<h3>Layers</h3>');
-
     select_year( $("#slider").slider("value") );
+    select_borough();
 }
+/*
+ * Creating a smell dropdown. Everytime select a filter, initialises the map again. Unnecessary so can be improved.
+ */
+$(function(){
+    $("select").change(function() {
+        selected_filter = $("select").val();
+        if(selected_filter === "all smells") {
+            selected_filter = null;
+            makeFilteredMap();
+        } else {
+            makeFilteredMap();
+        }        
+    });  
+});
 
+/*
+ *Year slider.
+ */
+  $(function() {
+    var handle = $( "#custom-handle" );
+    $( "#slider" ).slider({
+      create: function() {
+        handle.text( $( this ).slider( "value" ) );
+      },
+      slide: function( event, ui ) {
+        handle.text( ui.value );
+        select_year(ui.value);
+        selected_year = ui.value;
+        update_sidebar();
+      },
+      min:1848,
+      max:1973,
+      value:1956
+    });
+  } );
+
+/*
+ * Selecting the right year layer and display.
+ */
 function select_year(selected_year) {
-    var layers = allmarkers._layers;
+    var layers = year_layers._layers;
     for(var i in layers) {
         var layer = layers[i];
         var layer_year = parseInt( layer.data.formatted_year.substr(0,4) );
@@ -185,30 +219,58 @@ function select_year(selected_year) {
         }
     }
 }
+/*
+ * Selecting and highlighting the borough
+ */
 
-$(function(){
-    $("select").change(function() {
-        var selected_filter = $("select").val();
-        if(selected_filter === "all smells") {
-             makeFilteredMap(null);
+function select_borough() {
+    for(var b of borough_layers) {
+        if(b.name === selected_borough) {
+            map.addLayer(b);
         } else {
-            makeFilteredMap(selected_filter);
-        }        
-    });  
-});
+            map.removeLayer(b);
+        }
+    }
+}
 
-  $( function() {
-    var handle = $( "#custom-handle" );
-    $( "#slider" ).slider({
-      create: function() {
-        handle.text( $( this ).slider( "value" ) );
-      },
-      slide: function( event, ui ) {
-        handle.text( ui.value );
-        select_year(ui.value);
-      },
-      min:1848,
-      max:1973,
-      value:1956
+/*
+ * Updating the side content bar.
+ */
+function update_sidebar() {
+    if(selected_borough === null) {
+        return;
+    }
+
+    $('#map-info').css('opacity', '0.9');
+    $('#map-info').html(function(){
+        var title = selected_borough + ' ' + selected_year;
+        var sidebarContent = '<h1 id="tooltipContentDiv">'+title+'</h1>';
+        var mohs = boroughToMoh[title]
+
+        // notes: smells per authority
+        for (var mohName in mohs) {
+            var moh = mohs[mohName];
+            sidebarContent +=
+            '<p>' +
+              '<a href="http://wellcomelibrary.org/item/'+moh.bID+'" target="_blank">'+
+              mohName+
+              '</a>' +
+            '</p>';
+            for (var smell of moh.smells) {
+                var color = smell_colors(smell.cat)
+                var header_content = "Smell: "+smell.cat;
+                header_content += "<span class='color_legend' style='background-color:"+color+";'></span>"
+                if (selected_filter === smell.cat) {
+                    sidebarContent +=
+                        "<h2 class='highlighted'>"+header_content+"</h2>";
+                } else {
+                    sidebarContent +=
+                        "<h2>"+header_content+"</h2>";
+                        ;
+                }
+                sidebarContent += "<p>Reported "+smell.count+" times</p>"
+            };
+        }
+        return sidebarContent;
     });
-  } );
+}
