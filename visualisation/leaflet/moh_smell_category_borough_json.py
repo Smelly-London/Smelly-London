@@ -1,4 +1,6 @@
 #To create json file for displaying Borough, MOH and smell categories/ numbers on the leaflet map
+#Used in main.js
+#Last updated in Feb 2017
 
 import json
 import dataset
@@ -7,6 +9,7 @@ import os
 
 
 def connect_to_db():
+	"""Connecting to DB"""
 	db = dataset.connect('sqlite:///../../database/smells.sqlite')
 	return db
 

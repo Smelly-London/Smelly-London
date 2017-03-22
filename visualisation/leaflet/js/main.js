@@ -72,7 +72,7 @@ var year_layers;
 var borough_layers;
 
 /*
- * Funtion does everything else but should not. Can be improved.
+ * This funtion does everything else but should not. Can be improved.
  */
 function makeFilteredMap() {
     var data = get_filtered_leaflet_data(selected_filter);
@@ -126,7 +126,7 @@ function makeFilteredMap() {
         borough_layers.push(myLayer);
     }
 /*
- * Crete year layers and tooltips.
+ * Create year layers and tooltips.
  */
     for (var d of data) {
         for(var s of d.smells) {
@@ -169,6 +169,8 @@ function makeFilteredMap() {
     select_year( $("#slider").slider("value") );
     select_borough();
 }
+
+
 /*
  * Creating a smell dropdown. Everytime select a filter, initialises the map again. Unnecessary so can be improved.
  */
@@ -220,7 +222,8 @@ function select_year(selected_year) {
     }
 }
 /*
- * Selecting and highlighting the borough
+ * Selecting and highlighting the borough. 
+ * How can I unclick?
  */
 
 function select_borough() {

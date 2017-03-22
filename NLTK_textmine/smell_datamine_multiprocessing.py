@@ -10,6 +10,10 @@ from timeit import default_timer as timer
 
 # walk through the os and get all files
 # read each file in tern and go through line by line
+#problematic reports Acton.1915.b19783905.txt LondonCountyCouncil.1929.b1825276x.txt
+#PortandCityofLondon.1975.b19884084.txt PortandCityofLondon.1976.b19884096.txt
+#PortandCityofLondon.1978.b19884114.txt
+
 from os import listdir
 import nltk.data
 import dataset
@@ -46,8 +50,8 @@ class Smell(object):
 sewer = SmellType('sewer', ['sewer', 'drain', 'sewage', 'manhole', 'gully', 'gulley', 'gullies', 'cesspool', 'ventilator', 'ventilation'])
 thames = SmellType('thames', ['quay', 'sediment', 'thames', 'river'])
 water = SmellType('water', ['water'])
-waste_rubbish = SmellType('waste_rubbish', ['refuse', 'dust', 'waste', 'dump', 'rubbish', 'offensive matter'])
-waste_excrement = SmellType('waste_excrement', ['excrement', 'excreta', 'privy', 'privies', 'manure', 'dung'])
+waste_rubbish = SmellType('waste-rubbish', ['refuse', 'dust', 'waste', 'dump', 'rubbish', 'offensive matter'])
+waste_excrement = SmellType('waste-excrement', ['excrement', 'excreta', 'privy', 'privies', 'manure', 'dung'])
 food = SmellType('food', ['food', 'yeast', 'pie', 'sauce', 'lemonade', 'bread', 'onion', 'vinegar', 'cherries', 'cherry', 'flavour', 'coffee', 'chocolate', 'cream', 'fruit', 'vegetable', 'salad', 'cheese',
                           'pickle', 'gherkin', 'fish', 'kipper', 'fillet', 'steak', 'mutton', 'tripe', 'cake', 'milk',
                           'yoghurt', 'butter', 'icing', 'caramel', 'canned', 'egg', 'preserve', 'cooking', 'veal',
@@ -58,12 +62,12 @@ trade = SmellType('trade', ['trade', 'business', 'laboratory', 'laboratories', '
                             'costermonger', 'manure manufacture', 'ferment', 'butcher', 'burning'])
 animal = SmellType('animal', ['animal', 'pig', 'stable', 'piggeries', 'piggery', 'manure', 'excrement', 'cowhouse'])
 disinfectant = SmellType('disinfectant', ['disinfect', 'antiseptic'])
-factory_fuel = SmellType('factory_fuel', ['factory', 'factories', 'industrial', 'rubber', 'naphtha', 'fuel', 'works'])
+factory_fuel = SmellType('factory-fuel', ['factory', 'factories', 'industrial', 'rubber', 'naphtha', 'fuel', 'works'])
 school = SmellType('school', ['school', 'lavatories', 'lavatory', 'discharging ears', 'playground'])
 air = SmellType('air', ['gas', 'air', 'atmosphere', 'coal', 'carbonic acid', 'hydrogen', 'vapour', 'smoke', 'sulphide'])
 decomposition = SmellType('decomposition', ['mortuary', 'coffin', 'decomposition', 'burial', 'dead', 'body', 'church', 'chapel'])
 habitation = SmellType('habitation', ['house', 'premise' 'flat', 'dwelling', 'cottage', 'room', 'home', 'ward', 'clothing', 'bedding', 'barge', 'cupola'])
-no_smell = SmellType('no_smell', ['no offensive smell', 'smell-none', 'no smell', 'no nuisance from smell', 'absence of smell', 'no offensive odour', 'no bad odour', 'odourless', 'no disagreeable smell'])
+absence_of_smell = SmellType('absence of smell', ['no offensive smell', 'smell-none', 'no smell', 'no nuisance from smell', 'absence of smell', 'no offensive odour', 'no bad odour', 'odourless', 'no disagreeable smell'])
 
 
 def get_file_names():
@@ -90,7 +94,7 @@ class SmellDataMine(object):
 
     def __init__(self):
         self.smellTypes = [sewer, thames, water, waste_rubbish, waste_excrement, trade, school, air, factory_fuel,
-                           decomposition, animal, food, habitation, no_smell, disinfectant]
+                           decomposition, animal, food, habitation, absence_of_smell, disinfectant]
         self.results = []
         self.uncategorised = []
 
@@ -196,3 +200,4 @@ def delete_database():
 if __name__ == '__main__':
     delete_database()
     main()
+
