@@ -15,7 +15,7 @@ import json_utilities
 
 def main():
 
-    json_file = os.path.join("js", "london_districts_latlong_with_centroids.json")
+    json_file = os.path.join("data", "london_districts_latlong_with_centroids.json")
     json_data = json_utilities.read_json_file(json_file)
     list_of_features = json_data["features"]
 
