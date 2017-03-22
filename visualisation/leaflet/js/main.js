@@ -102,8 +102,16 @@ function makeFilteredMap() {
             color: "white",
             weight: 1,
             fillColor: "black",
-            fillOpacity: 0 };
-        }
+            fillOpacity: 0,
+        };
+      },
+      onEachFeature: function(feature, layer) {
+        layer.on("click", function(){
+            selected_borough = feature.properties.name;
+            select_borough();
+            update_sidebar();
+        })
+      }
     }).addTo(map);
 /*
  * Create borough layers
