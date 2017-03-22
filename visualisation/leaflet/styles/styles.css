@@ -26,11 +26,6 @@ body {
   width: 30%;
   overflow-y: scroll;
 }
-#map-info {
-}
-#map-info > * {
-  padding: 5px;
-}
 
 .leaflet-control-time {color: white; font-family: 'Oswald'; font-size: 30px}
 
@@ -51,19 +46,6 @@ h2 {
 h2.highlighted {
     color: red;
     font-size: 150%;
-}
-
-p {
-    margin-top:0px !important;
-}
-
-h3 {
-    margin-top: 0px !important;
-    margin-bottom: 0px !important;
-}
-
-h4 {
-    margin-bottom: 0px !important;
 }
 
 #map-and-controls .leaflet-control-attribution, #map-and-controls .leaflet-control-scale {
