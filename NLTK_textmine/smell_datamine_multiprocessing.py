@@ -67,7 +67,7 @@ school = SmellType('school', ['school', 'lavatories', 'lavatory', 'discharging e
 air = SmellType('air', ['gas', 'air', 'atmosphere', 'coal', 'carbonic acid', 'hydrogen', 'vapour', 'smoke', 'sulphide'])
 decomposition = SmellType('decomposition', ['mortuary', 'coffin', 'decomposition', 'burial', 'dead', 'body', 'church', 'chapel'])
 habitation = SmellType('habitation', ['house', 'premise' 'flat', 'dwelling', 'cottage', 'room', 'home', 'ward', 'clothing', 'bedding', 'barge', 'cupola'])
-absence_of_smell = SmellType('absence of smell', ['no offensive smell', 'smell-none', 'no smell', 'no nuisance from smell', 'absence of smell', 'no offensive odour', 'no bad odour', 'odourless', 'no disagreeable smell'])
+absence_of_smell = SmellType('absence of smell', ['no offensive smell', 'no effluvium', 'smell-none', 'no smell', 'no nuisance from smell', 'absence of smell', 'no offensive odour', 'no bad odour', 'odourless', 'no disagreeable smell'])
 
 
 def get_file_names():
