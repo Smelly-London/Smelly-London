@@ -22,5 +22,8 @@ result <- lapply(files, function(file_name) {
 })
  do.call("rbind", result)
  
-write.table(result, file="/Users/deborah/Documents/sentiment-moh.csv", row.names=FALSE, col.names=FALSE, sep=",")
+write.table(
+  as.data.frame(do.call(rbind, result)),
+  file="/Users/deborah/Documents/scripts/python_work/project2016/smelly_london/Sentiment_analysis_R/sentiment-moh.csv",
+  row.names=FALSE, sep=",")
 
