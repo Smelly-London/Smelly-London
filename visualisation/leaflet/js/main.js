@@ -2,6 +2,7 @@
 //Leaflet map
 
 var radius = d3.scale.sqrt().domain([1, 20]).range([10, 15])
+//colour in the right section
 var smell_colors = d3.scale.category20();
 
 var highlightColor = '#a9fcff';
