@@ -15,17 +15,16 @@ root = ET.parse(filename, parser=parser).getroot()
 
 #to get all 'table-wrap' children
 data = root.findall('./book-front/table-wrap/*')
-print(data)
+#print(data)
 
+print(root.find('*//publisher-loc').text)
+print(root.find('*//object-id').text)
+print(root.find('*//label').text)
+print(root.find('*//caption/p').text)
 
+print([e.text for e in root.findall('*//table/thead/tr/th')])
+print([e.text for e in root.findall('*//table/tbody/tr/td')])
 
-
-
-# print(root.find("*//publisher-loc").text)
-# print(root.find("*//pub-date/year").text)
-# print(root.find("*//label").text)
-# print(root.find("*//book-title").text)
-# print([e.text for e in root.findall("*//table/tbody/tr/td")])
 
 
 
