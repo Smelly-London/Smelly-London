@@ -1,7 +1,7 @@
 
 '''This script datamines the reports by simple python operations to find smell related words in the reports and
 categorises by smell types. Only nltk sentence tokenizer is used.
-SQLite set up.
+SQLite set up. b19952788 Offensive Effluvia.—every purveyor of milk , or person sell milk by 
 '''
 
 import progressbar
@@ -60,7 +60,7 @@ food = SmellType('food', ['food', 'stock', 'yeast', 'pie', 'sauce', 'lemonade', 
 
 trade = SmellType('trade', ['trade', 'business', 'laboratory', 'copper', 'dry cleaning', 'launderette',
                             'laundrette', 'chemist', 'hide', 'bladder', 'glue', 'tannery', 'tanneries', 'rubber', 'gum', 'fat', 'oil', 'fellmonger', 'slaughter',
-                            'costermonger', 'manure manufacture', 'ferment', 'butcher', 'burning'])
+                            'costermonger', 'manufacture', 'ferment', 'butcher', 'burning'])
 animal = SmellType('animal', ['animal', 'pig', 'stable', 'piggeries', 'piggery', 'manure', 'excrement', 'cowhouse'])
 disinfectant = SmellType('disinfectant', ['disinfect', 'antiseptic'])
 factory_fuel = SmellType('factory-fuel', ['factory', 'factories', 'industrial', 'rubber', 'naphtha', 'fuel', 'works'])
@@ -74,6 +74,7 @@ absence_of_smell = SmellType('absence of smell', ['no offensive smell', 'no effl
 def get_file_names():
     """Retrieve file names"""
     fileNames = [f for f in listdir(REPORTS_DIR) if f.endswith('txt')]
+    #return [f for f in fileNames if "b19952788" in f]
     return fileNames
 
 def get_new_pos(old_pos):
@@ -92,6 +93,10 @@ def get_new_pos(old_pos):
 
     return new_pos
 
+# DEBUG
+# lemmatization_variants = {}
+# example_sentences = {}
+
 def lemmatize_sentence(sentence):
     """This is a fuction that takes a sentence and lemmatize the sentence."""
     lemmatized = []
@@ -104,6 +109,17 @@ def lemmatize_sentence(sentence):
         wordnet_pos = get_new_pos(pos)
         if wordnet_pos != "":
             lemma = wnl.lemmatize(word.lower(), wordnet_pos)
+
+            # DEBUG
+            # if word not in lemmatization_variants:
+            #     lemmatization_variants[word] = {}
+            #     example_sentences[word] = {}
+            # lemmatization_variants[word][pos] = lemma
+            # example_sentences[word][pos] = [sentence, pos_tagging]
+            # if len(set(lemmatization_variants[word].values())) > 1:
+            #     print("Lemmatizations for", word, lemmatization_variants[word])
+            #     print("Examples", example_sentences[word])
+
         else:
             lemma = word.lower()
 
@@ -224,7 +240,7 @@ def main():
         for file, smell in zip(files, executor.map(worker, files)):
             smell_results = smell_results + smell
             processed_files += 1
-            bar.update(processed_files)
+            # bar.update(processed_files)
     smell_results = [x for x in smell_results if x]
 
     end = timer()
@@ -238,8 +254,7 @@ def delete_database():
     path = '../database/smells.sqlite'
     if os.path.isfile(path):
         os.remove(path)
-        print('DB deleted!')
-    else:
+        else:
         print('No DB found for removal!')
 
 
