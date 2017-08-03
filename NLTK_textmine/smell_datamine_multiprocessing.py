@@ -240,7 +240,7 @@ def main():
         for file, smell in zip(files, executor.map(worker, files)):
             smell_results = smell_results + smell
             processed_files += 1
-            # bar.update(processed_files)
+            bar.update(processed_files)
     smell_results = [x for x in smell_results if x]
 
     end = timer()
@@ -254,7 +254,7 @@ def delete_database():
     path = '../database/smells.sqlite'
     if os.path.isfile(path):
         os.remove(path)
-        else:
+    else:
         print('No DB found for removal!')
 
 
