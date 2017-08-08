@@ -1,35 +1,36 @@
 Borough,Total Smells,Total Sewer
+Barking and Dagenham,57,10
+Waltham Forest,72,22
+Lewisham,163,64
+Bexley,40,4
+Sutton,42,9
+Brent,121,19
+Havering,47,9
+Greenwich,243,78
+City of London,277,65
+Bromley,78,24
+Southwark,596,112
+Hillingdon,89,32
 Harrow,45,2
-Lewisham,164,64
-Merton,80,10
-Greenwich,236,80
-Ealing,108,31
-Brent,121,22
 Croydon,55,23
-Hackney,292,106
-Hounslow,88,24
-Islington,278,41
-Redbridge,108,64
-Barnet,91,46
-Barking and Dagenham,56,10
-Camden,444,160
-Tower Hamlets,500,145
-Southwark,588,111
-Waltham Forest,71,22
-Kingston upon Thames,139,47
-Port of London,163,8
-Newham,90,29
-Bromley,76,24
-Hammersmith and Fulham,156,32
-Havering,45,9
-Bexley,52,5
-London County Council,292,53
+Hackney,285,104
+Kensington and Chelsea,505,194
+London County Council,284,45
+Tower Hamlets,497,140
 Haringey,44,5
-Enfield,62,14
-Kensington and Chelsea,520,206
-Hillingdon,90,32
-Wandsworth,318,90
-Sutton,61,28
-Lambeth,216,67
-City of London,270,67
-City of Westminster,1015,380
+Camden,414,149
+Redbridge,110,64
+Ealing,111,31
+Newham,92,29
+Merton,83,10
+Hammersmith and Fulham,158,30
+City of Westminster,988,351
+Kingston upon Thames,142,47
+Wandsworth,318,88
+Richmond upon Thames,113,38
+Hounslow,90,24
+Port of London,170,8
+Islington,276,38
+Lambeth,213,65
+Enfield,64,14
+Barnet,92,46
